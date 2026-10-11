@@ -1,5 +1,7 @@
 # Md. Ikramul Haq Khan
 
-Academic portfolio and Making Sense with Ikramul.
+Academic website: https://hkikramul.github.io/
 
-Static HTML/CSS/JavaScript. Academic site at the root; free learning site in `making-sense/`.
+Free learning website: https://hkikramul.github.io/making-sense/
+
+Static HTML, CSS, and JavaScript. Edit the root files for the academic website and making-sense/ for the educational website.
