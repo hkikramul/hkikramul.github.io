@@ -1,0 +1,858 @@
+content:
+- name: academic_home
+  label: Academic · Home & headline
+  type: file
+  path: content/academic/home.json
+  format: json
+  fields:
+  - name: page_title
+    label: Browser title & search title
+    type: string
+  - name: description
+    label: Search description
+    type: text
+  - name: text_1
+    label: 'Text: APPLIED STATISTICS · RESEARCH · TEACHING'
+    type: text
+  - name: text_2
+    label: 'Heading: Understanding data. Asking better questions.'
+    type: text
+  - name: text_3
+    label: 'Text: I’m Md. Ikramul Haq Khan, a graduate student in applied statistic'
+    type: text
+  - name: text_4
+    label: 'Link text: Explore my research ↗'
+    type: string
+  - name: link_4
+    label: 'Destination: Explore my research ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_5
+    label: 'Link text: Get in touch →'
+    type: string
+  - name: link_5
+    label: 'Destination: Get in touch →'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_6
+    label: 'Text: M.S. in Mathematical Sciences · Applied Statistics Concentration'
+    type: text
+  - name: text_7
+    label: 'Text: THE THREAD THROUGH MY WORK'
+    type: text
+  - name: text_8
+    label: 'Heading: From evidence to understanding.'
+    type: text
+  - name: text_9
+    label: 'Text: Careful methods. Clear explanations. Questions that matter.'
+    type: text
+  - name: text_10
+    label: 'Text: Conceptual illustration · not research results'
+    type: string
+- name: academic_about
+  label: Academic · Biography & education
+  type: file
+  path: content/academic/about.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: 01 / ABOUT'
+    type: text
+  - name: text_2
+    label: 'Heading: A statistical foundation. A human perspective.'
+    type: text
+  - name: text_3
+    label: 'Text: I am pursuing an M.S. in Mathematical Sciences with an Applied St'
+    type: text
+  - name: text_4
+    label: 'Text: My current thesis direction is epidemic modeling, with an emphasi'
+    type: text
+  - name: text_5
+    label: 'Text: I am interested in developing stronger methodological foundations'
+    type: text
+  - name: text_6
+    label: 'Text: My long-term goal is a research and academic career in statistics'
+    type: text
+  - name: text_7
+    label: 'Text: Beyond statistics, I enjoy evolutionary biology, psychology, phot'
+    type: text
+  - name: text_8
+    label: 'Text: EDUCATION'
+    type: string
+  - name: text_9
+    label: 'Heading: University of Nevada, Las Vegas'
+    type: text
+  - name: text_10
+    label: 'Text: M.S. Mathematical Sciences — Applied Statistics Concentration The'
+    type: text
+  - name: text_11
+    label: 'Heading: University of Dhaka'
+    type: text
+  - name: text_12
+    label: 'Text: B.S. Statistics'
+    type: text
+- name: academic_research
+  label: Academic · Research
+  type: file
+  path: content/academic/research.json
+  format: json
+  fields:
+  - name: projects_1
+    label: Projects 1
+    type: object
+    list: true
+    fields:
+    - name: status
+      label: Project type / status
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: tags
+      label: Keywords separated by commas
+      type: string
+    - name: url
+      label: Publication link (optional)
+      type: string
+    - name: link_label
+      label: Link label
+      type: string
+    - name: note
+      label: Supervisors or publication note
+      type: text
+  - name: projects_2
+    label: Projects 2
+    type: object
+    list: true
+    fields:
+    - name: status
+      label: Project type / status
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: tags
+      label: Keywords separated by commas
+      type: string
+    - name: url
+      label: Publication link (optional)
+      type: string
+    - name: link_label
+      label: Link label
+      type: string
+    - name: note
+      label: Supervisors or publication note
+      type: text
+  - name: text_1
+    label: 'Text: 02 / RESEARCH'
+    type: text
+  - name: text_2
+    label: 'Heading: Methods grounded in meaningful questions.'
+    type: text
+  - name: text_3
+    label: 'Text: Current work and developing interests.'
+    type: text
+  - name: text_4
+    label: 'Text: EARLIER PROJECTS'
+    type: text
+  - name: text_5
+    label: 'Heading: Research interests'
+    type: text
+  - name: text_6
+    label: 'Text: Causal inference · Survival analysis · Bayesian methods · High-di'
+    type: text
+- name: academic_teaching
+  label: Academic · Teaching
+  type: file
+  path: content/academic/teaching.json
+  format: json
+  fields:
+  - name: courses
+    label: Courses
+    type: object
+    list: true
+    fields:
+    - name: semester
+      label: Semester
+      type: string
+    - name: course
+      label: Course(s)
+      type: text
+    - name: sections
+      label: Number of sections
+      type: string
+  - name: text_1
+    label: 'Text: 03 / TEACHING'
+    type: text
+  - name: text_2
+    label: 'Heading: Make the idea clear. Then build the mathematics.'
+    type: text
+  - name: text_3
+    label: 'Text: Graduate teaching assistant UNLV · Since Fall 2024'
+    type: text
+  - name: text_4
+    label: 'Text: As a graduate teaching assistant, I design and lead discussion se'
+    type: text
+  - name: text_5
+    label: 'Text: Assignments are in a graduate assistant / teaching assistant capa'
+    type: text
+  - name: text_6
+    label: 'Text: TEACHING PHILOSOPHY'
+    type: text
+  - name: text_7
+    label: 'Heading: Clarity, curiosity, and active engagement.'
+    type: text
+  - name: text_8
+    label: 'Text: I help students move beyond memorizing formulas toward understand'
+    type: text
+  - name: text_9
+    label: 'Text: In statistics, I emphasize critical thinking about data, assumpti'
+    type: text
+  - name: text_10
+    label: 'Text: I aim to create a supportive, inclusive environment where student'
+    type: text
+- name: academic_presentations
+  label: Academic · Seminars & presentations
+  type: file
+  path: content/academic/presentations.json
+  format: json
+  fields:
+  - name: events
+    label: Events
+    type: object
+    list: true
+    fields:
+    - name: date
+      label: Date shown
+      type: string
+    - name: status
+      label: Presentation type / status
+      type: string
+    - name: title
+      label: Event title
+      type: string
+    - name: summary
+      label: Description
+      type: text
+    - name: details
+      label: Location, time & contribution
+      type: text
+  - name: text_1
+    label: 'Text: 04 / PRESENTATIONS & ACADEMIC ENGAGEMENT'
+    type: text
+  - name: text_2
+    label: 'Heading: Sharing work. Continuing the conversation.'
+    type: text
+  - name: text_3
+    label: 'Text: Recent and upcoming activity · 2026'
+    type: text
+  - name: text_4
+    label: 'Text: PROFESSIONAL AFFILIATION'
+    type: string
+  - name: text_5
+    label: 'Heading: American Statistical Association, Nevada Chapter'
+    type: text
+  - name: text_6
+    label: 'Text: Student member'
+    type: text
+- name: academic_public
+  label: Academic · Public learning
+  type: file
+  path: content/academic/public.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: 05 / BEYOND THE ACADEMIC PAGE'
+    type: text
+  - name: text_2
+    label: 'Heading: Making Sense with Ikramul.'
+    type: text
+  - name: text_3
+    label: 'Text: Free knowledge. Clear ideas. Curious minds.'
+    type: text
+  - name: text_4
+    label: 'Text: A public learning space for statistics, research, and the ideas
+      t'
+    type: text
+  - name: text_5
+    label: 'Link text: Explore the learning website ↗'
+    type: string
+  - name: link_5
+    label: 'Destination: Explore the learning website ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_6
+    label: 'Text: STATISTICALLY SPEAKING'
+    type: text
+  - name: text_7
+    label: 'Heading: Understanding comes before memorizing.'
+    type: text
+  - name: text_8
+    label: 'Text: সূত্র মুখস্থ করার আগে প্রশ্নটি বুঝুন। ডেটা কী বলছে, কতটা অনিশ্চয়ত'
+    type: text
+  - name: text_9
+    label: 'Text: English lessons with Bangla takeaways.'
+    type: text
+- name: academic_contact
+  label: Academic · Contact & professional links
+  type: file
+  path: content/academic/contact.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: 06 / CONTACT'
+    type: text
+  - name: text_2
+    label: 'Heading: Let’s exchange ideas.'
+    type: text
+  - name: text_3
+    label: 'Text: For conversations about research, teaching, or statistical learni'
+    type: text
+  - name: text_4
+    label: 'Link text: ikramul.statistics@gmail.com ↗'
+    type: string
+  - name: link_4
+    label: 'Destination: ikramul.statistics@gmail.com ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_5
+    label: 'Link text: khanm18@unlv.nevada.edu'
+    type: string
+  - name: link_5
+    label: 'Destination: khanm18@unlv.nevada.edu'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_6
+    label: 'Link text: LinkedIn ↗'
+    type: string
+  - name: link_6
+    label: 'Destination: LinkedIn ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_7
+    label: 'Link text: Google Scholar ↗'
+    type: string
+  - name: link_7
+    label: 'Destination: Google Scholar ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_8
+    label: 'Link text: GitHub ↗'
+    type: string
+  - name: link_8
+    label: 'Destination: GitHub ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_9
+    label: 'Text: Department of Mathematical Sciences University of Nevada, Las Veg'
+    type: text
+  - name: text_10
+    label: 'Text: Las Vegas, Nevada, United States'
+    type: text
+- name: academic_navigation
+  label: Academic · Navigation
+  type: file
+  path: content/academic/navigation.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Link text: IKRAMUL HAQ KHAN'
+    type: string
+  - name: link_1
+    label: 'Destination: IKRAMUL HAQ KHAN'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_2
+    label: 'Link text: About'
+    type: string
+  - name: link_2
+    label: 'Destination: About'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_3
+    label: 'Link text: Research'
+    type: string
+  - name: link_3
+    label: 'Destination: Research'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_4
+    label: 'Link text: Teaching'
+    type: string
+  - name: link_4
+    label: 'Destination: Teaching'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_5
+    label: 'Link text: Presentations'
+    type: string
+  - name: link_5
+    label: 'Destination: Presentations'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_6
+    label: 'Link text: Public learning'
+    type: string
+  - name: link_6
+    label: 'Destination: Public learning'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_7
+    label: 'Link text: Contact'
+    type: string
+  - name: link_7
+    label: 'Destination: Contact'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+- name: academic_footer
+  label: Academic · Footer
+  type: file
+  path: content/academic/footer.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: Md. Ikramul Haq Khan'
+    type: string
+  - name: text_2
+    label: 'Text: Statistics · Research · Teaching'
+    type: text
+  - name: text_3
+    label: 'Text: © 2026 · Independent academic website; not an official UNLV websi'
+    type: string
+- name: learning_home
+  label: Making Sense · Home & headline
+  type: file
+  path: content/learning/home.json
+  format: json
+  fields:
+  - name: page_title
+    label: Browser title & search title
+    type: string
+  - name: description
+    label: Search description
+    type: text
+  - name: text_1
+    label: 'Text: FREE KNOWLEDGE. CLEAR IDEAS. CURIOUS MINDS.'
+    type: text
+  - name: text_2
+    label: 'Heading: Making sense of our world, one idea at a time.'
+    type: text
+  - name: text_3
+    label: 'Text: A space for understanding data, research, and the ideas that shap'
+    type: text
+  - name: text_4
+    label: 'Link text: Explore the ideas ↗'
+    type: string
+  - name: link_4
+    label: 'Destination: Explore the ideas ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_5
+    label: 'Link text: Try the visual lab →'
+    type: string
+  - name: link_5
+    label: 'Destination: Try the visual lab →'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_6
+    label: 'Text: Free to learn · No sign-up · Built for curious minds'
+    type: text
+  - name: text_7
+    label: 'Text: THE BIG PICTURE'
+    type: string
+  - name: text_8
+    label: 'Text: An illustrative dataset'
+    type: string
+  - name: text_9
+    label: 'Text: A pattern, not a promise.'
+    type: text
+  - name: text_10
+    label: 'Text: A fitted line describes a trend. Individual observations still va'
+    type: text
+- name: learning_topics
+  label: Making Sense · Topic series
+  type: file
+  path: content/learning/topics.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: A HOME FOR CURIOUS MINDS'
+    type: text
+  - name: text_2
+    label: 'Heading: Different subjects. A shared curiosity.'
+    type: text
+  - name: text_3
+    label: 'Text: Explore what is here today. See where the project can grow.'
+    type: text
+  - name: text_4
+    label: 'Text: EXPLORE NOW'
+    type: string
+  - name: text_5
+    label: 'Heading: Statistically Speaking'
+    type: text
+  - name: text_6
+    label: 'Text: With Ikramul · Understand data, uncertainty, and careful analysis'
+    type: text
+  - name: text_7
+    label: 'Text: Read the lessons →'
+    type: text
+  - name: text_8
+    label: 'Text: PLANNED SERIES'
+    type: string
+  - name: text_9
+    label: 'Heading: History & Society'
+    type: text
+  - name: text_10
+    label: 'Text: Historical context, politics, and the questions behind social iss'
+    type: text
+  - name: text_11
+    label: 'Text: PLANNED SERIES'
+    type: string
+  - name: text_12
+    label: 'Heading: Academia & Research'
+    type: text
+  - name: text_13
+    label: 'Text: Teaching, academic life, and making research understandable.'
+    type: text
+  - name: text_14
+    label: 'Text: PLANNED SERIES'
+    type: string
+  - name: text_15
+    label: 'Heading: Literature & Ideas'
+    type: text
+  - name: text_16
+    label: 'Text: Books, interpretation, and thoughtful reflections on our world.'
+    type: text
+- name: learning_learn
+  label: Making Sense · Lesson section headings
+  type: file
+  path: content/learning/learn.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: STATISTICALLY SPEAKING WITH IKRAMUL / FIRST STEPS'
+    type: text
+  - name: text_2
+    label: 'Heading: Start with a question. Build your intuition.'
+    type: text
+  - name: text_3
+    label: 'Text: Short lessons. Everyday examples. One idea at a time.'
+    type: text
+- name: learning_lab
+  label: Making Sense · Visual lab explanations
+  type: file
+  path: content/learning/lab.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: 02 / THE VISUAL LAB'
+    type: text
+  - name: text_2
+    label: 'Heading: Move the line. Find the fit.'
+    type: text
+  - name: text_3
+    label: 'Text: How does regression find a line? It compares each observed value '
+    type: text
+  - name: text_4
+    label: 'Text: Try adjusting the slope. A smaller sum of squared errors means a '
+    type: text
+  - name: text_5
+    label: 'Text: Illustrative data · Intercept adjusts to pass through the sample '
+    type: text
+  - name: text_6
+    label: 'Text: SUM OF SQUARED ERRORS'
+    type: string
+  - name: text_7
+    label: 'Text: WHAT TO NOTICE'
+    type: string
+  - name: text_8
+    label: 'Text: Orange gaps show prediction errors.'
+    type: text
+- name: learning_protocols
+  label: Making Sense · Analysis guides
+  type: file
+  path: content/learning/protocols.json
+  format: json
+  fields:
+  - name: steps
+    label: Steps
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Step number
+      type: string
+    - name: title
+      label: Step title
+      type: string
+    - name: description
+      label: Explanation
+      type: text
+  - name: text_1
+    label: 'Text: 03 / FROM QUESTION TO CONCLUSION'
+    type: text
+  - name: text_2
+    label: 'Heading: A thoughtful analysis starts before the software.'
+    type: text
+  - name: text_3
+    label: 'Link text: Download the planning checklist ↗'
+    type: string
+  - name: link_3
+    label: 'Destination: Download the planning checklist ↗'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_4
+    label: 'Text: Worked guide: comparing two groups'
+    type: text
+  - name: text_5
+    label: 'Text: Example: compare mean exam scores between two independent teachin'
+    type: text
+  - name: text_6
+    label: 'Text: Worked guide: explaining a binary outcome'
+    type: text
+  - name: text_7
+    label: 'Text: Example: model an outcome recorded as yes or no. Logistic regress'
+    type: text
+  - name: text_8
+    label: 'Text: These are educational guides, not universal recipes. A study-spec'
+    type: text
+- name: learning_resources
+  label: Making Sense · Resource section headings
+  type: file
+  path: content/learning/resources.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: 04 / THE OPEN BOOKSHELF'
+    type: text
+  - name: text_2
+    label: 'Heading: Good knowledge. No price tag.'
+    type: text
+  - name: text_3
+    label: 'Text: Start with trusted, freely accessible materials. Links take you
+      t'
+    type: text
+  - name: text_4
+    label: 'Text: The linked online materials are free; printed books or optional
+      c'
+    type: text
+- name: learning_about
+  label: Making Sense · About the author
+  type: file
+  path: content/learning/about.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: MEET YOUR GUIDE'
+    type: text
+  - name: text_2
+    label: 'Heading: Hi, I’m Ikram.'
+    type: text
+  - name: text_3
+    label: 'Text: I’m Md. Ikramul Haq Khan, an M.S. student in Mathematical Science'
+    type: text
+  - name: text_4
+    label: 'Text: Making Sense with Ikramul is my independent space for sharing kno'
+    type: text
+  - name: text_5
+    label: 'Heading: পরিসংখ্যান, সহজ ভাষায়।'
+    type: text
+  - name: text_6
+    label: 'Text: সূত্র মুখস্থ করার আগে প্রশ্নটি বুঝুন। ডেটা কী বলছে, কতটা অনিশ্চয়ত'
+    type: text
+  - name: text_7
+    label: 'Text: English lessons with Bangla takeaways.'
+    type: text
+- name: learning_navigation
+  label: Making Sense · Navigation
+  type: file
+  path: content/learning/navigation.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: ·'
+    type: string
+  - name: text_2
+    label: 'Text: MAKING SENSE WITH IKRAMUL'
+    type: string
+  - name: text_3
+    label: 'Link text: Explore topics'
+    type: string
+  - name: link_3
+    label: 'Destination: Explore topics'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_4
+    label: 'Link text: Statistics'
+    type: string
+  - name: link_4
+    label: 'Destination: Statistics'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_5
+    label: 'Link text: Explore'
+    type: string
+  - name: link_5
+    label: 'Destination: Explore'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_6
+    label: 'Link text: Analysis guides'
+    type: string
+  - name: link_6
+    label: 'Destination: Analysis guides'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+  - name: text_7
+    label: 'Link text: Free resources'
+    type: string
+  - name: link_7
+    label: 'Destination: Free resources'
+    type: string
+    pattern:
+      regex: ^(https://|mailto:|/|#|[a-zA-Z0-9_-]+\.(txt|pdf))
+      message: Use an https:// address, email mailto:, or a local path.
+- name: learning_footer
+  label: Making Sense · Footer
+  type: file
+  path: content/learning/footer.json
+  format: json
+  fields:
+  - name: text_1
+    label: 'Text: ·'
+    type: string
+  - name: text_2
+    label: 'Text: MAKING SENSE WITH IKRAMUL'
+    type: string
+  - name: text_3
+    label: 'Text: Free knowledge. Clear ideas. Curious minds.'
+    type: text
+  - name: text_4
+    label: 'Text: Privacy & accessibility'
+    type: text
+  - name: text_5
+    label: 'Text: This site has no advertising, analytics, accounts, or data-entry '
+    type: text
+  - name: text_6
+    label: 'Text: Independent project · Not an official UNLV website · © 2026 Md.
+      I'
+    type: text
+- name: learning_lessons
+  label: Making Sense · Add & edit lessons
+  type: file
+  path: content/learning/lessons.json
+  format: json
+  fields:
+  - name: lessons
+    label: Lessons
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Lesson number
+      type: string
+    - name: title
+      label: Lesson title
+      type: string
+      required: true
+    - name: summary
+      label: Short description
+      type: text
+    - name: body
+      label: Explanation
+      type: text
+    - name: example
+      label: Everyday example
+      type: text
+    - name: takeaway
+      label: Key takeaway
+      type: text
+    - name: bangla
+      label: Bangla takeaway (optional)
+      type: text
+- name: learning_books
+  label: Making Sense · Add & edit resources
+  type: file
+  path: content/learning/books.json
+  format: json
+  fields:
+  - name: resources
+    label: Free resources
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Resource title
+      type: string
+      required: true
+    - name: category
+      label: Category
+      type: select
+      options:
+        values:
+        - Beginner
+        - R & practice
+        - Next steps
+    - name: description
+      label: Description
+      type: text
+    - name: url
+      label: Resource URL
+      type: string
+      required: true
+      pattern:
+        regex: ^https://
+        message: Use an https:// URL.
+    - name: label
+      label: Resource type (for example Book · foundations)
+      type: string

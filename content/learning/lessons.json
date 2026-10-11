@@ -1,0 +1,58 @@
+{
+  "lessons": [
+    {
+      "number": "01",
+      "title": "What is statistics, really?",
+      "summary": "From a small sample to a bigger question.",
+      "body": "Statistics helps us learn from data while accounting for variation and uncertainty. Descriptive statistics summarize what we observed. Inferential statistics use a sample to learn about a wider population.",
+      "example": "Imagine you ask 40 students how many hours they sleep. Their average describes those 40 students. Estimating the average for every student requires thinking about how the 40 were selected. A large convenience sample can still be biased.",
+      "takeaway": "A sample is a window into a population. How that window was chosen matters.",
+      "bangla": "নমুনা থেকে বড় জনগোষ্ঠী সম্পর্কে জানতে হলে নমুনা কীভাবে নেওয়া হয়েছে, সেটি গুরুত্বপূর্ণ।"
+    },
+    {
+      "number": "02",
+      "title": "Mean, median & the unusual value",
+      "summary": "Three ways to understand a typical observation.",
+      "body": "The mean adds all values and divides by their count. The median is the middle value after sorting. Both describe location, but they respond differently to unusual values.",
+      "example": "For daily study times of 1, 2, 2, 3, and 12 hours, the mean is 4 hours and the median is 2. The 12-hour value pulls the mean upward. Neither summary is automatically wrong; choose based on the question and show the distribution.",
+      "takeaway": "Look at the shape of the data before choosing a single summary.",
+      "bangla": "অস্বাভাবিক বড় মান গড়কে টেনে বাড়াতে পারে। মধ্যক তুলনামূলক কম বদলায়।"
+    },
+    {
+      "number": "03",
+      "title": "A confidence interval is a method",
+      "summary": "Understand uncertainty without overclaiming.",
+      "body": "A confidence interval gives a range calculated using a procedure with a specified long-run coverage rate, under its assumptions. A 95% procedure would cover the fixed population parameter in about 95% of repeated samples.",
+      "example": "Suppose an estimated mean difference is 4 points with a 95% interval from 1 to 7. Report the estimated difference and the uncertainty together. In frequentist inference, we do not interpret this particular interval as having a 95% probability of containing the fixed parameter.",
+      "takeaway": "Confidence intervals address sampling uncertainty; they do not automatically fix bias or confounding.",
+      "bangla": "আস্থার ব্যবধান অনিশ্চয়তা বোঝায়; এটি পক্ষপাত বা ভুল গবেষণা নকশা দূর করে না।"
+    },
+    {
+      "number": "04",
+      "title": "What a p-value can tell you",
+      "summary": "Evidence under a model, not a verdict.",
+      "body": "A p-value is the probability, under the null model and its assumptions, of a test statistic at least as extreme as the one observed. It is not the probability that the null hypothesis is true.",
+      "example": "A small p-value can signal incompatibility with the null model, but does not tell you that an effect is large, useful, or causal. A large p-value does not prove there is no effect. Examine effect estimates, intervals, design, and the full context.",
+      "takeaway": "Ask how large the effect is and how uncertain the estimate is.",
+      "bangla": "ছোট p-value মানেই বড় বা গুরুত্বপূর্ণ প্রভাব নয়। প্রভাবের পরিমাণ ও অনিশ্চয়তাও দেখুন।"
+    },
+    {
+      "number": "05",
+      "title": "Regression: a line through the story",
+      "summary": "Separate a fitted average from individual variation.",
+      "body": "Simple linear regression models the conditional mean of an outcome as a linear function of a predictor. Ordinary least squares chooses the intercept and slope that minimize the sum of squared vertical residuals.",
+      "example": "If a fitted equation is score = 50 + 4 × practice hours, the fitted mean score at 3 hours is 62. Individual scores can differ from 62. Prediction for a new individual generally has more uncertainty than estimating the mean at that predictor value.",
+      "takeaway": "A fitted trend is an estimate, not the true population line and not a causal proof.",
+      "bangla": "রেখাটি গড় সম্পর্কের অনুমান; প্রতিটি পর্যবেক্ষণ রেখার ওপর থাকবে না।"
+    },
+    {
+      "number": "06",
+      "title": "Association is not causation",
+      "summary": "A relationship needs a careful explanation.",
+      "body": "Two variables can move together because one affects the other, because a third factor affects both, or because of selection and other biases. Statistical adjustment only helps under suitable assumptions.",
+      "example": "Students who practice more may score higher. Prior preparation and motivation can affect both practice and performance. A regression association alone cannot establish the effect of making a student practice one extra hour.",
+      "takeaway": "Causal questions need a credible design and explicit assumptions.",
+      "bangla": "দুটি বিষয়ের সম্পর্ক থাকলেই একটি অন্যটির কারণ—এমন বলা যায় না।"
+    }
+  ]
+}

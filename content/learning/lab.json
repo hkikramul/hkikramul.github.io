@@ -1,0 +1,10 @@
+{
+  "text_1": "02 / THE VISUAL LAB",
+  "text_2": "Move the line.\nFind the fit.",
+  "text_3": "How does regression find a line? It compares each observed value with the line’s prediction, squares those vertical gaps, and adds them up.",
+  "text_4": "Try adjusting the slope. A smaller sum of squared errors means a closer fit to these observations.",
+  "text_5": "Illustrative data · Intercept adjusts to pass through the sample means",
+  "text_6": "SUM OF SQUARED ERRORS",
+  "text_7": "WHAT TO NOTICE",
+  "text_8": "Orange gaps show prediction errors."
+}

@@ -1,0 +1,48 @@
+{
+  "projects_1": [
+    {
+      "status": "PUBLIC-HEALTH RESEARCH · PREPRINT",
+      "title": "Adolescent fertility\nin Bangladesh",
+      "description": "“Determinants of adolescent fertility among ever-married women in Bangladesh: analysis of the 2022 BDHS.”\n\nSurvey-weighted analysis of adolescent fertility, considering socioeconomic and marital factors. The study accounts for the survey sampling design and distinguishes association from causal explanation.",
+      "tags": "Complex surveys, Logistic regression, Reproductive health",
+      "url": "https://doi.org/10.64898/2026.07.21.26358612",
+      "link_label": "Read the preprint ↗",
+      "note": "A preprint has not completed journal peer review."
+    },
+    {
+      "status": "M.S. THESIS · IN DEVELOPMENT",
+      "title": "Statistical approaches\nto epidemic modeling",
+      "description": "Developing a thesis direction around epidemic models, stochastic components, and the estimation of infection-rate behavior.\n\nAreas being explored include simulation, distributional assumptions, model comparison, and uncertainty assessment. The research question and analysis plan are being refined.",
+      "tags": "Epidemic models, Simulation, Statistical inference",
+      "url": "",
+      "link_label": "",
+      "note": "Chair: Prof. Rohan Dalpatadu\nCo-advisor: Dr. Miguel Fudolig"
+    }
+  ],
+  "projects_2": [
+    {
+      "status": "FOOD SAFETY · BANGLADESH",
+      "title": "Food safety practices in cereal-based manufacturing",
+      "description": "Assessment of food safety control systems in small- and medium-scale manufacturing establishments, focusing on hygiene, regulatory compliance, and operational performance.",
+      "tags": "",
+      "url": "",
+      "link_label": "",
+      "note": ""
+    },
+    {
+      "status": "YOUTH & SOCIAL MEDIA · BANGLADESH",
+      "title": "Statistical analysis of cyberbullying",
+      "description": "Survey-based research on cyberbullying among youth, examining gender differences, psychological impacts, social-media involvement, and parental and institutional responses.",
+      "tags": "",
+      "url": "",
+      "link_label": "",
+      "note": ""
+    }
+  ],
+  "text_1": "02 / RESEARCH",
+  "text_2": "Methods grounded\nin meaningful questions.",
+  "text_3": "Current work and developing interests.",
+  "text_4": "EARLIER PROJECTS",
+  "text_5": "Research interests",
+  "text_6": "Causal inference · Survival analysis · Bayesian methods · High-dimensional statistics · Hidden Markov and mixture models · Biomedical applications"
+}

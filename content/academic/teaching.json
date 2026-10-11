@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "semester": "Fall 2026",
+      "course": "MATH 182 · Calculus II",
+      "sections": "2"
+    },
+    {
+      "semester": "Spring 2026",
+      "course": "MATH 181 · Calculus I",
+      "sections": "2"
+    },
+    {
+      "semester": "Fall 2025",
+      "course": "STAT 411 · Statistical Methods",
+      "sections": "4"
+    },
+    {
+      "semester": "Spring 2025",
+      "course": "STAT 411 · Statistical Methods\nSTAT 391 · Applied Statistics for Biological Sciences",
+      "sections": "2 each"
+    },
+    {
+      "semester": "Fall 2024",
+      "course": "MATH 182 · Calculus II",
+      "sections": "2"
+    }
+  ],
+  "text_1": "03 / TEACHING",
+  "text_2": "Make the idea clear.\nThen build the mathematics.",
+  "text_3": "Graduate teaching assistant\nUNLV · Since Fall 2024",
+  "text_4": "As a graduate teaching assistant, I design and lead discussion sessions, grade assignments, and support undergraduate students across multiple sections. My teaching emphasizes conceptual clarity, real-world application, and statistical reasoning. Discussion sections typically include approximately 25 students.",
+  "text_5": "Assignments are in a graduate assistant / teaching assistant capacity, including discussion instruction and student support.",
+  "text_6": "TEACHING PHILOSOPHY",
+  "text_7": "Clarity, curiosity, and active engagement.",
+  "text_8": "I help students move beyond memorizing formulas toward understanding the reasoning behind mathematical and statistical ideas. I encourage questions, connect concepts to applications, and help students build confidence with unfamiliar problems.",
+  "text_9": "In statistics, I emphasize critical thinking about data, assumptions, uncertainty, and evidence. In mathematics, I connect conceptual understanding with problem-solving skills so students understand both how a method works and why it works.",
+  "text_10": "I aim to create a supportive, inclusive environment where students can ask questions, learn from mistakes, and develop their own approaches. My goal is to cultivate independent thinking, quantitative reasoning, and intellectual curiosity."
+}

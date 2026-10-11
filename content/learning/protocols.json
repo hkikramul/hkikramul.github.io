@@ -1,0 +1,33 @@
+{
+  "steps": [
+    {
+      "number": "01",
+      "title": "Define the question",
+      "description": "Who are you studying? What outcome matters? Are you describing, predicting, or estimating an effect?"
+    },
+    {
+      "number": "02",
+      "title": "Understand the design",
+      "description": "Identify sampling, repeated measurements, missingness, and whether observations are independent."
+    },
+    {
+      "number": "03",
+      "title": "Choose & check",
+      "description": "Match the method to the question and data. Examine assumptions, diagnostics, and sensitivity."
+    },
+    {
+      "number": "04",
+      "title": "Explain honestly",
+      "description": "Report estimates and uncertainty. Separate association from causation and describe limitations."
+    }
+  ],
+  "text_1": "03 / FROM QUESTION TO CONCLUSION",
+  "text_2": "A thoughtful analysis\nstarts before the software.",
+  "text_3": "Download the planning checklist ↗",
+  "link_3": "analysis-checklist.txt",
+  "text_4": "Worked guide: comparing two groups",
+  "text_5": "Example: compare mean exam scores between two independent teaching groups. Start with plots and group summaries. For independent observations and suitable outcome distributions, a Welch two-sample t procedure can estimate a mean difference with a confidence interval. Check severe outliers and whether sample size supports the approximation. Paired observations need a paired analysis; clustered students need methods that address clustering. A nonrandomized comparison cannot establish that the teaching method caused a difference.",
+  "text_6": "Worked guide: explaining a binary outcome",
+  "text_7": "Example: model an outcome recorded as yes or no. Logistic regression relates predictors to the log odds of the outcome. Specify predictors based on the scientific question; assess sample information, separation, missingness, functional form, and dependence. Report odds ratios with confidence intervals, and consider predicted probabilities for easier interpretation. Odds ratios are not risk ratios. Survey data require attention to weights, strata, and sampling clusters.",
+  "text_8": "These are educational guides, not universal recipes. A study-specific statistical analysis plan needs its own estimand, design, and assumptions."
+}
