@@ -843,6 +843,9 @@ content:
         - Beginner
         - R & practice
         - Next steps
+        - Downloads
+        - Visualization
+        - Research tools
     - name: description
       label: Description
       type: text
