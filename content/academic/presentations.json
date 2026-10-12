@@ -11,15 +11,28 @@
       "date": "OCT\n10\n2026",
       "status": "ORAL PRESENTATION",
       "title": "ASA Nevada Chapter Fall Symposium",
-      "summary": "Presented research on determinants of adolescent fertility among ever-married women in Bangladesh.",
-      "details": "UNLV · 15-minute presentation with discussion"
+      "summary": "Presented “Adolescent Fertility Among Ever-Married Women in Bangladesh: A Survey-Weighted Analysis of the 2022 BDHS,” examining socioeconomic and marital factors while accounting for the complex survey design.",
+      "details": "October 10, 2026 · UNLV, GTW 318 · Oral presentation, 2:10–2:30 p.m. Pacific (15 minutes + 5 minutes Q&A)",
+      "url": "https://doi.org/10.64898/2026.07.21.26358612",
+      "link_label": "Read my BDHS preprint ↗"
     },
     {
-      "date": "OCT\n09–10\n2026",
-      "status": "SEMINAR & SYMPOSIUM LEARNING",
-      "title": "Liquid association & sliced inverse regression",
-      "summary": "Engaged with presentations on changing associations and supervised dimension reduction, with an interest in their relevance to biomedical research.",
-      "details": "Attendee engagement · Separate from my own research presentations"
+      "date": "OCT\n10\n2026",
+      "status": "SYMPOSIUM ATTENDANCE",
+      "title": "Sliced inverse regression · Dr. Ker-Chau Li",
+      "summary": "At the ASA Nevada Chapter Fall Symposium, I attended Dr. Ker-Chau Li’s discussion of sliced inverse regression (SIR): reducing many predictors to a few informative combinations that retain information about an outcome. The talk deepened my interest in dimension reduction for biomedical research.",
+      "details": "Related paper: Li, K.-C. (1991). Sliced Inverse Regression for Dimension Reduction. Journal of the American Statistical Association, 86(414), 316–327.",
+      "url": "https://doi.org/10.1080/01621459.1991.10475035",
+      "link_label": "Read the original SIR paper ↗"
+    },
+    {
+      "date": "OCT\n09\n2026",
+      "status": "STATISTICS SEMINAR ATTENDANCE",
+      "title": "Liquid association · Dr. Ker-Chau Li",
+      "summary": "I attended Dr. Ker-Chau Li’s talk on liquid association at the UNLV Department of Mathematical Sciences Statistics Seminar. Liquid association explores how the relationship between two variables changes with a third variable, with applications to gene coexpression and biomedical research.",
+      "details": "Related paper: Li, K.-C. (2002). Genome-wide coexpression dynamics: Theory and application. PNAS, 99(26), 16875–16880.",
+      "url": "https://doi.org/10.1073/pnas.252466999",
+      "link_label": "Read the liquid association paper ↗"
     },
     {
       "date": "2026",
