@@ -1,10 +1,10 @@
 {
-  "text_1": "02 / THE VISUAL LAB",
-  "text_2": "Move the line.\nFind the fit.",
-  "text_3": "How does regression find a line? It compares each observed value with the line’s prediction, squares those vertical gaps, and adds them up.",
-  "text_4": "Try adjusting the slope. A smaller sum of squared errors means a closer fit to these observations.",
-  "text_5": "Illustrative data · Intercept adjusts to pass through the sample means",
-  "text_6": "SUM OF SQUARED ERRORS",
-  "text_7": "WHAT TO NOTICE",
-  "text_8": "Orange gaps show prediction errors."
+  "text_1": "০২ / নিজে করে দেখুন",
+  "text_2": "রেখাটি সরান।\nডেটার সঙ্গে মেলান।",
+  "text_3": "Regression কীভাবে একটি রেখা বেছে নেয়? প্রতিটি বিন্দু আর রেখার মাঝের ওপর-নিচের দূরত্ব বের করে। এরপর প্রতিটি দূরত্বের বর্গ করে সবগুলো যোগ করে। এই যোগফলকে SSE বলে।",
+  "text_4": "স্লাইডার সরিয়ে রেখার ঢাল (slope) বদলান। SSE যত কম, এই ডেটার সঙ্গে রেখা তত ভালোভাবে মেলে।",
+  "text_5": "বোঝানোর জন্য বানানো ডেটা · রেখাটি X ও Y-এর গড়ের বিন্দু দিয়ে যায়",
+  "text_6": "দূরত্বগুলোর বর্গের যোগফল (SSE)",
+  "text_7": "যা খেয়াল করবেন",
+  "text_8": "কমলা দাগগুলো বিন্দু আর রেখার মাঝের দূরত্ব দেখায়।"
 }

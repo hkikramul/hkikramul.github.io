@@ -6,3 +6,10 @@ div[data-cms-list]{display:contents}.manage-link{display:inline-block;font:11px 
 
 /* People and society reading journey */
 .reading-journey{border-top:1px solid var(--line);background:#f0f2e9}.reading-journey h2{font-family:Arial,Helvetica,sans-serif;line-height:1.4;letter-spacing:0}.reading-intro{max-width:850px;font-size:17px;line-height:1.9}.reading-jumps{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 40px}.reading-jumps a{border:1px solid #a5b4a8;border-radius:30px;padding:8px 16px;text-decoration:none;font-size:14px}.reading-jumps a:hover{background:var(--green);color:white}.reading-group{margin:40px 0}.reading-group>h3{font-size:25px;line-height:1.5}.reading-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.reading-card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:28px;min-width:0}.reading-topic{color:var(--orange);font-weight:bold;font-size:14px}.reading-card h4{font-family:Georgia,serif;font-size:24px;line-height:1.35;margin:14px 0;overflow-wrap:anywhere}.reading-card p{line-height:1.9}.reading-author{font-size:14px;color:#53645b}.reading-card summary{font-size:15px}.reading-card>a{display:inline-block;font-size:14px;margin-top:15px}.reading-card>a[hidden]{display:none}.reading-note{font-size:14px}header nav{flex-wrap:wrap}header{gap:25px}@media(max-width:650px){.reading-grid{grid-template-columns:1fr}.reading-card{padding:22px}.reading-journey h2{font-size:30px}}
+
+html[lang="bn"] body{font-family:"Noto Sans Bengali","Hind Siliguri","Nirmala UI",Vrinda,system-ui,sans-serif;line-height:1.8}
+html[lang="bn"] h1,html[lang="bn"] h2,html[lang="bn"] h3{line-height:1.35;letter-spacing:normal}
+html[lang="bn"] .eyebrow,html[lang="bn"] .tag{letter-spacing:normal}
+html[lang="bn"] nav{flex-wrap:wrap}
+html[lang="bn"] .resource p,html[lang="bn"] .lesson p{line-height:1.85}
+html[lang="bn"] .hero h1{font-size:clamp(2.25rem,5vw,4.75rem)}

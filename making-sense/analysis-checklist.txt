@@ -1,18 +1,19 @@
 MAKING SENSE WITH IKRAMUL
-STATISTICALLY SPEAKING — ANALYSIS PLANNING CHECKLIST
-Educational guide, not a study-specific statistical analysis plan.
+ডেটা বিশ্লেষণের আগে পরিকল্পনার চেকলিস্ট
+এটি শেখার সহায়িকা। নিজের গবেষণার জন্য আলাদা পরিকল্পনা করুন।
 
-1. Question: Define the population, outcome, comparison, and scientific objective.
-2. Estimand: State exactly what quantity you want to estimate.
-3. Design: Document sampling, randomization, clustering, and repeated observations.
-4. Data: Define variables, units, exclusions, missingness, and quality checks.
-5. Description: Plot distributions and summarize groups before modeling.
-6. Method: Justify the model using the question, outcome, and design.
-7. Assumptions: Specify diagnostics and how you will address violations.
-8. Uncertainty: Plan confidence intervals and relevant error control.
-9. Sensitivity: Identify reasonable alternative assumptions and analyses.
-10. Reporting: Report estimates, uncertainty, limitations, and reproducible code.
+১. প্রশ্ন: কাদের নিয়ে কাজ করবেন? কোন ফল বা তুলনা জানতে চান?
+২. কী হিসাব করবেন: যেমন গড়, অনুপাত বা দুই দলের পার্থক্য—সুনির্দিষ্ট করে লিখুন।
+৩. তথ্য নেওয়ার ধরন: কাদের কীভাবে বেছে নিয়েছেন? দৈবভাবে দল ভাগ করেছেন? একই ব্যক্তি বা দলের একাধিক তথ্য আছে?
+৪. ডেটা: প্রতিটি বিষয়ের অর্থ ও একক লিখুন। কোন তথ্য বাদ দেবেন, কোথায় তথ্য নেই এবং ভুল কীভাবে খুঁজবেন ঠিক করুন।
+৫. আগে দেখুন: গ্রাফ তৈরি করুন। ডেটার মানগুলো কীভাবে ছড়িয়ে আছে ও দলগুলোর ফল দেখুন।
+৬. পদ্ধতি: প্রশ্ন ও ডেটার সঙ্গে মিলিয়ে পদ্ধতি বেছে নিন; কেন নিলেন লিখুন।
+৭. শর্ত যাচাই: পদ্ধতিটি যে শর্ত ধরে কাজ করে, তা মিলছে কি না দেখুন। না মিললে কী করবেন ঠিক করুন।
+৮. অনিশ্চয়তা: confidence interval ও একাধিক পরীক্ষা করলে ভুল সিদ্ধান্তের ঝুঁকি কীভাবে সামলাবেন ভাবুন।
+৯. অন্যভাবে যাচাই: অন্য যুক্তিসংগত শর্ত বা বিশ্লেষণে ফল বদলায় কি না দেখুন।
+১০. ফল জানানো: হিসাব, অনিশ্চয়তা ও সীমাবদ্ধতা লিখুন। কোড ও কাজের ধাপ রাখুন, যাতে আবার বিশ্লেষণ করা যায়।
 
-For surveys, account for weights, strata, and primary sampling units.
-For causal questions, document identification assumptions and potential confounding.
-Distinguish prespecified analysis from exploration. Protect participant privacy.
+জরিপে weights, strata ও sampling clusters হিসাব করুন।
+কারণ জানতে চাইলে অন্য বিষয় কীভাবে ফলকে প্রভাবিত করতে পারে, তা লিখুন।
+আগে ঠিক করা বিশ্লেষণ আর ডেটা দেখে পরে করা অনুসন্ধান আলাদা করে জানান।
+অংশগ্রহণকারীদের ব্যক্তিগত তথ্য সুরক্ষিত রাখুন।

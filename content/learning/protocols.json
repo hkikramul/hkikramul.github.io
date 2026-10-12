@@ -1,33 +1,33 @@
 {
   "steps": [
     {
-      "number": "01",
-      "title": "Define the question",
-      "description": "Who are you studying? What outcome matters? Are you describing, predicting, or estimating an effect?"
+      "number": "০১",
+      "title": "প্রশ্নটি পরিষ্কার করুন",
+      "description": "কাদের নিয়ে কাজ করছেন? কী জানতে চান? শুধু অবস্থা বর্ণনা করবেন, ভবিষ্যৎ ফল আন্দাজ করবেন, নাকি কোনো কিছুর প্রভাব জানবেন?"
     },
     {
-      "number": "02",
-      "title": "Understand the design",
-      "description": "Identify sampling, repeated measurements, missingness, and whether observations are independent."
+      "number": "০২",
+      "title": "ডেটা কীভাবে এসেছে দেখুন",
+      "description": "কাদের বেছে নেওয়া হয়েছে? একই ব্যক্তির তথ্য একাধিকবার আছে? কিছু তথ্য নেই? এক ব্যক্তির ফলের সঙ্গে অন্যজনের ফলের যোগ আছে?"
     },
     {
-      "number": "03",
-      "title": "Choose & check",
-      "description": "Match the method to the question and data. Examine assumptions, diagnostics, and sensitivity."
+      "number": "০৩",
+      "title": "পদ্ধতি বেছে নিয়ে যাচাই করুন",
+      "description": "প্রশ্ন ও ডেটার সঙ্গে মানানসই পদ্ধতি নিন। পদ্ধতিটি যে শর্ত ধরে কাজ করে, সেগুলো মিলছে কি না দেখুন। অন্য যুক্তিসংগত পদ্ধতিতে ফল বদলায় কি না যাচাই করুন।"
     },
     {
-      "number": "04",
-      "title": "Explain honestly",
-      "description": "Report estimates and uncertainty. Separate association from causation and describe limitations."
+      "number": "০৪",
+      "title": "ফল ও সীমা বুঝিয়ে বলুন",
+      "description": "কী পেয়েছেন এবং ফল কতটা অনিশ্চিত, দুটোই বলুন। সম্পর্ক পাওয়া আর কারণ প্রমাণ করা আলাদা। কী জানা যায়নি, সেটিও লিখুন।"
     }
   ],
-  "text_1": "03 / FROM QUESTION TO CONCLUSION",
-  "text_2": "A thoughtful analysis\nstarts before the software.",
-  "text_3": "Download the planning checklist ↗",
+  "text_1": "০৩ / প্রশ্ন থেকে ফল বোঝা",
+  "text_2": "সফটওয়্যার খোলার আগেই\nবিশ্লেষণের পরিকল্পনা করুন।",
+  "text_3": "পরিকল্পনার চেকলিস্ট ডাউনলোড করুন ↗",
   "link_3": "analysis-checklist.txt",
-  "text_4": "Worked guide: comparing two groups",
-  "text_5": "Example: compare mean exam scores between two independent teaching groups. Start with plots and group summaries. For independent observations and suitable outcome distributions, a Welch two-sample t procedure can estimate a mean difference with a confidence interval. Check severe outliers and whether sample size supports the approximation. Paired observations need a paired analysis; clustered students need methods that address clustering. A nonrandomized comparison cannot establish that the teaching method caused a difference.",
-  "text_6": "Worked guide: explaining a binary outcome",
-  "text_7": "Example: model an outcome recorded as yes or no. Logistic regression relates predictors to the log odds of the outcome. Specify predictors based on the scientific question; assess sample information, separation, missingness, functional form, and dependence. Report odds ratios with confidence intervals, and consider predicted probabilities for easier interpretation. Odds ratios are not risk ratios. Survey data require attention to weights, strata, and sampling clusters.",
-  "text_8": "These are educational guides, not universal recipes. A study-specific statistical analysis plan needs its own estimand, design, and assumptions."
+  "text_4": "উদাহরণ: দুই দলের ফল তুলনা",
+  "text_5": "ধরুন, আলাদাভাবে পড়ানো দুই দলের পরীক্ষার গড় নম্বর তুলনা করবেন। আগে গ্রাফ ও প্রতিটি দলের ফল দেখুন। দুই দলের শিক্ষার্থীদের ফল স্বাধীন হলে, অর্থাৎ একজনের ফল অন্যজনের সঙ্গে সরাসরি জড়িত না থাকলে, উপযুক্ত অবস্থায় Welch t-test দিয়ে গড়ের পার্থক্য ও confidence interval বের করা যায়। খুব বড় বা ছোট অস্বাভাবিক মান আছে কি না এবং নমুনা যথেষ্ট কি না দেখুন। একই শিক্ষার্থীর আগে-পরে ফল হলে paired analysis লাগে। একই ক্লাসের শিক্ষার্থীদের ফলে মিল থাকলে সেটিও হিসাব করতে হবে। শিক্ষার্থীদের দৈবভাবে দুই পদ্ধতিতে ভাগ না করলে শুধু এই তুলনা থেকে পড়ানোর পদ্ধতিই পার্থক্যের কারণ বলা যায় না।",
+  "text_6": "উদাহরণ: ফল যখন হ্যাঁ বা না",
+  "text_7": "ধরুন, ফল হলো কেউ একটি সেবা নিয়েছেন কি না। Logistic regression দিয়ে অন্য বিষয়গুলোর সঙ্গে এই ফলের সম্পর্ক দেখা যায়। গবেষণার প্রশ্ন অনুযায়ী কোন বিষয়গুলো মডেলে রাখবেন ঠিক করুন। ডেটা যথেষ্ট কি না, কিছু তথ্য নেই কি না, এবং পর্যবেক্ষণগুলো পরস্পরের সঙ্গে জড়িত কি না দেখুন। কোনো বিষয় দিয়ে সব হ্যাঁ ও না নিখুঁতভাবে আলাদা হয়ে গেলে সাধারণ মডেল সমস্যায় পড়তে পারে। ফল বোঝাতে odds ratio ও confidence interval দিন; সম্ভাবনা দেখালেও পাঠকের বুঝতে সুবিধা হয়। Odds ratio আর risk ratio এক নয়। জরিপের ডেটায় weights, strata ও clusters ঠিকভাবে ধরতে হবে।",
+  "text_8": "এগুলো শেখার উদাহরণ। সব গবেষণায় একই নিয়ম চলে না। আপনার প্রশ্ন, ডেটা কীভাবে এসেছে এবং কী অনুমান করছেন—এসব অনুযায়ী পরিকল্পনা করুন।"
 }

@@ -3,42 +3,42 @@
     {
       "title": "OpenIntro Statistics",
       "category": "Beginner",
-      "description": "A free introductory textbook, datasets, and supporting learning materials.",
+      "description": "পরিসংখ্যানের শুরু শেখার ফ্রি বই। সঙ্গে উদাহরণের ডেটা ও অনুশীলনের উপকরণ আছে।",
       "url": "https://www.openintro.org/book/os/",
       "label": "Book · foundations"
     },
     {
       "title": "Introduction to Modern Statistics",
       "category": "Beginner",
-      "description": "An accessible online textbook connecting statistical thinking with real data.",
+      "description": "বাস্তব ডেটা দিয়ে পরিসংখ্যানের ধারণা ও ফল বোঝা শেখার ফ্রি অনলাইন বই।",
       "url": "https://www.openintro.org/book/ims/",
       "label": "Book · data & inference"
     },
     {
       "title": "OpenStax Introductory Statistics",
       "category": "Beginner",
-      "description": "A structured introductory course with worked examples and exercises.",
+      "description": "ধাপে ধাপে সাজানো ফ্রি পাঠ্যবই। উদাহরণ ও অনুশীলন দিয়ে মৌলিক পরিসংখ্যান শেখা যায়।",
       "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-introduction",
       "label": "Book · practice"
     },
     {
       "title": "Online Statistics Education",
       "category": "Beginner",
-      "description": "A free multimedia textbook for exploring introductory statistical concepts.",
+      "description": "লেখা, ছবি ও অনুশীলনের মাধ্যমে পরিসংখ্যানের শুরুর ধারণাগুলো শেখার ফ্রি ওয়েবসাইট।",
       "url": "https://onlinestatbook.com/",
       "label": "Book · visual learning"
     },
     {
       "title": "R for Data Science",
       "category": "R & practice",
-      "description": "Learn to import, transform, visualize, and communicate data using R.",
+      "description": "R দিয়ে ডেটা আনা, সাজানো, গ্রাফ বানানো ও ফল তুলে ধরা শেখার ফ্রি অনলাইন বই।",
       "url": "https://r4ds.hadley.nz/",
       "label": "Book · R workflow"
     },
     {
       "title": "An Introduction to Statistical Learning",
       "category": "Next steps",
-      "description": "Explore regression, classification, and statistical learning after the foundations.",
+      "description": "মৌলিক পরিসংখ্যান শেখার পর regression, classification ও statistical learning শেখার ফ্রি বই।",
       "url": "https://www.statlearning.com/",
       "label": "Book · statistical learning"
     },
