@@ -856,3 +856,109 @@ content:
     - name: label
       label: Resource type (for example Book · foundations)
       type: string
+
+- name: learning_reading_journey
+  label: Making Sense · মানুষ ও সমাজ পাঠযাত্রা
+  type: file
+  path: content/learning/reading-journey.json
+  format: json
+  fields:
+  - name: title
+    label: Heading
+    type: text
+  - name: intro
+    label: Introduction
+    type: text
+  - name: note
+    label: Access note
+    type: text
+  - name: further
+    label: Further reading
+    type: text
+  - name: people
+    label: মানুষ ও সম্পর্ক
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Number
+      type: string
+    - name: topic
+      label: Topic
+      type: string
+    - name: title
+      label: Book title
+      type: string
+    - name: author
+      label: Author / editor
+      type: string
+    - name: description
+      label: Bangla description
+      type: text
+    - name: question
+      label: Discussion question
+      type: text
+    - name: url
+      label: Book URL (optional)
+      type: string
+    - name: link_label
+      label: Link label
+      type: string
+  - name: society
+    label: প্রতিষ্ঠান ও সমাজ
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Number
+      type: string
+    - name: topic
+      label: Topic
+      type: string
+    - name: title
+      label: Book title
+      type: string
+    - name: author
+      label: Author / editor
+      type: string
+    - name: description
+      label: Bangla description
+      type: text
+    - name: question
+      label: Discussion question
+      type: text
+    - name: url
+      label: Book URL (optional)
+      type: string
+    - name: link_label
+      label: Link label
+      type: string
+  - name: future
+    label: সমাজের ভবিষ্যৎ
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Number
+      type: string
+    - name: topic
+      label: Topic
+      type: string
+    - name: title
+      label: Book title
+      type: string
+    - name: author
+      label: Author / editor
+      type: string
+    - name: description
+      label: Bangla description
+      type: text
+    - name: question
+      label: Discussion question
+      type: text
+    - name: url
+      label: Book URL (optional)
+      type: string
+    - name: link_label
+      label: Link label
+      type: string
