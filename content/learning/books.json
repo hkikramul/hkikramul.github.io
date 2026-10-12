@@ -41,6 +41,97 @@
       "description": "Explore regression, classification, and statistical learning after the foundations.",
       "url": "https://www.statlearning.com/",
       "label": "Book · statistical learning"
+    },
+    {
+      "title": "R — Free Download",
+      "category": "Downloads",
+      "description": "পরিসংখ্যান বিশ্লেষণ, মডেলিং ও গ্রাফ তৈরির বিনামূল্যের ওপেন সোর্স সফটওয়্যার। Windows, macOS বা Linux অনুযায়ী CRAN থেকে ডাউনলোড করুন। বাংলাদেশের শিক্ষার্থী ও গবেষকেরা জরিপ, স্বাস্থ্য ও সামাজিক তথ্য বিশ্লেষণে ব্যবহার করতে পারেন।",
+      "url": "https://cran.r-project.org/",
+      "label": "ডাউনলোড · বিনামূল্যে"
+    },
+    {
+      "title": "RStudio Desktop — Open Source",
+      "category": "Downloads",
+      "description": "R কোড লেখা, ডেটা দেখা ও গ্রাফ তৈরির সুবিধাজনক কাজের পরিবেশ। প্রথমে R, তারপর RStudio Desktop-এর Open Source সংস্করণ ইনস্টল করুন। বাণিজ্যিক সংস্করণও আছে; শেখার জন্য বিনামূল্যের সংস্করণ দিয়ে শুরু করা যায়।",
+      "url": "https://posit.co/download/rstudio-desktop/",
+      "label": "ডাউনলোড · ওপেন সোর্স"
+    },
+    {
+      "title": "Python — Free Download",
+      "category": "Downloads",
+      "description": "ডেটা বিশ্লেষণ, স্বয়ংক্রিয় কাজ ও মেশিন লার্নিংয়ের জন্য বিনামূল্যের প্রোগ্রামিং ভাষা। সরকারি ওয়েবসাইট থেকে অপারেটিং সিস্টেম অনুযায়ী ডাউনলোড করুন। pandas দিয়ে ডেটা সাজানো এবং Matplotlib বা Seaborn দিয়ে গ্রাফ তৈরি করা শেখা যায়।",
+      "url": "https://www.python.org/downloads/",
+      "label": "ডাউনলোড · বিনামূল্যে"
+    },
+    {
+      "title": "R Graph Gallery",
+      "category": "Visualization",
+      "description": "R দিয়ে বিভিন্ন ধরনের গ্রাফ তৈরির উদাহরণ ও ব্যবহারযোগ্য কোডের সংগ্রহ। বার চার্ট, স্ক্যাটারপ্লট, হিটম্যাপ ও আরও অনেক গ্রাফ দেখে নিজের ডেটার জন্য উপযুক্ত ধরন বেছে নিতে পারেন। গবেষণাপত্র, পোস্টার ও উপস্থাপনার গ্রাফ শেখার সহায়ক।",
+      "url": "https://r-graph-gallery.com/",
+      "label": "ওয়েবসাইট · R গ্রাফ"
+    },
+    {
+      "title": "Python Graph Gallery",
+      "category": "Visualization",
+      "description": "Python দিয়ে গ্রাফ তৈরির উদাহরণ ও কোডের সংগ্রহ। Matplotlib, Seaborn ও অন্যান্য লাইব্রেরির সাহায্যে ডেটার বণ্টন, সম্পর্ক ও সময়ের পরিবর্তন দেখানো শেখা যায়। নিজের ডেটা দিয়ে উদাহরণের কোড পরিবর্তন করে অনুশীলন করুন।",
+      "url": "https://python-graph-gallery.com/",
+      "label": "ওয়েবসাইট · Python গ্রাফ"
+    },
+    {
+      "title": "Plotly for Python — GitHub",
+      "category": "Visualization",
+      "description": "ইন্টারঅ্যাকটিভ গ্রাফ তৈরির ওপেন সোর্স Python লাইব্রেরির মূল GitHub রিপোজিটরি। গ্রাফে মাউস রাখলে মান দেখা এবং জুম করার মতো সুবিধা যোগ করা যায়। লাইব্রেরিটি বিনামূল্যে; আলাদা হোস্টিং সেবার শর্ত ভিন্ন হতে পারে।",
+      "url": "https://github.com/plotly/plotly.py",
+      "label": "GitHub · ইন্টারঅ্যাকটিভ গ্রাফ"
+    },
+    {
+      "title": "Datawrapper",
+      "category": "Visualization",
+      "description": "কোড না লিখে চার্ট, মানচিত্র ও টেবিল তৈরি করার ওয়েবসাইট। বাংলাদেশের শিক্ষা, বাজেট বা জনস্বাস্থ্যের তথ্য সহজভাবে তুলে ধরতে ব্যবহার করা যায়। ফ্রি প্ল্যানে প্রকাশ, এমবেড ও PNG ডাউনলোড করা যায়; ব্র্যান্ডিং সরানো ও PDF/SVG এক্সপোর্ট পেইড সুবিধা।",
+      "url": "https://www.datawrapper.de/",
+      "label": "ওয়েব টুল · ফ্রি প্ল্যান"
+    },
+    {
+      "title": "QGIS",
+      "category": "Visualization",
+      "description": "ভৌগোলিক তথ্য বিশ্লেষণ ও মানচিত্র তৈরির বিনামূল্যের ওপেন সোর্স সফটওয়্যার। বাংলাদেশের জেলা বা উপজেলা অনুযায়ী স্বাস্থ্য, জনসংখ্যা, পরিবেশ ও সেবার বৈষম্য দেখাতে কাজে লাগতে পারে। মানচিত্র তৈরির জন্য উপযুক্ত সীমানা ও তথ্য ফাইল প্রয়োজন।",
+      "url": "https://www.qgis.org/",
+      "label": "সফটওয়্যার · মানচিত্র"
+    },
+    {
+      "title": "draw.io / diagrams.net",
+      "category": "Visualization",
+      "description": "কোড ছাড়াই গবেষণার ফ্লোচার্ট, ধারণাগত কাঠামো ও কাজের ধাপ আঁকার বিনামূল্যের টুল। থিসিসে নমুনা নির্বাচন, ডেটা পরিষ্কার এবং বিশ্লেষণের ধাপ বোঝানোর জন্য ব্যবহার করতে পারেন।",
+      "url": "https://www.drawio.com/",
+      "label": "ওয়েব টুল · ফ্লোচার্ট"
+    },
+    {
+      "title": "jamovi",
+      "category": "Research tools",
+      "description": "মেনুতে ক্লিক করে পরিসংখ্যান বিশ্লেষণের বিনামূল্যের ওপেন সোর্স সফটওয়্যার। নতুনদের জন্য বর্ণনামূলক পরিসংখ্যান, t-test, ANOVA ও রিগ্রেশন শেখার সহায়ক। কোন পদ্ধতি কেন ব্যবহার করছেন এবং তার অনুমানগুলো ঠিক আছে কি না, তা বুঝে ফল ব্যাখ্যা করুন।",
+      "url": "https://www.jamovi.org/",
+      "label": "সফটওয়্যার · কোড ছাড়াই বিশ্লেষণ"
+    },
+    {
+      "title": "Jupyter Notebook / JupyterLab",
+      "category": "Research tools",
+      "description": "কোড, ব্যাখ্যা ও গ্রাফ একসঙ্গে রাখার বিনামূল্যের ওপেন সোর্স কাজের পরিবেশ। Python বিশ্লেষণের ধাপগুলো নথিবদ্ধ করে অন্যকে বুঝতে ও পুনরায় চালাতে সাহায্য করে। গবেষণা ও শেখার নোটবুক তৈরির জন্য উপযোগী।",
+      "url": "https://jupyter.org/",
+      "label": "সফটওয়্যার · গবেষণা নোটবুক"
+    },
+    {
+      "title": "Google Colab",
+      "category": "Research tools",
+      "description": "নিজের কম্পিউটারে Python ইনস্টল না করেও ব্রাউজারে নোটবুক চালানোর সুযোগ। সীমিত ক্ষমতার কম্পিউটার নিয়ে শেখা শুরু করার সহায়ক। ফ্রি ব্যবহার আছে, তবে রানটাইম ও কম্পিউটিং রিসোর্সের সীমা থাকে; GPU পাওয়া নিশ্চিত নয় এবং পেইড প্ল্যানও আছে।",
+      "url": "https://colab.google/",
+      "label": "ওয়েব টুল · সীমাসহ ফ্রি"
+    },
+    {
+      "title": "Zotero",
+      "category": "Research tools",
+      "description": "গবেষণার রেফারেন্স, PDF ও পড়ার নোট গুছিয়ে রাখা এবং লেখায় citation ও bibliography যোগ করার বিনামূল্যের ওপেন সোর্স সফটওয়্যার। থিসিস ও গবেষণাপত্রের কাজে উপযোগী। অতিরিক্ত অনলাইন ফাইল স্টোরেজ কিনতে হতে পারে।",
+      "url": "https://www.zotero.org/",
+      "label": "সফটওয়্যার · রেফারেন্স ব্যবস্থাপনা"
     }
   ]
 }
