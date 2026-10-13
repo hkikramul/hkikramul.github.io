@@ -11,3 +11,7 @@ Sign in at https://app.pagescms.org/ and grant the Pages CMS GitHub app access t
 The public pages load same-origin JSON using `content-loader.js`. Original content remains available as a fallback if a fetch fails. Lesson and resource content use escaped text and HTTPS-only resource URLs. The visual demo runs locally in the visitor’s browser. No visitor editor credentials are stored or requested by the public websites.
 
 To change the layout, edit HTML/CSS. For everyday content changes, use Pages CMS. GitHub commit history preserves prior versions.
+
+## Website maintenance preference
+
+Use https://hkikramul.github.io/ as the sole canonical personal academic website and https://hkikramul.github.io/making-sense/ for public learning. Publish future updates only to this GitHub Pages repository. Do not create or update duplicate ChatGPT-hosted websites.
