@@ -27,13 +27,178 @@
     }
   ],
   "text_1": "03 / TEACHING",
-  "text_2": "Make the idea clear.\nThen build the mathematics.",
+  "text_2": "Learn to reason.\nLearn to question evidence.",
   "text_3": "Graduate teaching assistant\nUNLV · Since Fall 2024",
-  "text_4": "As a graduate teaching assistant, I design and lead discussion sessions, grade assignments, and support undergraduate students across multiple sections. My teaching emphasizes conceptual clarity, real-world application, and statistical reasoning. Discussion sections typically include approximately 25 students.",
-  "text_5": "Assignments are in a graduate assistant / teaching assistant capacity, including discussion instruction and student support.",
+  "text_4": "Since Fall 2024, I have supported undergraduate statistics and calculus at UNLV through discussion instruction, course materials, office hours, and tutoring. Working with course instructors, I help students connect concepts with problem-solving and explain their reasoning. My responsibilities vary by course and semester.",
+  "text_5": "The assignments below are graduate assistant / teaching assistant appointments. Discussion instruction is carried out in collaboration with the course instructor.",
   "text_6": "TEACHING PHILOSOPHY",
-  "text_7": "Clarity, curiosity, and active engagement.",
-  "text_8": "I help students move beyond memorizing formulas toward understanding the reasoning behind mathematical and statistical ideas. I encourage questions, connect concepts to applications, and help students build confidence with unfamiliar problems.",
-  "text_9": "In statistics, I emphasize critical thinking about data, assumptions, uncertainty, and evidence. In mathematics, I connect conceptual understanding with problem-solving skills so students understand both how a method works and why it works.",
-  "text_10": "I aim to create a supportive, inclusive environment where students can ask questions, learn from mistakes, and develop their own approaches. My goal is to cultivate independent thinking, quantitative reasoning, and intellectual curiosity."
+  "text_7": "From a meaningful question to a defensible conclusion.",
+  "text_8": "My goal is to help students become thoughtful users of data: able to ask a clear question, examine how evidence was collected, recognize variability, and explain what an analysis can and cannot establish. I connect intuitive explanations and visual representations with mathematical reasoning, so that procedures have a purpose and conclusions remain grounded in context.",
+  "text_9": "I aim to organize statistics discussions around investigation: question, data, exploration, inference, and communication. Real examples from health and everyday life can make decisions about sampling, measurement, confounding, and missing data visible. Simulation offers a bridge from informal ideas about chance to sampling distributions, randomization tests, and confidence intervals; formulas then deepen that understanding.",
+  "text_10": "A supportive classroom also needs intellectual challenge. I encourage questions and treat mistakes as opportunities to diagnose reasoning. My teaching development priorities include structured peer discussion, brief checks of understanding, scaffolded computing, and clear feedback. I seek to make participation accessible through readable materials, multiple representations, and opportunities to think before speaking.",
+  "text_11": "Assessment should reveal understanding as well as procedural accuracy. I aim to align tasks with explicit learning goals and ask students to justify a method, interpret uncertainty, and critique a conclusion. For example, a correct calculation should be accompanied by an explanation of the population, assumptions, and limits of the inference. Short written explanations and transfer problems can expose misconceptions that a numerical answer alone misses.",
+  "text_12": "Responsible analysis is part of statistical literacy. My teaching goals include reproducible workflows, transparent data provenance, privacy, and a careful distinction between association and causation. Where course policy permits AI tools, students should disclose their use, verify outputs, and explain the reasoning themselves. Technology should support learning without replacing judgment.",
+  "text_13": "I view teaching as an ongoing process of inquiry. I plan to use student questions, formative assessments, peer feedback, and reflective notes to refine discussion activities with the course instructor. These commitments draw on ASA GAISE guidance and statistics education research; the approaches below describe my continuing development rather than a claim that every method has already been implemented.",
+  "text_14": "Statistics teaching: research into practice",
+  "text_15": "A focused reading shelf for my development as a statistics educator. Start with the ASA guidance and a practical activity book, then connect each reading to one discussion activity and one assessment question. These are selected resources, not a universal ranking.",
+  "text_16": "A sustainable cycle: define one learning goal → choose a task → check students’ reasoning → revise. Keep reusable lesson notes, record the source and license of borrowed materials, and review this reading list each academic year.",
+  "resources": [
+    {
+      "category": "START HERE · PROFESSIONAL GUIDANCE",
+      "title": "ASA GAISE College Report",
+      "author": "American Statistical Association · living report",
+      "description": "Guidance for introductory statistics and data science, including learning outcomes, assessment examples, and a section on AI. Use it to audit a lesson’s goals, activity, and assessment.",
+      "url": "https://asacollegegaise.org/",
+      "link_label": "Read the current guidance ↗",
+      "access": "Free online · Consult the living report for updates."
+    },
+    {
+      "category": "ARTICLE · INFERENCE",
+      "title": "The Introductory Statistics Course: A Ptolemaic Curriculum?",
+      "author": "George W. Cobb · 2007",
+      "description": "A foundational argument for rethinking introductory inference. Teaching task: let students explore a randomization distribution before introducing a formal test.",
+      "url": "https://escholarship.org/uc/item/6hb3k0nz",
+      "link_label": "Read the article ↗",
+      "access": "Open access · Foundational reading."
+    },
+    {
+      "category": "ARTICLE · COMPUTING & CURRICULUM",
+      "title": "Data Science in Statistics Curricula: Preparing Students to “Think with Data”",
+      "author": "Hardin and colleagues · 2015",
+      "description": "Examples of integrating data science into statistics curricula. Teaching task: build a small exercise that joins data cleaning, visualization, interpretation, and reproducible code.",
+      "url": "https://arxiv.org/abs/1410.3127",
+      "link_label": "Read the author manuscript ↗",
+      "access": "Free author manuscript · Published in The American Statistician."
+    },
+    {
+      "category": "ARTICLE · VISUAL COMMUNICATION",
+      "title": "Teaching and Learning Data Visualization: Ideas and Assignments",
+      "author": "Deborah Nolan & Jamis Perrett · 2016",
+      "description": "Ideas for making graphics part of statistical education. Teaching task: ask students to revise a misleading plot and explain how the revised design supports the statistical question.",
+      "url": "https://arxiv.org/abs/1503.00781",
+      "link_label": "Read the author manuscript ↗",
+      "access": "Free author manuscript · Published in The American Statistician."
+    },
+    {
+      "category": "BOOK · PRACTICAL TEACHING",
+      "title": "Teaching Statistics: A Bag of Tricks",
+      "author": "Andrew Gelman & Deborah Nolan · 2nd edition, 2017",
+      "description": "My first choice for practical teaching preparation: classroom examples and activities, including topics for more advanced courses. Adapt one activity to a specific learning goal rather than adding it only for entertainment.",
+      "url": "https://academic.oup.com/book/27473",
+      "link_label": "View the publisher’s page ↗",
+      "access": "Publisher preview · Check institutional access or borrowing."
+    },
+    {
+      "category": "BOOK · PEDAGOGY & LEARNING RESEARCH",
+      "title": "Developing Students’ Statistical Reasoning: Connecting Research and Teaching Practice",
+      "author": "Garfield, Ben-Zvi, Chance, Medina, Roseth & Zieffler · 2008",
+      "description": "A deeper research foundation for teaching variability, distributions, inference, and modeling. Start with the chapters on learning environments and assessment, then select a concept you currently teach.",
+      "url": "https://link.springer.com/book/10.1007/978-1-4020-8383-9",
+      "link_label": "Explore the book and chapters ↗",
+      "access": "Publisher preview · Check institutional access or borrowing."
+    },
+    {
+      "category": "OPEN TEXTBOOK · MODERN INTRODUCTORY STATISTICS",
+      "title": "Introduction to Modern Statistics",
+      "author": "Mine Çetinkaya-Rundel & Johanna Hardin · 2nd edition",
+      "description": "A course-design model for exploratory analysis, multivariable thinking, simulation, and traditional inference. Use the R tutorials and labs as inspiration for scaffolded discussions.",
+      "url": "https://www.openintro.org/book/ims/",
+      "link_label": "Read the book and teaching resources ↗",
+      "access": "Free web text and PDF · Some instructor resources require verification."
+    },
+    {
+      "category": "OPEN TEXTBOOK · COMPUTATIONAL INFERENCE",
+      "title": "Computational and Inferential Thinking: The Foundations of Data Science",
+      "author": "Ani Adhikari, John DeNero & David Wagner",
+      "description": "A complementary Python-based model for teaching computation alongside inference. Explore an example of simulation or resampling and adapt the statistical idea to your students’ computing background.",
+      "url": "https://inferentialthinking.com/",
+      "link_label": "Read the online textbook ↗",
+      "access": "Free online · Python-based."
+    },
+    {
+      "category": "ONGOING DEVELOPMENT · STATISTICS EDUCATION",
+      "title": "CAUSEweb: resources, research, and professional development",
+      "author": "Consortium for the Advancement of Undergraduate Statistics Education",
+      "description": "A continuing source of teaching activities and professional learning. Use the core readings index to follow a topic in depth and evaluate activities against your own course goals.",
+      "url": "https://www.causeweb.org/cause/resources",
+      "link_label": "Explore CAUSEweb ↗",
+      "access": "Free resource hub · Includes simulation-based inference and teaching networks."
+    }
+  ],
+  "text_17": "Biomedical methods: visualize, compute, and explain",
+  "text_18": "A learning pathway connecting statistical theory with biomedical questions. These resources support my developing interests; listing a method does not imply that I have used it in a completed study.",
+  "biomedical": [
+    {
+      "category": "VISUAL REASONING · CAUSAL QUESTIONS",
+      "title": "Causal Inference: What If + DAGitty",
+      "author": "Hernán & Robins · Textbook and causal diagram software",
+      "description": "Define a treatment effect and draw the assumed causal structure before fitting a model. Practice identification, standardization, weighting, and sensitivity to unmeasured confounding using a biomedical example.",
+      "url": "https://miguelhernan.org/whatifbook",
+      "link_label": "Read the free textbook ↗",
+      "access": "Companion tool: dagitty.net · Graphs encode assumptions; they do not establish them."
+    },
+    {
+      "category": "CLINICAL MODELING · REGRESSION & SURVIVAL",
+      "title": "Regression Modeling Strategies",
+      "author": "Frank E. Harrell Jr. · Course notes, book, and R rms ecosystem",
+      "description": "Study flexible regression, survival outcomes, missing data, overfitting, and validation. Practice a clinical risk model with nonlinear effects; visualize calibration and assess performance before interpreting it.",
+      "url": "https://hbiostat.org/rmsc/",
+      "link_label": "Explore the course notes ↗",
+      "access": "Free online notes · Book is separate · R packages rms and Hmisc."
+    },
+    {
+      "category": "BAYESIAN WORKFLOW · EPIDEMIC MODELS",
+      "title": "Disease transmission modeling in Stan",
+      "author": "Stan case study · Bayesian SIR modeling",
+      "description": "A direct connection to epidemic-modeling interests: inspect an SIR model, simulate observations, fit it, and examine posterior predictive checks and computational diagnostics. Distinguish uncertainty in parameters from uncertainty in predictions.",
+      "url": "https://mc-stan.org/learn-stan/case-studies/boarding_school_case_study.html",
+      "link_label": "Explore the model and code ↗",
+      "access": "Free case study · Requires probability, Bayesian inference, and computing foundations."
+    },
+    {
+      "category": "STATISTICAL LEARNING · PREDICTION",
+      "title": "An Introduction to Statistical Learning",
+      "author": "James and colleagues · R and Python editions",
+      "description": "Build foundations in regularization, resampling, classification, and flexible prediction. Biomedical practice: compare a transparent baseline with a more flexible model using leakage-free validation, calibration, and clinically meaningful error measures.",
+      "url": "https://www.statlearning.com/",
+      "link_label": "Read the books and labs ↗",
+      "access": "Free PDFs and companion labs · Predictive performance alone does not identify a causal effect."
+    },
+    {
+      "category": "ADVANCED INFERENCE · CAUSAL MACHINE LEARNING",
+      "title": "Targeted Learning in R",
+      "author": "tlverse · Reproducible methods handbook",
+      "description": "After causal identification and estimation basics, study how targeted estimation combines machine learning with inference for a defined parameter. Practice TMLE and investigate how nuisance estimation, positivity, and sample splitting affect inference.",
+      "url": "https://tlverse.org/tlverse-handbook/",
+      "link_label": "Explore the handbook ↗",
+      "access": "Free online · Advanced pathway; check software documentation before reproducing examples."
+    },
+    {
+      "category": "HIGH-DIMENSIONAL BIOLOGY · SINGLE-CELL ANALYSIS",
+      "title": "Bioconductor workflows and OSCA",
+      "author": "Bioconductor · Orchestrating Single-Cell Analysis",
+      "description": "Explore quality control, normalization, biological replication, dimension reduction, and multiple testing. Biomedical practice: reproduce a public workflow and explain how batch effects and the choice of experimental unit influence conclusions.",
+      "url": "https://bioconductor.org/help/workflows/",
+      "link_label": "Explore reproducible workflows ↗",
+      "access": "Free R ecosystem · Companion book: osca.bioconductor.org."
+    },
+    {
+      "category": "THEORETICAL FOUNDATION · GRADUATE STUDY",
+      "title": "Asymptotic Statistics",
+      "author": "A. W. van der Vaart · Graduate theory",
+      "description": "Develop the foundations behind estimation and uncertainty: likelihood, M-estimation, asymptotic efficiency, bootstrap methods, and semiparametric theory. Pair a derivation with simulation of estimator bias and interval coverage.",
+      "url": "https://www.cambridge.org/core/books/asymptotic-statistics/A3C7DAD3F7E66A1FA60E9C8FE132EE1D",
+      "link_label": "Explore the graduate textbook ↗",
+      "access": "Publisher access · Requires substantial probability and mathematical statistics preparation."
+    },
+    {
+      "category": "VISUALIZATION & COMPUTATION · REPRODUCIBILITY",
+      "title": "R for Data Science + Quarto",
+      "author": "Wickham, Çetinkaya-Rundel & Grolemund · Open text and publishing tools",
+      "description": "Build reliable data import, cleaning, visualization, and reporting habits. Practice one biomedical analysis in a Quarto document with a data dictionary, documented exclusions, seeds, package versions, diagnostic plots, and a clear interpretation.",
+      "url": "https://r4ds.hadley.nz/",
+      "link_label": "Read the free R textbook ↗",
+      "access": "Free online · Companion documentation: quarto.org/docs/get-started/."
+    }
+  ]
 }

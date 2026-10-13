@@ -3,3 +3,22 @@
 .past{margin-top:35px}.past .project h3{font-size:26px}.philosophy{border-top:1px solid #cdd6c9;padding-top:30px;margin-top:30px;max-width:850px}.philosophy h3{font-size:30px}.philosophy p{font-size:14px}.affiliation{border-top:1px solid var(--line);padding-top:30px}.affiliation h3{font-size:24px;margin-bottom:5px}.affiliation p{font-size:13px}.profilelinks{display:flex;gap:25px;font-size:13px}
 
 div[data-cms-list]{display:contents}.manage-link{display:inline-block;font:11px Arial,sans-serif;opacity:.7} .date{white-space:pre-line}#lessonContent p{white-space:pre-line}
+
+/* Academic reading shelf: compact, accessible, and reusable. */
+.reading-shelf{border-top:1px solid #cdd6c9;margin-top:38px;padding-top:32px}
+.reading-shelf>p{max-width:850px;font-size:14px}
+.reading-shelf h3{font-size:30px}
+.reading-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.reading-card{background:var(--paper);border:1px solid #cdd6c9;border-radius:8px;padding:24px;min-width:0}
+.reading-card h4{font-family:Georgia,serif;font-weight:normal;font-size:23px;line-height:1.35;margin:14px 0 8px}
+.reading-card p,.reading-card a{font-size:14px}
+.reading-card .reading-author{font-size:12px;color:#53655c}
+.reading-card small{display:block;font-size:12px;margin-top:12px;color:#53655c}
+.development-note{border-left:3px solid var(--green);padding-left:18px;margin-top:28px}
+.teaching-jump{font-size:14px;margin:25px 0}
+figure{margin:20px 0}figure svg{max-width:100%;height:auto}figcaption{font-size:12px}
+.actions,.profilelinks{flex-wrap:wrap}
+@media(max-width:650px){.reading-grid{grid-template-columns:1fr}.reading-card{padding:20px}}
+@media print{header nav,.heroart,.manage-link,.teaching-jump{display:none}section{padding:25px 0}.reading-card{break-inside:avoid}body{background:white;color:#111}}
+
+.practice-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:25px 0}.practice-map article{border-left:3px solid var(--green);padding:0 15px}.practice-map h4{font:normal 22px Georgia,serif;margin:0 0 10px}.practice-map p{font-size:14px}@media(max-width:650px){.practice-map{grid-template-columns:1fr}}

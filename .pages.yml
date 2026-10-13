@@ -95,6 +95,12 @@ content:
   - name: text_12
     label: 'Text: B.S. Statistics'
     type: text
+  - name: text_13
+    label: BAU institution
+    type: text
+  - name: text_14
+    label: BAU degree and achievement
+    type: text
 - name: academic_research
   label: Academic · Research
   type: file
@@ -221,6 +227,82 @@ content:
   - name: text_10
     label: 'Text: I aim to create a supportive, inclusive environment where student'
     type: text
+  - name: text_11
+    label: 'Assessment philosophy'
+    type: text
+  - name: text_12
+    label: 'Responsible analysis'
+    type: text
+  - name: text_13
+    label: 'Reflective practice'
+    type: text
+  - name: text_14
+    label: 'Reading shelf heading'
+    type: text
+  - name: text_15
+    label: 'Reading shelf introduction'
+    type: text
+  - name: text_16
+    label: 'Development cycle'
+    type: text
+  - name: text_17
+    label: 'Biomedical heading'
+    type: text
+  - name: text_18
+    label: 'Biomedical introduction'
+    type: text
+  - name: resources
+    label: 'Statistics teaching readings'
+    type: object
+    list: true
+    fields:
+    - name: category
+      label: 'category'
+      type: string
+    - name: title
+      label: 'title'
+      type: string
+    - name: author
+      label: 'author'
+      type: string
+    - name: description
+      label: 'description'
+      type: text
+    - name: url
+      label: 'url'
+      type: string
+    - name: link_label
+      label: 'link label'
+      type: string
+    - name: access
+      label: 'access'
+      type: string
+  - name: biomedical
+    label: 'Biomedical methods resources'
+    type: object
+    list: true
+    fields:
+    - name: category
+      label: 'category'
+      type: string
+    - name: title
+      label: 'title'
+      type: string
+    - name: author
+      label: 'author'
+      type: string
+    - name: description
+      label: 'description'
+      type: text
+    - name: url
+      label: 'url'
+      type: string
+    - name: link_label
+      label: 'link label'
+      type: string
+    - name: access
+      label: 'access'
+      type: string
 - name: academic_presentations
   label: Academic · Seminars & presentations
   type: file
