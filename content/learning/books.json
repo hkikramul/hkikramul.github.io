@@ -132,6 +132,13 @@
       "description": "গবেষণার রেফারেন্স, PDF ও পড়ার নোট গুছিয়ে রাখা এবং লেখায় citation ও bibliography যোগ করার বিনামূল্যের ওপেন সোর্স সফটওয়্যার। থিসিস ও গবেষণাপত্রের কাজে উপযোগী। অতিরিক্ত অনলাইন ফাইল স্টোরেজ কিনতে হতে পারে।",
       "url": "https://www.zotero.org/",
       "label": "সফটওয়্যার · রেফারেন্স ব্যবস্থাপনা"
+    },
+    {
+      "title": "TheoPhysEval: Assessing AI agents at autonomous theoretical physics problem solving",
+      "category": "Research tools",
+      "description": "A. Ramesh Chandra ও সহলেখকেরা তাত্ত্বিক পদার্থবিজ্ঞানের ৫০টি গবেষণাস্তরের সমস্যা দিয়ে AI agent কতটা স্বয়ংক্রিয়ভাবে সমাধান করতে পারে তা পরীক্ষা করেছেন। এই ফল নির্দিষ্ট সমস্যার সেটে AI-এর কাজের ক্ষমতা দেখায়।",
+      "url": "https://arxiv.org/pdf/2610.16733",
+      "label": "গবেষণাপত্র · arXiv"
     }
   ]
 }
