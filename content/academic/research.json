@@ -16,7 +16,7 @@
       "tags": "Epidemic models, Simulation, Statistical inference",
       "url": "/#research-roadmap",
       "link_label": "Research milestones and presentation targets →",
-      "note": "Chair: Prof. Rohan Dalpatadu\nCo-advisor: Dr. Miguel Fudolig\nCurrent priority: define one thesis question and a baseline simulation with advisor input. Target: College of Sciences research presentation when ready."
+      "note": "Chair: Prof. Rohan Dalpatadu\nCo-advisor: Dr. Miguel Fudolig\nCurrent priority: define one thesis question and a baseline simulation with advisor input. Target: JSM 2027 as an alternative to the BDHS contraception project, subject to readiness."
     },
     {
       "status": "RESEARCH PROPOSAL · IN DEVELOPMENT",
@@ -25,7 +25,7 @@
       "tags": "Regression, AI evaluation, Simulation, Reproducibility",
       "url": "/#research-roadmap",
       "link_label": "Research milestones and presentation targets →",
-      "note": "Target audiences: statistical data science and JSM. Detailed unpublished protocols and literature notes are not released here. No benchmark results or conference acceptance are claimed."
+      "note": "Planned target: SIAM Conference on Mathematics of Data Science, future edition/call to be confirmed. MDS26 submissions are closed. Detailed unpublished protocols remain private; no benchmark results or acceptance are claimed."
     },
     {
       "status": "EXPLORATORY ANALYSIS · DRAFT UNDER REVIEW",
@@ -34,7 +34,7 @@
       "tags": "Complex surveys, Reproductive health, Model validation",
       "url": "/#research-roadmap",
       "link_label": "Research milestones and presentation targets →",
-      "note": "Draft analysis and numerical cross-checks completed; independent human review and author declarations remain outstanding. Separate from the adolescent-childbearing preprint. No causal intervention effects or clinical prediction tool are claimed."
+      "note": "Planned: BDHS contraception poster at the 4th Annual Wine and Research Evening, November 12, 2026 (subject to acceptance); also a candidate topic for JSM 2027, alongside epidemic modeling. Separate from the adolescent-childbearing preprint. Independent review remains outstanding."
     }
   ],
   "projects_2": [
