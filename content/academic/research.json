@@ -14,9 +14,27 @@
       "title": "Statistical approaches\nto epidemic modeling",
       "description": "Developing a thesis direction around epidemic models, stochastic components, and the estimation of infection-rate behavior.\n\nAreas being explored include simulation, distributional assumptions, model comparison, and uncertainty assessment. The research question and analysis plan are being refined.",
       "tags": "Epidemic models, Simulation, Statistical inference",
-      "url": "",
-      "link_label": "",
-      "note": "Chair: Prof. Rohan Dalpatadu\nCo-advisor: Dr. Miguel Fudolig"
+      "url": "/#research-roadmap",
+      "link_label": "Research milestones and presentation targets →",
+      "note": "Chair: Prof. Rohan Dalpatadu\nCo-advisor: Dr. Miguel Fudolig\nCurrent priority: define one thesis question and a baseline simulation with advisor input. Target: College of Sciences research presentation when ready."
+    },
+    {
+      "status": "RESEARCH PROPOSAL · IN DEVELOPMENT",
+      "title": "Evaluating AI-generated regression analyses",
+      "description": "Developing a study of whether AI systems produce statistically defensible biomedical regression analyses. Current work focuses on reviewing existing evaluation tasks and designing a bounded simulation pilot. Novelty and feasibility remain under review.",
+      "tags": "Regression, AI evaluation, Simulation, Reproducibility",
+      "url": "/#research-roadmap",
+      "link_label": "Research milestones and presentation targets →",
+      "note": "Target audiences: statistical data science and JSM. Detailed unpublished protocols and literature notes are not released here. No benchmark results or conference acceptance are claimed."
+    },
+    {
+      "status": "EXPLORATORY ANALYSIS · DRAFT UNDER REVIEW",
+      "title": "Contraceptive continuity after method discontinuation",
+      "description": "A BDHS 2022 calendar-based study of switching, subsequent nonuse and recorded pregnancy after selected contraceptive discontinuations. The analysis combines complex-survey estimation, sensitivity to population definitions, and grouped model validation.",
+      "tags": "Complex surveys, Reproductive health, Model validation",
+      "url": "/#research-roadmap",
+      "link_label": "Research milestones and presentation targets →",
+      "note": "Draft analysis and numerical cross-checks completed; independent human review and author declarations remain outstanding. Separate from the adolescent-childbearing preprint. No causal intervention effects or clinical prediction tool are claimed."
     }
   ],
   "projects_2": [
@@ -41,7 +59,7 @@
   ],
   "text_1": "02 / RESEARCH",
   "text_2": "Methods grounded\nin meaningful questions.",
-  "text_3": "Current work and developing interests.",
+  "text_3": "Three active research directions: statistical evaluation, epidemic modeling, and reproductive-health survey analysis.",
   "text_4": "EARLIER PROJECTS",
   "text_5": "Research interests",
   "text_6": "Causal inference · Survival analysis · Bayesian methods · High-dimensional statistics · Hidden Markov and mixture models · Biomedical applications"
