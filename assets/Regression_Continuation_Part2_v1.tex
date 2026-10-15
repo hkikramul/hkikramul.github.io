@@ -1,0 +1,422 @@
+\documentclass[11pt]{article}
+\usepackage[margin=.85in]{geometry}
+\usepackage{needspace}
+\usepackage{amsmath,amssymb,booktabs,array,tabularx,xcolor,hyperref,fancyhdr}
+\definecolor{navy}{HTML}{17365D}
+\hypersetup{colorlinks=true,linkcolor=navy,urlcolor=navy,pdftitle={Regression Notes Part II: Likelihood and Research Inference}}
+\pagestyle{fancy}\fancyhf{}\lhead{Regression Notes: Part II}\rhead{Class Foundations and Research}\cfoot{\thepage}
+\setlength{\headheight}{14pt}\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\newcommand{\be}{\boldsymbol\beta}\newcommand{\eps}{\boldsymbol\varepsilon}\newcommand{\one}{\mathbf1}\newcommand{\R}{\mathbb R}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Regression Notes: Part II}\\[5pt]
+{\large Gaussian Likelihood, Matrix Intuition, and Research Inference}\\[5pt]
+Continuation of Chapter 5 Notes, Version 1.0\\
+Version 1.0 $\mid$ October 15, 2026
+\end{center}
+\textbf{How to use this continuation.} Read this after the previous 10-page Chapter 5 note. It consolidates the subsequent discussion: error covariance, maximum likelihood, norms, singularity, orthogonality, the inference pipeline, and a modeling overview. The lettered sections are supplementary notes, not claims about the lecturer's remaining chapter numbering. No unseen lecture sections are represented as covered. Class foundations come first; later sections introduce advanced research connections.
+
+\textbf{Notation throughout.} There are $n$ observations and $p=m+1$ coefficient columns, including an intercept. Condition on a fixed design matrix $X\in\R^{n\times p}$. The response is $Y\in\R^n$, its observed value is $y$, and $\be\in\R^p$. Unless stated otherwise, $X$ has full column rank and $n>p$.
+
+\renewcommand{\thesection}{\Alph{section}}
+\setcounter{tocdepth}{1}
+\tableofcontents
+\clearpage
+\Needspace{7\baselineskip}
+\section{Class foundations: errors, covariance, and vector length}
+\Needspace{5\baselineskip}
+\subsection{Why is the error covariance an $n\times n$ matrix?}
+There is one model error per observation:
+\[
+Y=X\be+\eps,\qquad \eps=(\varepsilon_1,\ldots,\varepsilon_n)^T.
+\]
+The expectation is a vector, whereas the variance of a vector is a covariance matrix:
+\[
+E(\eps\mid X)=\mathbf0_n,\qquad
+\operatorname{Var}(\eps\mid X)
+=E\big[(\eps-E\eps)(\eps-E\eps)^T\mid X\big].
+\]
+The product of an $n\times1$ vector and a $1\times n$ vector is $n\times n$. Entry $(i,j)$ is $\operatorname{Cov}(\varepsilon_i,\varepsilon_j\mid X)$.
+Under equal error variances and zero cross-observation covariances,
+\[
+\operatorname{Var}(\eps\mid X)=
+\begin{pmatrix}\sigma^2&0&\cdots&0\\0&\sigma^2&\cdots&0\\\vdots&\vdots&\ddots&\vdots\\0&0&\cdots&\sigma^2\end{pmatrix}
+=\boxed{\sigma^2I_n}.
+\]
+\textbf{Read the matrix:} diagonal entries are individual variances; off-diagonal entries are covariances. $E(\eps)=\sigma^2I_n$ would be dimensionally incorrect. Uncorrelated errors need not be independent; jointly normal uncorrelated errors are independent.
+
+If the error mean is zero,
+\[
+E(\eps\eps^T\mid X)=\sigma^2I_n,
+\qquad E(\eps^T\eps\mid X)=\operatorname{tr}(\sigma^2I_n)=n\sigma^2.
+\]
+The first quantity is a matrix; the second is a scalar.
+
+\Needspace{5\baselineskip}
+\subsection{Errors are not fitted residuals}
+The errors $\eps=Y-X\be$ use the true unknown coefficients. The fitted residuals are
+\[
+e=Y-X\widehat\be=(I_n-H)Y=(I_n-H)\eps,
+\quad H=X(X^TX)^{-1}X^T.
+\]
+Because $I_n-H$ is symmetric and idempotent,
+\[
+\boxed{\operatorname{Var}(e\mid X)=\sigma^2(I_n-H).}
+\]
+Therefore $\operatorname{Var}(e_i\mid X)=\sigma^2(1-h_{ii})$ and, for $i\ne j$, $\operatorname{Cov}(e_i,e_j\mid X)=-\sigma^2h_{ij}$. Even independent model errors do not generally yield independent fitted residuals.
+
+\Needspace{5\baselineskip}
+\subsection{Double bars: the Euclidean norm}
+For $v=(v_1,\ldots,v_n)^T$,
+\[
+\|v\|_2=\sqrt{\sum_i v_i^2},\qquad \|v\|_2^2=v^Tv.
+\]
+For example, $\|(3,4)^T\|_2=5$. In regression,
+\[
+\boxed{\|y-X\be\|_2^2=\sum_i(y_i-r_i^T\be)^2,}
+\]
+where $r_i^T$ is row $i$ of $X$. Thus least squares minimizes a squared distance, not a sum of absolute values. Single bars $|a|$ usually denote scalar absolute value; $\det(A)$ is an unambiguous way to write a determinant.
+
+\Needspace{7\baselineskip}
+\section{Class foundations: Gaussian maximum likelihood}
+\Needspace{5\baselineskip}
+\subsection{From a probability model to a likelihood}
+Assume
+\[
+\eps\mid X\sim N_n(\mathbf0,\sigma^2I_n),
+\quad\text{so}\quad Y\mid X\sim N_n(X\be,\sigma^2I_n).
+\]
+Uppercase $Y$ is random. Lowercase $y$ is the observed vector. A likelihood fixes $y$ and varies the unknown parameters; it is not a probability distribution over those parameters.
+Independence gives a product of normal densities:
+\[
+L(\be,\sigma^2;y)
+=\prod_{i=1}^n\frac{1}{\sqrt{2\pi\sigma^2}}
+\exp\left[-\frac{(y_i-r_i^T\be)^2}{2\sigma^2}\right].
+\]
+Combining terms,
+\[
+\boxed{L(\be,\sigma^2;y)=(2\pi\sigma^2)^{-n/2}
+\exp\left[-\frac{\|y-X\be\|^2}{2\sigma^2}\right].}
+\]
+\Needspace{5\baselineskip}
+\subsection{Derive the coefficient estimator}
+Let $t=\sigma^2>0$ and $S(\be)=\|y-X\be\|^2$. The log-likelihood is
+\[
+\ell(\be,t)=-\frac n2\log(2\pi)-\frac n2\log t-\frac{S(\be)}{2t}.
+\]
+For each fixed $t$, maximizing $\ell$ over $\be$ is equivalent to minimizing $S$.
+The score and Hessian with respect to coefficients are
+\[
+U_{\be}=\frac{1}{t}X^T(y-X\be),\qquad
+\nabla^2_{\be}\ell=-\frac{X^TX}{t}.
+\]
+Set the score equal to zero:
+\[
+X^TX\widehat\be=X^Ty
+\quad\Longrightarrow\quad
+\boxed{\widehat\be_{MLE}=(X^TX)^{-1}X^Ty=\widehat\be_{OLS}.}
+\]
+For $v\ne0$, $v^T\nabla^2_{\be}\ell\,v=-\|Xv\|^2/t<0$ under full column rank. Hence the log-likelihood is strictly concave in $\be$ for fixed $t$.
+
+\Needspace{5\baselineskip}
+\subsection{Derive the variance estimator}
+Differentiate with respect to the variance $t$, not the standard deviation:
+\[
+\frac{\partial\ell}{\partial t}=-\frac{n}{2t}+\frac{S(\be)}{2t^2}.
+\]
+After setting $\be=\widehat\be$, define $SSE=S(\widehat\be)$. Solving the score equation gives
+\[
+-nt+SSE=0\quad\Longrightarrow\quad
+\boxed{\widehat{\sigma}^2_{MLE}=\frac{SSE}{n}.}
+\]
+If $SSE>0$, the profile log-likelihood has derivative $(SSE-nt)/(2t^2)$: it increases up to $SSE/n$ and decreases afterward. This establishes the global maximum.
+
+\Needspace{5\baselineskip}
+\subsection{Full Hessian and the existence of the maximum}
+Write $r=y-X\be$. For the joint parameter $(\be,t)$,
+\[
+\nabla^2\ell=
+\begin{pmatrix}
+-X^TX/t & -X^Tr/t^2\\
+-r^TX/t^2 & n/(2t^2)-r^Tr/t^3
+\end{pmatrix}.
+\]
+At the MLE, $X^T\widehat r=0$ and $\widehat r^T\widehat r=n\widehat t$, so
+\[
+\left.\nabla^2\ell\right|_{MLE}=
+\begin{pmatrix}-X^TX/\widehat t&0\\0&-n/(2\widehat t^2)\end{pmatrix}.
+\]
+It is negative definite when $X$ has full column rank and $\widehat t>0$. The log-likelihood need not be jointly concave everywhere in this parameterization; the profile argument establishes the global result.
+
+\textbf{Boundary case.} If $SSE=0$, the likelihood increases without bound as $t\downarrow0$; no finite maximizer exists in the parameter space $t>0$. Under full rank, $n>p$, and true positive Gaussian variance, $SSE>0$ with probability one. If $X$ is rank deficient, minimizing coefficients are nonunique even when a positive variance MLE exists.
+
+\Needspace{5\baselineskip}
+\subsection{MLE versus unbiased variance estimation}
+Under the classical assumptions,
+\[
+E(SSE\mid X)=(n-p)\sigma^2.
+\]
+Hence
+\[
+E(\widehat\sigma^2_{MLE}\mid X)=\frac{n-p}{n}\sigma^2,
+\qquad \operatorname{Bias}(\widehat\sigma^2_{MLE}\mid X)=-\frac pn\sigma^2.
+\]
+The unbiased estimator is $s^2=SSE/(n-p)$, not $SSE/n$.
+\begin{center}\begin{tabular}{lll}\toprule
+Quantity&Estimator&Main point\\\midrule
+Coefficients&$(X^TX)^{-1}X^Ty$&Gaussian MLE equals OLS\\
+Variance MLE&$SSE/n$&Downward biased\\
+Unbiased variance&$SSE/(n-p)$&Used in classical $t$ and $F$ tests\\\bottomrule
+\end{tabular}\end{center}
+
+\Needspace{5\baselineskip}
+\subsection{Worked example continuing the earlier note}
+For
+\[
+X=\begin{pmatrix}1&0\\1&1\\1&2\end{pmatrix},\quad y=\begin{pmatrix}1\\2\\2\end{pmatrix},
+\]
+the previous calculation gave $\widehat\be=(7/6,1/2)^T$ and
+\[
+\widehat r=(-1/6,1/3,-1/6)^T,\qquad SSE=\frac1{36}+\frac19+\frac1{36}=\frac16.
+\]
+Here $n=3$ and $p=2$, so
+\[
+\widehat\sigma^2_{MLE}=\frac1{18},\qquad s^2=\frac16.
+\]
+Both methods give the same fitted line, but different error-variance estimates. The difference can be substantial with very few residual degrees of freedom.
+
+\Needspace{7\baselineskip}
+\section{Class foundations: a unified matrix interpretation}
+\Needspace{5\baselineskip}
+\subsection{Four terms that should not be confused}
+\par\smallskip
+\begin{tabularx}{\linewidth}{p{.18\linewidth}LL}\toprule
+Term&Mathematical meaning&Regression role\\\midrule
+Nonsingular&Square matrix has an inverse&$X^TX$ invertible means unique OLS coefficients.\\
+Singular&Square matrix has no inverse&$X^TX$ singular indicates redundant coefficient directions.\\
+Orthogonal vectors&$a^Tb=0$&OLS residuals are perpendicular to design columns.\\
+Projection&Map onto a subspace&$\widehat y$ is the closest allowed fit to $y$.\\\bottomrule
+\end{tabularx}
+\par\smallskip
+
+For $X\in\R^{n\times p}$, the following are equivalent:
+\[
+\boxed{\operatorname{rank}(X)=p
+\iff X^TX\text{ positive definite}
+\iff X^TX\text{ nonsingular}.}
+\]
+Proof of the central link: $v^TX^TXv=\|Xv\|^2$, which is positive for every nonzero $v$ exactly when $X$ has no nonzero null vector.
+
+\textbf{Example of nonsingularity without orthogonality.}
+For the worked example, $X^TX=\begin{pmatrix}3&3\\3&5\end{pmatrix}$ has determinant 6. Its off-diagonal entry is 3, so the columns are not orthogonal. Independent columns need not be perpendicular.
+
+\Needspace{5\baselineskip}
+\subsection{Estimation is projection; rank controls representation}
+\[
+\widehat y=Hy,\qquad H=X(X^TX)^{-1}X^T,
+\quad H^T=H,\quad H^2=H.
+\]
+The normal equations give $X^T(y-\widehat y)=0$. Thus the shortest residual is perpendicular to the entire model space. Rank deficiency does not destroy the unique closest fitted vector; it destroys the uniqueness of its coefficient representation. With a pseudoinverse, $\widehat y=XX^+y$.
+
+\textbf{An important distinction.} An orthogonal \emph{matrix} $Q$ is a square matrix satisfying $Q^TQ=I$. An orthogonal \emph{projection matrix} $H$ is symmetric and idempotent. A nontrivial projection is generally singular and is not an orthogonal matrix. With $n>p$, $H$ has rank $p<n$ and is singular even when $X^TX$ is nonsingular. These are different matrices serving different purposes.
+
+\Needspace{5\baselineskip}
+\subsection{Orthogonalization versus dimension reduction}
+A thin QR decomposition $X=QR$ has $Q\in\R^{n\times p}$, $Q^TQ=I_p$, and invertible upper-triangular $R$. It changes coordinates without changing the column space:
+\[
+R\widehat\be=Q^Ty,\qquad \widehat y=QQ^Ty.
+\]
+Do not explicitly invert $X^TX$ in routine numerical work; QR or SVD is more stable.
+Dimension reduction, in contrast, retains fewer directions and changes the model space. PCA preserves large predictor variation, not necessarily information most relevant to the response. Making $X^TX$ singular is not a modeling objective.
+
+\Needspace{7\baselineskip}
+\section{From estimation to statistical inference}
+\Needspace{5\baselineskip}
+\subsection{Define what is being learned}
+An \textbf{estimand} is a population target, such as a mean difference or coefficient. An \textbf{estimator} is a rule depending on random data; an \textbf{estimate} is its observed numerical value.
+For example, in
+\[
+E(Y_i\mid A_i,W_i)=\beta_0+\beta_1A_i+\beta_2W_i,
+\]
+$\beta_1$ is a modeled age association at a fixed weight. It is not automatically the effect of intervening on age.
+
+\Needspace{5\baselineskip}
+\subsection{Sampling uncertainty and coefficient intervals}
+Let $A=(X^TX)^{-1}X^T$. Then $\widehat\be=\be+A\eps$. Consequently,
+\[
+E(\widehat\be\mid X)=\be,\qquad
+\operatorname{Var}(\widehat\be\mid X)=A(\sigma^2I)A^T=\sigma^2(X^TX)^{-1}.
+\]
+Under normal errors,
+\[
+\widehat\be\mid X\sim N_p\big(\be,\sigma^2(X^TX)^{-1}\big),\qquad
+\frac{SSE}{\sigma^2}\sim\chi^2_{n-p},
+\]
+and the two statistics are independent. Therefore
+\[
+\frac{\widehat\beta_j-\beta_j}{s\sqrt{[(X^TX)^{-1}]_{jj}}}\sim t_{n-p}.
+\]
+A $100(1-\alpha)\%$ confidence interval is
+\[
+\boxed{\widehat\beta_j\pm t_{1-\alpha/2,n-p}\,s\sqrt{[(X^TX)^{-1}]_{jj}}.}
+\]
+The procedure covers the fixed true coefficient in $1-\alpha$ of repeated samples under its assumptions. A realized frequentist interval does not assign a posterior probability to the coefficient.
+
+\Needspace{5\baselineskip}
+\subsection{Hypothesis tests and general contrasts}
+For $H_0:\beta_j=\beta_{j,0}$, substitute the null value into the $t$ statistic. A $p$-value is the null probability of a statistic at least as extreme as observed, not the probability that the null hypothesis is true.
+A general hypothesis uses a full-row-rank $q\times p$ matrix $C$:
+\[
+H_0:C\be=d,\qquad
+F=\frac{(C\widehat\be-d)^T[C(X^TX)^{-1}C^T]^{-1}(C\widehat\be-d)}{q s^2}
+\sim F_{q,n-p}.
+\]
+This includes the overall slope test and comparisons among factor levels. The exact reference distribution requires the Gaussian classical model; robust alternatives use different calibration.
+
+\Needspace{5\baselineskip}
+\subsection{Mean estimation is different from individual prediction}
+For a new covariate vector $x_0\in\R^p$, $\widehat\mu_0=x_0^T\widehat\be$ has estimated standard error $s\sqrt{x_0^T(X^TX)^{-1}x_0}$. For a new independent observation from the same model, the prediction standard error is
+\[
+s\sqrt{1+x_0^T(X^TX)^{-1}x_0}.
+\]
+The extra 1 accounts for the new observation's own error, making a prediction interval wider than a confidence interval for the conditional mean.
+
+\Needspace{7\baselineskip}
+\section{Research extensions: a coherent modeling strategy}
+\Needspace{5\baselineskip}
+\subsection{One workflow, several scientific purposes}
+\begin{enumerate}
+\item \textbf{Question and target:} description, inference, prediction, or a causal estimand.
+\item \textbf{Design and audit:} sampling, measurement, timing, missingness, dependence, and target population.
+\item \textbf{Model and identification:} specify outcome distribution, mean/link, covariates, functional forms, and assumptions that connect the data to the target.
+\item \textbf{Estimation:} use least squares, likelihood, estimating equations, or Bayesian updating; check numerical stability and complexity.
+\item \textbf{Assessment:} diagnostics, suitable validation, and sensitivity analyses; account for data-driven changes.
+\item \textbf{Inference and communication:} effect sizes, uncertainty, practical relevance, assumptions, and limitations.
+\end{enumerate}
+Optimization produces an estimate; probability and study design support uncertainty and interpretation. Not every model uses projection geometry, and not every research objective requires significance testing.
+
+\Needspace{5\baselineskip}
+\subsection{Regression, ANOVA, and ANCOVA are connected}
+For a continuous response under a linear mean model:
+\par\smallskip
+\begin{tabularx}{\linewidth}{p{.30\linewidth}LL}\toprule
+Explanatory variables&Common name&Example mean\\\midrule
+Numerical only&Linear regression&$\beta_0+\beta_1\mathrm{Age}+\beta_2\mathrm{Weight}$\\
+Categorical factors only&ANOVA&$\beta_0+\beta_1T+\beta_2S$\\
+Numerical and categorical&ANCOVA&$\beta_0+\beta_1T+\beta_2\mathrm{Age}$\\\bottomrule
+\end{tabularx}
+\par\smallskip
+All use $X\be$. With two categorical factors and no product term, the example is additive two-way ANOVA. Adding interactions changes which contrasts are constant across covariate values. The traditional common-slope ANCOVA assumes no factor-by-covariate interaction; if this is inappropriate, explicitly model and interpret the interaction.
+
+\Needspace{5\baselineskip}
+\subsection{Match the outcome to a model family}
+\par\smallskip
+\begin{tabularx}{\linewidth}{p{.24\linewidth}LL}\toprule
+Outcome&Common model families&Example\\\midrule
+Continuous&Linear, Gaussian, or other suitable continuous-response models&Blood pressure\\
+Binary&Logistic or probit&Disease status\\
+Counts&Poisson; negative binomial for appropriate overdispersion&Hospital visits\\
+Unordered categories&Multinomial logistic&Treatment category\\
+Ordered categories&Ordinal models, with assumptions checked&Symptom severity\\
+Censored event time&Cox, accelerated failure time, parametric survival&Time to relapse\\
+Proportions&Binomial for successes/trials; beta for continuous values in $(0,1)$&Response fraction\\\bottomrule
+\end{tabularx}
+\par\smallskip
+A generalized linear model combines a conditional distribution with a link $g(\mu_i)=r_i^T\be$. For logistic regression, $g(\mu)=\log[\mu/(1-\mu)]$. ``General linear model'' and ``generalized linear model'' are not interchangeable terms.
+
+\Needspace{5\baselineskip}
+\subsection{Adapt the model to dependence and complexity}
+\par\smallskip
+\begin{tabularx}{\linewidth}{p{.34\linewidth}L}\toprule
+Data feature&Possible approach and interpretation\\\midrule
+Repeated or clustered observations&Mixed-effects models for conditional/hierarchical structure; GEE for marginal mean parameters. Their coefficients need not have the same interpretation.\\
+Temporal or spatial dependence&Time-series, spatial, or hierarchical models appropriate to the dependence structure.\\
+Complex survey sampling&Design-based methods reflecting weights, strata, and clusters.\\
+Curvature&Splines, GAMs, transformations, or a scientifically specified nonlinear model.\\
+Many correlated predictors&Ridge or elastic net; dimension reduction when scientifically justified.\\
+Sparse predictive representation&LASSO or related selection methods; selection does not automatically yield valid ordinary confidence intervals.\\
+Complex prediction&Forests, boosting, or neural networks, evaluated against a transparent baseline.\\
+Several related outcomes&Multivariate regression or joint outcome models.\\
+Unobserved groups or states&Mixture, latent-class, or hidden Markov models with identifiable structure.\\\bottomrule
+\end{tabularx}
+\par\smallskip
+Bayesian modeling is an estimation and uncertainty framework usable across these families: posterior $\propto$ likelihood $\times$ prior. It does not remove the need for design assumptions, identifiability assessment, or model checks.
+
+\Needspace{5\baselineskip}
+\subsection{What if the classical covariance is wrong?}
+Let $\operatorname{Var}(\eps\mid X)=\Omega$ instead of $\sigma^2I$. If the conditional mean is correct and full rank holds, OLS remains unbiased, but its covariance is
+\[
+\boxed{(X^TX)^{-1}X^T\Omega X(X^TX)^{-1}.}
+\]
+Heteroskedasticity-robust covariance estimators approximate this under suitable conditions. Cluster-robust methods address appropriate within-cluster dependence, with enough independent clusters and suitable small-sample treatment. They do not fix confounding or a wrong mean model.
+If a positive-definite $\Omega$ is known, generalized least squares gives
+\[
+\widehat\be_{GLS}=(X^T\Omega^{-1}X)^{-1}X^T\Omega^{-1}y.
+\]
+Whitening transforms $y$ and $X$ using $\Omega^{-1/2}$, turning the problem into ordinary least squares in transformed coordinates. Feasible GLS estimates the covariance structure and requires additional justification.
+
+\Needspace{5\baselineskip}
+\subsection{Research safeguards with practical consequences}
+\begin{itemize}
+\item \textbf{Prediction:} split or resample at the independent unit (patient, clinic, or time block). Fit imputation, scaling, PCA, and selection inside training folds. Use nested validation when tuning and evaluating on the same dataset would be optimistic.
+\item \textbf{Inference:} prespecify primary targets when possible; distinguish exploratory results. Consider multiplicity and selection uncertainty rather than presenting a searched-for model as fixed in advance.
+\item \textbf{Causality:} use design and substantive assumptions to justify adjustment. Do not select confounders solely by significance, LASSO, or VIF. Avoid controlling automatically for mediators and colliders.
+\end{itemize}
+
+\Needspace{7\baselineskip}
+\section{Advanced bridge: information, geometry, and research practice}
+\Needspace{5\baselineskip}
+\subsection{Fisher information connects precision to the design}
+For Gaussian regression with $t=\sigma^2$, the expected negative Hessian is
+\[
+\mathcal I(\be,t)=
+\begin{pmatrix}X^TX/t&0\\0&n/(2t^2)\end{pmatrix}.
+\]
+The inverse coefficient-information block is $t(X^TX)^{-1}$, matching the exact covariance of OLS. If $X^TX=V\Lambda V^T$, then uncertainty in eigenvector direction $v_k$ is proportional to $\sigma^2/\lambda_k$. Small eigenvalues indicate weak information about certain coefficient combinations; zero eigenvalues imply nonidentifiability. This explains why near collinearity causes unstable coefficients.
+
+\Needspace{5\baselineskip}
+\subsection{Penalties add curvature, not new observations}
+Ridge minimizes
+\[
+\|y-X\be\|^2+\lambda\be^TD\be,
+\qquad D=\operatorname{diag}(0,1,\ldots,1),
+\]
+with Hessian $2(X^TX+\lambda D)$. With a nonempty intercept column and all slopes penalized, $\lambda>0$ makes the objective strictly convex. A penalty stabilizes weak directions by adding assumptions/preferences; it does not create empirical identification of the original redundant coefficients. The resulting ordinary OLS variance and $F$ formulas do not automatically apply.
+
+\Needspace{5\baselineskip}
+\subsection{Likelihood inference beyond linear regression}
+In regular, identifiable, fixed-dimensional models, a likelihood-ratio statistic
+\[
+2\{\ell(\widehat\theta)-\ell(\widehat\theta_0)\}
+\]
+often has an asymptotic $\chi_q^2$ null distribution for $q$ restrictions. Wald and score tests are related large-sample methods. Boundary parameters, mixtures, high-dimensional regimes, or data-driven selection can invalidate that calibration. For Gaussian linear regression, the classical $t$ and $F$ tests provide exact finite-sample results under their assumptions.
+
+\Needspace{5\baselineskip}
+\subsection{A reusable biomedical analysis note}
+Before fitting a model, record:
+\begin{enumerate}
+\item Population, independent sampling unit, time origin, and eligibility criteria.
+\item Outcome definition; target estimand; primary contrast and units.
+\item Scientific rationale for covariates, transformations, and interactions.
+\item Missing-data assumptions, survey/dependence structure, and analysis population.
+\item Estimation method, uncertainty method, diagnostics, and validation plan.
+\item Sensitivity analyses, software versions, seeds, and reproducible code.
+\end{enumerate}
+Report what the data support, not what significance alone appears to suggest. Causal identification, numerical stability, prediction accuracy, and uncertainty calibration are separate requirements.
+
+\Needspace{5\baselineskip}
+\subsection{Memory guide}
+\par\smallskip
+\begin{tabularx}{\linewidth}{p{.30\linewidth}L}\toprule
+Expression&Meaning\\\midrule
+$\|y-X\be\|^2$&Squared distance used by least squares\\
+$\operatorname{Var}(\eps)=\sigma^2I_n$&Equal, uncorrelated model-error variances\\
+$X^Te=0$&OLS sample orthogonality identity\\
+$\operatorname{rank}(X)=p$&Unique coefficient representation\\
+$\widehat\sigma^2_{MLE}=SSE/n$&Likelihood variance estimate\\
+$s^2=SSE/(n-p)$&Unbiased classical variance estimate\\
+$E(\eps\mid X)=0$&Population mean assumption, not a fitting identity\\\bottomrule
+\end{tabularx}
+\par\smallskip
+\end{document}
