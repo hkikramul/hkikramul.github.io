@@ -1,6 +1,33 @@
 {
   "events": [
     {
+      "date": "AUG 8–12\n2027",
+      "status": "PLANNED · TOPIC DECISION PENDING",
+      "title": "Joint Statistical Meetings (JSM) 2027",
+      "summary": "Planned submission: either the recent BDHS contraceptive-continuity study or epidemic modeling. Final topic selected after faculty review.",
+      "details": "Chicago · Official abstracts: December 1, 2026–February 1, 2027. Internal topic decision January 15; submission target January 25. Not submitted or accepted.",
+      "url": "/#research-roadmap",
+      "link_label": "Preparation schedule and literature →"
+    },
+    {
+      "date": "FUTURE\nEDITION TBD",
+      "status": "PLANNED · FUTURE SUBMISSION",
+      "title": "SIAM Conference on Mathematics of Data Science",
+      "summary": "Planned topic: evaluating the statistical defensibility of AI-generated biomedical regression analyses.",
+      "details": "Future edition, date and submission call to be confirmed. MDS26 abstracts closed May 18, 2026; October 19 is early registration only. No acceptance or attendance claimed.",
+      "url": "/#research-reading",
+      "link_label": "Relevant benchmark and methods papers →"
+    },
+    {
+      "date": "NOV 12\n2026",
+      "status": "PLANNED POSTER · ACCEPTANCE UNCONFIRMED",
+      "title": "4th Annual Wine and Research Evening",
+      "summary": "Planned topic: contraceptive continuity after method discontinuation in Bangladesh, using BDHS 2022.",
+      "details": "Supplied flyer: 5:30–8:00 p.m., SEB Auditorium and Lobby; posters 7:00–7:45 p.m. Poster deadline and eligibility require organizer confirmation.",
+      "url": "/#research-roadmap",
+      "link_label": "Poster preparation schedule →"
+    },
+    {
       "date": "NOV\n02–06\n2026",
       "status": "PLANNED · 3MT PREPARATION",
       "title": "Rebel Grad Slam · Adolescent Motherhood in Bangladesh",
@@ -60,7 +87,7 @@
   ],
   "text_1": "04 / PRESENTATIONS & ACADEMIC ENGAGEMENT",
   "text_2": "Sharing work.\nContinuing the conversation.",
-  "text_3": "Recent and upcoming activity · 2026",
+  "text_3": "Completed activity and explicitly labeled plans · 2026–2027",
   "text_4": "PROFESSIONAL AFFILIATION",
   "text_5": "American Statistical Association, Nevada Chapter",
   "text_6": "Student member"
