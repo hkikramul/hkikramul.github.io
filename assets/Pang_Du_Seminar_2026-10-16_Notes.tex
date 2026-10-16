@@ -1,0 +1,203 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,enumitem,xcolor,fancyhdr}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist{nosep,topsep=4pt}
+\pagestyle{fancy}\fancyhf{}\lhead{UNLV Statistics Seminar}\rhead{October 16, 2026}\cfoot{\thepage}
+\newcommand{\E}{\mathbb E}\newcommand{\Var}{\operatorname{Var}}\newcommand{\logit}{\operatorname{logit}}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Regression Modeling of Zero-Inflated\\[3pt] Longitudinal Functional Data}\\[10pt]
+{\large Seminar by Dr. Pang Du, Virginia Tech}\\
+UNLV Department of Mathematical Sciences, HOS 380\\
+October 16, 2026, 11:30 a.m.--12:30 p.m.\\[8pt]
+\textbf{Learning notes: Md. Ikramul Haq Khan}
+\end{center}
+\textbf{Provenance and scope.} Compiled from the attendee's live notes, the seminar announcement, and verified bibliographic sources. The announcement identifies joint work with Anbin Rhee and Wei Zhang. This is an attendee's reconstruction with AI-assisted explanations, not the speaker's slides, an official handout, or an independently reproduced analysis. Equations below are pedagogical formulations unless explicitly stated otherwise. Exact model parameterization, tuning criteria, numerical results, and ambiguous transcriptions require confirmation from the manuscript or slides. No original patient data were accessed.
+\tableofcontents
+\section{Scientific question and contribution}
+The application asks how serum albumin trajectories relate to total serum calcium trajectories during repeated ICU stays, while accommodating many recorded zero calcium values and dependence among stays from the same patient. Two questions are separated: whether a recorded response is positive and how large it is conditional on positivity.
+
+The speaker's stated methodological contribution combines (i) zero-inflated functional responses, (ii) a functional predictor, and (iii) longitudinal subject-level dependence. The claim that no previous method incorporates this exact combination is recorded as the speaker's framing, not an independently established exhaustive novelty claim. Earlier functional zero-inflated count models do exist; the response type and dependence structure must be distinguished when comparing contributions.
+\section{Prerequisites and notation}
+\begin{longtable}{p{0.17\linewidth}p{0.76\linewidth}}
+\toprule Symbol & Meaning in these notes\\\midrule
+$i=1,\ldots,n$ & Independent subjects (patients).\\
+$j=1,\ldots,n_i$ & Repeated ICU stays for subject $i$.\\
+$t\in[0,1]$ & Normalized time within the calcium response trajectory.\\
+$s\in[0,1]$ & Normalized time within the albumin predictor trajectory.\\
+$Y_{ij}(t)$ & Recorded calcium response; nonnegative.\\
+$X_{ij}(s)$ & Albumin predictor curve.\\
+$D_{ij}(t)$ & Indicator $\mathbf1\{Y_{ij}(t)>0\}$.\\
+$\alpha_k(t)$ & Intercept function for component $k$, provisionally matching the talk notation.\\
+$\delta_k(t,s)$ & Albumin coefficient surface for component $k$.\\\bottomrule
+\end{longtable}
+A functional observation is an entire curve, usually observed at finitely many points. Repeated functional observations add a second hierarchy: measurement points within a stay, stays within a subject. Fixed effects describe population relationships; random effects represent subject-specific deviations and induce dependence.
+
+A scalar-on-function regression has a scalar outcome and a curve predictor. A function-on-function regression has both a response curve and a predictor curve. The bivariate surfaces recorded here indicate the latter. A concurrent model uses $X(t)\beta(t)$; an integral model can use predictor values from many times $s$ for each response time $t$.
+\section{Zeros, detection limits, and the estimand}
+\subsection{Count versus semicontinuous responses}
+ZIP regression concerns integer counts. Its Poisson component can itself generate zeros. In a semicontinuous two-part model, a mass at zero is combined with a continuous distribution over positive values. The latter decomposition is the useful starting point for this seminar.
+
+\subsection{Recorded zero is not necessarily biological absence}
+If an underlying response $Y^*$ below a detection limit $L$ is coded as zero, a schematic observation mechanism is
+\[
+Y^{\rm obs}=\begin{cases}0,&Y^*<L,\\Y^*,&Y^*\geq L.\end{cases}
+\]
+Then the binary component concerns detection/above-threshold recording, not necessarily biological presence. A two-part model for recorded data does not automatically identify the distribution of latent subthreshold values. A censoring-aware likelihood would explicitly use $L$, for example through probabilities $P(Y^*<L)$; whether this seminar's implementation uses actual result-specific limits remains unconfirmed.
+
+\textbf{Q\&A reported by the attendee.} The speaker suggested considering the approach with roughly 20\% or more zeros, and explained that application thresholds are set by domain experts. Treat 20\% as an informal practical suggestion, not a universal validity condition or a necessary minimum. Suitability depends on the data-generating mechanism, target, sample structure, and model adequacy.
+\section{Two-part functional mixed model}
+Let $p_{ij}(t)$ be the conditional positivity probability. An illustrative integral formulation is
+\begin{align}
+\logit\{p_{ij}(t)\}&=\alpha_1(t)+\int_0^1\delta_1(t,s)X_{ij}(s)\,ds+Z_{1,ij}(t)^\top b_{1i},\\
+\log Y_{ij}(t)\mid D_{ij}(t)=1&=\alpha_2(t)+\int_0^1\delta_2(t,s)X_{ij}(s)\,ds+Z_{2,ij}(t)^\top b_{2i}+\varepsilon_{ij}(t).
+\end{align}
+Here $Z_{k,ij}$ denotes a generic random-effect design; it is not a verified transcription of the seminar's complete hierarchy. Typically $b_{ki}$ has mean zero and covariance $D_k$. Cross-part dependence concerns association between the latent quantities governing the two components.
+
+The coefficient $\delta_1(t,s)$ acts on log odds; $\delta_2(t,s)$ acts on log positive magnitude. Because each enters an integral, a coefficient's effect depends on predictor scaling, integration weights, and the whole predictor perturbation. It is not automatically a per-unit odds ratio for one isolated grid measurement.
+\subsection{Combining the components}
+For common conditioning information $\mathcal C$,
+\[
+\E\{Y(t)\mid\mathcal C\}=p(t\mid\mathcal C)\E\{Y(t)\mid Y(t)>0,\mathcal C\}.
+\]
+If the conditional log response is Gaussian with mean $\mu_+(t)$ and variance $v_+(t)$, its positive mean is $\exp\{\mu_+(t)+v_+(t)/2\}$, while its median is $\exp\{\mu_+(t)\}$. Marginal population quantities additionally integrate over random effects. Under dependent parts, do not multiply separately marginalized component means without checking the conditioning.
+\section{B-splines, penalties, and matrix intuition}
+A smooth intercept can be represented by $\alpha(t)=\sum_a\theta_a B_a(t)$; a surface can use a tensor-product basis,
+\[
+\delta(t,s)=\sum_{a,b}\gamma_{ab}B_a(t)C_b(s).
+\]
+Numerical quadrature converts the integral predictor into a design matrix. Roughness penalties discourage excessive curvature, for example
+\[
+\lambda\int\{\alpha''(t)\}^2dt=\lambda\theta^\top S\theta.
+\]
+For surfaces, separate penalties may control roughness along $t$ and $s$. Larger smoothing parameters impose stronger smoothness; they do not guarantee better fit to the scientific signal.
+
+For nonsingular Gaussian random-effect covariance $D_1$, the negative log density contributes $b^\top D_1^{-1}b/2$, along with a log-determinant term when estimating covariance parameters. The inverse is a precision matrix: lower-variance directions receive stronger shrinkage.
+
+\textbf{Moore--Penrose note.} The attendee recorded both $D_1^{-1}$ and a mention of the Moore--Penrose inverse. The exact matrix to which the generalized inverse was applied is unresolved. For singular positive-semidefinite $D$, the pseudoinverse $D^+$ acts on positive-eigenvalue directions. A degenerate Gaussian also restricts $b$ to the range of $D$; the quadratic form alone does not enforce that support. Do not assert singularity of $D_1$ from the live notes.
+\section{Estimation}
+\subsection{Part 1: discretized PQL and IRWLS}
+The seminar described discretization, penalized quasi-likelihood (PQL), and closed-form conditional updates within an iteratively reweighted least-squares (IRWLS/IRLS) algorithm. These are iterative estimation steps, not a single closed-form fit.
+
+For ordinary Bernoulli logistic regression, current $\eta$ and $p=(1+e^{-\eta})^{-1}$ define
+\[
+w=p(1-p),\qquad z=\eta+\frac{d-p}{p(1-p)}.
+\]
+A generic working mixed-model step minimizes
+\[
+(z-X\theta-Zb)^\top W(z-X\theta-Zb)+\theta^\top S_\lambda\theta+b^\top D^{-1}b.
+\]
+Conditional on weights and variance parameters, the normal equations have block form
+\[
+\begin{pmatrix}X^\top WX+S_\lambda&X^\top WZ\\Z^\top WX&Z^\top WZ+D^{-1}\end{pmatrix}
+\binom{\theta}{b}=\binom{X^\top Wz}{Z^\top Wz}.
+\]
+This is an explanatory template, not the speaker's exact update formula. Numerical solvers generally solve these equations without explicitly inverting the full matrix. PQL approximates generalized mixed-model estimation; approximation quality can depend on sample structure and rare outcomes. Bernoulli outcomes still have a full distribution: using PQL does not mean no response distribution exists.
+
+\subsection{Part 2: zero masking and REML-based EM}
+Positive locations are selected before logarithms are taken. If $A_i$ is a row-selection matrix, $y_{i,+}=A_i\log y_i$ is shorthand only after retaining positive entries; software must never calculate $\log0$ first. Selection also applies to design and covariance matrices.
+
+The seminar uses a REML-based EM algorithm. Conceptually the E-step computes conditional random-effect moments; the M-step updates parameters using these moments and the restricted-likelihood construction. For Gaussian working data,
+\[
+\E(bb^\top\mid y)=\Var(b\mid y)+\E(b\mid y)\E(b\mid y)^\top.
+\]
+REML accounts for estimation of fixed effects in variance estimation. The precise restricted-likelihood corrections and smoothing-parameter criterion were not captured; ordinary maximum-likelihood EM formulas should not be presented as the exact algorithm.
+\section{Uncertainty and validation}
+The speaker discussed sandwich covariance estimates, pointwise confidence intervals, and subject-level bootstrap. A typical pointwise interval is $\widehat\beta(t)\pm1.96\,\widehat{\rm SE}\{\widehat\beta(t)\}$; exact bootstrap construction was not recorded.
+
+A subject-level bootstrap resamples complete patients, preserving their nested visits and measurements. It reflects between-subject sampling when subjects are independent; it does not automatically repair informative observation times or an incorrect measurement model. Whether smoothing is reselected in each bootstrap replicate should be documented.
+
+Pointwise 95\% coverage is not simultaneous 95\% coverage for an entire curve or surface. A sandwich estimator is robust only under relevant regularity and clustering assumptions. Bias from smoothing and PQL can remain. Simulation validation should evaluate bias, RIMSE, coverage, convergence, computational cost, and sensitivity to dependence.
+\section{Simulation design and reported findings}
+\begin{longtable}{p{0.32\linewidth}p{0.61\linewidth}}
+\toprule Feature & Live notes\\\midrule
+Subjects & $n\in\{50,100,200\}$.\\
+Visits per subject & $n_i\in\{5,10\}$ (standardized notation here).\\
+Replicates & $M=200$.\\
+Tuning & Smoothing parameters preselected as medians over seven pilot datasets.\\
+Dependence & AR(1) random-effect/error structures mentioned; exact assignment and correlation parameters not captured.\\
+Cross-part structure & Working independence examined under cross-part dependence.\\
+Other design elements & Grids, fixed-effect curves, predictor generation, random effects, and errors varied/described; full formulas unavailable.\\\bottomrule
+\end{longtable}
+A common RIMSE definition for a curve is
+\[
+\left[\frac1M\sum_{m=1}^M\int\{\widehat\beta_m(t)-\beta(t)\}^2dt\right]^{1/2}.
+\]
+For a coefficient surface replace the integral by a double integral. The exact seminar definition, integration normalization, and order of square-rooting versus averaging remain unverified.
+
+\textbf{Reported qualitative findings:}
+\begin{itemize}
+\item Computation increases with problem size. RIMSE decreases with more subjects and more visits, with greater gains from subjects in the tested settings.
+\item Part 1 was most accurate in an approximately balanced scenario with 45\% zeros; Part 2 performed best in the reported 25\% zero scenario.
+\item Working independence remained stable in estimation accuracy under the cross-part dependence tested. Slightly larger $\delta_1$ errors occurred at the smallest $n$.
+\item Moderate AR(1) correlation mainly affected estimation of $\sigma^2$.
+\end{itemize}
+These are attendee-recorded conclusions, not reproduced results or general guarantees. The 45\% and 25\% figures describe performance scenarios, not different observed zero fractions for two components of one dataset. Fixed pilot tuning does not assess the full variability of tuning anew in each replicate. At $M=200$, an estimated 95\% coverage rate has approximate Monte Carlo SE $\sqrt{.95(.05)/200}=0.0154$.
+\section{Northwestern ICU application}
+The dataset source was reported as Moukheiber et al. (2024); the public NWICU record is listed below. The application-specific cohort details come from live notes, not independent database extraction.
+\begin{longtable}{p{0.34\linewidth}p{0.59\linewidth}}
+\toprule Item & Recorded detail\\\midrule
+Response / predictor & Total serum calcium / serum albumin.\\
+Patients & 135.\\
+Inclusion & At least 3 visits and at least 4 blood tests per visit, as transcribed.\\
+Visits per patient & 2--22, conflicting with the recorded inclusion minimum.\\
+Blood tests per stay & 4--122.\\
+Time & Each stay normalized; both curves linearly interpolated onto a common grid.\\
+Grid & Possibly $T=S=11$; notation needs confirmation. Implementation choice, not a model requirement.\\
+Zeros & About 24\%; calcium below result-specific laboratory lower limits, as described by the attendee.\\\bottomrule
+\end{longtable}
+Normalization aligns relative stay position, not elapsed days. It uses total stay duration, which may be unavailable at admission. Interpolation does not create independent information and can blur detection transitions. The exact order of threshold coding and interpolation should be checked.
+
+\subsection{Intercept patterns}
+Provisionally identifying the displayed curves as intercepts: $\widehat\alpha_1(t)$ was high at admission, fell sharply in the first quarter, and rose afterward. $\widehat\alpha_2(t)$ varied modestly around 2.20 on the log scale. Since $e^{2.20}\approx9.03$, this corresponds to a baseline positive-response median near 9.0 mg/dL under conditional Gaussian log errors, not automatically the population mean. The reference albumin curve and centering must be known before interpreting an intercept clinically.
+\subsection{Albumin coefficient surfaces}
+\textbf{Part 1:} $\widehat\delta_1(t,s)$ showed a clear gradient in predictor time $s$: early albumin had negative estimated association with above-threshold calcium, changing to positive association for late albumin. The pattern was nearly uniform across response time $t$.
+
+\textbf{Part 2:} $\widehat\delta_2(t,s)$ varied across both arguments. For $s=0$, the association became more negative early in response time and then recovered. For $s=1$, it increased across $t$ and became positive toward the end. Intermediate $s$ showed modest temporal variation. Bootstrap bands included zero over much of the domain; lack of exclusion is not proof of no association.
+
+These are conditional associations, not causal effects. A full predictor curve can use later albumin to explain earlier calcium, making this retrospective analysis rather than prospective forecasting. Confounding by disease severity, treatment, testing practices, and selection into repeated stays is not resolved merely by adding random effects.
+\section{Connection to infection curves and area under the curve}
+\textbf{Supplementary research reflection, not an adviser-approved thesis extension.} This approach models observed trajectories and differs from the mechanistic SIR transmission model. It may be useful if infection trajectories have meaningful recorded zeros and a relevant replicated functional design. It need not replace the thesis's distribution-fitting focus.
+
+For $A=\int_0^\tau Y(t)dt$, under integrability,
+\[
+\E(A\mid\mathcal C)=\int_0^\tau p(t\mid\mathcal C)m_+(t\mid\mathcal C)dt.
+\]
+For variance,
+\[
+\Var(A\mid\mathcal C)=\int_0^\tau\int_0^\tau\operatorname{Cov}\{Y(t),Y(u)\mid\mathcal C\}\,dt\,du.
+\]
+Pointwise intervals alone cannot supply this covariance. A suitable bootstrap could refit both components, combine predictions on the original scale, integrate each fitted mean curve, and use the resulting AUC distribution for parameter uncertainty. Prediction of a new realized AUC additionally requires process variability.
+
+If $u=t/\tau$ is normalized time, physical-time AUC is $\tau\int_0^1Y(\tau u)du$; omitting $\tau$ changes the estimand. For an SIR infectious compartment $I(t)$, AUC has units of infectious person-time and is not generally cumulative incident cases. With constant removal rate $\gamma$, no replenishment of infectives, and $dR/dt=\gamma I$, $\gamma\int I(t)dt=R(\tau)-R(0)$.
+
+\textbf{Minimal next milestone:} during the existing adviser discussion, establish whether the intended curves are deterministic simulations, stochastic realizations, or observed surveillance series; identify why zeros occur and define latent versus observed burden. Do not threshold small simulated values merely to create zeros or initiate a new method project before establishing relevance.
+\section{Conclusions and future work}
+The talk combined two-part functional mixed models with practical PQL and REML-based EM estimation, supported by simulations and an ICU application. Future directions recorded were richer cross-part dependence, alternative error covariances, multiple functional predictors, and irregular sampling. EHR detection-limited trajectories, single-cell pseudotime with dropout, and wearable measurements were proposed as broader applications. These require separate assessment of measurement mechanisms and dependence.
+\section{Verified reading list and how to use it}
+The following records were checked on October 16, 2026. Verification establishes bibliographic identity and relevance, not a complete literature audit. Linked full texts remain with their publishers or repositories.
+\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=*]
+\item \textbf{Rhee, Du, and Zhang: related JSM 2025 abstract.} \emph{Regression modeling of zero-inflated functional data}. A related public talk record, not a verified full manuscript of today's presentation.\\\href{https://ww2.amstat.org/meetings/jsm/2025/onlineprogram/abstract.cfm?sid=2865&tid=3469}{JSM 2025: related public abstract}
+\item \textbf{Olsen, M. K., and Schafer, J. L. (2001).} \emph{A two-part random-effects model for semicontinuous longitudinal data}. JASA, 96(454), 730--745. Foundation for distinguishing occurrence from positive magnitude in repeated scalar outcomes.\\\url{https://doi.org/10.1198/016214501753168389}
+\item \textbf{Park, S. Y., and Staicu, A.-M. (2015).} \emph{Longitudinal Functional Data Analysis}. Stat, 4(1), 212--226. Repeated curves and longitudinal dependence; useful for the hierarchy of the seminar.\\\url{https://doi.org/10.1002/sta4.89}\\\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC4652857/}
+\item \textbf{Kundu, M. G., Harezlak, J., and Randolph, T. W. (2016).} \emph{Longitudinal functional models with structured penalties}. Functional predictors, longitudinal scalar outcomes, and structured regularization (LongPEER); a different response setting from this seminar.\\\url{https://doi.org/10.1177/1471082X15626291}\\\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC5354471/}
+\item \textbf{Liu, B., Wang, L., and Cao, J. (2017).} \emph{Estimating functional linear mixed-effects regression models}. Publisher record identifies these authors and the February 2017 article. Likely match for the live FLMM citation; exact slide match remains to confirm.\\\url{https://www.sciencedirect.com/science/article/pii/S0167947316302250}
+\item \textbf{Lambert, D. (1992).} \emph{Zero-Inflated Poisson Regression, With an Application to Defects in Manufacturing}. Technometrics, 34(1), 1--14. Count-mixture foundation; distinguish from positive continuous outcomes.\\\url{https://doi.org/10.1080/00401706.1992.10485228}
+\item \textbf{Guo, W. (2002).} \emph{Functional Mixed Effects Models}. Biometrics, 58(1), 121--128. Supplementary foundation for functional random effects and smoothing; not asserted to match the unclear 2005 citation.\\\url{https://doi.org/10.1111/j.0006-341X.2002.00121.x}
+\item \textbf{Related functional count paper.} \emph{Functional Linear Models for Zero-Inflated Count Data with Application to Modeling Hospitalizations in Patients on Dialysis}. Background on functional predictors with zero-inflated count outcomes; not the exact seminar model.\\\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC4221481/}
+\item \textbf{Moukheiber et al. (2024).} \emph{Northwestern ICU (NWICU) database}, version 0.1.0, PhysioNet. Primary dataset record; consult its access requirements and documentation before planning any analysis.\\\url{https://physionet.org/content/nwicu-northwestern-icu/0.1.0/}
+\end{enumerate}
+\textbf{Suggested sequence:} Olsen--Schafer for the two-part idea; Park--Staicu for repeated curves; Guo and Kundu et al. for penalties and mixed models; then the related abstract and full seminar manuscript if made available. This is optional background, not an added thesis commitment.
+\section{Items requiring confirmation}
+\begin{enumerate}
+\item Inclusion minimum of three visits versus reported range beginning at two.
+\item Exact grid notation, interpolation sequence, and treatment of laboratory lower limits.
+\item Complete random-effect hierarchy and the matrix associated with the Moore--Penrose inverse.
+\item Exact smoothing-selection criterion and whether bootstrap refits tuning parameters.
+\item Full simulation-generating functions, AR(1) placement, timing results, and coverage tables.
+\item Whether bootstrap bands are pointwise or simultaneous; the notes establish pointwise inference discussion only.
+\item Unresolved live citations: Liu (2009), ``ZISS/Tang et al. (2004),'' and ``Gunnint et al. (2005).'' These are not converted into fabricated references.
+\end{enumerate}
+\end{document}
