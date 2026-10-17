@@ -1,0 +1,1 @@
+const destinations = {"regression-notes": "/making-sense/advanced.html#regression-notes", "regression-part2": "/making-sense/advanced.html#regression-part2", "methods-notes": "/making-sense/advanced.html#methods-notes"}; const target = destinations[location.hash.slice(1)]; if (target) location.replace(target);
