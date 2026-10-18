@@ -1,3 +1,63 @@
 /* Shared reader-focused layout; original palette retained. */
 body{font-family:"Noto Sans Bengali","Nirmala UI","Vrinda",Arial,sans-serif;font-size:17px;line-height:1.85}h1,h2,h3{font-family:inherit;letter-spacing:0;line-height:1.45}h1{font-size:clamp(35px,4.2vw,56px);font-weight:600}h2{font-size:clamp(27px,3vw,38px);font-weight:600}h3{font-weight:600}header{gap:24px;flex-wrap:wrap}nav{flex-wrap:wrap;gap:12px 23px;font-size:14px}nav a{padding:6px 0}.hero{gap:44px;padding-block:60px}.heroart{transform:none}.intro{font-size:18px;line-height:1.9}.micro{font-size:13px}.eyebrow{font-size:12px;letter-spacing:.5px}.path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.path-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;padding:28px;text-decoration:none;background:#fffdf7}.path-card:hover{border-color:var(--green);background:#eef2e9}.path-card h3{font-size:25px;margin:12px 0}.path-card p{color:#53645b;margin:0 0 24px}.path-card strong{margin-top:auto;font-size:15px}.path-number{color:var(--orange);font-size:13px}.start-here{background:#e7ece3;border-radius:12px}.start-here p{max-width:760px}.lesson h3,.resource h3{font-family:inherit;line-height:1.6}.lesson p,.resource p,.workflow p,.lab p,.about p,details p{font-size:16px;line-height:1.85}.lesson small,.resource .tag{font-size:12px;letter-spacing:0}.lesson{min-height:250px}.button{font-size:15px}.actions{flex-wrap:wrap}.reading-journey p,.film-section p{line-height:1.9}dialog p{line-height:1.95}dialog h2{font-family:inherit;line-height:1.6}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--orange)}section{scroll-margin-top:24px}footer{font-size:14px}main>section:first-child:not(.hero){padding-top:48px}
 @media(max-width:650px){.path-grid,.lessongrid,.resourcegrid,.workflow{grid-template-columns:1fr}.hero{grid-template-columns:1fr;padding-top:35px}header{padding:20px}.brand{font-size:32px}nav{gap:8px 18px;font-size:14px}.heroart{padding:18px}section{padding:42px 20px}.path-card{padding:22px}.about{grid-template-columns:1fr}.about aside{grid-column:auto}.actions{gap:18px}.intro{max-width:100%}.sectionhead h2 br{display:none}dialog{padding:42px 22px}.metrics{grid-template-columns:1fr}}
+
+/* Scientific newspaper edition: shared editorial typography and rules. */
+:root{--ink:#222522;--green:#245348;--paper:#fbfaf6;--orange:#a23d2b;--line:#d5d3ca}
+body{color:var(--ink);background:var(--paper)}
+header,main,footer{max-width:1320px}
+header{border-bottom:3px double var(--ink)}
+section{padding:48px 40px}
+h1,h2,h3{color:var(--ink)}
+a:hover{color:var(--orange)}
+.button{border-radius:0}
+.heroart,.plotcard,.lesson,.resource,.reading-card,.film-card,.topic,.lab,.start-here{border-radius:0;transform:none}
+.heroart{background:#f0f1eb}
+.path-grid{gap:0}
+.path-card{border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;padding:26px}
+.path-card:nth-child(odd){border-right:1px solid var(--line)}
+.path-card:hover{background:#f0efe8}
+.path-card h3{font-size:24px}
+.lessongrid,.resourcegrid{gap:0}
+.lesson,.resource{border:0;border-top:1px solid var(--line);border-right:1px solid var(--line)}
+.lesson:nth-child(3n),.resource:nth-child(3n){border-right:0}
+.sectionhead{border-bottom:2px solid var(--ink);padding-bottom:14px}
+.newspaper-header{display:block;padding:0 40px}
+.edition-line{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding:12px 0;font-size:12px}
+.edition-line a{text-decoration:none}
+.newspaper-title{display:block;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:clamp(48px,7vw,88px);font-weight:700;line-height:1.05;letter-spacing:-4px;text-decoration:none;padding-top:27px}
+.newspaper-title span{display:block;font-family:Arial,sans-serif;font-size:12px;letter-spacing:5px;text-transform:uppercase;margin-top:12px}
+.masthead-deck{text-align:center;font-size:14px;margin:17px 0 22px}
+.newspaper-header nav{justify-content:center;border-top:1px solid var(--ink);gap:30px;padding:6px 0;font-size:14px}
+.newspaper-header nav a[aria-current]{color:var(--orange);font-weight:700}
+.front-page{padding-top:28px!important}
+.front-page .sectionhead{align-items:center;margin-bottom:28px}
+.front-page .eyebrow{margin:0;color:var(--orange)}
+.edition-note{font-size:12px;color:#62665f}
+.news-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr) minmax(0,.78fr);gap:28px}
+.news-grid>*{min-width:0}
+.lead-story,.news-secondary{padding-right:28px;border-right:1px solid var(--line)}
+.story-label{font-size:12px;font-weight:700;color:var(--orange);margin:0 0 13px}
+.news-grid h1{font-size:clamp(34px,3.4vw,49px)!important;line-height:1.4;font-weight:700;margin:0 0 18px}
+.news-grid h1 a,.news-grid h2 a,.news-grid h3 a{text-decoration:none}
+.story-deck{font-size:17px;line-height:1.95;margin:0}
+.byline{font-size:12px;color:#666b63;margin:17px 0}
+.lead-story .heroart{padding:16px;margin:22px 0 15px}
+.lead-story .heroart svg{max-height:245px}
+.charttop{flex-wrap:wrap;gap:8px;letter-spacing:0}
+.chartnote strong{font-family:inherit;font-size:16px;font-weight:600}
+.chartnote p{font-size:13px}
+.read-story{display:inline-block;font-size:13px;font-weight:700;margin-top:10px}
+.news-secondary article+article{border-top:1px solid var(--line);margin-top:27px;padding-top:27px}
+.news-secondary h2{font-size:26px;line-height:1.55;font-weight:600}
+.news-secondary p:not(.story-label),.news-rail p:not(.story-label){font-size:15px;line-height:1.9;color:#555d54}
+.rail-title{font-weight:700;border-bottom:3px solid var(--green);padding-bottom:12px;margin:0 0 22px!important;color:var(--ink)!important}
+.news-rail article{border-bottom:1px solid var(--line);margin-bottom:22px;padding-bottom:17px}
+.news-rail h3{font-size:21px;line-height:1.6;margin:0}
+#topics{border-top:3px double var(--ink)}
+.start-here{border-block:1px solid var(--line);background:#efeee7}
+#feedback{border-top:1px solid var(--line)}
+footer{border-top:3px double var(--ink)}
+@media(max-width:1000px){.news-grid{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}.news-secondary{padding-right:0;border:0}.news-rail{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;border-top:1px solid var(--line);padding-top:24px}.rail-title,.news-rail>.read-story{grid-column:1/-1}.news-rail article{margin:0}.newspaper-header nav{gap:12px 24px}}
+@media(max-width:650px){.newspaper-header{padding:0 20px}.edition-line{flex-wrap:wrap;font-size:11px}.newspaper-title{font-size:53px;letter-spacing:-2px}.newspaper-title span{font-size:10px;letter-spacing:3px}.masthead-deck{font-size:12px}.newspaper-header nav{gap:4px 17px;font-size:13px}section{padding:32px 20px}.front-page .sectionhead{align-items:start;gap:10px}.edition-note{font-size:11px}.news-grid{grid-template-columns:1fr}.lead-story{padding:0 0 28px;border:0;border-bottom:1px solid var(--line)}.news-grid h1{font-size:36px!important}.news-rail{grid-column:auto;grid-template-columns:1fr}.rail-title,.news-rail>.read-story{grid-column:auto}.path-card:nth-child(odd){border-right:0}.path-card{padding:24px 0}.lesson,.resource{border-right:0}.news-secondary h2{font-size:25px}.news-rail h3{font-size:22px}}
+@media print{body{background:#fff;color:#000}header nav,.actions,.button,footer script{display:none}.news-grid{display:block}.lead-story,.news-secondary{border:0;padding:0}.news-rail{display:block}section{padding:20px 0}a{text-decoration:none}article{break-inside:avoid}}
