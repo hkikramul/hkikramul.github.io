@@ -117,9 +117,44 @@ html[lang="bn"] .cover-stories h2{font-size:21px;line-height:1.6;margin:0 0 12px
 @media(max-width:850px){.cover-grid{grid-template-columns:1fr 1.3fr}.cover-grid>aside{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.cover-grid>aside .rail-title{grid-column:1/-1}.anatomy-cover{border-right:0}}
 @media(max-width:580px){.cover-grid{grid-template-columns:1fr}.anatomy-cover{grid-row:1;border:0;padding:0 24px 18px}.anatomy-cover img{max-height:360px}.cover-grid>aside{grid-column:auto;display:block}html[lang="bn"] .cover-stories h1{font-size:24px!important}}
 
-/* Bengali handwritten calligraphy, self-hosted Galada under SIL OFL. */
+
+/* Warm editorial typography: handwritten titles, traditional reading text. */
 @font-face{font-family:"Making Sense Handwritten";src:url("fonts/galada.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
-html[lang="bn"] body{font-family:"Making Sense Handwritten","Making Sense Bengali",cursive;font-size:17px;line-height:1.95;font-synthesis:none}
-html[lang="bn"] h1,html[lang="bn"] h2,html[lang="bn"] h3,html[lang="bn"] h4,html[lang="bn"] strong,html[lang="bn"] b,html[lang="bn"] .eyebrow,html[lang="bn"] .story-label,html[lang="bn"] .read-story,html[lang="bn"] summary{font-weight:400}
-html[lang="bn"] p{line-height:1.95}
-html[lang="bn"] nav,html[lang="bn"] button,html[lang="bn"] input,html[lang="bn"] .chartnote strong{font-family:inherit;font-weight:400}
+:root{--ink:#302f29;--green:#365e52;--orange:#934d41;--paper:#fcfaf4;--line:#ded9cb}
+html[lang="bn"] body{font-family:"Making Sense Bengali","Noto Serif Bengali",serif;font-size:18px;line-height:1.9}
+html[lang="bn"] h1,html[lang="bn"] h2,html[lang="bn"] h3,html[lang="bn"] h4,html[lang="bn"] .reading-journey h2,html[lang="bn"] .chartnote strong{font-family:"Making Sense Handwritten","Making Sense Bengali",cursive;font-weight:400;line-height:1.65;font-synthesis:none}
+html[lang="bn"] p{line-height:1.9}
+html[lang="bn"] nav,html[lang="bn"] button,html[lang="bn"] input,html[lang="bn"] .story-label,html[lang="bn"] .eyebrow{font-family:"Making Sense Bengali",serif}
+.newspaper-header{border-bottom:1px solid var(--line)}
+.newspaper-title{color:#365247}
+.newspaper-title span{color:#766b5b}
+.edition-line{color:#706b5e}
+.welcome-note{max-width:720px;margin:20px auto 0;text-align:center;font-size:16px;color:#635f53}
+.medical-cover{padding-top:22px!important}
+.medical-cover .sectionhead{border-bottom:1px solid var(--line);padding-bottom:12px}
+.cover-grid{gap:28px}
+.cover-stories article{padding-bottom:22px;margin-bottom:24px}
+.cover-stories p{font-size:17px;color:#56584e}
+.cover-stories .story-label{color:var(--orange);font-size:13px;letter-spacing:0}
+html[lang="bn"] .cover-stories h1{font-size:26px!important}
+html[lang="bn"] .cover-stories h2{font-size:23px}
+.anatomy-cover{border:0;padding:0 8px 16px}
+.anatomy-cover img{border-radius:120px 120px 4px 4px;max-height:510px}
+.anatomy-cover figcaption{border-top:0;margin-top:8px;font-size:16px;color:var(--green)}
+.anatomy-cover figcaption span{color:#81796a;font-size:12px}
+.cover-concepts{display:flex;justify-content:center;gap:18px;margin-top:12px;color:var(--green);font-family:"Making Sense Handwritten",cursive;font-size:19px}
+.read-story{color:var(--green);font-size:14px}
+#topics{border-top:1px solid var(--line)}
+.path-card{padding:24px;background:transparent;transition:background .15s}
+.path-card:hover{background:#f1f3e9}
+html[lang="bn"] .path-card h3{font-size:23px}
+.path-number{color:#887153;font-size:13px}
+.start-here{background:#edf1e7;border:1px solid #dce2d2;border-radius:8px;margin:16px 32px;padding:28px}
+.start-here p{font-size:17px}
+.button{border-radius:5px;background:var(--green);padding:11px 18px}
+#feedback{background:#f7f2e8;border-top:1px solid var(--line)}
+.about{padding-top:36px;padding-bottom:36px}
+.monogram{background:#e6ebdf;color:var(--green)}
+footer{border-top:1px solid var(--line);color:#666356}
+a:focus-visible,button:focus-visible{outline:3px solid #a67a45;outline-offset:5px}
+@media(max-width:650px){.welcome-note{font-size:15px;padding:0 22px;margin-top:18px}.cover-grid{gap:20px}.start-here{margin:12px 20px;padding:24px 20px}.anatomy-cover img{max-height:360px}html[lang="bn"] .cover-stories h1{font-size:25px!important}.cover-stories p{font-size:17px}.newspaper-title{font-size:34px}}
