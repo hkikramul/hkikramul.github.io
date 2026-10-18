@@ -116,3 +116,10 @@ html[lang="bn"] .cover-stories h2{font-size:21px;line-height:1.6;margin:0 0 12px
 .medical-cover .rail-title{font-size:16px}
 @media(max-width:850px){.cover-grid{grid-template-columns:1fr 1.3fr}.cover-grid>aside{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.cover-grid>aside .rail-title{grid-column:1/-1}.anatomy-cover{border-right:0}}
 @media(max-width:580px){.cover-grid{grid-template-columns:1fr}.anatomy-cover{grid-row:1;border:0;padding:0 24px 18px}.anatomy-cover img{max-height:360px}.cover-grid>aside{grid-column:auto;display:block}html[lang="bn"] .cover-stories h1{font-size:24px!important}}
+
+/* Bengali handwritten calligraphy, self-hosted Galada under SIL OFL. */
+@font-face{font-family:"Making Sense Handwritten";src:url("fonts/galada.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
+html[lang="bn"] body{font-family:"Making Sense Handwritten","Making Sense Bengali",cursive;font-size:17px;line-height:1.95;font-synthesis:none}
+html[lang="bn"] h1,html[lang="bn"] h2,html[lang="bn"] h3,html[lang="bn"] h4,html[lang="bn"] strong,html[lang="bn"] b,html[lang="bn"] .eyebrow,html[lang="bn"] .story-label,html[lang="bn"] .read-story,html[lang="bn"] summary{font-weight:400}
+html[lang="bn"] p{line-height:1.95}
+html[lang="bn"] nav,html[lang="bn"] button,html[lang="bn"] input,html[lang="bn"] .chartnote strong{font-family:inherit;font-weight:400}
