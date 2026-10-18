@@ -61,3 +61,58 @@ footer{border-top:3px double var(--ink)}
 @media(max-width:1000px){.news-grid{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}.news-secondary{padding-right:0;border:0}.news-rail{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;border-top:1px solid var(--line);padding-top:24px}.rail-title,.news-rail>.read-story{grid-column:1/-1}.news-rail article{margin:0}.newspaper-header nav{gap:12px 24px}}
 @media(max-width:650px){.newspaper-header{padding:0 20px}.edition-line{flex-wrap:wrap;font-size:11px}.newspaper-title{font-size:53px;letter-spacing:-2px}.newspaper-title span{font-size:10px;letter-spacing:3px}.masthead-deck{font-size:12px}.newspaper-header nav{gap:4px 17px;font-size:13px}section{padding:32px 20px}.front-page .sectionhead{align-items:start;gap:10px}.edition-note{font-size:11px}.news-grid{grid-template-columns:1fr}.lead-story{padding:0 0 28px;border:0;border-bottom:1px solid var(--line)}.news-grid h1{font-size:36px!important}.news-rail{grid-column:auto;grid-template-columns:1fr}.rail-title,.news-rail>.read-story{grid-column:auto}.path-card:nth-child(odd){border-right:0}.path-card{padding:24px 0}.lesson,.resource{border-right:0}.news-secondary h2{font-size:25px}.news-rail h3{font-size:22px}}
 @media print{body{background:#fff;color:#000}header nav,.actions,.button,footer script{display:none}.news-grid{display:block}.lead-story,.news-secondary{border:0;padding:0}.news-rail{display:block}section{padding:20px 0}a{text-decoration:none}article{break-inside:avoid}}
+
+/* Compact traditional Bengali reading edition. Font bundled under SIL OFL. */
+@font-face{font-family:"Making Sense Bengali";src:url("fonts/bengali-serif.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+html[lang="bn"] body{font-family:"Making Sense Bengali","Noto Serif Bengali","SolaimanLipi","Kalpurush",serif;font-size:17px;line-height:1.85}
+html[lang="bn"] h1,html[lang="bn"] h2,html[lang="bn"] h3,html[lang="bn"] h4,html[lang="bn"] button,html[lang="bn"] input,html[lang="bn"] .reading-journey h2{font-family:inherit;letter-spacing:0;line-height:1.6}
+header,main,footer{max-width:1160px}
+section{padding:32px 32px}
+html[lang="bn"] h1,html[lang="bn"] .hero h1,html[lang="bn"] .news-grid h1{font-size:30px!important;line-height:1.55;font-weight:600}
+html[lang="bn"] h2,html[lang="bn"] .about h2,html[lang="bn"] .reading-journey h2,html[lang="bn"] dialog h2{font-size:24px;font-weight:600}
+html[lang="bn"] h3,html[lang="bn"] .path-card h3,html[lang="bn"] .lesson h3,html[lang="bn"] .resource h3,html[lang="bn"] .film-card h3,html[lang="bn"] .topic h3,html[lang="bn"] .news-rail h3{font-size:20px;font-weight:600}
+html[lang="bn"] .news-secondary h2{font-size:22px}
+html[lang="bn"] .reading-card h4{font-size:20px}
+.newspaper-header{padding:0 32px}
+.newspaper-title{font-size:42px;letter-spacing:-1px;font-weight:600;padding-top:18px}
+.newspaper-title span{font-size:11px;letter-spacing:2px;margin-top:8px}
+.masthead-deck{font-size:14px;margin:12px 0 16px}
+.newspaper-header nav{gap:8px 24px;font-size:15px;padding:7px 0}
+.edition-line{font-size:13px;padding:9px 0}
+.news-grid{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr) minmax(0,.85fr);gap:22px}
+.lead-story,.news-secondary{padding-right:22px}
+.story-deck,.intro{font-size:17px;line-height:1.9}
+.news-secondary p:not(.story-label),.news-rail p:not(.story-label){font-size:16px;line-height:1.85}
+.story-label,.byline,.read-story,.eyebrow,.edition-note,.path-number{font-size:14px;letter-spacing:0}
+.sectionhead{margin-bottom:22px;border-bottom-width:1px}
+.lead-story .heroart{padding:12px;margin:16px 0}
+.lead-story .heroart svg{max-height:180px}
+.chartnote strong{font-size:16px}
+.chartnote p,.charttop,.pill{font-size:13px}
+.path-card{padding:22px}
+.path-card p,.lesson p,.resource p,.workflow p,.about p,details p{font-size:16px}
+.path-card strong,.button{font-size:15px}
+.about{grid-template-columns:60px 1fr .75fr;gap:24px}
+.monogram{width:54px;height:54px;font-size:21px}
+.start-here{background:transparent}
+footer{padding:24px 32px}
+@media(max-width:1000px){.news-grid{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}.news-secondary{padding-right:0}.news-rail{grid-column:1/-1}}
+@media(max-width:650px){section{padding:26px 20px}.newspaper-header{padding:0 20px}.newspaper-title{font-size:34px;letter-spacing:-.6px}.masthead-deck{font-size:13px}.edition-line{font-size:12px}.newspaper-header nav{font-size:14px;gap:4px 16px}.news-grid{grid-template-columns:1fr;gap:22px}.lead-story{padding-right:0}.news-rail{grid-column:auto}.front-page .sectionhead{display:block}.edition-note{display:block;margin-top:8px}html[lang="bn"] h1,html[lang="bn"] .hero h1,html[lang="bn"] .news-grid h1{font-size:26px!important}html[lang="bn"] h2,html[lang="bn"] .reading-journey h2{font-size:22px}.about{grid-template-columns:1fr}.path-card{padding:20px 0}}
+
+/* Anatomical cover, flanked by compact editorial columns. */
+:root{--ink:#2c2925;--green:#6d3334;--orange:#843e35;--paper:#faf8f2;--line:#d8d0c3}
+.cover-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr) minmax(0,1fr);gap:26px;align-items:start}
+.cover-grid>*{min-width:0}
+.cover-stories article{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid var(--line)}
+.cover-stories h1 a,.cover-stories h2 a{text-decoration:none}
+html[lang="bn"] .cover-stories h1{font-size:25px!important;line-height:1.6}
+html[lang="bn"] .cover-stories h2{font-size:21px;line-height:1.6;margin:0 0 12px}
+.cover-stories p{font-size:16px;line-height:1.85}
+.cover-stories .story-label{font-size:13px}
+.anatomy-cover{margin:0;border-inline:1px solid var(--line);padding:0 18px 16px;text-align:center}
+.anatomy-cover img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;mix-blend-mode:multiply}
+.anatomy-cover figcaption{font-size:15px;line-height:1.7;border-top:1px solid var(--line);padding-top:15px;margin-top:16px}
+.anatomy-cover figcaption span{display:block;font-size:12px;color:#70695f;margin-top:6px}
+.medical-cover .rail-title{font-size:16px}
+@media(max-width:850px){.cover-grid{grid-template-columns:1fr 1.3fr}.cover-grid>aside{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.cover-grid>aside .rail-title{grid-column:1/-1}.anatomy-cover{border-right:0}}
+@media(max-width:580px){.cover-grid{grid-template-columns:1fr}.anatomy-cover{grid-row:1;border:0;padding:0 24px 18px}.anatomy-cover img{max-height:360px}.cover-grid>aside{grid-column:auto;display:block}html[lang="bn"] .cover-stories h1{font-size:24px!important}}
