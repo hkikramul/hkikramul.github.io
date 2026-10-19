@@ -1,3 +1,3 @@
 import seed from '../../../seed/incidents.json';
 import {env} from 'cloudflare:workers';
-export async function GET(){const result=await env.DB!.prepare("SELECT id,payload,created FROM reports WHERE status='published'").all();const rows=result.results.map((r:any)=>({...JSON.parse(r.payload),id:r.id,published_date:r.created.slice(0,10),status:'reviewed',responses:[],protests:[]}));return Response.json({records:[...seed.records,...rows],updated_at:new Date().toISOString(),seed_note:'Source-linked initial records; not a complete register'});}
+export async function GET(){const result=await env.DB!.prepare("SELECT id,payload,created FROM reports WHERE status='published'").all();const rows=result.results.map((r:any)=>({...JSON.parse(r.payload),id:r.id,published_date:r.created.slice(0,10),status:'reviewed'}));return Response.json({records:[...seed.records,...rows],updated_at:new Date().toISOString(),seed_note:'Source-linked initial records; not a complete register'});}
