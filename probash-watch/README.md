@@ -16,3 +16,9 @@ No NID/passport numbers or document uploads. Login authenticates an account, not
 
 ## Current limits
 No government NID/passport verification, unrestricted public intake, confidential survivor case management, full-language AI translations, automated factual verification or complete all-country helpline directory. Sources may be syndicated; URL deduplication is not incident deduplication. The review step is essential. No party representation is claimed or published.
+
+## Audience scope and source policy
+Track Bangladeshi citizen migrant workers, irrespective of birthplace. Birthplace/ancestry is not proof of citizenship. Reporter accounts are distinct from worker eligibility; no government identity-document verification is integrated. Record source-reported/self-declared/officially confirmed/unknown nationality basis; unknown basis blocks publication. Public readers may be any nationality. `public/sources.json` is a proposed monitoring registry, not connected-feed status. Prioritize original reporting, independent corroboration, official case statements, translated claim alignment, incident deduplication and a documented correction process.
+
+## GitHub Pages edition
+The public dashboard at https://hkikramul.github.io/probash-watch/ is a static public-source snapshot. It reads its own JSON, never the private intake database, and links to the owner-private reporting portal. Pages cannot execute the Workers/D1 APIs. Updating public records requires an explicit reviewed data export/commit. The twice-daily cloud task still writes to the private discovery queue; it does not automatically promote to the public snapshot. Public page refresh checks the committed snapshot every minute and is not a guarantee of live incident discovery.
