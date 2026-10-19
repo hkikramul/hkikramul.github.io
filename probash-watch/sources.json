@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "status": "proposed monitoring registry; not a claim that all feeds are connected",
+  "scope": "Bangladeshi citizen migrant workers, regardless of birthplace. Ancestry alone does not establish citizenship.",
+  "sources": [
+    {
+      "region": "Bangladesh",
+      "name": "Prothom Alo",
+      "url": "https://www.prothomalo.com/",
+      "language": "bn",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Bangladesh",
+      "name": "The Daily Star",
+      "url": "https://www.thedailystar.net/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Bangladesh",
+      "name": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Bangladesh",
+      "name": "bdnews24",
+      "url": "https://bdnews24.com/",
+      "language": "bn/en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Bangladesh",
+      "name": "Netra News",
+      "url": "https://netra.news/",
+      "language": "bn/en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Bangladesh",
+      "name": "The Business Standard",
+      "url": "https://www.tbsnews.net/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "International",
+      "name": "Reuters",
+      "url": "https://www.reuters.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "International",
+      "name": "Associated Press",
+      "url": "https://apnews.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "International",
+      "name": "BBC Bangla",
+      "url": "https://www.bbc.com/bengali",
+      "language": "bn",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Saudi Arabia",
+      "name": "Arab News",
+      "url": "https://www.arabnews.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Saudi Arabia",
+      "name": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Saudi Arabia",
+      "name": "Sabq",
+      "url": "https://sabq.org/",
+      "language": "ar",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Malaysia",
+      "name": "Malaysiakini",
+      "url": "https://www.malaysiakini.com/",
+      "language": "en/ms",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Malaysia",
+      "name": "The Star",
+      "url": "https://www.thestar.com.my/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Malaysia",
+      "name": "Bernama",
+      "url": "https://www.bernama.com/",
+      "language": "en/ms",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "UAE",
+      "name": "The National",
+      "url": "https://www.thenationalnews.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "UAE",
+      "name": "Gulf News",
+      "url": "https://gulfnews.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Qatar",
+      "name": "Doha News",
+      "url": "https://dohanews.co/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Singapore",
+      "name": "CNA",
+      "url": "https://www.channelnewsasia.com/",
+      "language": "en",
+      "role": "news discovery",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Official",
+      "name": "Bangladesh Ministry of Foreign Affairs",
+      "url": "https://mofa.gov.bd/",
+      "language": "bn/en",
+      "role": "official response",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Official",
+      "name": "Expatriates’ Welfare Ministry",
+      "url": "https://probashi.gov.bd/",
+      "language": "bn/en",
+      "role": "official response",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Official",
+      "name": "BMET",
+      "url": "https://bmet.gov.bd/",
+      "language": "bn",
+      "role": "official response",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Official",
+      "name": "Saudi HRSD",
+      "url": "https://www.hrsd.gov.sa/en",
+      "language": "ar/en",
+      "role": "official response",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Research",
+      "name": "ILO",
+      "url": "https://www.ilo.org/",
+      "language": "multiple",
+      "role": "investigation/context",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Research",
+      "name": "Human Rights Watch",
+      "url": "https://www.hrw.org/",
+      "language": "multiple",
+      "role": "investigation/context",
+      "access_status": "not individually feed-tested"
+    },
+    {
+      "region": "Research",
+      "name": "IOM",
+      "url": "https://www.iom.int/",
+      "language": "multiple",
+      "role": "investigation/context",
+      "access_status": "not individually feed-tested"
+    }
+  ]
+}
