@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T19:14:29.051563+00:00",
+  "updated_at": "2026-10-19T19:36:21.458Z",
   "directory_scope": "Official MOFA listings; not complete coverage of every country or live-tested contacts",
   "missions": [
     {
@@ -1115,6 +1115,18 @@
       "description": {
         "bn": "ফেরত অভিবাসী, শ্রম অধিকার ও পাচার-সম্পর্কিত আইনি সহায়তার যোগ্যতা জানতে যোগাযোগ।",
         "en": "Ask about eligibility for legal assistance on returnee, labour-rights and trafficking issues."
+      }
+    },
+    {
+      "id": "synesis-probash-bondhu",
+      "name": "Probash Bondhu — Synesis IT",
+      "url": "https://synesisitltd.com/probash-bondhu/",
+      "kind": "service_information",
+      "country": "BD",
+      "checked_at": "2026-10-19T19:36:21.458Z",
+      "description": {
+        "bn": "Synesis IT-এর প্রকাশিত প্রবাস বন্ধু কল সেন্টার প্রকল্পের তথ্য: প্রবাসীদের স্বাস্থ্য, তথ্য, অভিযোগ ও আইনি/জরুরি সহায়তার বিষয়ে সেবা সংযোগের বর্ণনা রয়েছে। এটি প্রকল্পের পরিচিতিমূলক পৃষ্ঠা; বর্তমানে সেবা চালু আছে কি না, দেশের আওতা ও সেবার যোগাযোগ সরাসরি নিশ্চিত করুন। পৃষ্ঠায় দেশের তালিকায় অসংগতি আছে এবং নির্দিষ্ট সেবা হটলাইন যাচাই করা যায়নি।",
+        "en": "Synesis IT's published Probash Bondhu Call Center project information describes health, information, complaint and legal/emergency assistance routing for expatriates. This is a project information page; confirm current operation, country coverage and service contact directly. Country lists on the page differ, and a dedicated service hotline has not been verified."
       }
     }
   ],
