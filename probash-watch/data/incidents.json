@@ -1,1 +1,583 @@
-{"schema_version": 1, "updated_at": "2026-10-19T18:00:00Z", "coverage_start": "2025-05-14", "coverage_note": "Publication dates, not a complete historical register.", "records": [{"id": "SA-2025-002", "country": "SA", "location": {"bn": "সৌদি আরব; নির্দিষ্ট স্থান অপ্রকাশিত", "en": "Saudi Arabia; exact location not published", "ar": "السعودية؛ الموقع الدقيق غير منشور"}, "coordinates": [24, 45], "location_precision": "country", "event_date": null, "date_precision": "unknown", "published_date": "2025-05-14", "category": "workplace", "status": "documented_report", "gender": "male", "people_count": 1, "title": {"bn": "লোডারের নিচে চাপা পড়ে শ্রমিকের মৃত্যুর বিবরণ", "en": "Worker’s death under a loader described by family", "ar": "رواية عن وفاة عامل تحت آلة تحميل"}, "summary": {"bn": "Human Rights Watch-এর অনুসন্ধানে ২৬ বছর বয়সী বাংলাদেশি নির্মাণশ্রমিকের মৃত্যুর বিষয়ে তাঁর স্ত্রীর বক্তব্য রয়েছে।", "en": "A Human Rights Watch investigation includes a widow’s account of a 26-year-old Bangladeshi construction worker killed under a loader.", "ar": "يتضمن تحقيق هيومن رايتس ووتش رواية أرملة عامل بناء بنغلاديشي عمره 26 عاماً توفي تحت آلة تحميل."}, "unknowns": {"bn": "ঘটনার নির্দিষ্ট তারিখ এবং এই ব্যক্তিগত মামলায় সরকারি পদক্ষেপ যাচাই করা হয়নি।", "en": "Exact incident date and case-specific government action have not been verified."}, "victim": {"bn": "২৬ বছর বয়সী পুরুষ নির্মাণশ্রমিক; পরিচয় গোপন।", "en": "Male construction worker, age 26; identity withheld."}, "sources": [{"name": "Human Rights Watch", "language": "en", "url": "https://www.hrw.org/news/2025/05/14/saudi-arabia-migrant-workers-electrocuted-decapitated-and-falling-death-workplaces", "date": "2025-05-14", "type": "investigation"}, {"name": "هيومن رايتس ووتش", "language": "ar", "url": "https://www.hrw.org/ar/news/2025/05/14/saudi-arabia-migrant-workers-electrocuted-decapitated-and-falling-death-workplaces", "date": "2025-05-14", "type": "original_language_version"}], "responses": [{"actor": {"bn": "বাংলাদেশের প্রবাসী কল্যাণ তহবিল", "en": "Bangladesh Expatriates’ Welfare Fund"}, "country": "BD", "date": null, "text": {"bn": "পরিবারের বক্তব্য অনুযায়ী সরকারি তহবিল থেকে ৩ লাখ টাকা পেয়েছেন; নিয়োগকর্তার বকেয়া ও ক্ষতিপূরণ পাননি।", "en": "The widow reported receiving BDT 300,000 from the government welfare fund, but no employer wage arrears or additional compensation."}, "source_index": 0}], "protests": [], "follow_up": {"bn": "ক্ষতিপূরণ, তদন্ত ও বাংলাদেশ মিশনের সহায়তার তথ্য অনুসন্ধান", "en": "Seek evidence of investigation, compensation and mission assistance"}, "reviewed_at": "2026-10-19", "review_note": "One account within a broader investigation; not all 31 people in the investigation were Bangladeshi.", "translation_status": "editorial_draft", "nationality": "BD", "nationality_basis": "source_reported"}, {"id": "SA-2020-003", "country": "SA", "location": {"bn": "রিয়াদ", "en": "Riyadh", "ar": "الرياض"}, "coordinates": [24.71, 46.68], "location_precision": "city", "event_date": null, "date_precision": "range", "event_period": "2020–2023", "published_date": "2026-04-18", "category": "abuse", "status": "allegation", "gender": "female", "people_count": 1, "title": {"bn": "নারী গৃহকর্মীর নির্যাতন ও বকেয়া মজুরির অভিযোগ", "en": "Domestic worker alleges abuse and unpaid wages", "ar": "عاملة منزلية تبلغ عن إساءة معاملة وأجور غير مدفوعة"}, "summary": {"bn": "ছদ্মনামে এক নারী খাবার না দেওয়া, মারধর ও অতিরিক্ত কাজের অভিযোগ জানিয়েছেন। প্রতিবেদনে তাঁর ২০২৩ সালে দেশে ফেরার কথা আছে।", "en": "A woman using a pseudonym reported food deprivation, beatings and excessive work. Coverage says she returned in 2023.", "ar": "أبلغت امرأة باسم مستعار عن الحرمان من الطعام والضرب والعمل المفرط. وذكر التقرير أنها عادت في 2023."}, "unknowns": {"bn": "অভিযোগের বিচারিক নিষ্পত্তি ও ক্ষতিপূরণ নিশ্চিত করা যায়নি।", "en": "Judicial outcome and compensation have not been established."}, "victim": {"bn": "বাংলাদেশি নারী গৃহকর্মী; নিরাপত্তার জন্য নাম প্রকাশ নয়।", "en": "Bangladeshi woman domestic worker; identity protected."}, "sources": [{"name": "The Daily Star", "language": "en", "url": "https://www.thedailystar.net/news/bangladesh/news/abuse-exploitation-haunt-women-migrant-workers-4154111", "date": "2026-04-18", "type": "news"}], "responses": [{"actor": {"bn": "বাংলাদেশ দূতাবাস, রিয়াদ", "en": "Bangladesh Embassy, Riyadh"}, "country": "BD", "status": "repatriation_reported", "date": null, "text": {"bn": "ভুক্তভোগীর বক্তব্যে আশ্রয়কেন্দ্রে থাকা ও দেশে ফেরার উল্লেখ; এটি দূতাবাসের স্বাধীন নিশ্চিতকরণ নয়।", "en": "Survivor described shelter and repatriation; this is her account, not independent confirmation by the embassy."}, "source_index": 0}], "protests": [], "follow_up": {"bn": "বকেয়া মজুরি, অভিযোগের রেকর্ড ও আইনি সহায়তা যাচাই", "en": "Verify wage recovery, complaint records and legal assistance"}, "reviewed_at": "2026-10-19", "review_note": "Public source only. No private testimony or identifying documents stored.", "translation_status": "editorial_draft", "nationality": "BD", "nationality_basis": "source_reported"}, {"id": "MY-2025-001", "country": "MY", "location": {"bn": "মালয়েশিয়া", "en": "Malaysia"}, "coordinates": [3.14, 101.69], "location_precision": "country", "event_date": null, "published_date": "2025-11-10", "category": "wages", "status": "allegation", "gender": "unknown", "people_count": null, "title": {"bn": "বকেয়া মজুরি নিয়ে ফেরত শ্রমিকদের প্রতিবাদ", "en": "Returned workers protest unpaid wages"}, "summary": {"bn": "AP প্রতিবেদনে মালয়েশিয়ায় কাজ করা বাংলাদেশি শ্রমিকদের বকেয়া মজুরি ও দুর্ব্যবহারের অভিযোগ নিয়ে ঢাকায় প্রতিবাদের কথা রয়েছে।", "en": "AP reports a Dhaka protest concerning alleged wage withholding and mistreatment at Malaysian employers."}, "sources": [{"name": "Associated Press", "url": "https://apnews.com/article/46778e8886839c5a4932e95eb0e6773a", "language": "en", "date": "2025-11-10"}], "responses": [], "protests": [{"location": "Dhaka", "date": "2025-11-10", "source": "https://apnews.com/article/46778e8886839c5a4932e95eb0e6773a"}], "victim": {"bn": "পরিচয় প্রকাশ করা হয়নি", "en": "Identities withheld"}, "unknowns": {"bn": "বর্তমান ক্ষতিপূরণ ও মামলার অবস্থা যাচাই বাকি", "en": "Current compensation and case outcomes require follow-up"}, "follow_up": {"bn": "মজুরি আদায় ও সরকারি প্রতিক্রিয়া যাচাই", "en": "Verify wage recovery and official response"}, "translation_status": "editorial_draft", "nationality": "BD", "nationality_basis": "source_reported"}]}
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-19T19:10:05.674240+00:00",
+  "coverage_start": "2020-05-28",
+  "coverage_note": "Source-reported case records; not a complete register or a population rate.",
+  "records": [
+    {
+      "id": "SA-2025-002",
+      "country": "SA",
+      "location": {
+        "bn": "সৌদি আরব; নির্দিষ্ট স্থান অপ্রকাশিত",
+        "en": "Saudi Arabia; exact location not published",
+        "ar": "السعودية؛ الموقع الدقيق غير منشور"
+      },
+      "coordinates": [
+        24,
+        45
+      ],
+      "location_precision": "country",
+      "event_date": null,
+      "date_precision": "unknown",
+      "published_date": "2025-05-14",
+      "category": "workplace",
+      "status": "documented_report",
+      "gender": "male",
+      "people_count": 1,
+      "title": {
+        "bn": "লোডারের নিচে চাপা পড়ে শ্রমিকের মৃত্যুর বিবরণ",
+        "en": "Worker’s death under a loader described by family",
+        "ar": "رواية عن وفاة عامل تحت آلة تحميل"
+      },
+      "summary": {
+        "bn": "Human Rights Watch-এর অনুসন্ধানে ২৬ বছর বয়সী বাংলাদেশি নির্মাণশ্রমিকের মৃত্যুর বিষয়ে তাঁর স্ত্রীর বক্তব্য রয়েছে।",
+        "en": "A Human Rights Watch investigation includes a widow’s account of a 26-year-old Bangladeshi construction worker killed under a loader.",
+        "ar": "يتضمن تحقيق هيومن رايتس ووتش رواية أرملة عامل بناء بنغلاديشي عمره 26 عاماً توفي تحت آلة تحميل."
+      },
+      "unknowns": {
+        "bn": "ঘটনার নির্দিষ্ট তারিখ এবং এই ব্যক্তিগত মামলায় সরকারি পদক্ষেপ যাচাই করা হয়নি।",
+        "en": "Exact incident date and case-specific government action have not been verified."
+      },
+      "victim": {
+        "bn": "২৬ বছর বয়সী পুরুষ নির্মাণশ্রমিক; পরিচয় গোপন।",
+        "en": "Male construction worker, age 26; identity withheld."
+      },
+      "sources": [
+        {
+          "name": "Human Rights Watch",
+          "language": "en",
+          "url": "https://www.hrw.org/news/2025/05/14/saudi-arabia-migrant-workers-electrocuted-decapitated-and-falling-death-workplaces",
+          "date": "2025-05-14",
+          "type": "investigation"
+        },
+        {
+          "name": "هيومن رايتس ووتش",
+          "language": "ar",
+          "url": "https://www.hrw.org/ar/news/2025/05/14/saudi-arabia-migrant-workers-electrocuted-decapitated-and-falling-death-workplaces",
+          "date": "2025-05-14",
+          "type": "original_language_version"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশের প্রবাসী কল্যাণ তহবিল",
+            "en": "Bangladesh Expatriates’ Welfare Fund"
+          },
+          "country": "BD",
+          "date": null,
+          "text": {
+            "bn": "পরিবারের বক্তব্য অনুযায়ী সরকারি তহবিল থেকে ৩ লাখ টাকা পেয়েছেন; নিয়োগকর্তার বকেয়া ও ক্ষতিপূরণ পাননি।",
+            "en": "The widow reported receiving BDT 300,000 from the government welfare fund, but no employer wage arrears or additional compensation."
+          },
+          "source_index": 0
+        }
+      ],
+      "protests": [],
+      "follow_up": {
+        "bn": "ক্ষতিপূরণ, তদন্ত ও বাংলাদেশ মিশনের সহায়তার তথ্য অনুসন্ধান",
+        "en": "Seek evidence of investigation, compensation and mission assistance"
+      },
+      "reviewed_at": "2026-10-19",
+      "review_note": "One account within a broader investigation; not all 31 people in the investigation were Bangladeshi.",
+      "translation_status": "editorial_draft",
+      "nationality": "BD",
+      "nationality_basis": "source_reported"
+    },
+    {
+      "id": "SA-2020-003",
+      "country": "SA",
+      "location": {
+        "bn": "রিয়াদ",
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
+      "coordinates": [
+        24.71,
+        46.68
+      ],
+      "location_precision": "city",
+      "event_date": null,
+      "date_precision": "range",
+      "event_period": "2020–2023",
+      "published_date": "2026-04-18",
+      "category": "abuse",
+      "status": "allegation",
+      "gender": "female",
+      "people_count": 1,
+      "title": {
+        "bn": "নারী গৃহকর্মীর নির্যাতন ও বকেয়া মজুরির অভিযোগ",
+        "en": "Domestic worker alleges abuse and unpaid wages",
+        "ar": "عاملة منزلية تبلغ عن إساءة معاملة وأجور غير مدفوعة"
+      },
+      "summary": {
+        "bn": "ছদ্মনামে এক নারী খাবার না দেওয়া, মারধর ও অতিরিক্ত কাজের অভিযোগ জানিয়েছেন। প্রতিবেদনে তাঁর ২০২৩ সালে দেশে ফেরার কথা আছে।",
+        "en": "A woman using a pseudonym reported food deprivation, beatings and excessive work. Coverage says she returned in 2023.",
+        "ar": "أبلغت امرأة باسم مستعار عن الحرمان من الطعام والضرب والعمل المفرط. وذكر التقرير أنها عادت في 2023."
+      },
+      "unknowns": {
+        "bn": "অভিযোগের বিচারিক নিষ্পত্তি ও ক্ষতিপূরণ নিশ্চিত করা যায়নি।",
+        "en": "Judicial outcome and compensation have not been established."
+      },
+      "victim": {
+        "bn": "বাংলাদেশি নারী গৃহকর্মী; নিরাপত্তার জন্য নাম প্রকাশ নয়।",
+        "en": "Bangladeshi woman domestic worker; identity protected."
+      },
+      "sources": [
+        {
+          "name": "The Daily Star",
+          "language": "en",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/abuse-exploitation-haunt-women-migrant-workers-4154111",
+          "date": "2026-04-18",
+          "type": "news"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ দূতাবাস, রিয়াদ",
+            "en": "Bangladesh Embassy, Riyadh"
+          },
+          "country": "BD",
+          "status": "repatriation_reported",
+          "date": null,
+          "text": {
+            "bn": "ভুক্তভোগীর বক্তব্যে আশ্রয়কেন্দ্রে থাকা ও দেশে ফেরার উল্লেখ; এটি দূতাবাসের স্বাধীন নিশ্চিতকরণ নয়।",
+            "en": "Survivor described shelter and repatriation; this is her account, not independent confirmation by the embassy."
+          },
+          "source_index": 0
+        }
+      ],
+      "protests": [],
+      "follow_up": {
+        "bn": "বকেয়া মজুরি, অভিযোগের রেকর্ড ও আইনি সহায়তা যাচাই",
+        "en": "Verify wage recovery, complaint records and legal assistance"
+      },
+      "reviewed_at": "2026-10-19",
+      "review_note": "Public source only. No private testimony or identifying documents stored.",
+      "translation_status": "editorial_draft",
+      "nationality": "BD",
+      "nationality_basis": "source_reported"
+    },
+    {
+      "id": "MY-2025-001",
+      "country": "MY",
+      "location": {
+        "bn": "মালয়েশিয়া",
+        "en": "Malaysia"
+      },
+      "coordinates": [
+        3.14,
+        101.69
+      ],
+      "location_precision": "country",
+      "event_date": null,
+      "published_date": "2025-11-10",
+      "category": "wages",
+      "status": "allegation",
+      "gender": "unknown",
+      "people_count": null,
+      "title": {
+        "bn": "বকেয়া মজুরি নিয়ে ফেরত শ্রমিকদের প্রতিবাদ",
+        "en": "Returned workers protest unpaid wages"
+      },
+      "summary": {
+        "bn": "AP প্রতিবেদনে মালয়েশিয়ায় কাজ করা বাংলাদেশি শ্রমিকদের বকেয়া মজুরি ও দুর্ব্যবহারের অভিযোগ নিয়ে ঢাকায় প্রতিবাদের কথা রয়েছে।",
+        "en": "AP reports a Dhaka protest concerning alleged wage withholding and mistreatment at Malaysian employers."
+      },
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/46778e8886839c5a4932e95eb0e6773a",
+          "language": "en",
+          "date": "2025-11-10"
+        }
+      ],
+      "responses": [],
+      "protests": [
+        {
+          "location": "Dhaka",
+          "date": "2025-11-10",
+          "source": "https://apnews.com/article/46778e8886839c5a4932e95eb0e6773a"
+        }
+      ],
+      "victim": {
+        "bn": "পরিচয় প্রকাশ করা হয়নি",
+        "en": "Identities withheld"
+      },
+      "unknowns": {
+        "bn": "বর্তমান ক্ষতিপূরণ ও মামলার অবস্থা যাচাই বাকি",
+        "en": "Current compensation and case outcomes require follow-up"
+      },
+      "follow_up": {
+        "bn": "মজুরি আদায় ও সরকারি প্রতিক্রিয়া যাচাই",
+        "en": "Verify wage recovery and official response"
+      },
+      "translation_status": "editorial_draft",
+      "nationality": "BD",
+      "nationality_basis": "source_reported"
+    },
+    {
+      "id": "SA-EXEC-2026",
+      "country": "SA",
+      "event_date": "2026-10-14",
+      "published_date": "2026-10-16",
+      "title": {
+        "bn": "দুই বাংলাদেশির মৃত্যুদণ্ড ও কনস্যুলার যোগাযোগ",
+        "en": "Executions and consular notification"
+      },
+      "summary": {
+        "bn": "সংবাদে ১৪ অক্টোবর মৃত্যুদণ্ড কার্যকরের কথা আছে; বাংলাদেশ কনস্যুলেট পূর্বে অবহিত হয়নি বলে জানিয়েছে।",
+        "en": "Coverage reports executions on 14 October; Bangladesh’s consulate said it received no advance notice."
+      },
+      "category": "justice",
+      "gender": "mixed",
+      "people_count": 2,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/03d81c6dd9cf107482392105c21fc1e4",
+          "date": "2026-10-19",
+          "language": "en"
+        },
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/crime-justice/news/ksa-executes-2-bangladeshis-immoral-act-4300016",
+          "date": "2026-10-16",
+          "language": "en"
+        },
+        {
+          "name": "The Star / The Daily Star",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/16/saudi-arabia-executes-two-bangladeshis-for-immoral-act",
+          "date": "2026-10-16",
+          "language": "en"
+        },
+        {
+          "name": "Prothom Alo",
+          "url": "https://en.prothomalo.com/bangladesh/yxrw2kmcx8",
+          "date": null,
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "SA-ABUSE-2026-APR",
+      "country": "SA",
+      "event_date": null,
+      "published_date": "2026-04-27",
+      "title": {
+        "bn": "সৌদিফেরত নারীর যৌন নির্যাতনের অভিযোগ",
+        "en": "Saudi returnee alleges sexual violence"
+      },
+      "summary": {
+        "bn": "চিকিৎসাধীন এক নারী অভিযোগ জানিয়েছেন; প্রতিবেদনের সময় ফরেনসিক ফলের অপেক্ষা ছিল।",
+        "en": "A returnee alleged sexual violence; forensic confirmation was pending when the report appeared."
+      },
+      "category": "abuse",
+      "gender": "female",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/news/woman-alleges-rape-torture-after-being-sent-saudi-arabia-job-4162051",
+          "date": "2026-04-27",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "MY-KAWAGUCHI",
+      "country": "MY",
+      "event_date": null,
+      "published_date": "2025-05-21",
+      "title": {
+        "bn": "কারখানা বন্ধের পর বাংলাদেশিদের মজুরি দাবি",
+        "en": "Bangladeshis seek wages after factory closure"
+      },
+      "summary": {
+        "bn": "কারখানা বন্ধের পর প্রায় ২৮০ শ্রমিকের বকেয়া দাবির খবর।",
+        "en": "Reports unpaid-wage demands by about 280 workers following a factory closure."
+      },
+      "category": "wages",
+      "gender": "unknown",
+      "people_count": null,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "The Business Standard / AP",
+          "url": "https://www.tbsnews.net/bangladesh/bangladeshi-workers-malaysia-demand-unpaid-wages-after-factory-closure-1148256",
+          "date": "2025-05-21",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "AE-PROTEST-2024",
+      "country": "AE",
+      "event_date": null,
+      "published_date": "2024-09-03",
+      "title": {
+        "bn": "আমিরাতে ৫৭ বাংলাদেশিকে ক্ষমা",
+        "en": "UAE pardons 57 Bangladeshis"
+      },
+      "summary": {
+        "bn": "প্রতিবাদে অংশ নিয়ে দণ্ডিত ৫৭ বাংলাদেশিকে ক্ষমা করার খবর।",
+        "en": "Reports pardons for 57 Bangladeshis sentenced after protests."
+      },
+      "category": "justice",
+      "gender": "unknown",
+      "people_count": 57,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/uae-president-pardons-bangladesh-citizens-jailed-protesting-2024-09-03/",
+          "date": "2024-09-03",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "LY-MIZDA-2020",
+      "country": "LY",
+      "event_date": "2020-05-28",
+      "published_date": "2020-05-28",
+      "title": {
+        "bn": "লিবিয়ায় ২৬ বাংলাদেশি নিহত হওয়ার খবর",
+        "en": "26 Bangladeshis reported killed in Libya"
+      },
+      "summary": {
+        "bn": "লিবিয়ার সরকারের বক্তব্য উদ্ধৃত করে হত্যার খবর প্রকাশিত হয়।",
+        "en": "Report cites Libya’s government on the killings."
+      },
+      "category": "trafficking",
+      "gender": "unknown",
+      "people_count": 26,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "bdnews24 / Reuters",
+          "url": "https://bdnews24.com/bangladesh/libya-s-tripoli-government-says-26-bangladeshi-migrants-killed-in-revenge-attack",
+          "date": "2020-05-28",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "MV-FIRE-2022",
+      "country": "MV",
+      "event_date": "2022-11-10",
+      "published_date": "2022-11-12",
+      "title": {
+        "bn": "মালেতে অগ্নিকাণ্ডে দুই বাংলাদেশির মৃত্যুর খবর",
+        "en": "Two Bangladeshis among Malé fire victims"
+      },
+      "summary": {
+        "bn": "স্থানীয় সংবাদে দুই বাংলাদেশির মৃত্যু ও মরদেহ ফেরাতে সমন্বয়ের কথা আছে।",
+        "en": "Local coverage identifies two Bangladeshi deaths and coordination on repatriation."
+      },
+      "category": "workplace",
+      "gender": "mixed",
+      "people_count": 2,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "SunOnline International",
+          "url": "https://english.sun.mv/78938",
+          "date": "2022-11-12",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "OM-CRASH-2025",
+      "country": "OM",
+      "event_date": "2025-10-08",
+      "published_date": "2025-10-09",
+      "title": {
+        "bn": "ওমানে সড়ক দুর্ঘটনায় আট বাংলাদেশি শ্রমিক নিহত",
+        "en": "Eight Bangladeshi workers killed in Oman crash"
+      },
+      "summary": {
+        "bn": "দূতাবাসের কর্মকর্তা ঘটনাস্থলে সহায়তা ও মরদেহ ফেরানোর উদ্যোগের কথা বলেছেন।",
+        "en": "An embassy official described assistance and repatriation steps."
+      },
+      "category": "workplace",
+      "gender": "unknown",
+      "people_count": 8,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "bdnews24 / BSS",
+          "url": "https://bdnews24.com/bangladesh/3e30e41d3958",
+          "date": "2025-10-09",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "SG-MCNAIR-2024",
+      "country": "SG",
+      "event_date": "2024-10-11",
+      "published_date": "2024-10-11",
+      "title": {
+        "bn": "সিঙ্গাপুরে নির্মাণস্থলে বাংলাদেশি শ্রমিকের মৃত্যু",
+        "en": "Bangladeshi worker dies at Singapore construction site"
+      },
+      "summary": {
+        "bn": "মূল সংবাদসংযোগসহ সংকলনে ৩৮ বছর বয়সী শ্রমিকের মৃত্যুর কথা আছে।",
+        "en": "Source-linked coverage describes a 38-year-old worker’s death."
+      },
+      "category": "workplace",
+      "gender": "male",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Business & Human Rights Resource Centre",
+          "url": "https://www.business-humanrights.org/en/latest-news/bangladeshi-worker-dies-at-hdb-construction-site-on-mcnair-road/",
+          "date": "2024-10-11",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
+        "en": "Source-reported; not independently confirmed."
+      },
+      "follow_up": {
+        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
+        "en": "Track follow-up reporting and official statements"
+      }
+    }
+  ]
+}

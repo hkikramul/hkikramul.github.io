@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-19T19:10:05.674240+00:00",
+  "last_successful_scan_at": "2026-10-19T19:10:05.674240+00:00",
+  "update_mode": "automatic_media_publication; individual_submissions_moderated",
+  "coverage_start": "2020-05-28",
+  "coverage_end": "2026-10-19",
+  "coverage_complete": false,
+  "coverage_note": {
+    "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
+    "en": "Source-linked results from the current searches; not an exhaustive archive."
+  },
+  "records": [
+    {
+      "id": "SA-EXEC-AP",
+      "country": "SA",
+      "published_date": "2026-10-19",
+      "event_date": null,
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/03d81c6dd9cf107482392105c21fc1e4",
+      "language": "en",
+      "title": {
+        "bn": "মৃত্যুদণ্ডের ঘটনায় বাংলাদেশের তথ্য চাওয়ার খবর",
+        "en": "Bangladesh seeks information after executions"
+      },
+      "summary": {
+        "bn": "AP একই ঘটনা ও বাংলাদেশের তথ্য চাওয়ার খবর দিয়েছে; এটি নতুন পৃথক ঘটনা নয়।",
+        "en": "AP covers the same executions and Bangladesh’s request for information; this is not a separate incident."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-DS",
+      "country": "SA",
+      "published_date": "2026-10-16",
+      "event_date": "2026-10-14",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/crime-justice/news/ksa-executes-2-bangladeshis-immoral-act-4300016",
+      "language": "en",
+      "title": {
+        "bn": "দুই বাংলাদেশির মৃত্যুদণ্ড ও কনস্যুলার যোগাযোগ",
+        "en": "Executions and consular notification"
+      },
+      "summary": {
+        "bn": "সংবাদে ১৪ অক্টোবর মৃত্যুদণ্ড কার্যকরের কথা আছে; বাংলাদেশ কনস্যুলেট পূর্বে অবহিত হয়নি বলে জানিয়েছে।",
+        "en": "Coverage reports executions on 14 October; Bangladesh’s consulate said it received no advance notice."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-STAR",
+      "country": "SA",
+      "published_date": "2026-10-16",
+      "event_date": null,
+      "publisher": "The Star / The Daily Star",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/16/saudi-arabia-executes-two-bangladeshis-for-immoral-act",
+      "language": "en",
+      "title": {
+        "bn": "সৌদির ঘটনা মালয়েশিয়ার সংবাদমাধ্যমে",
+        "en": "Saudi case covered by Malaysian outlet"
+      },
+      "summary": {
+        "bn": "পুনঃপ্রকাশ; স্বাধীন দ্বিতীয় তদন্ত হিসেবে গণনা নয়।",
+        "en": "Syndicated coverage, not an independent second investigation."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-FISCAL-2026",
+      "country": "MULTI",
+      "published_date": "2026-10-16",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha",
+      "url": "https://www.bssnews.net/others/435543",
+      "language": "en",
+      "title": {
+        "bn": "মরদেহ প্রত্যাবর্তন ও পরিবারের সহায়তার অর্থবছরের হিসাব",
+        "en": "Fiscal-year body-repatriation and family support figures"
+      },
+      "summary": {
+        "bn": "অর্থবছরের সংখ্যা জাতীয় ক্যালেন্ডার বছরের সংখ্যার সঙ্গে যোগ করা যাবে না।",
+        "en": "Fiscal-year totals must not be added to calendar-year totals."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KH-REPAT-2026",
+      "country": "KH",
+      "published_date": "2026-10-06",
+      "event_date": null,
+      "publisher": "bdnews24",
+      "url": "https://bdnews24.com/diaspora/lpguonopn2",
+      "language": "en",
+      "title": {
+        "bn": "কম্বোডিয়া থেকে চারজনের মরদেহ ফেরানোর প্রস্তুতি",
+        "en": "Repatriation plans for four people from Cambodia"
+      },
+      "summary": {
+        "bn": "পরিবারের অভিজ্ঞতা ও মরদেহ ফেরানোর প্রস্তুতির খবর; চারজনকে এক দুর্ঘটনার শিকার বলা হচ্ছে না।",
+        "en": "Reports family experiences and repatriation plans, not a single four-person accident."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-WOMAN-APR",
+      "country": "SA",
+      "published_date": "2026-04-27",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/news/woman-alleges-rape-torture-after-being-sent-saudi-arabia-job-4162051",
+      "language": "en",
+      "title": {
+        "bn": "সৌদিফেরত নারীর যৌন নির্যাতনের অভিযোগ",
+        "en": "Saudi returnee alleges sexual violence"
+      },
+      "summary": {
+        "bn": "চিকিৎসাধীন এক নারী অভিযোগ জানিয়েছেন; প্রতিবেদনের সময় ফরেনসিক ফলের অপেক্ষা ছিল।",
+        "en": "A returnee alleged sexual violence; forensic confirmation was pending when the report appeared."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-ABUSE-2026-APR",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-WOMEN-DS",
+      "country": "MULTI",
+      "published_date": "2026-04-18",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/abuse-exploitation-haunt-women-migrant-workers-4154111",
+      "language": "en",
+      "title": {
+        "bn": "নারী শ্রমিকের অভিযোগ ও সহায়তার পরিসংখ্যান",
+        "en": "Women workers: complaints and assistance"
+      },
+      "summary": {
+        "bn": "ফেরত আসা, অভিযোগ ও আইনি সহায়তার পৃথক তথ্য রয়েছে।",
+        "en": "Contains separate returnee, complaint and legal-assistance statistics."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-WOMEN-DT",
+      "country": "MULTI",
+      "published_date": "2026-03-08",
+      "event_date": null,
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/404974/70-000-female-migrant-workers-returned-in-7-years",
+      "language": "en",
+      "title": {
+        "bn": "নারী শ্রমিকদের অভিজ্ঞতা ও সুরক্ষার প্রশ্ন",
+        "en": "Women workers’ experiences and protection"
+      },
+      "summary": {
+        "bn": "নির্যাতনের অভিযোগ ও ফেরত নারীদের বিবরণ; প্রত্যাবর্তনের সংখ্যা নিপীড়নের মোট সংখ্যা নয়।",
+        "en": "Reports abuse allegations and returnee experiences; returnee totals are not abuse counts."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-PROTEST-AP",
+      "country": "MY",
+      "published_date": "2025-11-10",
+      "event_date": null,
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/46778e8886839c5a4932e95eb0e6773a",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়া-ফেরতদের ঢাকায় প্রতিবাদ",
+        "en": "Returnees protest in Dhaka"
+      },
+      "summary": {
+        "bn": "মজুরি ও দুর্ব্যবহারের অভিযোগ নিয়ে প্রতিবাদ; আগের নিয়োগকর্তা-সংক্রান্ত খবরের অনুসরণ।",
+        "en": "Protest about unpaid wages and alleged mistreatment; related employer cases were covered earlier."
+      },
+      "record_type": "follow_up",
+      "incident_key": "MY-2025-001",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "OM-CRASH-2025",
+      "country": "OM",
+      "published_date": "2025-10-09",
+      "event_date": "2025-10-08",
+      "publisher": "bdnews24 / BSS",
+      "url": "https://bdnews24.com/bangladesh/3e30e41d3958",
+      "language": "en",
+      "title": {
+        "bn": "ওমানে সড়ক দুর্ঘটনায় আট বাংলাদেশি শ্রমিক নিহত",
+        "en": "Eight Bangladeshi workers killed in Oman crash"
+      },
+      "summary": {
+        "bn": "দূতাবাসের কর্মকর্তা ঘটনাস্থলে সহায়তা ও মরদেহ ফেরানোর উদ্যোগের কথা বলেছেন।",
+        "en": "An embassy official described assistance and repatriation steps."
+      },
+      "record_type": "incident",
+      "incident_key": "OM-CRASH-2025",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-WAGES-AP",
+      "country": "MY",
+      "published_date": "2025-05-21",
+      "event_date": null,
+      "publisher": "The Business Standard / AP",
+      "url": "https://www.tbsnews.net/bangladesh/bangladeshi-workers-malaysia-demand-unpaid-wages-after-factory-closure-1148256",
+      "language": "en",
+      "title": {
+        "bn": "কারখানা বন্ধের পর বাংলাদেশিদের মজুরি দাবি",
+        "en": "Bangladeshis seek wages after factory closure"
+      },
+      "summary": {
+        "bn": "কারখানা বন্ধের পর প্রায় ২৮০ শ্রমিকের বকেয়া দাবির খবর।",
+        "en": "Reports unpaid-wage demands by about 280 workers following a factory closure."
+      },
+      "record_type": "incident",
+      "incident_key": "MY-KAWAGUCHI",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-LOADER-HRW",
+      "country": "SA",
+      "published_date": "2025-05-14",
+      "event_date": null,
+      "publisher": "Human Rights Watch",
+      "url": "https://www.hrw.org/news/2025/05/14/saudi-arabia-migrant-workers-electrocuted-decapitated-and-falling-death-workplaces",
+      "language": "en",
+      "title": {
+        "bn": "কর্মক্ষেত্রে মৃত্যু ও ক্ষতিপূরণের অনুসন্ধান",
+        "en": "Workplace deaths and compensation"
+      },
+      "summary": {
+        "bn": "এক বাংলাদেশি নির্মাণশ্রমিকের মৃত্যু ও পরিবারের সরকারি সহায়তা পাওয়ার বিবরণ রয়েছে।",
+        "en": "Investigation includes a Bangladeshi construction worker’s death and the widow’s account of government assistance."
+      },
+      "record_type": "investigation",
+      "incident_key": "SA-2025-002",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-MORTALITY-2025",
+      "country": "MULTI",
+      "published_date": "2025-04-15",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/coffins-faraway-lands-3872151",
+      "language": "en",
+      "title": {
+        "bn": "মরদেহ প্রত্যাবর্তনের বছরভিত্তিক হিসাব",
+        "en": "Annual repatriated-body figures"
+      },
+      "summary": {
+        "bn": "২০২০–২০২৪ সালের জাতীয় সংখ্যা এবং সৌদির আলাদা তথ্য আছে।",
+        "en": "Reports national figures for 2020–2024 and separate Saudi figures."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-SITE-2024",
+      "country": "SG",
+      "published_date": "2024-10-11",
+      "event_date": "2024-10-11",
+      "publisher": "Business & Human Rights Resource Centre",
+      "url": "https://www.business-humanrights.org/en/latest-news/bangladeshi-worker-dies-at-hdb-construction-site-on-mcnair-road/",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরে নির্মাণস্থলে বাংলাদেশি শ্রমিকের মৃত্যু",
+        "en": "Bangladeshi worker dies at Singapore construction site"
+      },
+      "summary": {
+        "bn": "মূল সংবাদসংযোগসহ সংকলনে ৩৮ বছর বয়সী শ্রমিকের মৃত্যুর কথা আছে।",
+        "en": "Source-linked coverage describes a 38-year-old worker’s death."
+      },
+      "record_type": "incident",
+      "incident_key": "SG-MCNAIR-2024",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "AE-PARDON-REUTERS",
+      "country": "AE",
+      "published_date": "2024-09-03",
+      "event_date": null,
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/uae-president-pardons-bangladesh-citizens-jailed-protesting-2024-09-03/",
+      "language": "en",
+      "title": {
+        "bn": "আমিরাতে ৫৭ বাংলাদেশিকে ক্ষমা",
+        "en": "UAE pardons 57 Bangladeshis"
+      },
+      "summary": {
+        "bn": "প্রতিবাদে অংশ নিয়ে দণ্ডিত ৫৭ বাংলাদেশিকে ক্ষমা করার খবর।",
+        "en": "Reports pardons for 57 Bangladeshis sentenced after protests."
+      },
+      "record_type": "incident",
+      "incident_key": "AE-PROTEST-2024",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-SETTLEMENT-2024",
+      "country": "MY",
+      "published_date": "2024-02-08",
+      "event_date": null,
+      "publisher": "Malay Mail",
+      "url": "https://www.malaymail.com/news/malaysia/2024/02/08/activists-duped-bangladeshi-workers-sought-rm2m-in-unpaid-wages-but-only-got-half/116777",
+      "language": "en",
+      "title": {
+        "bn": "বকেয়া মজুরির নিষ্পত্তি নিয়ে অধিকারকর্মীদের প্রশ্ন",
+        "en": "Activists question unpaid-wage settlement"
+      },
+      "summary": {
+        "bn": "অধিকারকর্মীরা দাবি আদায়ের পরিমাণ নিয়ে প্রশ্ন তুলেছেন।",
+        "en": "Activists questioned the amount recovered in a wage settlement."
+      },
+      "record_type": "follow_up",
+      "incident_key": "MY-PENGERANG",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-REVIEW-2024",
+      "country": "MY",
+      "published_date": "2024-01-17",
+      "event_date": null,
+      "publisher": "Dhaka Tribune / Reuters",
+      "url": "https://www.dhakatribune.com/world/asia/337012/malaysia-to-review-migrant-labour-deals-with-15",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় নিয়োগ ও বকেয়া মজুরি নিয়ে পদক্ষেপ",
+        "en": "Malaysia reviews recruitment and wage issues"
+      },
+      "summary": {
+        "bn": "মন্ত্রী তদন্ত ও চুক্তি পর্যালোচনার কথা বলেছেন; ৭৫১ বাংলাদেশির মজুরি দাবি উল্লেখ আছে।",
+        "en": "Minister described investigations and agreement reviews; the report mentions wage claims by 751 Bangladeshis."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-FIRE-2022",
+      "country": "MV",
+      "published_date": "2022-11-12",
+      "event_date": "2022-11-10",
+      "publisher": "SunOnline International",
+      "url": "https://english.sun.mv/78938",
+      "language": "en",
+      "title": {
+        "bn": "মালেতে অগ্নিকাণ্ডে দুই বাংলাদেশির মৃত্যুর খবর",
+        "en": "Two Bangladeshis among Malé fire victims"
+      },
+      "summary": {
+        "bn": "স্থানীয় সংবাদে দুই বাংলাদেশির মৃত্যু ও মরদেহ ফেরাতে সমন্বয়ের কথা আছে।",
+        "en": "Local coverage identifies two Bangladeshi deaths and coordination on repatriation."
+      },
+      "record_type": "incident",
+      "incident_key": "MV-FIRE-2022",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "LY-KILLING-2020",
+      "country": "LY",
+      "published_date": "2020-05-28",
+      "event_date": "2020-05-28",
+      "publisher": "bdnews24 / Reuters",
+      "url": "https://bdnews24.com/bangladesh/libya-s-tripoli-government-says-26-bangladeshi-migrants-killed-in-revenge-attack",
+      "language": "en",
+      "title": {
+        "bn": "লিবিয়ায় ২৬ বাংলাদেশি নিহত হওয়ার খবর",
+        "en": "26 Bangladeshis reported killed in Libya"
+      },
+      "summary": {
+        "bn": "লিবিয়ার সরকারের বক্তব্য উদ্ধৃত করে হত্যার খবর প্রকাশিত হয়।",
+        "en": "Report cites Libya’s government on the killings."
+      },
+      "record_type": "incident",
+      "incident_key": "LY-MIZDA-2020",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-PA",
+      "country": "SA",
+      "published_date": null,
+      "event_date": null,
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/bangladesh/yxrw2kmcx8",
+      "language": "en",
+      "title": {
+        "bn": "মৃত্যুদণ্ডের আগে জানানো হয়নি: বাংলাদেশ",
+        "en": "Bangladesh says it was not notified"
+      },
+      "summary": {
+        "bn": "একই ঘটনা নিয়ে প্রতিবেদন; ঘটনাপঞ্জিতে একই পরিচিতির অধীনে রাখা হয়েছে।",
+        "en": "Another report on the same case, grouped under the same incident key."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-ABIRON-PA",
+      "country": "SA",
+      "published_date": null,
+      "event_date": null,
+      "publisher": "Prothom Alo / UNB",
+      "url": "https://en.prothomalo.com/bangladesh/crime-and-law/saudi-employer-sentenced-to-death-for-killing-bangladeshi-female-migrant",
+      "language": "en",
+      "title": {
+        "bn": "নারী গৃহকর্মী হত্যায় সৌদি আদালতের সাজা",
+        "en": "Saudi court sentence in worker’s killing"
+      },
+      "summary": {
+        "bn": "প্রতিবেদন অনুযায়ী আদালত সাজা দিয়েছেন; বর্তমান আপিল বা কার্যকরের অবস্থা জানা নেই।",
+        "en": "Report describes a court sentence; current appeal or enforcement status is not established."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-ABIRON-2019",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-MORTALITY-PA",
+      "country": "MULTI",
+      "published_date": null,
+      "event_date": null,
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/bangladesh/ms35nsib27",
+      "language": "en",
+      "title": {
+        "bn": "মৃত্যুর নথি ও মরদেহ ফেরানোর পরিসংখ্যান",
+        "en": "Death records and body-repatriation statistics"
+      },
+      "summary": {
+        "bn": "২০১৯ ও ২০২০ সালের সংখ্যা এবং ২০১৮–২০২২ সালের কারণভিত্তিক তথ্য রয়েছে।",
+        "en": "Includes 2019–2020 figures and cause categories for 2018–2022."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    }
+  ]
+}

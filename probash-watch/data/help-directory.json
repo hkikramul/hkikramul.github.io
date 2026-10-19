@@ -1,0 +1,1347 @@
+{
+  "updated_at": "2026-10-19T19:14:29.051563+00:00",
+  "directory_scope": "Official MOFA listings; not complete coverage of every country or live-tested contacts",
+  "missions": [
+    {
+      "country_label": "Brazil (Brasilia)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Brasilia DF, Brazil",
+      "url": "https://brasilia.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "BR",
+      "consular_service": true,
+      "listed_url": "http://brasilia.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Canada (Ottawa)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Ottawa",
+      "url": "https://ottawa.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "CA",
+      "consular_service": true,
+      "listed_url": "http://ottawa.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Canada (Toronto)",
+      "name": "Consulate General of the People's Republic of Bangladesh, Toronto",
+      "url": "https://toronto.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "CA",
+      "consular_service": true,
+      "listed_url": "http://toronto.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Mexico (Mexico City)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Mexico",
+      "url": "https://mexico.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "MX",
+      "consular_service": true,
+      "listed_url": "http://mexico.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "USA (Los Angeles Consulate General)",
+      "name": "Consulate General of the People’s Republic of Bangladesh, Los Angeles",
+      "url": "https://losangeles.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "US",
+      "consular_service": true,
+      "listed_url": "http://losangeles.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "USA (New York Consulate General)",
+      "name": "Consulate General of the People’s Republic of Bangladesh, New York",
+      "url": "https://nycg.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "US",
+      "consular_service": true,
+      "listed_url": "http://nycg.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "USA (New York Permanent Mission to UN)",
+      "name": "Permanent Mission of Bangladesh to the United Nations, New York",
+      "url": "https://nypm.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "US",
+      "consular_service": false,
+      "listed_url": "http://nypm.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "USA (Miami)",
+      "name": "Consulate General of the People’s Republic of Bangladesh, Florida",
+      "url": "https://florida.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "US",
+      "consular_service": true,
+      "listed_url": "http://florida.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "USA (Washington)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Washington, DC",
+      "url": "https://washington.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032aa35ce18e1c05602c1",
+      "country": "US",
+      "consular_service": true,
+      "listed_url": "http://washington.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Australia (Canberra)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Canberra",
+      "url": "https://canberra.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "AU",
+      "consular_service": true,
+      "listed_url": "http://canberra.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Australia (Sydney)",
+      "name": "Consulate General of the People's Republic of Bangladesh, Sydney",
+      "url": "https://sydney.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "AU",
+      "consular_service": true,
+      "listed_url": "http://sydney.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "China (Beijing)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Beijing, China",
+      "url": "https://beijing.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "CN",
+      "consular_service": true,
+      "listed_url": "http://beijing.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "China (Hong Kong Consulate General)",
+      "name": "Consulate General of the People’s Republic of Bangladesh, Hong Kong",
+      "url": "https://hongkong.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "CN",
+      "consular_service": true,
+      "listed_url": "http://hongkong.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "China (Kunming)",
+      "name": "Consulate General of the People’s Republic of Bangladesh, Kunming",
+      "url": "https://kunming.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "CN",
+      "consular_service": true,
+      "listed_url": "http://kunming.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Japan (Tokyo)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Tokyo",
+      "url": "https://tokyo.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "JP",
+      "consular_service": true,
+      "listed_url": "http://tokyo.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Korea (Seoul)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Seoul",
+      "url": "https://seoul.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "KR",
+      "consular_service": true,
+      "listed_url": "http://seoul.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "New Zealand (Wellington)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Wellington",
+      "url": "https://wellington.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032b535ce18e1c0560f97",
+      "country": "NZ",
+      "consular_service": true,
+      "listed_url": "http://wellington.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Brunei (Bandar Seri Begawan)",
+      "name": "High Commission of the People's Republic of Bangladesh, Bandar Seri Begawan",
+      "url": "https://bandarseribegawan.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "BN",
+      "consular_service": true,
+      "listed_url": "http://bandarseribegawan.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Indonesia (Jakarta)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Jakarta",
+      "url": "https://jakarta.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "ID",
+      "consular_service": true,
+      "listed_url": "http://jakarta.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Malaysia (Kuala Lumpur)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Kuala Lumpur",
+      "url": "https://kualalumpur.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "MY",
+      "consular_service": true,
+      "listed_url": "http://kualalumpur.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Myanmar (Sittwe Consulate)",
+      "name": "Consulate of the People’s Republic of Bangladesh, Sittwe, Rakhine State, Myanmar",
+      "url": "https://sittwe.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "MM",
+      "consular_service": true,
+      "listed_url": "http://sittwe.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Myanmar (Yangon)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Yangon, Myanmar",
+      "url": "https://yangon.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "MM",
+      "consular_service": true,
+      "listed_url": "http://yangon.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "The Philippines (Manila)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Manila",
+      "url": "https://manila.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "PH",
+      "consular_service": true,
+      "listed_url": "http://manila.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Singapore (Singapore)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Singapore",
+      "url": "https://singapore.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "SG",
+      "consular_service": true,
+      "listed_url": "http://singapore.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Thailand (Bangkok)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Bangkok",
+      "url": "https://bangkok.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "TH",
+      "consular_service": true,
+      "listed_url": "http://bangkok.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Vietnam (Hanoi)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Hanoi",
+      "url": "https://hanoi.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329835ce18e1c055f0f8",
+      "country": "VN",
+      "consular_service": true,
+      "listed_url": "http://hanoi.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Bahrain (Manama)",
+      "name": "Embassy of the People's Republic of Bangladesh, Manama",
+      "url": "https://manama.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "BH",
+      "consular_service": true,
+      "listed_url": "http://manama.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Iran (Tehran)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Tehran",
+      "url": "https://tehran.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "IR",
+      "consular_service": true,
+      "listed_url": "http://tehran.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Iraq (Baghdad)",
+      "name": "Embassy of the Peoples Republic of Bangladesh, Baghdad, Iraq",
+      "url": "https://baghdad.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "IQ",
+      "consular_service": true,
+      "listed_url": "http://baghdad.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Jordan (Amman)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Amman, Jordan",
+      "url": "https://amman.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "JO",
+      "consular_service": true,
+      "listed_url": "http://amman.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Kuwait (Kuwait City)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Kuwait",
+      "url": "https://kuwait.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "KW",
+      "consular_service": true,
+      "listed_url": "http://kuwait.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Lebanon (Beirut)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Beirut, Lebanon",
+      "url": "https://beirut.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "LB",
+      "consular_service": true,
+      "listed_url": "http://beirut.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Oman (Muscat)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Muscat",
+      "url": "https://muscat.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "OM",
+      "consular_service": true,
+      "listed_url": "http://muscat.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Qatar (Doha)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Doha, Qatar",
+      "url": "https://doha.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "QA",
+      "consular_service": true,
+      "listed_url": "http://doha.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Saudi Arabia (Jeddah Consulate General)",
+      "name": "Consulate General of the People's Republic of Bangladesh, Jeddah",
+      "url": "https://jeddah.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "SA",
+      "consular_service": true,
+      "listed_url": "http://jeddah.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Saudi Arabia (Jeddah)",
+      "name": "Permanent Mission of Bangladesh to the Organisation of Islamic Cooperation (OIC), Jeddah",
+      "url": "https://oicpm.mofa.gov.bd/",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "SA",
+      "consular_service": false,
+      "listed_url": "https://oicpm.mofa.gov.bd/",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Saudi Arabia (Riyadh)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Riyadh",
+      "url": "https://riyadh.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "SA",
+      "consular_service": true,
+      "listed_url": "http://riyadh.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "UAE (Abu Dhabi)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Abu Dhabi, UAE",
+      "url": "https://abudhabi.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "AE",
+      "consular_service": true,
+      "listed_url": "http://abudhabi.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "UAE (Dubai Consulate General)",
+      "name": "Consulate General of the People's Republic of Bangladesh, Dubai, UAE",
+      "url": "https://dubai.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032bc35ce18e1c05617e8",
+      "country": "AE",
+      "consular_service": true,
+      "listed_url": "http://dubai.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Austria (Vienna)",
+      "name": "Embassy & Permanent Mission of the People’s Republic of Bangladesh to the UN Offices and other International Organizations in Vienna",
+      "url": "https://vienna.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "AT",
+      "consular_service": true,
+      "listed_url": "http://vienna.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Belgium (Brussels)",
+      "name": "Embassy of the People's Republic of Bangladesh, Brussels",
+      "url": "https://brussels.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "BE",
+      "consular_service": true,
+      "listed_url": "http://brussels.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Denmark (Copenhagen)",
+      "name": "The Embassy of the People’s Republic of Bangladesh, Copenhagen",
+      "url": "https://copenhagen.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "DK",
+      "consular_service": true,
+      "listed_url": "http://copenhagen.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "France (Paris)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Paris",
+      "url": "https://paris.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "FR",
+      "consular_service": true,
+      "listed_url": "http://paris.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Germany (Berlin)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Berlin",
+      "url": "https://berlin.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "DE",
+      "consular_service": true,
+      "listed_url": "http://berlin.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Greece (Athens)",
+      "name": "Embassy of the People's Republic of Bangladesh, Athens, Greece",
+      "url": "https://athens.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "GR",
+      "consular_service": true,
+      "listed_url": "http://athens.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Italy (Milan)",
+      "name": "Consulate General of the People’s Republic of Bangladesh, Milan",
+      "url": "https://milan.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "IT",
+      "consular_service": true,
+      "listed_url": "http://milan.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Italy (Rome)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Rome",
+      "url": "https://rome.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "IT",
+      "consular_service": true,
+      "listed_url": "http://rome.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "The Netherlands (The Hague)",
+      "name": "Embassy of the People’s Republic of Bangladesh, The Hague",
+      "url": "https://hague.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "NL",
+      "consular_service": true,
+      "listed_url": "http://hague.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Portugal (Lisbon)",
+      "name": "Embassy of the People´s Republic of Bangladesh, Lisbon, Portugal",
+      "url": "https://lisbon.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "PT",
+      "consular_service": true,
+      "listed_url": "http://lisbon.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Spain (Madrid)",
+      "name": "Embassy of the People's Republic of Bangladesh, Madrid",
+      "url": "https://madrid.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "ES",
+      "consular_service": true,
+      "listed_url": "http://madrid.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Sweden (Stockholm)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Stockholm",
+      "url": "https://stockholm.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "SE",
+      "consular_service": true,
+      "listed_url": "http://stockholm.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Switzerland (Geneva Permanent Mission to UN Office)",
+      "name": "Permanent Mission of Bangladesh to the UN Office & other International Organizations in Geneva",
+      "url": "https://geneva.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "CH",
+      "consular_service": false,
+      "listed_url": "http://geneva.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "United Kingdom (Birmingham Assistant High Commission)",
+      "name": "Assistant High Commission for the People’s Republic of Bangladesh, Birmingham, United Kingdom",
+      "url": "https://birmingham.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "GB",
+      "consular_service": true,
+      "listed_url": "http://birmingham.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "United Kingdom (London)",
+      "name": "High Commission for the People’s Republic of Bangladesh, London",
+      "url": "https://london.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "GB",
+      "consular_service": true,
+      "listed_url": "http://london.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "United Kingdom (Manchester Assistant High Commission)",
+      "name": "Assistant High Commission for the People’s Republic of Bangladesh, Manchester, UK",
+      "url": "https://manchester.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/6940329a35ce18e1c055f343",
+      "country": "GB",
+      "consular_service": true,
+      "listed_url": "http://manchester.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Bhutan (Thimphu)",
+      "name": "Embassy of the People's Republic of Bangladesh, Thimphu, Bhutan",
+      "url": "https://thimphu.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "BT",
+      "consular_service": true,
+      "listed_url": "http://thimphu.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "India (Assistant High Commission, Agartala)",
+      "name": "Bangladesh Assistant High Commission, Agartala",
+      "url": "https://agartala.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "IN",
+      "consular_service": true,
+      "listed_url": "http://agartala.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "India (Chennai Deputy High Commission)",
+      "name": "Deputy High Commission for the People's Republic of Bangladesh, Chennai, India",
+      "url": "https://chennai.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "IN",
+      "consular_service": true,
+      "listed_url": "http://chennai.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "India (Assistant High Commission, Guwahati)",
+      "name": "Assistant High Commission of Bangladesh, Guwahati",
+      "url": "https://guwahati.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "IN",
+      "consular_service": true,
+      "listed_url": "http://guwahati.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "India (Kolkata Deputy High Commission)",
+      "name": "Deputy High Commission for the People’s Republic of Bangladesh, Kolkata",
+      "url": "https://kolkata.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "IN",
+      "consular_service": true,
+      "listed_url": "http://kolkata.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "India (Mumbai)",
+      "name": "Deputy High Commission for the People's Republic of Bangladesh, Mumbai, India",
+      "url": "https://mumbai.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "IN",
+      "consular_service": true,
+      "listed_url": "http://mumbai.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "India (New Delhi)",
+      "name": "High Commission for the People’s Republic of Bangladesh, New Delhi, India",
+      "url": "https://newdelhi.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "IN",
+      "consular_service": true,
+      "listed_url": "http://newdelhi.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "The Maldives (Male)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Male, Republic of Maldives",
+      "url": "https://male.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "MV",
+      "consular_service": true,
+      "listed_url": "http://male.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Nepal (Kathmandu)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Kathmandu",
+      "url": "https://kathmandu.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "NP",
+      "consular_service": true,
+      "listed_url": "http://kathmandu.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Pakistan (Islamabad)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Islamabad, Pakistan",
+      "url": "https://islamabad.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "PK",
+      "consular_service": true,
+      "listed_url": "http://islamabad.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Pakistan (Karachi Deputy High Commission)",
+      "name": "Bangladesh Deputy High Commission, Karachi, Pakistan",
+      "url": "https://karachi.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "PK",
+      "consular_service": true,
+      "listed_url": "http://karachi.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Sri Lanka (Colombo)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Colombo",
+      "url": "https://colombo.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032af35ce18e1c056083b",
+      "country": "LK",
+      "consular_service": true,
+      "listed_url": "http://colombo.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Algeria (Algiers)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Algiers, Algeria",
+      "url": "https://algiers.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "DZ",
+      "consular_service": true,
+      "listed_url": "http://algiers.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Egypt (Cairo)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Cairo, Egypt",
+      "url": "https://cairo.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "EG",
+      "consular_service": true,
+      "listed_url": "http://cairo.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Ethiopia (Addis Ababa)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Addis Ababa, Ethiopia",
+      "url": "https://addisababa.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "ET",
+      "consular_service": true,
+      "listed_url": "http://addisababa.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Kenya (Nairobi)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Nairobi, Kenya",
+      "url": "https://nairobi.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "KE",
+      "consular_service": true,
+      "listed_url": "http://nairobi.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Libya (Tripoli)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Tripoli, Libya",
+      "url": "https://tripoli.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "LY",
+      "consular_service": true,
+      "listed_url": "http://tripoli.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Mauritius (Port Louis)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Port Louis, Republic of Mauritius",
+      "url": "https://portlouis.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "MU",
+      "consular_service": true,
+      "listed_url": "http://portlouis.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Morocco (Rabat)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Rabat",
+      "url": "https://rabat.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "MA",
+      "consular_service": true,
+      "listed_url": "http://rabat.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Nigeria (Abuja)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Abuja, Nigeria",
+      "url": "https://abuja.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "NG",
+      "consular_service": true,
+      "listed_url": "http://abuja.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "South Africa (Pretoria)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Pretoria",
+      "url": "https://pretoria.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "ZA",
+      "consular_service": true,
+      "listed_url": "http://pretoria.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Sierra Leone (Freetown)",
+      "name": "High Commission for the People’s Republic of Bangladesh, Freetown",
+      "url": "https://freetown.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032d335ce18e1c0563050",
+      "country": "SL",
+      "consular_service": true,
+      "listed_url": "http://freetown.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Poland (Warsaw)",
+      "name": "Embassy of the People´s Republic of Bangladesh, Poland",
+      "url": "https://warsaw.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032da35ce18e1c0563708",
+      "country": "PL",
+      "consular_service": true,
+      "listed_url": "http://warsaw.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Romania (Bucharest)",
+      "name": "Embassy of the People's Republic of Bangladesh, Bucharest",
+      "url": "https://bucharest.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032da35ce18e1c0563708",
+      "country": "RO",
+      "consular_service": true,
+      "listed_url": "http://bucharest.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Russian Federation (Moscow)",
+      "name": "Embassy of the People's Republic of Bangladesh, Moscow",
+      "url": "https://moscow.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032da35ce18e1c0563708",
+      "country": "RU",
+      "consular_service": true,
+      "listed_url": "http://moscow.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Republic of Turkey (Ankara)",
+      "name": "Embassy of the People’s Republic of Bangladesh, Ankara",
+      "url": "https://ankara.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032da35ce18e1c0563708",
+      "country": "TR",
+      "consular_service": true,
+      "listed_url": "http://ankara.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Republic of Turkey (Istanbul)",
+      "name": "Consulate General of Bangladesh, Istanbul",
+      "url": "https://istanbul.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032da35ce18e1c0563708",
+      "country": "TR",
+      "consular_service": true,
+      "listed_url": "http://istanbul.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    },
+    {
+      "country_label": "Uzbekistan (Tashkent)",
+      "name": "Embassy of the People’s Republic of Bangladesh to the Republic of Uzbekistan, Tashkent",
+      "url": "https://tashkent.mofa.gov.bd",
+      "source_url": "https://mofa.gov.bd/pages/static-pages/694032da35ce18e1c0563708",
+      "country": "UZ",
+      "consular_service": true,
+      "listed_url": "http://tashkent.mofa.gov.bd",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "verification": "Listed in official MOFA directory; live service, phone and jurisdiction not individually tested."
+    }
+  ],
+  "organizations": [
+    {
+      "id": "brac",
+      "name": "BRAC Migration / Prottasha II",
+      "url": "https://explore.brac.net/program/prottasha-ii/learn-more/",
+      "description": {
+        "bn": "অভিবাসন ও পুনর্বাসন সহায়তার পথ; সদরদপ্তর থেকে সংশ্লিষ্ট কর্মসূচিতে যোগাযোগ চাইতে পারেন।",
+        "en": "Migration/reintegration support route; ask headquarters for the relevant programme."
+      },
+      "kind": "ngo_bd",
+      "country": "BD",
+      "phone": "+8802222281265",
+      "email": "info@brac.net",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "okup",
+      "name": "Ovibashi Karmi Unnayan Program (OKUP)",
+      "url": "https://okup.org.bd/legal-assistance/",
+      "description": {
+        "bn": "অভিবাসন, শ্রম অধিকার ও পাচার বিষয়ে আইনি সহায়তার নির্দেশনা।",
+        "en": "Legal-assistance guidance on migration, labour rights and trafficking."
+      },
+      "kind": "ngo_bd",
+      "country": "BD",
+      "phone": null,
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "warbe",
+      "name": "WARBE Development Foundation",
+      "url": "https://warbe.org/",
+      "description": {
+        "bn": "অভিবাসী অধিকার, সহায়তা ও রেফারেলের বিষয়ে যোগাযোগ।",
+        "en": "Contact about migrant rights, assistance and referral."
+      },
+      "kind": "ngo_bd",
+      "country": "BD",
+      "phone": null,
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "bnsk",
+      "name": "Bangladesh Nari Sramik Kendra (BNSK)",
+      "url": "https://www.bnsk.org/about",
+      "description": {
+        "bn": "নারী শ্রমিক, ফেরত অভিবাসী ও পাচার থেকে বেঁচে ফেরা ব্যক্তিদের সহায়তা।",
+        "en": "Support for women workers, returnees and trafficking survivors."
+      },
+      "kind": "ngo_bd",
+      "country": "BD",
+      "phone": "+8801715155198",
+      "email": "bnskbd@gmail.com",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "mrc",
+      "name": "Migrant Resource Centre Bangladesh",
+      "url": "https://www.mrc-bangladesh.org/en/faq/faq-on-mrcs/who-can-contact-us",
+      "description": {
+        "bn": "অভিবাসী, প্রবাসী পরিবার ও শিক্ষার্থীদের তথ্য ও পরামর্শ; আদালত নয়।",
+        "en": "Information/advice for migrants, families and students; not a court."
+      },
+      "kind": "resource_centre",
+      "country": "BD",
+      "phone": null,
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "wewb",
+      "name": "WEWB Probashi Call Centre",
+      "url": "https://wewb.gov.bd/pages/static-pages/6922db7d933eb65569e0a5ea",
+      "description": {
+        "bn": "বাংলাদেশ থেকে ১৬১৩৫; বিদেশ থেকে নিচের নম্বর। সরকারি কলসেন্টার; স্থানীয় জরুরি উদ্ধার নম্বর নয়।",
+        "en": "16135 from Bangladesh; international number below. Government call centre, not a local emergency rescue line."
+      },
+      "kind": "government_bd",
+      "country": "BD",
+      "phone": "+8809610102030",
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "mfa",
+      "name": "Migrant Forum in Asia",
+      "url": "https://mfasia.org/migrantforumasia/",
+      "description": {
+        "bn": "অভিবাসী অধিকার ও আইনজীবী/সদস্য সংগঠনের নেটওয়ার্ক; জরুরি পুলিশ সেবা নয়।",
+        "en": "Migrant-rights and partner/lawyer network; not emergency policing."
+      },
+      "kind": "ngo_international",
+      "country": "GLOBAL",
+      "phone": null,
+      "email": "mfa@mfasia.org",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "gaatw",
+      "name": "Global Alliance Against Traffic in Women (GAATW)",
+      "url": "https://www.gaatw.org/",
+      "description": {
+        "bn": "পাচার ও অভিবাসন বিষয়ে সদস্য সংগঠনের নেটওয়ার্ক; সরাসরি উদ্ধার নিশ্চিত নয়।",
+        "en": "Anti-trafficking and migration network; direct rescue is not guaranteed."
+      },
+      "kind": "ngo_international",
+      "country": "GLOBAL",
+      "phone": null,
+      "email": "gaatw@gaatw.org",
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "antislavery",
+      "name": "Anti-Slavery International",
+      "url": "https://www.antislavery.org/",
+      "description": {
+        "bn": "জোরপূর্বক শ্রম ও পাচার বিষয়ে তথ্য, প্রচার ও সহযোগী নেটওয়ার্ক; আদালত নয়।",
+        "en": "Information, advocacy and partner network on forced labour/trafficking; not a court."
+      },
+      "kind": "ngo_international",
+      "country": "GLOBAL",
+      "phone": null,
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "home",
+      "name": "HOME Singapore",
+      "url": "https://www.home.org.sg/",
+      "description": {
+        "bn": "অভিবাসী শ্রমিক সহায়তার নম্বর; গৃহকর্মীদের আলাদা নম্বর +65 9787 3122।",
+        "en": "Migrant-worker helpline; separate domestic-worker line +65 9787 3122."
+      },
+      "kind": "ngo_local",
+      "country": "SG",
+      "phone": "+6563415535",
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "twc2",
+      "name": "TWC2 Singapore",
+      "url": "https://twc2.org.sg/",
+      "description": {
+        "bn": "সিঙ্গাপুরে অভিবাসী শ্রমিক অধিকার ও সহায়তার যোগাযোগ।",
+        "en": "Singapore migrant-worker rights and support contact."
+      },
+      "kind": "ngo_local",
+      "country": "SG",
+      "phone": null,
+      "email": null,
+      "checked_at": "2026-10-19T19:14:29.051563+00:00",
+      "availability": "Check current eligibility, opening hours and service area with the provider; assistance not guaranteed."
+    },
+    {
+      "id": "blast",
+      "name": "Bangladesh Legal Aid and Services Trust (BLAST)",
+      "url": "https://blast.org.bd/",
+      "kind": "legal_aid",
+      "country": "BD",
+      "phone": "+8801715220220",
+      "description": {
+        "bn": "বাংলাদেশে আইনি পরামর্শের সম্ভাব্য পথ। নিজস্ব সাইটে সকাল ৯টা–বিকাল ৫টা বলা আছে; বিদেশি আদালতে প্রতিনিধিত্ব নিশ্চিত নয়।",
+        "en": "Possible Bangladesh legal-advice route. Own website lists 9am–5pm; foreign-court representation is not guaranteed."
+      }
+    },
+    {
+      "id": "lbb",
+      "name": "Lawyers Beyond Borders — Migrant Forum in Asia",
+      "url": "https://mfasia.org/migrantforumasia/lawyers-beyond-borders/",
+      "kind": "legal_network",
+      "country": "GLOBAL",
+      "email": "mfa@mfasia.org",
+      "description": {
+        "bn": "অভিবাসী বিষয়ে আইনজীবীদের নেটওয়ার্ক; কোন দেশে সদস্য ও সেবা আছে জেনে যোগাযোগ করুন।",
+        "en": "Migrant-lawyer network; check member coverage and services for the relevant country."
+      }
+    },
+    {
+      "id": "okup-legal",
+      "name": "OKUP — migration-related legal assistance",
+      "url": "https://okup.org.bd/legal-assistance/",
+      "kind": "legal_aid",
+      "country": "BD",
+      "description": {
+        "bn": "ফেরত অভিবাসী, শ্রম অধিকার ও পাচার-সম্পর্কিত আইনি সহায়তার যোগ্যতা জানতে যোগাযোগ।",
+        "en": "Ask about eligibility for legal assistance on returnee, labour-rights and trafficking issues."
+      }
+    }
+  ],
+  "local_authorities": [
+    {
+      "country": "SA",
+      "name": "HRSD",
+      "url": "https://www.hrsd.gov.sa/en/contact-us",
+      "description": {
+        "bn": "শ্রমবিষয়ক অভিযোগ ও নির্দেশনা; গৃহকর্মীর উপযুক্ত পথ আলাদা করে জেনে নিন।",
+        "en": "Labour complaints/guidance; check the applicable domestic-worker route."
+      },
+      "phone": "19911"
+    },
+    {
+      "country": "SA",
+      "name": "Saudi Human Rights Commission",
+      "url": "https://e-services.hrc.gov.sa/en",
+      "description": {
+        "bn": "মানবাধিকার অভিযোগ।",
+        "en": "Human-rights complaints."
+      },
+      "phone": "19922"
+    },
+    {
+      "country": "MY",
+      "name": "JTKSM — Peninsular Malaysia",
+      "url": "https://jtksm.mohr.gov.my/en/services/complaints",
+      "description": {
+        "bn": "উপদ্বীপ মালয়েশিয়ার শ্রম অভিযোগ; সাবাহ/সারাওয়াকের দায়িত্ব আলাদা।",
+        "en": "Labour complaints in Peninsular Malaysia; Sabah/Sarawak jurisdiction differs."
+      }
+    },
+    {
+      "country": "US",
+      "name": "US Department of Labor — WHD",
+      "url": "https://www.dol.gov/agencies/whd/contact/complaints",
+      "description": {
+        "bn": "মজুরি ও প্রযোজ্য শ্রম অধিকার; সব অপরাধ বা অভিবাসন বিষয় নয়।",
+        "en": "Wages and applicable employment rights, not every crime or immigration issue."
+      },
+      "phone": "+18664879243"
+    },
+    {
+      "country": "GB",
+      "name": "UK — Pay and work rights",
+      "url": "https://www.gov.uk/pay-and-work-rights",
+      "description": {
+        "bn": "মজুরি ও কর্ম অধিকার অভিযোগের সরকারি পথ।",
+        "en": "Official route for pay/work-rights complaints."
+      }
+    },
+    {
+      "country": "SG",
+      "name": "Singapore Ministry of Manpower",
+      "url": "https://www.mom.gov.sg/eservices/services/report-an-employment-act-violation",
+      "description": {
+        "bn": "প্রযোজ্য কর্ম অধিকার লঙ্ঘনের অভিযোগ; গৃহকর্মীর ক্ষেত্রে পৃথক নিয়ম জেনে নিন।",
+        "en": "Employment-rights reporting; check separate domestic-worker rules."
+      }
+    },
+    {
+      "country": "AU",
+      "name": "Fair Work Ombudsman",
+      "url": "https://www.fairwork.gov.au/workplace-problems",
+      "description": {
+        "bn": "বেতন ও প্রযোজ্য কর্ম অধিকার বিষয়ে সহায়তা।",
+        "en": "Assistance on pay and applicable employment rights."
+      }
+    },
+    {
+      "country": "AE",
+      "name": "UAE Ministry of Human Resources and Emiratisation",
+      "url": "https://www.mohre.gov.ae/AR/services/services-directory",
+      "description": {
+        "bn": "বেসরকারি খাত ও গৃহকর্মীর অভিযোগের প্রযোজ্য সেবা বেছে নিন।",
+        "en": "Choose the applicable private-sector or domestic-worker complaint service."
+      }
+    },
+    {
+      "country": "QA",
+      "name": "Qatar labour complaints platform",
+      "url": "https://acms.adlsa.gov.qa/en",
+      "description": {
+        "bn": "শ্রম আইনের আওতাভুক্ত অভিযোগের সরকারি প্ল্যাটফর্ম; পরিচয়পত্র এখানে নয়, শুধু সরকারি সাইটে দিন।",
+        "en": "Official platform for covered labour complaints; provide identity documents only on the official site, not here."
+      }
+    }
+  ],
+  "international": [
+    {
+      "id": "ohchr-sp",
+      "name": "UN OHCHR — Special Procedures",
+      "url": "https://spsubmission.ohchr.org/",
+      "scope": {
+        "bn": "গুরুতর বা চলমান মানবাধিকার লঙ্ঘন: অভিবাসী অধিকার, পাচার, নির্যাতন, নির্বিচার আটক ইত্যাদির প্রাসঙ্গিক বিশেষজ্ঞ।",
+        "en": "Serious or ongoing human-rights violations: relevant experts on migrants, trafficking, torture or arbitrary detention."
+      },
+      "conditions": {
+        "bn": "ব্যক্তি বা সংগঠন জমা দিতে পারে। স্থানীয় সব প্রতিকার শেষ করা বাধ্যতামূলক নয়। নির্ভরযোগ্য বিস্তারিত তথ্য প্রয়োজন; শুধু খবরের কাটিং যথেষ্ট নয়।",
+        "en": "Individuals/organizations may submit. Domestic remedies need not be exhausted. Detailed credible information is needed, not media coverage alone."
+      },
+      "limits": {
+        "bn": "এটি আদালত বা জরুরি উদ্ধারসেবা নয়; সুপারিশ বলবৎ করার ক্ষমতা নেই।",
+        "en": "Not a court or emergency rescue service; cannot enforce recommendations."
+      },
+      "privacy": {
+        "bn": "সরকারকে পাঠানো চিঠিতে নাম থাকতে পারে। পরিচয় প্রকাশ ও প্রকাশ্য প্রতিবেদনের সম্মতি আলাদা করে জানান; নিরাপত্তার ঝুঁকিতে নাম গোপন রাখার অনুরোধ করুন।",
+        "en": "Names may be shared with the government. State consent separately for disclosure and public reporting; request withholding where safety is at risk."
+      }
+    },
+    {
+      "id": "ohchr-treaty",
+      "name": "UN human-rights treaty bodies",
+      "url": "https://complaints.ohchr.org/",
+      "scope": {
+        "bn": "নির্দিষ্ট মানবাধিকার চুক্তির অধীনে ব্যক্তিগত অভিযোগের যোগ্যতা যাচাই।",
+        "en": "Eligibility assessment for an individual complaint under a specific human-rights treaty."
+      },
+      "conditions": {
+        "bn": "সংশ্লিষ্ট রাষ্ট্রকে প্রযোজ্য অভিযোগপদ্ধতি গ্রহণ করতে হবে; সাধারণত কার্যকর স্থানীয় প্রতিকার শেষ করতে হয়, প্রযোজ্য ব্যতিক্রম থাকতে পারে। আইনজীবীর সহায়তা নিন।",
+        "en": "The relevant state must accept the applicable complaint procedure; effective domestic remedies generally must be exhausted, subject to exceptions. Seek qualified advice."
+      },
+      "limits": {
+        "bn": "সব রাষ্ট্র বা সব অভিযোগের জন্য উন্মুক্ত নয়; স্বয়ংক্রিয় আপিল আদালত নয়।",
+        "en": "Not available for every state or complaint; not an automatic appeal court."
+      },
+      "privacy": {
+        "bn": "প্রক্রিয়ার প্রকাশ ও তথ্য আদানপ্রদানের নিয়ম পড়ে সম্মতি দিন।",
+        "en": "Read the procedure’s disclosure and information-sharing rules before consenting."
+      }
+    },
+    {
+      "id": "oecd",
+      "name": "OECD National Contact Points",
+      "url": "https://www.oecd.org/en/networks/national-contact-points-for-responsible-business-conduct.html",
+      "scope": {
+        "bn": "প্রযোজ্য বহুজাতিক প্রতিষ্ঠানের সঙ্গে যুক্ত শ্রম ও মানবাধিকার ক্ষতির অভিযোগ।",
+        "en": "Labour/human-rights impacts linked to an applicable multinational enterprise."
+      },
+      "conditions": {
+        "bn": "কোম্পানি, দেশের সংযোগ ও গ্রহণযোগ্যতার শর্ত যাচাই করে উপযুক্ত NCP বেছে নিন।",
+        "en": "Check company/country links and admissibility before choosing an NCP."
+      },
+      "limits": {
+        "bn": "সাধারণত মধ্যস্থতা ও সুপারিশ; পুলিশ বা বাধ্যতামূলক ক্ষতিপূরণের আদালত নয়।",
+        "en": "Typically mediation and recommendations, not police or a compensation court."
+      },
+      "privacy": {
+        "bn": "নথি ভাগাভাগি ও প্রকাশের শর্ত সংশ্লিষ্ট NCP থেকে জেনে নিন।",
+        "en": "Ask the NCP about document sharing and publication."
+      }
+    },
+    {
+      "id": "ilo",
+      "name": "ILO — Article 24 representation",
+      "url": "https://guide-supervision.ilo.org/article-24/index.html",
+      "scope": {
+        "bn": "অনুসমর্থিত শ্রম কনভেনশন বাস্তবায়নের ব্যর্থতা।",
+        "en": "Failure to observe a ratified labour convention."
+      },
+      "conditions": {
+        "bn": "সরাসরি ব্যক্তিগত অভিযোগের পথ নয়; যোগ্য শ্রমিক বা নিয়োগকর্তা সংগঠনের মাধ্যমে বিষয়টি তুলতে হয়।",
+        "en": "Not a direct individual complaint route; an eligible workers’ or employers’ organization must bring the representation."
+      },
+      "limits": {
+        "bn": "ব্যক্তিগত জরুরি উদ্ধার বা প্রতিটি মজুরি দাবির আদায়ের ব্যবস্থা নয়।",
+        "en": "Not emergency rescue or a mechanism to recover every individual wage claim."
+      },
+      "privacy": {
+        "bn": "সংগঠনের মাধ্যমে প্রয়োজনীয় তথ্য ও প্রকাশের সীমা নির্ধারণ করুন।",
+        "en": "Agree information-sharing limits with the submitting organization."
+      }
+    },
+    {
+      "id": "unhcr",
+      "name": "UNHCR Help",
+      "url": "https://help.unhcr.org/",
+      "scope": {
+        "bn": "শরণার্থী, আশ্রয়প্রার্থী, রাষ্ট্রহীনতা বা ফেরত পাঠালে নিপীড়নের আশঙ্কায় প্রাসঙ্গিক সহায়তা।",
+        "en": "Support relevant to refugees, asylum seekers, statelessness or feared persecution on return."
+      },
+      "conditions": {
+        "bn": "দেশ ও ব্যক্তির সুরক্ষার প্রয়োজন অনুযায়ী প্রযোজ্যতা দেখুন; সব শ্রম অভিযোগের জন্য নয়।",
+        "en": "Check country-specific protection eligibility; not a general labour-complaint route."
+      },
+      "limits": {
+        "bn": "কনস্যুলার সিদ্ধান্তের সাধারণ আপিল কর্তৃপক্ষ নয়।",
+        "en": "Not a general appeal body for consular decisions."
+      },
+      "privacy": {
+        "bn": "নিজ দেশের কর্তৃপক্ষের কাছে যোগাযোগ অনিরাপদ হলে আগে স্বাধীন সুরক্ষা পরামর্শ নিন।",
+        "en": "If contacting home-country authorities could endanger you, first seek independent protection advice."
+      }
+    },
+    {
+      "id": "iom",
+      "name": "International Organization for Migration (IOM)",
+      "url": "https://www.iom.int/contact-us",
+      "scope": {
+        "bn": "দেশভেদে অভিবাসী সুরক্ষা, পাচার-সম্পর্কিত সহায়তা বা রেফারেলের সম্ভাব্য পথ।",
+        "en": "Possible country-specific migration protection, trafficking assistance or referral."
+      },
+      "conditions": {
+        "bn": "স্থানীয় অফিস ও কর্মসূচির প্রাপ্যতা যাচাই করতে হবে।",
+        "en": "Local office/programme availability must be checked."
+      },
+      "limits": {
+        "bn": "আদালত নয়; উদ্ধার, মামলা বা ক্ষতিপূরণ নিশ্চিত করে না।",
+        "en": "Not a court; does not guarantee rescue, litigation or compensation."
+      },
+      "privacy": {
+        "bn": "অফিসের নিজস্ব সম্মতি ও গোপনীয়তার নিয়ম জেনে নিন।",
+        "en": "Check the office’s consent and privacy rules."
+      }
+    }
+  ],
+  "mofa_complaint": {
+    "url": "https://mofa.gov.bd/pages/static-pages/694032cf35ce18e1c0562c42",
+    "grs_url": "https://www.grs.gov.bd/",
+    "complaint_email": "consularqueries@mofa.gov.bd",
+    "appeal_email": "dgio@mofa.gov.bd",
+    "note": "Official directory published roles/contact; verify current officer and eligibility. Service complaints are distinct from appeals against foreign court decisions."
+  },
+  "npa_legal": {
+    "contact_configured": false,
+    "partnerships_confirmed": false,
+    "status": "Contact and authorized legal caseworkers not assigned"
+  }
+}

@@ -1,13 +1,17 @@
-# Probash Watch — public GitHub Pages edition
+# প্রবাসপ্রহরী | Probash Watch
 
-Public URL: https://hkikramul.github.io/probash-watch/
+Public dashboard: https://hkikramul.github.io/probash-watch/
 
-Scope: Bangladeshi citizen migrant workers regardless of birthplace. Bangladeshi ancestry or birth in Bangladesh does not by itself establish citizenship. Public readers are not citizenship-gated.
+Maintained by NPA Data Analytics Team, in collaboration with NPA Probashi and NPA American Wing.
 
-This is a static public-source snapshot. The map and charts count tracked records, not national prevalence. `/data/incidents.json` contains only deliberately published source-linked records. Never commit private intake, identity numbers, credentials or raw testimony.
+Covers Bangladeshi citizens abroad in all countries: workers, students, seafarers and other diaspora members. Citizenship is not inferred from birthplace or ancestry. Worker-only statistics remain explicitly labelled.
 
-The server source and draft PR remain on the `probash-watch-platform` branch. Login, intake, moderation, D1 and scheduled candidate discovery run on the owner-private portal linked from this dashboard. No public intake or identity verification is claimed. Pages does not execute server APIs. Scheduled discoveries do not automatically enter the public snapshot.
+Media reports publish automatically as source-reported coverage, without a human approval gate. Individually submitted private allegations remain separately moderated. No source-reported allegation is labelled independently verified. Different newspaper reports are not counted as independent incidents. See UPDATE_POLICY.md for the authorized unattended update policy and data schema.
 
-`source/` retains client source; build it with Vite and React dependencies from the server-source branch. Run Vite from source/, then copy generated output into this directory, retain data and assets, and verify paths. The compiled bundle is committed for GitHub Pages. `sources.json` is a proposed editorial source registry; connections are not all active.
+Public JSON: data/news.json, data/incidents.json, data/statistics.json, data/help-directory.json. Client source is in source/. GitHub Pages serves the compiled HTML/CSS/JS and data. The existing twice-daily cloud task searches media and commits public data updates directly; it does not automatically publish private intake. A scheduled run is not guaranteed to have succeeded merely because it is enabled. Check last_successful_scan_at and Pages deployment.
 
-Editorial workflow: identify original source; check Bangladeshi citizenship basis and worker relevance; merge duplicate incidents; distinguish allegations, findings and unknowns; check translations; record authority responses and sources; review privacy and consent; approve publication. Corrections must retain a dated audit trail. Assistance is independent of political affiliation.
+The help centre includes official MOFA mission listings, selected local authorities, Bangladesh and international NGOs, legal-referral organizations, mission-service complaint escalation and international mechanisms with limits and consent guidance. Mission listing does not verify every live contact or consular jurisdiction. NPA Legal Team contact/authorized caseworkers are not configured. External organizations are possible referrals, not claimed NPA partners. No case or document is automatically forwarded.
+
+The complaint-draft form uses browser memory only, does not submit or persist complaints, and asks users to omit identifying details. Do not commit NID/passport numbers, private testimony, medical documents, private addresses or private contact information to GitHub. External organizations apply their own privacy/disclosure rules. UN mechanisms do not provide blanket confidentiality or guaranteed enforcement.
+
+Coverage is incomplete. Initial expansion includes 22 reports, 23 statistical points, 11 case records and 83 mission-directory entries covering 61 countries. These are archive sizes, not population prevalence. Deaths, abuse allegations, complaints, returns, legal assistance and calendar/fiscal-year series are not interchangeable or additive. Unknown dates and counts remain unknown.
