@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T19:10:05.674240+00:00",
-  "last_successful_scan_at": "2026-10-19T19:10:05.674240+00:00",
+  "updated_at": "2026-10-20T02:59:57Z",
+  "last_successful_scan_at": "2026-10-20T02:59:57Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-19",
@@ -536,6 +536,54 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-10-19T19:10:05.674240+00:00",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-JAGO-20261019",
+      "country": "SA",
+      "published_date": "2026-10-19",
+      "event_date": "2026-10-14",
+      "publisher": "Jagonews24",
+      "url": "https://www.jagonews24.com/country/news/1169828",
+      "language": "bn",
+      "title": {
+        "bn": "সৌদিতে মৃত্যুদণ্ড: পরিবারের অভিযোগ ও মরদেহ ফেরানোর আবেদন",
+        "en": "Saudi execution: family allegations and repatriation request"
+      },
+      "summary": {
+        "bn": "জাগোনিউজ২৪-এর কাছে পরিবার অভিযোগ করেছে, মৃত্যুদণ্ডের আগে তাদের জানানো হয়নি এবং আত্মপক্ষ সমর্থনের সুযোগ দেওয়া হয়নি। তারা মরদেহ ফেরত চেয়েছে। জেলা প্রশাসক বলেছেন, মরদেহ ফিরলে নিয়ম অনুযায়ী সহায়তা করা হবে। অভিযোগ স্বাধীনভাবে যাচাই করা হয়নি।",
+        "en": "Jagonews24 reports the family alleges no advance notification or opportunity for a defence and requests repatriation. The district administrator said assistance would follow applicable rules if the body returns. The allegations are not independently verified."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-20T02:59:57Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-FORTIFY-20260930",
+      "country": "MY",
+      "published_date": "2026-09-30",
+      "event_date": null,
+      "publisher": "Fortify Rights / Migrant Welfare Network",
+      "url": "https://www.fortifyrights.org/reg-inv-2026-09-30/",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় শ্রমিক সুরক্ষায় বাধ্যতামূলক চুক্তির আহ্বান",
+        "en": "NGOs call for binding protections for workers in Malaysia"
+      },
+      "summary": {
+        "bn": "ফর্টিফাই রাইটস ও মাইগ্র্যান্ট ওয়েলফেয়ার নেটওয়ার্কের জুলাইয়ের ১৮ বাংলাদেশি সাবেক শ্রমিকের সাক্ষাৎকারভিত্তিক অনুসন্ধানে বকেয়া মজুরি, অতিরিক্ত নিয়োগ ফি ও অনিরাপদ কাজের অভিযোগ রয়েছে। সংস্থাগুলো বাধ্যতামূলক দ্বিপক্ষীয় শ্রমচুক্তি চেয়েছে; সাক্ষাৎকারের সংখ্যা সামগ্রিক নির্যাতনের হার নয়।",
+        "en": "Fortify Rights and Migrant Welfare Network report allegations of unpaid wages, excessive recruitment fees and unsafe work from July interviews with 18 Bangladeshi former workers. They call for a binding bilateral labour agreement. The interview sample is not a population prevalence estimate."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-20T02:59:57Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
