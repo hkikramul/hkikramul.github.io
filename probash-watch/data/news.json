@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T02:59:57Z",
-  "last_successful_scan_at": "2026-10-20T02:59:57Z",
+  "updated_at": "2026-10-20T15:05:05Z",
+  "last_successful_scan_at": "2026-10-20T15:05:05Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-19",
@@ -584,6 +584,54 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-10-20T02:59:57Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-DS-LIST-20261019",
+      "country": "SA",
+      "published_date": "2026-10-19",
+      "event_date": "2026-10-14",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/2-bangladeshis-executed-ksa-shared-prisoner-list-concealed-death-penalties-4302226",
+      "language": "en",
+      "title": {
+        "bn": "মৃত্যুদণ্ডের তথ্য ছিল না বন্দীদের তালিকায়: কর্মকর্তাদের বক্তব্য",
+        "en": "Officials say prisoner list omitted death sentences"
+      },
+      "summary": {
+        "bn": "ডেইলি স্টারের কাছে কর্মকর্তারা বলেছেন, সৌদি কর্তৃপক্ষের দেওয়া তালিকায় দুজনের নাম থাকলেও মৃত্যুদণ্ডের তথ্য ছিল না। প্রতিবেদনে সৌদি রাষ্ট্রদূতের কাছে বিস্তারিত তথ্য চাওয়া এবং মিশনের কাছে তথ্য চেয়ে পাঠানোর কথা রয়েছে।",
+        "en": "Officials told The Daily Star that a Saudi prisoner list included the two Bangladeshis but omitted their death sentences. The report describes requests for details from the Saudi ambassador and Bangladesh's mission."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-20T15:05:05Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-PUDU-BERNAMA-20261017",
+      "country": "MY",
+      "published_date": "2026-10-17",
+      "event_date": "2026-10-17",
+      "publisher": "Bernama",
+      "url": "https://www.bernama.com/en/crime_courts/news.php?id=2621583",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় অভিযানে আটক ব্যক্তিদের মধ্যে একজন বাংলাদেশি",
+        "en": "Bangladeshi among people detained in Malaysian raid"
+      },
+      "summary": {
+        "bn": "বারনামা অভিবাসন বিভাগের কর্মকর্তার বরাতে জানিয়েছে, কুয়ালালামপুরের অভিযানে আটক ১৯০ বিদেশির মধ্যে একজন বাংলাদেশি। আটক ব্যক্তিদের অভিবাসন আইনে তদন্তের জন্য নেওয়া হয়েছে; প্রতিবেদনে বাংলাদেশি ব্যক্তির বিরুদ্ধে নির্দিষ্ট অভিযোগ বা দণ্ডের তথ্য নেই।",
+        "en": "Bernama, citing an immigration official, reports one Bangladeshi among 190 foreigners detained in a Kuala Lumpur raid. Detainees were taken for immigration investigations; the report does not establish individual charges or a conviction for the Bangladeshi."
+      },
+      "record_type": "incident",
+      "incident_key": "MY-PUDU-20261017",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-20T15:05:05Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
