@@ -1,6 +1,6 @@
-# SIR literature reading list — references 18–20 and 24–28
+# SIR literature reading list — references 18–20, 24–28, and 39–40
 
-Version 1.0 · October 18, 2026
+Version 1.1 · October 19, 2026
 
 Source numbering: Fudolig, M., & Howard, R. (2020), The local stability of a modified multi-strain SIR model for emerging viral strains, PLOS ONE 15(12), e0243408. https://doi.org/10.1371/journal.pone.0243408
 
@@ -72,10 +72,36 @@ Link: https://doi.org/10.1515/9781400841035
 
 Thesis relevance: A bridge from deterministic epidemic models to stochastic modeling. The source cites 2011; the original book appeared in 2008.
 
+## Reference 39
+
+Tolles, J., & Luong, T. (2020). Modeling Epidemics With Compartmental Models. JAMA, 323(24), 2515–2516.
+
+DOI: https://doi.org/10.1001/jama.2020.8420
+
+Publisher: https://jamanetwork.com/journals/jama/fullarticle/2766672
+
+PubMed: https://pubmed.ncbi.nlm.nih.gov/32459319/
+
+Thesis relevance: A brief introductory explanation of compartmental epidemic models and SIR trajectories. Read early to connect susceptible, infectious, and recovered compartments with transmission, recovery, and model assumptions. This supports the modeling foundation; it does not establish distribution-fitting methods or novelty for infection-curve AUC.
+
+Reading status: added for reading; not yet critically appraised. Reference number 39 follows Fudolig and Howard (2020).
+
+## Reference 40
+
+Blackwood, J. C., & Childs, L. M. (2018). An introduction to compartmental modeling for the budding infectious disease modeler. Letters in Biomathematics, 5(1), 195–221.
+
+DOI: https://doi.org/10.1080/23737867.2018.1509026
+
+Open-access author repository: https://vtechworks.lib.vt.edu/items/61e9ca00-ef21-4356-bcd7-a9294a1d2f17
+
+Thesis relevance: A beginner-oriented introduction to building SIR-type models and interpreting transmission dynamics. Read after the short overview [39] to strengthen the foundation for understanding the working model and simulations. This is background, not evidence of novelty for distribution fitting or AUC methods.
+
+Reading status: added for reading; not yet critically appraised. Reference number 40 follows Fudolig and Howard (2020).
+
 ## Reading sequence and thesis scope
 
 Start with the adviser’s basic SIR tutorial (https://choisy.github.io/DMo2019/sir.html), then selected foundational material from Allen [25] or Keeling and Rohani [28]. Use Edelstein-Keshet [24] for ODE and stability background, and read Kermack and McKendrick [27] for historical context. Read O’Neill [18] before the applied inference papers [19–20]; consult Jacquez [26] as needed.
 
 The adviser’s stated scope is infection curves over time and their areas, with distribution fitting as the main contribution and a stochastic extension of the working model. Bayesian estimation and multi-pathogen extensions are background topics, not adopted thesis aims. Local stability and fixed-point analysis are optional. Confirm whether the infection curve represents incidence or prevalence before interpreting its area.
 
-These eight references establish background; they do not establish novelty or supply a complete review of distribution fitting for epidemic curves or AUC.
+These ten references establish background; they do not establish novelty or supply a complete review of distribution fitting for epidemic curves or AUC.
