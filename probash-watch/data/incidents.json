@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T02:59:57Z",
+  "updated_at": "2026-10-20T15:05:05Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -267,6 +267,12 @@
           "url": "https://www.jagonews24.com/country/news/1169828",
           "date": "2026-10-19",
           "language": "bn"
+        },
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/2-bangladeshis-executed-ksa-shared-prisoner-list-concealed-death-penalties-4302226",
+          "date": "2026-10-19",
+          "language": "en"
         }
       ],
       "responses": [],
@@ -583,6 +589,49 @@
       "follow_up": {
         "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
         "en": "Track follow-up reporting and official statements"
+      }
+    },
+    {
+      "id": "MY-PUDU-20261017",
+      "country": "MY",
+      "event_date": "2026-10-17",
+      "published_date": "2026-10-17",
+      "title": {
+        "bn": "মালয়েশিয়ায় অভিযানে আটক ব্যক্তিদের মধ্যে একজন বাংলাদেশি",
+        "en": "Bangladeshi among people detained in Malaysian raid"
+      },
+      "summary": {
+        "bn": "বারনামা অভিবাসন বিভাগের কর্মকর্তার বরাতে জানিয়েছে, কুয়ালালামপুরের অভিযানে আটক ১৯০ বিদেশির মধ্যে একজন বাংলাদেশি। আটক ব্যক্তিদের অভিবাসন আইনে তদন্তের জন্য নেওয়া হয়েছে; প্রতিবেদনে বাংলাদেশি ব্যক্তির বিরুদ্ধে নির্দিষ্ট অভিযোগ বা দণ্ডের তথ্য নেই।",
+        "en": "Bernama, citing an immigration official, reports one Bangladeshi among 190 foreigners detained in a Kuala Lumpur raid. Detainees were taken for immigration investigations; the report does not establish individual charges or a conviction for the Bangladeshi."
+      },
+      "category": "justice",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Bernama",
+          "url": "https://www.bernama.com/en/crime_courts/news.php?id=2621583",
+          "date": "2026-10-17",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিগত পরিচয় প্রকাশ নয়",
+        "en": "Identity withheld"
+      },
+      "unknowns": {
+        "bn": "ব্যক্তিগত অভিযোগ, আদালতের সিদ্ধান্ত ও বর্তমান অবস্থা জানা নেই।",
+        "en": "Individual charges, court findings and current outcome are not established."
+      },
+      "follow_up": {
+        "bn": "আইনি প্রক্রিয়া ও পরবর্তী সংবাদ অনুসরণ",
+        "en": "Track legal proceedings and subsequent reporting"
       }
     }
   ]
