@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T19:10:05.674240+00:00",
+  "updated_at": "2026-10-20T02:59:57Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -261,6 +261,12 @@
           "url": "https://en.prothomalo.com/bangladesh/yxrw2kmcx8",
           "date": null,
           "language": "en"
+        },
+        {
+          "name": "Jagonews24",
+          "url": "https://www.jagonews24.com/country/news/1169828",
+          "date": "2026-10-19",
+          "language": "bn"
         }
       ],
       "responses": [],
