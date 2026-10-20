@@ -1,8 +1,8 @@
 # Maintenance and collaboration
 
-Maintained by **NPA Data Analytics Team**.
+A personal initiative by Md. Ikramul Haq Khan.
 
-In collaboration with **NPA Probashi** and **NPA American Wing**.
+No institutional affiliation with any political party or organization.
 
 Public dashboard: https://hkikramul.github.io/probash-watch/
 

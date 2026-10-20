@@ -2,7 +2,7 @@
 
 Public dashboard: https://hkikramul.github.io/probash-watch/
 
-Maintained by NPA Data Analytics Team, in collaboration with NPA Probashi and NPA American Wing.
+A personal initiative by Md. Ikramul Haq Khan.
 
 Covers Bangladeshi citizens abroad in all countries: workers, students, seafarers and other diaspora members. Citizenship is not inferred from birthplace or ancestry. Worker-only statistics remain explicitly labelled.
 
@@ -10,7 +10,7 @@ Media reports publish automatically as source-reported coverage, without a human
 
 Public JSON: data/news.json, data/incidents.json, data/statistics.json, data/help-directory.json. Client source is in source/. GitHub Pages serves the compiled HTML/CSS/JS and data. The existing twice-daily cloud task searches media and commits public data updates directly; it does not automatically publish private intake. A scheduled run is not guaranteed to have succeeded merely because it is enabled. Check last_successful_scan_at and Pages deployment.
 
-The help centre includes official MOFA mission listings, selected local authorities, Bangladesh and international NGOs, legal-referral organizations, mission-service complaint escalation and international mechanisms with limits and consent guidance. Mission listing does not verify every live contact or consular jurisdiction. NPA Legal Team contact/authorized caseworkers are not configured. External organizations are possible referrals, not claimed NPA partners. No case or document is automatically forwarded.
+The help centre includes official MOFA mission listings, selected local authorities, Bangladesh and international NGOs, legal-referral organizations, mission-service complaint escalation and international mechanisms with limits and consent guidance. Mission listing does not verify every live contact or consular jurisdiction. a legal intake team contact/authorized caseworkers are not configured. External organizations are possible referrals, not claimed project partners. No case or document is automatically forwarded.
 
 The complaint-draft form uses browser memory only, does not submit or persist complaints, and asks users to omit identifying details. Do not commit NID/passport numbers, private testimony, medical documents, private addresses or private contact information to GitHub. External organizations apply their own privacy/disclosure rules. UN mechanisms do not provide blanket confidentiality or guaranteed enforcement.
 

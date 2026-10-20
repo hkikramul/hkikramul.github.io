@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T19:36:21.458Z",
+  "updated_at": "2026-10-20T00:08:22.757Z",
   "directory_scope": "Official MOFA listings; not complete coverage of every country or live-tested contacts",
   "missions": [
     {
@@ -1350,10 +1350,5 @@
     "complaint_email": "consularqueries@mofa.gov.bd",
     "appeal_email": "dgio@mofa.gov.bd",
     "note": "Official directory published roles/contact; verify current officer and eligibility. Service complaints are distinct from appeals against foreign court decisions."
-  },
-  "npa_legal": {
-    "contact_configured": false,
-    "partnerships_confirmed": false,
-    "status": "Contact and authorized legal caseworkers not assigned"
   }
 }
