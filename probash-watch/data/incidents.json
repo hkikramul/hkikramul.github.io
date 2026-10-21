@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T15:05:05Z",
+  "updated_at": "2026-10-21T03:08:00Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -273,6 +273,12 @@
           "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/2-bangladeshis-executed-ksa-shared-prisoner-list-concealed-death-penalties-4302226",
           "date": "2026-10-19",
           "language": "en"
+        },
+        {
+          "name": "Prothom Alo",
+          "url": "https://www.prothomalo.com/bangladesh/q9hzy5o8z5",
+          "date": "2026-10-20",
+          "language": "bn"
         }
       ],
       "responses": [],
