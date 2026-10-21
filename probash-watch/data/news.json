@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T15:05:05Z",
-  "last_successful_scan_at": "2026-10-20T15:05:05Z",
+  "updated_at": "2026-10-21T03:08:00Z",
+  "last_successful_scan_at": "2026-10-21T03:08:00Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-19",
@@ -632,6 +632,54 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-10-20T15:05:05Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "RU-WAR-RECRUIT-PA-20261020",
+      "country": "RU",
+      "published_date": "2026-10-20",
+      "event_date": null,
+      "publisher": "Prothom Alo",
+      "url": "https://www.prothomalo.com/bangladesh/mkf2is07uv",
+      "language": "bn",
+      "title": {
+        "bn": "চাকরির প্রলোভনে রাশিয়ায় গিয়ে যুদ্ধে জড়ানোর অভিযোগ",
+        "en": "Workers allegedly drawn into Russia’s war after job promises"
+      },
+      "summary": {
+        "bn": "প্রথম আলোর অনুসন্ধানে পরিবার, ফিরে আসা কর্মী, সরকারি নথি ও সংশ্লিষ্ট সূত্রের ভিত্তিতে বাংলাদেশিদের চাকরির প্রলোভনে রাশিয়ায় নিয়ে যুদ্ধক্ষেত্রে পাঠানোর অভিযোগ উঠে এসেছে। পত্রিকাটি তিন বছরে অন্তত ৫৪ জনের মৃত্যুর খবর পাওয়ার কথা বলেছে, তবে সরকারি পূর্ণাঙ্গ তালিকা নেই এবং অনেকের মৃত্যু বা নিখোঁজ অবস্থা নথিভুক্তভাবে নিশ্চিত নয়।",
+        "en": "Prothom Alo reports allegations that Bangladeshis were recruited for civilian jobs in Russia and then sent to war, drawing on families, returnees, documents and officials. It says it learned of at least 54 deaths over three years, while noting there is no complete official tally and many reported deaths or disappearances lack documentary confirmation."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-21T03:08:00Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-FACTCHECK-PA-20261020",
+      "country": "SA",
+      "published_date": "2026-10-20",
+      "event_date": "2026-10-14",
+      "publisher": "Prothom Alo",
+      "url": "https://www.prothomalo.com/bangladesh/q9hzy5o8z5",
+      "language": "bn",
+      "title": {
+        "bn": "সৌদির মৃত্যুদণ্ড নিয়ে পুরোনো ও ভিন্ন ঘটনার ভিডিও শনাক্ত",
+        "en": "Old and unrelated videos identified in Saudi execution claims"
+      },
+      "summary": {
+        "bn": "প্রথম আলোর যাচাইয়ে দুই বাংলাদেশির মৃত্যুদণ্ডের বলে প্রচারিত শিরশ্ছেদের ভিডিওটি ২০১৫ সালের ভিন্ন ঘটনা এবং কফিনের ভিডিওটি অন্য প্রবাসীর বলে পাওয়া গেছে। প্রতিবেদনটি তাঁদের স্বামী–স্ত্রী বা ওমরাহযাত্রী বলে ছড়ানো দাবিরও সমর্থন পায়নি।",
+        "en": "Prothom Alo’s fact-check found that an execution video circulated as the two Bangladeshis’ case was from an unrelated 2015 incident and a coffin video concerned another expatriate. It also found no support for claims that the two were spouses or Umrah pilgrims."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-21T03:08:00Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
