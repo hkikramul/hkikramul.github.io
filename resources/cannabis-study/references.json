@@ -1,0 +1,92 @@
+[
+  {
+    "title": "SAMHSA: NSDUH 2024 public-use data",
+    "url": "https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles/2024",
+    "annotation": "Primary data and supporting documentation."
+  },
+  {
+    "title": "SAMHSA: 2024 public-use codebook",
+    "url": "https://www.samhsa.gov/data/system/files/media-puf-file/nsduh-2024-ds0001-info-codebook_v1.pdf",
+    "annotation": "Exact variables, coding, screening and imputation notes; downloaded and inspected."
+  },
+  {
+    "title": "SAMHSA: 2024 Data Users’ Guide",
+    "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt56775/2024-nsduh-puf-data-users-guide.pdf",
+    "annotation": "Weighting, domain estimation, variance estimation and reporting rules; downloaded and inspected."
+  },
+  {
+    "title": "Gobbi et al. (2019): adolescent cannabis and later depression, anxiety and suicidality",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2018.4500",
+    "annotation": "Systematic review and meta-analysis. Useful background on timing; its adolescent longitudinal evidence differs from this adult cross-sectional design. Observational confounding remains relevant."
+  },
+  {
+    "title": "Han et al. (2021): cannabis, depression status and suicidality",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2021.13025",
+    "annotation": "NSDUH analysis of adults aged 18–34. Shows established overlap among these topics; suicidality is not the proposed primary outcome. Older diagnostic and survey periods require comparability checks."
+  },
+  {
+    "title": "The Longitudinal Association of Cumulative Depression With Cannabis Use Disorder Among Young Adults (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38900055/",
+    "annotation": "Longitudinal study of 4,407 young adults. Priority reading for temporal ordering and shared vulnerability; full-text appraisal pending."
+  },
+  {
+    "title": "Young Adult Depression and Cannabis Use: Associations Before and After Recreational Legalization (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37778528/",
+    "annotation": "State-level NSDUH prevalence analysis, 2008–2019. Useful policy-design comparison; ecological findings do not identify individual effects or Bangladesh policy consequences."
+  },
+  {
+    "title": "Khan et al. (2020): psychosocial factors and substance use in Bangladesh",
+    "url": "https://doi.org/10.1371/journal.pone.0242872",
+    "annotation": "Bangladesh GSHS analysis. Direct local context, but composite other-substance outcomes must not be treated as cannabis use disorder."
+  },
+  {
+    "title": "Addictive behavior and mental health of adolescents in Bangladesh (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38966074/",
+    "annotation": "Prior Bangladesh GSHS mental-health analysis. Check overlap before making a novelty claim; adolescent school data differ from adult national data."
+  },
+  {
+    "title": "Al-Mamun et al. (2024): substance use among admission test-takers",
+    "url": "https://doi.org/10.1186/s12889-024-20240-2",
+    "annotation": "Local young-person context with limited generalizability. Data are available on request, not an unrestricted public download."
+  },
+  {
+    "title": "WHO: Bangladesh GSHS 2014 catalog",
+    "url": "https://extranet.who.int/ncdsmicrodata/index.php/catalog/485",
+    "annotation": "Public-use school survey with drug-use and mental-health items; not current adult surveillance."
+  },
+  {
+    "title": "WHO: Bangladesh current marijuana question Q42",
+    "url": "https://extranet.who.int/ncdsmicrodata/index.php/catalog/485/variable/F1/V42?name=Q42",
+    "annotation": "Only 21 unweighted current-use reports among 2,941 valid records in the catalog. These are file counts, not population prevalence."
+  },
+  {
+    "title": "Bangladesh student substance-use dataset (2026)",
+    "url": "https://doi.org/10.17632/2t388jw89x.1",
+    "annotation": "Public repository description; cannabis-specific fields, license and recruitment still need file-level review."
+  },
+  {
+    "title": "FDA: cannabis research and drug approval",
+    "url": "https://www.fda.gov/news-events/public-health-focus/fda-and-cannabis-research-and-drug-approval-process",
+    "annotation": "Distinguishes specific approved cannabinoid medicines from whole-plant cannabis. NSDUH cannot establish therapeutic efficacy."
+  },
+  {
+    "title": "STROBE reporting guidance",
+    "url": "https://www.strobe-statement.org/",
+    "annotation": "Use the cross-sectional checklist for transparent reporting; it is a reporting guide, not a quality score."
+  },
+  {
+    "title": "R survey package documentation",
+    "url": "https://cran.r-project.org/package=survey",
+    "annotation": "Official package entry point. Review svydesign, subset, svyglm and confidence-interval documentation."
+  },
+  {
+    "title": "UNLV Health Sciences Research Symposium submission rules",
+    "url": "https://unlv-hsrs.org/abstract-submission/",
+    "annotation": "Current event eligibility, submission format, results requirement and notification date."
+  },
+  {
+    "title": "UNLV Health Sciences Research Symposium home",
+    "url": "https://unlv-hsrs.org/",
+    "annotation": "Event date, location and free registration."
+  }
+]

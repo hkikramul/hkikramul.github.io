@@ -1,0 +1,214 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,booktabs,tabularx,enumitem,xcolor,fancyhdr,xurl,hyperref}
+\definecolor{navy}{HTML}{153D55}
+\hypersetup{colorlinks=true,urlcolor=navy,linkcolor=navy}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist{nosep,leftmargin=*}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Cannabis, mental health, and policy evidence}\fancyhead[R]{\small Research proposal}\fancyfoot[C]{\thepage}
+\newcommand{\head}[1]{\section*{\color{navy}#1}}
+\begin{document}
+{\Large\bfseries\color{navy} Cannabis Use Disorder and Major Depressive Episode Among U.S. Young Adults}\par
+{\large A survey-weighted biomedical study with implications for Bangladesh's public-health response}\par
+\textbf{Proposed investigator:} Md. Ikramul Haq Khan\\
+M.S. in Mathematical Sciences, Applied Statistics, University of Nevada, Las Vegas\\
+\textbf{Prepared:} October 21, 2026\quad\textbf{Status:} Protocol for adviser review; no analyses conducted.
+\head{1. Executive recommendation}
+Conduct one cross-sectional analysis of the \textbf{2024 National Survey on Drug Use and Health (NSDUH) public-use file}, focusing on adults aged 18--25 who report past-year cannabis use. Estimate cannabis use disorder (CUD) prevalence and its association with past-year major depressive episode (MDE), with prespecified adjustment and survey design inference. Add a small, structured Bangladesh evidence assessment, rather than a second full empirical project.
+
+\textbf{Primary question:} Among U.S. young adults who used cannabis in the past year, how does the adjusted prevalence of CUD differ between respondents with and without past-year MDE?
+
+\textbf{Biomedical value:} The study concerns psychiatric comorbidity, clinically meaningful disorder rather than use alone, and opportunities for integrated screening and referral. It is behavioral epidemiology, not a pharmacological trial or a study of biological mechanisms.
+
+\textbf{Policy boundary:} The study can inform what health protections and surveillance Bangladesh should consider under any policy. It cannot estimate the effect of removing Bangladesh's prohibition. A policy preference may motivate a question; it must not determine the results or conclusion.
+\head{2. Objectives and prespecified hypothesis}
+\begin{enumerate}
+\item Estimate weighted past-year CUD prevalence, with 95\% confidence intervals, among U.S. cannabis-using adults aged 18--25.
+\item Estimate adjusted CUD prevalence differences and prevalence ratios comparing those with versus without past-year MDE.
+\item Describe CUD prevalence by cannabis-use frequency and tobacco/alcohol co-use, subject to available public-use measures and adequate cell sizes.
+\item Map which findings could inform Bangladesh's screening and prevention priorities, and identify the local evidence needed before evaluating reform.
+\end{enumerate}
+\textbf{Hypothesis:} MDE is associated with a higher prevalence of CUD. Test this two-sided; report null or reversed associations equally. No directional hypothesis about legalization is specified.
+
+\textbf{Novelty is provisional.} CUD--depression associations are already extensively studied. The contribution must be a well-executed contemporary analysis and carefully bounded policy translation; neither a new causal discovery nor the first Bangladesh cannabis study is claimed.
+\newpage
+\head{3. Bangladesh evidence and public-data audit}
+\textbf{The premise that Bangladesh has no usable public data is incorrect.} WHO's Bangladesh GSHS 2014 catalog identifies a public-use survey of school-going adolescents, with a two-stage school/class sampling design, survey weights, and mental-health and drug-use modules [1]. It is older adolescent evidence, not contemporary adult surveillance.
+
+\begin{tabularx}{\linewidth}{@{}p{0.22\linewidth}XX@{}}\toprule
+Resource & Verified relevance & Access and interpretation\\\midrule
+Bangladesh GSHS 2014 & Q41: lifetime marijuana use; Q42: past-30-day marijuana frequency. & Public-use catalog and Get Microdata route [1,2]. Download conditions must be followed; bytes were not downloaded for this proposal.\\
+Khan et al., PLOS ONE, 2020 & Published GSHS analysis of psychosocial factors and tobacco/other substance use [3]. & Existing literature; composite other-substance outcomes must not be interpreted as cannabis-specific disorders.\\
+Addictive behavior and mental health, 2024 & Published reanalysis of Bangladesh GSHS 2014 [4]. & Demonstrates prior mental-health research; cannabis-specific novelty needs a full-text audit.\\
+Al-Mamun et al., 2024 & Substance-use research among university admission test-takers [5]. & Paper states data available on request; this is not an unrestricted public download.\\
+Mendeley Data, 2026 & Public repository describes anonymized substance-use and psychosocial student data [6]. & Cannabis-specific coding, license, recruitment, and file contents are not yet verified. Do not assume illicit-drug use equals cannabis use.\\\bottomrule
+\end{tabularx}
+
+\textbf{A critical feasibility finding:} WHO's Q42 catalog lists 2,941 valid responses, including only \textbf{21 unweighted current-use reports} (10+4+4+3 across nonzero categories), and 48 missing responses [2]. These are file counts, not weighted population prevalence. This sparse exposure makes an elaborate Bangladesh cannabis-specific multivariable model unreliable. A larger sample size overall does not solve a small exposed subgroup.
+
+\textbf{Recommended Bangladesh component:} Document question wording, survey year, target population, undercoverage of out-of-school youth, stigma-related underreporting, and inability to diagnose CUD. If later analyzed, prioritize weighted descriptive estimates and uncertainty; inspect design degrees of freedom and event counts before any modeling. Do not pool Bangladesh GSHS with adult NSDUH or calculate an unadjusted country effect.
+
+\textbf{Unresolved gap:} This targeted search did not establish a recent, nationally representative, publicly downloadable adult Bangladesh dataset measuring DSM-based cannabis disorder. That is a search limitation, not proof that none exists. Review WHO, Bangladesh health institutions, and Department of Narcotics Control research catalogs before publication.
+\newpage
+\head{4. Dataset selection and feasibility gates}
+\begin{tabularx}{\linewidth}{@{}p{0.20\linewidth}XX@{}}\toprule
+Dataset & Appropriate use & Why / limitation\\\midrule
+NSDUH 2024 PUF [7,8] & Primary: young-adult CUD and depression. & National substance-use and mental-health survey; self-report and cross-sectional design. Public-use geography is unavailable [9].\\
+CDC national YRBS 2023 [10] & Alternative: adolescent cannabis and mental-health indicators. & Public data and documentation. School students, not all youth; indicators are not clinical CUD diagnoses.\\
+Bangladesh GSHS 2014 [1,2] & Local descriptive context. & Direct relevance, but dated and very sparse current cannabis use.\\
+NSDUH state tables & Later policy surveillance. & Aggregate estimates are not individual records; overlapping pooled periods and modeled uncertainty complicate causal inference.\\\bottomrule
+\end{tabularx}
+
+\textbf{Access distinction:} Public NSDUH files are offered through SAMHSA's data download routes [7]. Availability of a national report alone does not guarantee that a specific variable exists in the PUF. The catalog identifies 2021--2024 public-use data [8]; the exact 2024 codebook, labels, skip patterns, and download must be verified before registration. No download, variable extraction, or analysis is represented as completed here.
+
+\textbf{Mandatory first-week audit (4--6 hours):}
+\begin{enumerate}
+\item Obtain the 2024 PUF, codebook, and data users' guide from the official route; archive versions and checksums.
+\item Confirm public age categories isolate 18--25; confirm past-year use, derived DSM-5 CUD, adult MDE, frequency, and candidate covariates.
+\item Confirm final person weight, public variance strata and clusters, and official variance guidance. Record exact field names rather than assuming names from prior years.
+\item Tabulate eligible unweighted sample, CUD events, MDE groups, cross-classified cells, missingness, and design degrees of freedom.
+\item Proceed only if core measures and design variables are usable. If 2024 lacks essentials, use 2023 with a revised title and dated justification; if neither works, redesign before analysis.
+\end{enumerate}
+
+\textbf{Why not a U.S. legalization study immediately?} NSDUH public-use microdata exclude state identifiers [9]. Merging a state law calendar into those records is not possible. A credible policy-effects project needs another geographically identified source or approved restricted data, careful law coding, sufficient pre/post periods, and methods addressing staggered adoption. That is a separate project.
+\head{5. Population and estimands}
+Target the civilian, noninstitutionalized U.S. population represented by the survey, restricted to 18--25-year-olds reporting past-year cannabis use. Excluded populations limit generalizability, particularly incarcerated people and unsheltered people outside sampling coverage. Use survey-domain estimation, retaining the full design before restricting the analytic domain.
+
+The estimands are annual prevalence, adjusted prevalence under MDE group indicators standardized over the observed covariate distribution of eligible users, and their difference and ratio. These are \textbf{associational standardized contrasts}; they do not represent hypothetical depression-treatment effects.
+\newpage
+\head{6. Variables, measurement, and causal structure}
+\begin{tabularx}{\linewidth}{@{}p{0.22\linewidth}X@{}}\toprule
+Role & Operational definition and verification rule\\\midrule
+Primary outcome & Past-year CUD: official derived DSM-5 marijuana/cannabis use-disorder indicator. Preserve official screening and skip rules; do not reconstruct from frequency alone [11].\\
+Primary exposure & Official adult past-year MDE indicator. MDE and CUD share a recall window; temporal ordering is unknown.\\
+Eligibility & Past-year cannabis use, not past-month use. Verify structural skips so nonusers are not confused with missing users.\\
+Core adjustment & Public age category within 18--25, recorded sex measure, race/ethnicity, education, family income/poverty, and health-insurance category, if available. Respect original labels.\\
+Extended adjustment & Tobacco/nicotine use and alcohol-use measure, chosen before fitting based on codebook availability. Avoid using both redundant use and disorder measures without rationale.\\
+Secondary description & Cannabis frequency on its documented time scale. Past-month days cannot be presented as past-year frequency; categories will be fixed after codebook audit and before outcome modeling.\\\bottomrule
+\end{tabularx}
+
+\textbf{Conceptual structure:} Socioeconomic adversity, developmental factors, family vulnerability, and other substance use may relate to both MDE and CUD. Depression may precede cannabis problems, cannabis problems may precede depression, or both may share causes. Some proposed covariates may be consequences rather than confounders. A time-ordered causal diagram must guide interpretation, but cross-sectional data cannot establish its arrows.
+
+Selecting only cannabis users may also introduce selection bias: MDE and other vulnerabilities can both influence cannabis use. Therefore the target is explicitly the \emph{observed population of users}, not a causal effect in all young adults. Extended adjustment for frequency could remove part of an association or create bias; it is not in the primary model.
+\head{7. Statistical methodology}
+\textbf{Descriptive analysis.} Produce a participant-flow diagram, unweighted denominators, weighted percentages, design-based 95\% intervals, and missingness by analytic role. Use appropriate logit-scale intervals for proportions when supported. Do not call weighted population totals the sample size. Report design degrees of freedom and flag unreliable estimates under the official PUF guidance.
+
+\textbf{Primary regression.} Fit a survey-weighted logistic model by pseudo-likelihood, with Taylor-linearized variance using the documented design:
+\[
+\operatorname{logit}\{P(Y_i=1\mid D_i,\mathbf X_i)\}
+=\beta_0+\beta_D D_i+\boldsymbol\beta_X^T\mathbf X_i,
+\]
+where $Y_i$ denotes CUD and $D_i$ denotes MDE. Use design-based Wald tests and confidence intervals with survey degrees of freedom. Do not apply ordinary independent-observation standard errors or use stepwise significance screening.
+
+\textbf{Model sequence.} Present crude, core-adjusted, and extended-adjusted estimates, clearly identifying the core-adjusted contrast as primary. No age/sex interactions are required for the symposium; descriptive subgroup estimates are exploratory and may be suppressed if sparse.
+\newpage
+\head{8. Interpretation, sensitivity, and reproducibility}
+\textbf{Adjusted absolute burden.} From the primary logistic model, calculate survey-weighted predictive margins:
+\[
+\widehat p_d=\frac{\sum_{i\in A}w_i\,\operatorname{expit}
+(\widehat\beta_0+\widehat\beta_Dd+\widehat{\boldsymbol\beta}_X^T\mathbf X_i)}
+{\sum_{i\in A}w_i},\qquad d\in\{0,1\},
+\]
+\[
+\widehat{\mathrm{PD}}=\widehat p_1-\widehat p_0,\qquad
+\widehat{\mathrm{PR}}=\widehat p_1/\widehat p_0.
+\]
+Here $A$ is the eligible analytic domain. Obtain design-aware intervals using a validated marginal-estimation implementation and delta-method or documented survey-resampling variance. State the standardized population. An odds ratio, if included, is a secondary model parameter and must not be described as a risk ratio.
+
+\textbf{Missing data.} Preserve official imputed/derived variables and flags according to documentation. Distinguish refusal, don't know, structural skip, and true nonresponse. Report complete-case exclusions before fitting. If residual covariate missingness is below 5\%, use complete-case analysis as the primary pragmatic approach, with explicit selection limitations. If greater, review patterns with the adviser before deciding on multiple imputation (e.g., 30 datasets) including outcomes, exposure, weights, and design information; combine estimates with Rubin's rules. The threshold is an operational rule, not a guarantee that missingness is ignorable.
+
+\textbf{Prespecified sensitivity analyses.}
+\begin{enumerate}
+\item Compare core and extended adjustment to evaluate dependence on tobacco/alcohol adjustment; this does not eliminate unmeasured confounding.
+\item Compare complete-case with imputed results if imputation is warranted and technically valid.
+\item Add cannabis frequency only as a secondary conditional model, labeling its different estimand and possible overadjustment.
+\item Inspect influential weights and sparse cells. Do not trim official weights in the main analysis; document any exploratory trimming and its bias implications.
+\end{enumerate}
+
+\textbf{Sample adequacy.} No achieved power is claimed before extracting the PUF. Assess effective sample size, $n_{\rm eff}=(\sum w_i)^2/\sum w_i^2$, as a rough weight-dispersion diagnostic, alongside clustering, events, and model degrees of freedom. It is not a substitute for full design-based precision. Simplify the model if estimates are unstable; do not force interactions or claim clinical prediction validation.
+
+\textbf{Software and audit trail.} Use R with \texttt{haven}, \texttt{survey}, and a validated design-aware margin routine; record package versions. Maintain separate import, recode, design, descriptive, model, and figure scripts; a codebook mapping log; frozen analysis decisions; and reproducible tables. Unit-check eligibility, skip coding, outcome frequencies, and survey totals. Benchmark an age-aligned official estimate when a matching published table exists. Report according to STROBE.
+\newpage
+\head{9. What the study can contribute to Bangladesh policy}
+\textbf{Different reforms require different evidence.} Decriminalizing possession concerns criminal penalties; regulated medical access concerns specified products and indications; legal commercial adult-use markets concern production, sale, marketing, and population exposure. These interventions must not be treated as one binary ban/no-ban policy.
+
+\begin{tabularx}{\linewidth}{@{}p{0.23\linewidth}XX@{}}\toprule
+Decision & Contribution from this study & Additional evidence needed\\\midrule
+Integrated screening & Identify concurrent CUD/MDE burden in U.S. users; motivate evaluating integrated care locally. & Bangladesh prevalence, validated tools, referral capacity, implementation and acceptability.\\
+Medical cannabinoid access & No efficacy estimate from NSDUH. & Indication-specific trials, product quality, adverse events, interactions, clinical oversight, affordability.\\
+Decriminalization & No direct penalty-effect estimate. & Arrest/detention harms, treatment access, enforcement equity, and credible policy evaluations.\\
+Adult-use commercialization & No legalization-effect estimate. & Youth exposure, potency, poisoning, crashes, dependence, marketing, enforcement and regulatory capacity.\\\bottomrule
+\end{tabularx}
+
+\textbf{Medical-benefit distinction.} FDA identifies approved specific cannabinoid medicines while stating that cannabis itself has not received a marketing approval for treatment of a disease [12]. Evidence for one purified product and indication does not establish the safety or efficacy of recreational plant products. This project does not test therapeutic benefit or establish a clinical treatment recommendation.
+
+\textbf{Transportability limits.} U.S. age distribution, product potency, routes, co-use, health care, policing, stigma, and reporting differ from Bangladesh. A U.S. association cannot be numerically transported without comparable Bangladesh target data, compatible measurements, sufficient covariate overlap, and assumptions about relevant effect modifiers. No Bangladesh burden estimate, reweighting, or legalization forecast will be produced from U.S. data alone.
+
+\textbf{Balanced conclusion template:} ``The observed co-occurrence supports evaluating integrated cannabis-use-disorder and depression screening. Bangladesh-specific surveillance and policy-effect evidence are needed before conclusions about legal reform.'' If the association is weak or null, revise that sentence to match the estimate and uncertainty.
+\head{10. Ethics and communication}
+Analyze deidentified public secondary data only; obtain an institutional determination of whether the project is not human-subjects research or otherwise qualifies before beginning, rather than self-declaring exemption. Follow data terms, protect small groups, and never attempt reidentification. No cannabis administration, recruitment, purchase, or collection is proposed. Use person-first wording: cannabis use is not synonymous with addiction, and a survey disorder measure is not an individual clinical diagnosis. Declare the investigator's policy interest and prespecify a balanced analysis.
+\newpage
+\head{11. UNLV symposium fit and backward plan}
+The official 2027 Health Sciences Research Symposium site lists \textbf{February 26, 2027}, and a submission period of \textbf{November 16, 2026--January 8, 2027} [13]. It welcomes students and states there are no eligibility restrictions for poster/podium submissions; no citizenship restriction is stated. This supports eligibility for an international graduate student, subject to completing the actual submission requirements. Registration is listed as free [14]; printing, award eligibility details, or other expenses are not assumed covered.
+
+The site requests an abstract PDF with title, authors, institutions, body, and relevant figures, and says abstracts cannot be revised after the deadline [13]. The accessible page does not provide a definitive word limit or full poster specifications. Verify the live form, format, deadline time zone, and acceptance of work-in-progress before submission. Poster submission, acceptance, registration, and participation remain separate steps. This protocol is neither submitted nor accepted.
+
+\begin{tabularx}{\linewidth}{@{}p{0.22\linewidth}Xp{0.16\linewidth}@{}}\toprule
+Target window & Deliverable & Effort estimate\\\midrule
+Oct. 22--Nov. 1 & Adviser discussion, focused novelty review, PUF and variable audit; go/no-go decision. & 6--8 hours\\
+Nov. 2--15 & Freeze protocol; ethics determination request; recodes and survey design. & 5--7 hours\\
+Nov. 16--Dec. 6 & Descriptives, primary models, design-aware margins and targeted sensitivities. & 10--14 hours\\
+Dec. 7--20 & Adviser review; resolve coding/interpretation concerns; draft results abstract. & 5--7 hours\\
+Dec. 21--Jan. 4 & Final author approvals, format checks, submit if results are ready. & 3--4 hours\\
+Jan. 5--8 & Deadline buffer; no invented findings to fill gaps. & Buffer\\
+Jan.--Feb. 12 & After acceptance, build poster and obtain adviser approval. & 5--7 hours\\
+Feb. 13--19 & Confirm printing lead time and cost, print and proof. & 1--2 hours\\
+Feb. 20--26 & Brief rehearsal and presentation; verify session assignment. & 2--3 hours\\\bottomrule
+\end{tabularx}
+
+\textbf{Capacity and cost.} Approximately 37--52 active hours, excluding waiting time and optional extensions; about 3--4 hours weekly during analysis. Public data and R require no purchase. Budget separately for a local poster-printing quote; no air travel is required for this UNLV event. This is an additional project, not an obligation. Reuse of an already mature health project may offer better return if this feasibility audit fails or duplicates existing work.
+
+\textbf{Minimum symposium output:} One descriptive table, one adjusted prevalence plot, one concise Bangladesh evidence panel, and one results-based abstract. Do not add machine learning, mediation, state-law analysis, or a second-country multivariable model simply to enlarge the project.
+\newpage
+\head{12. Proposed abstract structure and later extensions}
+\textbf{Working title:} Cannabis Use Disorder and Major Depressive Episode Among U.S. Young Adults: A Survey-Weighted Analysis of NSDUH 2024.
+
+\textbf{Background:} Co-occurring cannabis problems and depressive episodes are relevant to prevention and integrated care. Bangladesh has limited contemporary cannabis-specific surveillance, although public adolescent data and prior research exist.
+
+\textbf{Objective:} Estimate CUD prevalence and its association with MDE among U.S. past-year cannabis users aged 18--25, and assess the limits of applying this evidence to Bangladesh.
+
+\textbf{Methods:} Secondary cross-sectional analysis of NSDUH 2024 public-use data using official disorder definitions, domain estimation, survey-weighted regression, and standardized prevalence contrasts. Prespecified adjustment includes available demographic and socioeconomic measures; co-use adjustment is secondary.
+
+\textbf{Results:} Not yet available. Insert verified unweighted sample sizes, weighted prevalence, adjusted prevalence difference and ratio, confidence intervals, and sensitivity findings only after analysis. This text is a proposal structure, not a completed research abstract.
+
+\textbf{Conclusion:} Must follow observed findings and limitations. Do not conclude that cannabis legalization is beneficial or harmful from this design.
+
+\textbf{Later extension A: direct Bangladesh youth project.} If local relevance is the main priority, conduct a separate GSHS descriptive study. Its value is direct population relevance; its limitations are dated data, school-only sampling, sparse cannabis reports, and existing overlapping literature. Estimated added effort: 12--20 hours after a variable/novelty audit. Do not attach it to the symposium project automatically.
+
+\textbf{Later extension B: reform effects.} If lifting a ban remains the central question, develop a separate policy evaluation with geographically identified repeated outcomes, verified implementation dates, pre-policy trends, policy co-interventions, and appropriate group-time difference-in-differences or event-study methods. Examine both benefits and harms and assess whether policy effects transfer to Bangladesh. Estimated feasibility/design work alone: 15--25 hours; data access and analysis may require months.
+
+\textbf{Later extension C: medical benefits.} For a specified clinical indication, an evidence synthesis of randomized trials is more appropriate than NSDUH. Prespecify product, dose, comparator, efficacy endpoint, adverse events, and certainty assessment. A formal systematic review may require 60--100+ hours and a second reviewer; it is not included in the minimum project.
+
+\textbf{Decision for adviser review:} Approve or revise the bounded NSDUH comorbidity project; confirm a clinically informed collaborator, exact variable availability, novelty, institutional research determination, and whether this symposium accepts the intended category. No collaborator's participation or authorship is assumed.
+\newpage
+\head{References and verified access points}
+\small
+Sources checked October 21, 2026. This is a targeted feasibility search, not a systematic review. Public catalog availability is distinguished from completed file acquisition.
+\begin{enumerate}[label={[\arabic*]},itemsep=7pt]
+\item WHO NCD Microdata Repository. Bangladesh Global School-Based Student Health Survey 2014, BGD\_2014\_GSHS\_v01. \url{https://extranet.who.int/ncdsmicrodata/index.php/catalog/485}
+\item WHO. Bangladesh GSHS 2014, Q42: Current marijuana use. Question wording and unweighted file counts. \url{https://extranet.who.int/ncdsmicrodata/index.php/catalog/485/variable/F1/V42?name=Q42}
+\item Khan MMA, Rahman MM, Jeamin SS, Mustagir MG, Haque MR, Kaikobad MS. Psychosocial and socio-environmental factors associated with adolescents' tobacco and other substance use in Bangladesh. PLOS ONE. 2020;15:e0242872. \url{https://doi.org/10.1371/journal.pone.0242872}
+\item Addictive behavior and mental health of adolescents aged 11--17 years in Bangladesh in 2014: A cross-sectional study. 2024. PubMed record PMID 38966074. \url{https://pubmed.ncbi.nlm.nih.gov/38966074/}
+\item Al-Mamun F, et al. Past-year substance use behaviors among university admission test-takers: insights from Bangladesh. BMC Public Health. 2024. \url{https://doi.org/10.1186/s12889-024-20240-2}
+\item Halder J, et al. Dataset on Psychoactive Substance Use, Psychosocial Factors, and Behavioral Intentions among University Students in Bangladesh. Mendeley Data, version 1; August 28, 2026. \url{https://doi.org/10.17632/2t388jw89x.1}
+\item SAMHSA. Download NSDUH Data Files. Official public-use data and documentation entry point. \url{https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles}
+\item SAMHSA. NSDUH public-use data, 2021--2024. Catalog listing identified; exact PUF codebook still requires acquisition. \url{https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles/2021-2024}
+\item SAMHSA. What is the difference between NSDUH public and restricted use data? Official FAQ states public files exclude state identifiers. \url{https://www.samhsa.gov/data/get-help/public-vs-restricted-use/what-difference-between-nsduh-public-and-restricted-use-data}
+\item CDC. National YRBSS Datasets and Documentation by Year. \url{https://www.cdc.gov/yrbs/data/national-yrbs-datasets-documentation.html}
+\item SAMHSA. Results from the 2024 NSDUH: Detailed Tables, Appendix A. Disorder definitions and marijuana screening criteria. \url{https://www.samhsa.gov/data/sites/default/files/reports/rpt56484/NSDUHDetailedTabs2024/NSDUHDetailedTabs2024/2024-nsduh-detailed-tables-appa.htm}
+\item FDA. FDA and Cannabis: Research and Drug Approval Process. \url{https://www.fda.gov/news-events/public-health-focus/fda-and-cannabis-research-and-drug-approval-process}
+\item UNLV Health Sciences Research Symposium. Abstract Submission, 2027. \url{https://unlv-hsrs.org/abstract-submission/}
+\item UNLV Health Sciences Research Symposium. Event home page: February 26, 2027; free registration. \url{https://unlv-hsrs.org/}
+\end{enumerate}
+\end{document}

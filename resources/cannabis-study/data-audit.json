@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-21",
+  "status": "Unweighted feasibility checks only; not scientific results",
+  "file": "NSDUH_2024_Tab.txt",
+  "zip_sha256": "a26f3009991e848c9a6b594e5d57906621a75459c7ba51d10b409ed2f8432a8f",
+  "verified_fields": [
+    "CATAGE",
+    "AGE3",
+    "MRJYR",
+    "IRPYUD5MRJ",
+    "IRAMDEYR",
+    "ANALWT2_C",
+    "VESTR_C",
+    "VEREP",
+    "IRSEX",
+    "NEWRACE2",
+    "EDUHIGHCAT",
+    "POVERTY3",
+    "IRINSUR4",
+    "CIGYR",
+    "ALCYR",
+    "IRMJFY"
+  ],
+  "missing_fields": [],
+  "unweighted_counts": {
+    "all_records": 58633,
+    "age18_25": 14136,
+    "eligible_users": 4994,
+    "cud_0": 2746,
+    "mde_0": 3790,
+    "cud_1": 2248,
+    "mde_1": 1204
+  }
+}
