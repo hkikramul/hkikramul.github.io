@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T03:04:02.872Z",
+  "updated_at": "2026-10-22T15:02:34.517Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -705,6 +705,55 @@
       "follow_up": {
         "bn": "আহতদের অবস্থা, মরদেহ প্রত্যাবাসন ও ক্ষতিপূরণের অগ্রগতি অনুসরণ",
         "en": "Track the injured persons' outcomes, repatriation and compensation"
+      }
+    },
+    {
+      "id": "SA-DAMMAM-AIRPORT-20261021",
+      "country": "SA",
+      "event_date": "2026-10-21",
+      "published_date": "2026-10-21",
+      "title": {
+        "bn": "দম্মাম বিমানবন্দর হামলায় দুই বাংলাদেশি আহত",
+        "en": "Two Bangladeshis injured in Dammam airport attack"
+      },
+      "summary": {
+        "bn": "সৌদি বেসামরিক বিমান চলাচল কর্তৃপক্ষের অনুসরণী বিবৃতি অনুযায়ী, কিং ফাহদ আন্তর্জাতিক বিমানবন্দরে হামলায় আহত আটজনের মধ্যে দুইজন বাংলাদেশি বাসিন্দা। কর্তৃপক্ষের বিবৃতিতে হামলাকারীর পরিচয় নিশ্চিত করা হয়নি।",
+        "en": "According to a follow-up statement from Saudi Arabia's General Authority of Civil Aviation, two Bangladeshi residents were among eight people injured in an attack on King Fahd International Airport. The authority's statement did not identify the attacker."
+      },
+      "category": "conflict",
+      "gender": "unknown",
+      "people_count": 2,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "official_authority_reported",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/saudi-civil-aviation-says-one-killed-eight-injured-attack-king-fahd-airport-2026-10-21/",
+          "date": "2026-10-21",
+          "language": "en"
+        },
+        {
+          "name": "Saudi Press Agency / General Authority of Civil Aviation",
+          "url": "https://www.spa.gov.sa/en/N2707532",
+          "date": "2026-10-22",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "পরিচয় প্রকাশ করা হয়নি",
+        "en": "Identities not published"
+      },
+      "unknowns": {
+        "bn": "দুই বাংলাদেশির আঘাতের মাত্রা ও বর্তমান চিকিৎসাগত অবস্থা প্রকাশিত উৎসে নির্দিষ্ট নয়; হামলাকারীর পরিচয়ও এই কর্তৃপক্ষের বিবৃতিতে নিশ্চিত নয়।",
+        "en": "The severity and current medical condition of the two Bangladeshis are not specified in the cited sources; the authority's statement also did not confirm the attacker."
+      },
+      "follow_up": {
+        "bn": "আহতদের অবস্থা ও কনস্যুলার সহায়তার তথ্য অনুসরণ",
+        "en": "Track the injured persons' conditions and any consular assistance"
       }
     }
   ]
