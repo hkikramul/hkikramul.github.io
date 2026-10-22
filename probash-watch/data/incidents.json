@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T03:08:00Z",
+  "updated_at": "2026-10-22T03:04:02.872Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -638,6 +638,73 @@
       "follow_up": {
         "bn": "আইনি প্রক্রিয়া ও পরবর্তী সংবাদ অনুসরণ",
         "en": "Track legal proceedings and subsequent reporting"
+      }
+    },
+    {
+      "id": "SA-RIYADH-AIRPORT-20261010",
+      "country": "SA",
+      "event_date": "2026-10-10",
+      "published_date": "2026-10-10",
+      "title": {
+        "bn": "রিয়াদের বিমানবন্দর হামলায় দুই বাংলাদেশি নিহত",
+        "en": "Two Bangladeshis killed in Riyadh airport attack"
+      },
+      "summary": {
+        "bn": "Reuters ও সৌদি বেসামরিক বিমান চলাচল কর্তৃপক্ষের তথ্য অনুযায়ী, কিং খালিদ আন্তর্জাতিক বিমানবন্দরে হামলায় নিহতদের মধ্যে দুই বাংলাদেশি ছিলেন। বাংলাদেশি আহতের সংখ্যা নিয়ে প্রাথমিক মন্ত্রণালয় প্রতিবেদনে ২৪ এবং পরবর্তী দূতাবাস-উদ্ধৃত প্রতিবেদনে ২৭ বলা হয়েছে; ফলে আহতের সুনির্দিষ্ট সংখ্যা এখানে নিশ্চিত করা হয়নি।",
+        "en": "Reuters and Saudi civil aviation authorities reported two Bangladeshis among those killed in the attack on King Khalid International Airport. Reports citing Bangladeshi authorities gave differing injury figures—24 initially and 27 later—so the precise number of injured Bangladeshis is not treated as settled here."
+      },
+      "category": "conflict",
+      "gender": "unknown",
+      "people_count": 2,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "official_authority_reported",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
+          "date": "2026-10-10",
+          "language": "en"
+        },
+        {
+          "name": "Bangladesh Sangbad Sangstha (BSS)",
+          "url": "https://www.bssnews.net/others/433803",
+          "date": "2026-10-11",
+          "language": "en"
+        },
+        {
+          "name": "Dhaka Tribune",
+          "url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/422576/body-of-shahed-killed-in-saudi-attack-to-arrive",
+          "date": "2026-10-20",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ দূতাবাস, রিয়াদ",
+            "en": "Bangladesh Embassy in Riyadh"
+          },
+          "response": {
+            "bn": "মরদেহ ফেরত ও এক শ্রমিকের পাওনা পরিবারের কাছে দেওয়ার প্রক্রিয়ার কথা জানিয়েছে।",
+            "en": "Reported arrangements for repatriation and transfer of one worker's outstanding employment benefits to the family."
+          },
+          "source_url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/422576/body-of-shahed-killed-in-saudi-attack-to-arrive"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "পরিচয় এখানে পুনঃপ্রকাশ করা হয়নি",
+        "en": "Identities not republished here"
+      },
+      "unknowns": {
+        "bn": "আহত বাংলাদেশির চূড়ান্ত সংখ্যা উৎসভেদে ভিন্ন; ২৪ ও ২৭—দুই হিসাবই প্রকাশিত হয়েছে।",
+        "en": "The final number of injured Bangladeshis differs across published reports: 24 and 27."
+      },
+      "follow_up": {
+        "bn": "আহতদের অবস্থা, মরদেহ প্রত্যাবাসন ও ক্ষতিপূরণের অগ্রগতি অনুসরণ",
+        "en": "Track the injured persons' outcomes, repatriation and compensation"
       }
     }
   ]
