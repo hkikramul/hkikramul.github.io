@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T14:59:30.548Z",
-  "last_successful_scan_at": "2026-10-21T14:59:30.548Z",
+  "updated_at": "2026-10-22T03:04:02.872Z",
+  "last_successful_scan_at": "2026-10-22T03:04:02.872Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-19",
+  "coverage_end": "2026-10-21",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -680,6 +680,102 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-10-21T03:08:00Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-AIRPORT-REUTERS-20261010",
+      "country": "SA",
+      "published_date": "2026-10-10",
+      "event_date": "2026-10-10",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
+      "language": "en",
+      "title": {
+        "bn": "রিয়াদ বিমানবন্দর হামলায় দুই বাংলাদেশি নিহত",
+        "en": "Two Bangladeshis killed in Riyadh airport attack"
+      },
+      "summary": {
+        "bn": "Reuters সৌদি বেসামরিক বিমান চলাচল কর্তৃপক্ষের বরাতে জানিয়েছে, ১০ অক্টোবর রিয়াদের কিং খালিদ আন্তর্জাতিক বিমানবন্দরে হামলায় নিহতদের মধ্যে দুই বাংলাদেশি ছিলেন; সামগ্রিকভাবে অন্তত ১২ জন নিহত ও ৩০৯ জন আহত হওয়ার কথা জানানো হয়।",
+        "en": "Reuters, citing Saudi civil aviation authorities, reported that two Bangladeshis were among those killed in the 10 October attack on King Khalid International Airport; the overall toll was reported as at least 12 killed and 309 injured."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-RIYADH-AIRPORT-20261010",
+      "status": "source_reported",
+      "nationality_basis": "official_authority_reported",
+      "added_at": "2026-10-22T03:04:02.872Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-AIRPORT-BSS-20261011",
+      "country": "SA",
+      "published_date": "2026-10-11",
+      "event_date": "2026-10-10",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/others/433803",
+      "language": "en",
+      "title": {
+        "bn": "রিয়াদ বিমানবন্দর হামলায় বাংলাদেশি হতাহত: মন্ত্রণালয়ের প্রাথমিক তথ্য",
+        "en": "Bangladeshi casualties in Riyadh airport attack: ministry's preliminary figures"
+      },
+      "summary": {
+        "bn": "BSS প্রবাসীকল্যাণ মন্ত্রণালয়ের সংবাদ বিজ্ঞপ্তির বরাতে দুই বাংলাদেশি নিহত ও ২৪ জন আহত হওয়ার প্রাথমিক তথ্য দিয়েছে। পরবর্তী একটি প্রতিবেদনে আহতের সংখ্যা ২৭ বলা হয়েছে; তাই এটি পরিবর্তনশীল প্রাথমিক হিসাব।",
+        "en": "BSS, citing an Expatriates' Welfare Ministry release, reported a preliminary toll of two Bangladeshis killed and 24 injured. A later report gave 27 injured, so the injury figure is treated as provisional."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-RIYADH-AIRPORT-20261010",
+      "status": "source_reported",
+      "nationality_basis": "official_authority_reported",
+      "added_at": "2026-10-22T03:04:02.872Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-AIRPORT-DT-20261020",
+      "country": "SA",
+      "published_date": "2026-10-20",
+      "event_date": "2026-10-10",
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/422576/body-of-shahed-killed-in-saudi-attack-to-arrive",
+      "language": "en",
+      "title": {
+        "bn": "নিহত শ্রমিকের মরদেহ ফেরত ও পাওনা হস্তান্তরের অনুসরণী খবর",
+        "en": "Follow-up on repatriation and employment benefits after airport attack"
+      },
+      "summary": {
+        "bn": "Dhaka Tribune বাংলাদেশ দূতাবাসের বিবৃতির বরাতে এক নিহত শ্রমিকের মরদেহ ফেরত আনা এবং বকেয়া বেতন, ভাতা ও চাকরিসুবিধা পরিবারের কাছে দেওয়ার প্রক্রিয়ার খবর দিয়েছে। প্রতিবেদনটি একই ১০ অক্টোবরের ঘটনার অনুসরণী।",
+        "en": "Dhaka Tribune, citing a Bangladesh Embassy statement, reported arrangements to repatriate one deceased worker and transfer outstanding salary, allowances and service benefits to the family. This is a follow-up to the same 10 October incident."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-RIYADH-AIRPORT-20261010",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-22T03:04:02.872Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-REUTERS-20261021",
+      "country": "SA",
+      "published_date": "2026-10-21",
+      "event_date": "2026-10-14",
+      "publisher": "Reuters via ThePrint",
+      "url": "https://theprint.in/world/bangladesh-yet-to-receive-saudi-response-on-execution-of-two-nationals/3077383/",
+      "language": "en",
+      "title": {
+        "bn": "দুই বাংলাদেশির মৃত্যুদণ্ড: সৌদি জবাব তখনও মেলেনি",
+        "en": "Saudi response still pending over executions of two Bangladeshis"
+      },
+      "summary": {
+        "bn": "Reuters ২১ অক্টোবর বাংলাদেশের পররাষ্ট্র মন্ত্রণালয়ের মুখপাত্রের বরাতে জানিয়েছে, আদালতের রায়, অভিযোগের বিবরণ ও কনস্যুলার মিশনকে না জানানোর ব্যাখ্যা চেয়ে পাঠানো প্রশ্নের জবাব তখনও সৌদি আরব দেয়নি। এটি ১৪ অক্টোবরের একই মৃত্যুদণ্ড ঘটনার অনুসরণী।",
+        "en": "Reuters reported on 21 October, citing Bangladesh's foreign ministry spokesperson, that Saudi Arabia had not yet answered requests for court judgments, offence details and an explanation for not notifying the consular mission. This is a follow-up to the same 14 October executions."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-22T03:04:02.872Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
