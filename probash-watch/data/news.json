@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T03:04:02.872Z",
-  "last_successful_scan_at": "2026-10-22T03:04:02.872Z",
+  "updated_at": "2026-10-22T15:02:34.517Z",
+  "last_successful_scan_at": "2026-10-22T15:02:34.517Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-21",
+  "coverage_end": "2026-10-22",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -776,6 +776,54 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-10-22T03:04:02.872Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-DAMMAM-AIRPORT-REUTERS-20261021",
+      "country": "SA",
+      "published_date": "2026-10-21",
+      "event_date": "2026-10-21",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/saudi-civil-aviation-says-one-killed-eight-injured-attack-king-fahd-airport-2026-10-21/",
+      "language": "en",
+      "title": {
+        "bn": "দম্মাম বিমানবন্দর হামলায় দুই বাংলাদেশি আহত",
+        "en": "Two Bangladeshis injured in Dammam airport attack"
+      },
+      "summary": {
+        "bn": "Reuters জানিয়েছে, ২১ অক্টোবর দম্মামের কিং ফাহদ আন্তর্জাতিক বিমানবন্দরে হামলায় মোট আটজন আহত হন। সৌদি বেসামরিক বিমান চলাচল কর্তৃপক্ষের অনুসরণী হিসাবে আহতদের মধ্যে দুই বাংলাদেশি ছিলেন। হামলাকারীর পরিচয় নিয়ে এই রেকর্ডে কোনো অনুমান করা হয়নি।",
+        "en": "Reuters reported eight people injured in the 21 October attack on King Fahd International Airport in Dammam. A Saudi civil aviation follow-up identified two Bangladeshis among the injured. This record does not infer who carried out the attack."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-DAMMAM-AIRPORT-20261021",
+      "status": "source_reported",
+      "nationality_basis": "official_authority_reported",
+      "added_at": "2026-10-22T15:02:34.517Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-DAMMAM-AIRPORT-SPA-20261022",
+      "country": "SA",
+      "published_date": "2026-10-22",
+      "event_date": "2026-10-21",
+      "publisher": "Saudi Press Agency / General Authority of Civil Aviation",
+      "url": "https://www.spa.gov.sa/en/N2707532",
+      "language": "en",
+      "title": {
+        "bn": "দম্মাম বিমানবন্দর হামলার আহতদের জাতীয়তা বিষয়ে সরকারি অনুসরণী",
+        "en": "Official follow-up identifies nationalities of Dammam airport injured"
+      },
+      "summary": {
+        "bn": "সৌদি বেসামরিক বিমান চলাচল কর্তৃপক্ষের অনুসরণী বিবৃতিতে আহতের সংখ্যা আটই রাখা হয়েছে এবং তাঁদের মধ্যে দুইজন বাংলাদেশি বাসিন্দা বলে জানানো হয়েছে।",
+        "en": "A follow-up statement from Saudi Arabia's General Authority of Civil Aviation kept the injury toll at eight and identified two Bangladeshi residents among them."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-DAMMAM-AIRPORT-20261021",
+      "status": "source_reported",
+      "nationality_basis": "official_authority_reported",
+      "added_at": "2026-10-22T15:02:34.517Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
