@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T15:02:34.517Z",
+  "updated_at": "2026-10-23T14:57:49.809Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -754,6 +754,61 @@
       "follow_up": {
         "bn": "আহতদের অবস্থা ও কনস্যুলার সহায়তার তথ্য অনুসরণ",
         "en": "Track the injured persons' conditions and any consular assistance"
+      }
+    },
+    {
+      "id": "EG-WAGES-PASSPORTS-202610",
+      "country": "EG",
+      "event_date": null,
+      "published_date": "2026-10-04",
+      "title": {
+        "bn": "মিশরে শ্রমিকদের বেতন ও পাসপোর্ট আটকে রাখার অভিযোগ",
+        "en": "Workers in Egypt allege unpaid wages and passport retention"
+      },
+      "summary": {
+        "bn": "একটি প্রকাশিত প্রতিবেদনে প্রায় ২২০ বাংলাদেশি শ্রমিক তিন মাসের বেতন না পাওয়া এবং ১৬০ জনের বেশি শ্রমিকের পাসপোর্ট আটকে রাখার অভিযোগ করেছেন। বাংলাদেশ দূতাবাস অভিযোগ পাওয়ার কথা জানিয়ে স্থানীয় আইন অনুযায়ী যাচাই ও প্রতিকারের উদ্যোগের কথা বলেছে।",
+        "en": "A published report describes allegations by around 220 Bangladeshi workers of three months' unpaid wages and retention of more than 160 passports. Bangladesh's embassy acknowledged receiving complaints and said verification and remedies were being pursued under local law."
+      },
+      "category": "labour_rights",
+      "gender": "unknown",
+      "people_count": 220,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Jago News 24",
+          "url": "https://www.jagonews24.com/probash/news/1164276",
+          "date": "2026-10-04",
+          "language": "bn"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "মিশরে বাংলাদেশ দূতাবাস",
+            "en": "Bangladesh Embassy in Egypt"
+          },
+          "response": {
+            "bn": "অভিযোগ পাওয়ার কথা জানিয়েছে এবং পাসপোর্ট ফেরতসহ প্রতিকারের জন্য স্থানীয় আইনানুগ প্রক্রিয়ায় পদক্ষেপ নেওয়া হচ্ছে বলেছে।",
+            "en": "Said it had received complaints and was pursuing local legal procedures concerning passport return and other remedies."
+          },
+          "source_url": "https://www.jagonews24.com/probash/news/1164276"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "শ্রমিকদের ব্যক্তিগত পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Workers' identities not republished"
+      },
+      "unknowns": {
+        "bn": "প্রায় ২২০ শ্রমিকের সবাই একইভাবে ক্ষতিগ্রস্ত কি না, চূড়ান্ত বকেয়া, পাসপোর্টের সুনির্দিষ্ট সংখ্যা ও তদন্তের ফল জানা নেই।",
+        "en": "It is not established that every one of the approximately 220 workers was affected in the same way; final wage amounts, exact passport count and investigation outcomes remain unknown."
+      },
+      "follow_up": {
+        "bn": "বেতন পরিশোধ, পাসপোর্ট ফেরত ও দূতাবাস/মিশরীয় কর্তৃপক্ষের পদক্ষেপ অনুসরণ",
+        "en": "Track wage payment, passport return and action by the embassy and Egyptian authorities"
       }
     }
   ]
