@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T02:57:46.663Z",
-  "last_successful_scan_at": "2026-10-23T02:57:46.663Z",
+  "updated_at": "2026-10-23T14:57:49.809Z",
+  "last_successful_scan_at": "2026-10-23T14:57:49.809Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-22",
@@ -824,6 +824,54 @@
       "status": "source_reported",
       "nationality_basis": "official_authority_reported",
       "added_at": "2026-10-22T15:02:34.517Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "EG-WAGES-PASSPORTS-JAGO-20261004",
+      "country": "EG",
+      "published_date": "2026-10-04",
+      "event_date": null,
+      "publisher": "Jago News 24",
+      "url": "https://www.jagonews24.com/probash/news/1164276",
+      "language": "bn",
+      "title": {
+        "bn": "মিশরে প্রায় ২২০ শ্রমিকের বেতন ও পাসপোর্ট আটকে রাখার অভিযোগ",
+        "en": "Around 220 workers in Egypt allege unpaid wages and passport retention"
+      },
+      "summary": {
+        "bn": "জাগো নিউজের প্রতিবেদনে মিশরের একটি পোশাক কারখানায় কর্মরত প্রায় ২২০ বাংলাদেশি শ্রমিক তিন মাসের বেতন না পাওয়া এবং ১৬০ জনের বেশি শ্রমিকের পাসপোর্ট আটকে রাখার অভিযোগ করেছেন। বাংলাদেশ দূতাবাস অভিযোগ পাওয়ার কথা জানিয়ে আইনানুগ যাচাই ও প্রতিকারের উদ্যোগ চলছে বলেছে। অভিযোগগুলো আদালতে প্রমাণিত বলে দাবি করা হয়নি।",
+        "en": "Jago News reported allegations by around 220 Bangladeshi workers at an Egyptian garment factory that three months of wages were unpaid and more than 160 passports were retained. Bangladesh's embassy said it had received complaints and was pursuing lawful verification and remedies. The allegations are not presented as court-established findings."
+      },
+      "record_type": "investigation",
+      "incident_key": "EG-WAGES-PASSPORTS-202610",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-23T14:57:49.809Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-REPATRIATION-ITTEFAQ-20261022",
+      "country": "MY",
+      "published_date": "2026-10-22",
+      "event_date": null,
+      "publisher": "The Daily Ittefaq",
+      "url": "https://www.ittefaq.com.bd/816603/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%B8%E0%A6%B9-%E0%A7%A7%E0%A7%AB%E0%A7%AD-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%A4-%E0%A6%AA%E0%A6%BE%E0%A6%A0%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE",
+      "language": "bn",
+      "title": {
+        "bn": "বাংলাদেশিসহ ১৫৭ অভিবাসীকে মালয়েশিয়া থেকে প্রত্যাবাসন",
+        "en": "Malaysia repatriates 157 migrants, including Bangladeshis"
+      },
+      "summary": {
+        "bn": "ইত্তেফাক মালয়েশিয়ার কেদাহ অভিবাসন বিভাগের তথ্যের বরাতে জানিয়েছে, সাজা শেষ হওয়ার পর ১৫৭ জন অভিবাসীকে নিজ নিজ দেশে ফেরত পাঠানো হয়েছে; তাঁদের মধ্যে বাংলাদেশিরাও ছিলেন। প্রতিবেদনে বাংলাদেশির সংখ্যা আলাদা করে দেওয়া হয়নি, তাই ১৫৭-কে বাংলাদেশি সংখ্যা হিসেবে গণনা করা হয়নি।",
+        "en": "Ittefaq, citing Kedah immigration authorities, reported that 157 migrants were returned to their countries after completing sentences, including some Bangladeshis. The report did not provide a Bangladesh-specific count, so 157 is not treated as the number of Bangladeshis."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-10-23T14:57:49.809Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
