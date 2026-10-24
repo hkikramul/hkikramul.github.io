@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T14:57:49.809Z",
+  "updated_at": "2026-10-24T03:01:43.683Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -678,6 +678,12 @@
           "url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/422576/body-of-shahed-killed-in-saudi-attack-to-arrive",
           "date": "2026-10-20",
           "language": "en"
+        },
+        {
+          "name": "Bangladesh Sangbad Sangstha (BSS)",
+          "url": "https://www.bssnews.net/news-flash/437580",
+          "date": "2026-10-23",
+          "language": "en"
         }
       ],
       "responses": [
@@ -691,6 +697,17 @@
             "en": "Reported arrangements for repatriation and transfer of one worker's outstanding employment benefits to the family."
           },
           "source_url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/422576/body-of-shahed-killed-in-saudi-attack-to-arrive"
+        },
+        {
+          "actor": {
+            "bn": "বাংলাদেশ সরকার",
+            "en": "Government of Bangladesh"
+          },
+          "response": {
+            "bn": "এক নিহত শ্রমিকের মরদেহ ২৩ অক্টোবর দেশে গ্রহণ করে অনুদান ও বিনামূল্যে পরিবহনের ব্যবস্থা করেছে।",
+            "en": "Received one deceased worker's body in Bangladesh on 23 October and arranged a grant and free transport."
+          },
+          "source_url": "https://www.bssnews.net/news-flash/437580"
         }
       ],
       "protests": [],
@@ -809,6 +826,61 @@
       "follow_up": {
         "bn": "বেতন পরিশোধ, পাসপোর্ট ফেরত ও দূতাবাস/মিশরীয় কর্তৃপক্ষের পদক্ষেপ অনুসরণ",
         "en": "Track wage payment, passport return and action by the embassy and Egyptian authorities"
+      }
+    },
+    {
+      "id": "KH-CYBERSCAM-RETURN-202609",
+      "country": "KH",
+      "event_date": "2026-09-03",
+      "published_date": "2026-10-21",
+      "title": {
+        "bn": "সাইবার-স্ক্যাম কেন্দ্রের অভিযোগের পর ৩০ বাংলাদেশির প্রত্যাবর্তন",
+        "en": "30 Bangladeshis return after alleged cyber-scam-centre ordeal"
+      },
+      "summary": {
+        "bn": "প্রকাশিত প্রতিবেদনে বলা হয়েছে, ৩২ বাংলাদেশিকে ৩ সেপ্টেম্বর নমপেন বিমানবন্দরে অভিবাসন পুলিশ আটক করে। তাঁদের মধ্যে ৩০ জন পরবর্তী সময়ে দেশে ফেরেন। দালালদের চাকরির প্রলোভন, সাইবার-স্ক্যাম কেন্দ্রে আটকে রাখা, অনলাইন প্রতারণায় বাধ্য করা এবং পালানোর চেষ্টায় কারও কারও ওপর নির্যাতনের অভিযোগ রয়েছে; এগুলো আদালতের সিদ্ধান্ত নয়।",
+        "en": "Published reporting says Cambodian immigration police detained 32 Bangladeshis at Phnom Penh airport on 3 September; 30 later returned home. The report describes allegations of deceptive job recruitment, confinement in cyber-scam centres, forced online fraud and torture of some who tried to escape; these are not court findings."
+      },
+      "category": "trafficking",
+      "gender": "unknown",
+      "people_count": 30,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported_and_embassy_assisted",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/work-and-migration/news/30-detained-cambodia-return-home-4303836",
+          "date": "2026-10-21",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "থাইল্যান্ডে বাংলাদেশ দূতাবাস",
+            "en": "Bangladesh Embassy in Thailand"
+          },
+          "response": {
+            "bn": "মিশন বারবার অনুরোধ ও আলোচনার পর আটক ব্যক্তিদের মুক্তিতে সহায়তার কথা জানিয়েছে।",
+            "en": "The mission was reported to have assisted their release through repeated requests and negotiations."
+          },
+          "source_url": "https://www.thedailystar.net/news/work-and-migration/news/30-detained-cambodia-return-home-4303836"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "ফেরত ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Returnees' identities not republished"
+      },
+      "unknowns": {
+        "bn": "প্রতিটি ব্যক্তির অভিজ্ঞতা, অভিযোগের বিচারিক অবস্থা এবং কম্বোডিয়ায় এখনো আটকে থাকা বাংলাদেশিদের নির্ভুল সংখ্যা নিশ্চিত নয়।",
+        "en": "Each person's experience, the judicial status of the allegations and the precise number of Bangladeshis still stranded in Cambodia are not established."
+      },
+      "follow_up": {
+        "bn": "পুনর্বাসন, তদন্ত এবং কম্বোডিয়ায় থাকা বাংলাদেশিদের সহায়তা অনুসরণ",
+        "en": "Track reintegration, investigations and assistance for Bangladeshis remaining in Cambodia"
       }
     }
   ]
