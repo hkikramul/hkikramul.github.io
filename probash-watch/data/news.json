@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T14:57:49.809Z",
-  "last_successful_scan_at": "2026-10-23T14:57:49.809Z",
+  "updated_at": "2026-10-24T03:01:43.683Z",
+  "last_successful_scan_at": "2026-10-24T03:01:43.683Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-22",
+  "coverage_end": "2026-10-23",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -872,6 +872,78 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-10-23T14:57:49.809Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "EU-REPATRIATION-DS-20261023",
+      "country": "MULTI",
+      "published_date": "2026-10-23",
+      "event_date": "2026-10-23",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/35-bangladeshis-repatriated-italy-greece-and-cyprus-4305656",
+      "language": "en",
+      "title": {
+        "bn": "ইতালি, গ্রিস ও সাইপ্রাস থেকে ৩৫ বাংলাদেশির প্রত্যাবর্তন",
+        "en": "35 Bangladeshis repatriated from Italy, Greece and Cyprus"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার জানিয়েছে, আইনি প্রক্রিয়া ও জাতীয়তা যাচাই শেষে ইতালি থেকে ১৯, গ্রিস থেকে ১০ এবং সাইপ্রাস থেকে ৬ বাংলাদেশি বিশেষ ফ্লাইটে দেশে ফিরেছেন; তাঁদের পুনর্বাসন সহায়তা দেওয়া হয়েছে।",
+        "en": "The Daily Star reports that, after legal procedures and nationality verification, 19 Bangladeshis from Italy, 10 from Greece and six from Cyprus returned on a special flight and received reintegration assistance."
+      },
+      "record_type": "incident",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "nationality_verified_for_repatriation",
+      "added_at": "2026-10-24T03:01:43.683Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KH-CYBERSCAM-RETURN-DS-20261021",
+      "country": "KH",
+      "published_date": "2026-10-21",
+      "event_date": "2026-10-20",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/30-detained-cambodia-return-home-4303836",
+      "language": "en",
+      "title": {
+        "bn": "কম্বোডিয়ায় আটক ৩০ বাংলাদেশি দেশে ফিরেছেন",
+        "en": "30 Bangladeshis detained in Cambodia return home"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার জানিয়েছে, লাভজনক চাকরির প্রলোভনে সাইবার-স্ক্যাম কেন্দ্রে আটকে রেখে অনলাইন প্রতারণায় বাধ্য করার অভিযোগের পর অভিবাসন হেফাজতে থাকা ৩০ বাংলাদেশি দেশে ফিরেছেন। অভিযোগগুলো আদালতে প্রমাণিত হিসেবে উপস্থাপন করা হয়নি।",
+        "en": "The Daily Star reports that 30 Bangladeshis returned after immigration detention, following allegations that brokers lured them with lucrative jobs and that some were confined in cyber-scam centres and forced to commit online fraud. The allegations are not presented as court findings."
+      },
+      "record_type": "incident",
+      "incident_key": "KH-CYBERSCAM-RETURN-202609",
+      "status": "source_reported",
+      "nationality_basis": "source_reported_and_embassy_assisted",
+      "added_at": "2026-10-24T03:01:43.683Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-AIRPORT-BSS-20261023",
+      "country": "SA",
+      "published_date": "2026-10-23",
+      "event_date": "2026-10-23",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news-flash/437580",
+      "language": "en",
+      "title": {
+        "bn": "রিয়াদ বিমানবন্দর হামলায় নিহত শ্রমিকের মরদেহ দেশে পৌঁছেছে",
+        "en": "Body of worker killed in Riyadh airport attack returned to Bangladesh"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ১০ অক্টোবরের রিয়াদ বিমানবন্দর হামলায় নিহত এক বাংলাদেশি শ্রমিকের মরদেহ ২৩ অক্টোবর দেশে পৌঁছেছে; প্রবাসী কল্যাণ মন্ত্রণালয় অনুদান ও পরিবহনের ব্যবস্থা করেছে। ব্যক্তির পরিচয় এখানে পুনঃপ্রকাশ করা হয়নি।",
+        "en": "BSS reports that the body of one Bangladeshi worker killed in the 10 October Riyadh airport attack arrived in Bangladesh on 23 October; the expatriates' welfare ministry arranged a grant and transport. The person's identity is not republished here."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-RIYADH-AIRPORT-20261010",
+      "status": "source_reported",
+      "nationality_basis": "official_statement_reported",
+      "added_at": "2026-10-24T03:01:43.683Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
