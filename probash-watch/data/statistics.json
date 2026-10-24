@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T19:10:05.674240+00:00",
+  "updated_at": "2026-10-24T03:01:43.683Z",
   "coverage_complete": false,
   "records": [
     {
@@ -322,6 +322,34 @@
       "period_basis": "snapshot",
       "source_url": "https://www.dhakatribune.com/world/asia/337012/malaysia-to-review-migrant-labour-deals-with-15",
       "note": "Claimants reported by Malaysian minister; not all migrant workers.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "global-bd-prisoners-20261023",
+      "metric": "bangladeshi_citizens_imprisoned_abroad",
+      "value": 7500,
+      "period": "Reported 23 Oct 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "snapshot",
+      "source_url": "https://www.bssnews.net/news-flash/437580",
+      "note": "Approximate worldwide snapshot stated by Bangladesh's state minister for foreign affairs; not a conviction-rate measure.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "eu-return-arrangement-cumulative-20261023",
+      "metric": "repatriated_under_bangladesh_eu_arrangement",
+      "value": 5000,
+      "period": "2017–23 Oct 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "range",
+      "source_url": "https://www.thedailystar.net/news/work-and-migration/news/35-bangladeshis-repatriated-italy-greece-and-cyprus-4305656",
+      "note": "Approximate cumulative returnees under the Bangladesh-EU arrangement; not an abuse-victim count.",
       "denominator": null,
       "status": "source_reported"
     }
