@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T14:59:09.403Z",
-  "last_successful_scan_at": "2026-10-26T14:59:09.403Z",
+  "updated_at": "2026-10-27T02:57:11.151Z",
+  "last_successful_scan_at": "2026-10-27T02:57:11.151Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-23",
+  "coverage_end": "2026-10-26",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -944,6 +944,54 @@
       "status": "source_reported",
       "nationality_basis": "official_statement_reported",
       "added_at": "2026-10-24T03:01:43.683Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-FLIGHT-IQAMA-BSS-20261026",
+      "country": "SA",
+      "published_date": "2026-10-26",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news/438709",
+      "language": "en",
+      "title": {
+        "bn": "ফ্লাইট বিঘ্নে ইকামা মেয়াদ শেষ হলেও সৌদিতে প্রবেশের নীতিগত ছাড়",
+        "en": "Saudi entry relief for workers whose iqamas expire during flight disruption"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, যুদ্ধজনিত ফ্লাইট বিঘ্নে নির্ধারিত যাত্রা মিস করা বাংলাদেশি কর্মীদের ইকামার মেয়াদ এর মধ্যে শেষ হলেও পরে সৌদি আরবে প্রবেশ ইলেকট্রনিক ব্যবস্থায় প্রক্রিয়াকরণ করা হবে—প্রবাসী কল্যাণমন্ত্রী এ কথা বলেছেন। এটি প্রকাশিত সরকারি বক্তব্য; প্রত্যেক যাত্রীর পৃথক যোগ্যতা নিশ্চিত করা হয়নি।",
+        "en": "BSS reports the expatriates' welfare minister said Bangladeshi workers who missed scheduled travel because of war-related flight disruption would be processed electronically for Saudi entry even if their iqamas expired in the meantime. This is a reported government statement; individual eligibility is not independently confirmed."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_statement_reported",
+      "added_at": "2026-10-27T02:57:11.151Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-FLIGHT-STRANDED-DS-20261025",
+      "country": "SA",
+      "published_date": "2026-10-25",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/stranded-home-migrants-fear-losing-saudi-jobs-4306746",
+      "language": "en",
+      "title": {
+        "bn": "ফ্লাইট বাতিলে সৌদি-গামী বাংলাদেশি কর্মীদের চাকরি ও ভিসা নিয়ে উদ্বেগ",
+        "en": "Saudi-bound Bangladeshi workers fear job and visa losses after flight cancellations"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার কয়েকজন সৌদি-প্রবাসী বাংলাদেশি কর্মীর পুনঃনির্ধারিত ফ্লাইটও বাতিল হওয়া, ছুটির মেয়াদ শেষ হওয়া এবং চাকরি বা ভিসা হারানোর আশঙ্কার কথা জানিয়েছে। ২৪ অক্টোবর পর্যন্ত সিএএবির হিসাবে ১৪৪টি সরাসরি ও ট্রানজিট ফ্লাইটে ২২,০২১ যাত্রীর ভ্রমণ বিঘ্নিত হয়েছিল; সংখ্যাটি সব বাংলাদেশি কর্মী বা ক্ষতিগ্রস্ত চাকরির সংখ্যা নয়।",
+        "en": "The Daily Star reports that several Saudi-based Bangladeshi workers faced repeated cancellations, expired leave and fears of losing jobs or visas. CAAB figures cited for 24 October said 144 direct and transit flights disrupted travel for 22,021 passengers; this is not a count of Bangladeshi workers or confirmed job losses."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "workers_identified_as_bangladeshi_in_source",
+      "added_at": "2026-10-27T02:57:11.151Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
