@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T02:57:11.151Z",
-  "last_successful_scan_at": "2026-10-27T02:57:11.151Z",
+  "updated_at": "2026-10-27T15:06:35.180Z",
+  "last_successful_scan_at": "2026-10-27T15:06:35.180Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-26",
+  "coverage_end": "2026-10-27",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -992,6 +992,30 @@
       "status": "source_reported",
       "nationality_basis": "workers_identified_as_bangladeshi_in_source",
       "added_at": "2026-10-27T02:57:11.151Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "JP-ESDP-MOC-BSS-20261019",
+      "country": "JP",
+      "published_date": "2026-10-19",
+      "event_date": "2026-10-17",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news-flash/436524",
+      "language": "en",
+      "title": {
+        "bn": "২০২৭ সালের এপ্রিল থেকে নতুন চুক্তিতে জাপানে বাংলাদেশি কর্মী নিয়োগ",
+        "en": "Japan to recruit Bangladeshi workers under new agreement from April 2027"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ১৭ অক্টোবর স্বাক্ষরিত কর্মসংস্থান ও দক্ষতা উন্নয়ন সহযোগিতা স্মারকের অধীনে ১ এপ্রিল ২০২৭ থেকে জাপান বাংলাদেশি কর্মী নিয়োগ শুরু করবে। সরকারি সংবাদ বিজ্ঞপ্তি অনুযায়ী, চুক্তির প্রাথমিক মেয়াদ পাঁচ বছর এবং পরে স্বয়ংক্রিয়ভাবে আরও পাঁচ বছর বাড়বে; এতে সমতুল্য আইনি সুরক্ষা, নারী-পুরুষের সমান সুযোগ এবং গর্ভাবস্থা বা সন্তান জন্মদানের কারণে বৈষম্য না করার বিধানের কথা বলা হয়েছে। বাস্তব নিয়োগের সংখ্যা বা খাত প্রতিবেদনে নির্দিষ্ট নয়।",
+        "en": "BSS reports that Japan will begin recruiting Bangladeshi workers from 1 April 2027 under an employment and skills-development memorandum signed on 17 October. The government release says the initial five-year term can extend automatically for another five years and describes equivalent legal protections, equal workplace opportunity, and protection against pregnancy- or childbirth-related discrimination. The report does not specify recruitment numbers or sectors."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_statement_reported",
+      "added_at": "2026-10-27T15:06:35.180Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
