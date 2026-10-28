@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T03:01:15.295Z",
-  "last_successful_scan_at": "2026-10-28T03:01:15.295Z",
+  "updated_at": "2026-10-28T14:58:28.557Z",
+  "last_successful_scan_at": "2026-10-28T14:58:28.557Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-27",
+  "coverage_end": "2026-10-28",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1016,6 +1016,30 @@
       "status": "source_reported",
       "nationality_basis": "official_statement_reported",
       "added_at": "2026-10-27T15:06:35.180Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-MEDICAL-TEST-POLICY-BSS-20261028",
+      "country": "MY",
+      "published_date": "2026-10-28",
+      "event_date": "2026-10-31",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/others/439286",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়াগামী কর্মীদের অনুমোদিত মেডিকেল পরীক্ষা ৩১ অক্টোবর শুরু",
+        "en": "Authorized medical tests for Malaysia-bound workers to begin 31 October"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, প্রবাসী কল্যাণ মন্ত্রণালয়ের নির্দেশনা অনুযায়ী মালয়েশিয়ায় কর্মসংস্থানপ্রত্যাশী বাংলাদেশি কর্মীদের মেডিকেল পরীক্ষা ৩১ অক্টোবর থেকে অনুমোদিত কেন্দ্রে শুরু হবে; এর আগে করা পরীক্ষা অভিবাসন ছাড়পত্রে গ্রহণযোগ্য হবে না। মন্ত্রণালয় অননুমোদিত পরীক্ষা প্রস্তাবকারী দালাল বা এজেন্সির কাছে পাসপোর্ট বা অর্থ না দিতে এবং কেন্দ্রের অনুমোদন যাচাই করতে সতর্ক করেছে।",
+        "en": "BSS reports that, under an expatriates' welfare ministry instruction, medical examinations for Bangladeshi workers seeking jobs in Malaysia will begin at authorized centres on 31 October; tests conducted earlier will not be accepted for immigration clearance. The ministry warned workers not to hand passports or money to brokers or agencies offering unauthorized tests and to verify centre authorization."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_statement_reported",
+      "added_at": "2026-10-28T14:58:28.557Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
