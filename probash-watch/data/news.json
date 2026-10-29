@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T02:59:09.329Z",
-  "last_successful_scan_at": "2026-10-29T02:59:09.329Z",
+  "updated_at": "2026-10-29T15:02:14.878Z",
+  "last_successful_scan_at": "2026-10-29T15:02:14.878Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-29",
@@ -1088,6 +1088,30 @@
       "status": "source_reported",
       "nationality_basis": "official_notice_reported",
       "added_at": "2026-10-29T02:59:09.329Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "LY-REPATRIATION-BSS-20261029",
+      "country": "LY",
+      "published_date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/others/439773",
+      "language": "en",
+      "title": {
+        "bn": "লিবিয়া থেকে ১৭২ বাংলাদেশির স্বেচ্ছায় প্রত্যাবর্তন",
+        "en": "172 Bangladeshis voluntarily repatriated from Libya"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ইউরোপে পৌঁছানোর চেষ্টায় অনিয়মিত পথে লিবিয়ায় যাওয়া ১৭২ বাংলাদেশি বিশেষ ফ্লাইটে দেশে ফিরেছেন। পররাষ্ট্র মন্ত্রণালয়ের বিজ্ঞপ্তি অনুযায়ী, তাঁদের অনেকেই লিবিয়ায় অবস্থানের বিভিন্ন সময়ে অপহরণ ও নির্যাতনের শিকার হওয়ার কথা জানিয়েছেন; ১৭২-কে নিশ্চিত নির্যাতিতের সংখ্যা বা একক ঘটনার ভুক্তভোগী হিসেবে গণনা করা হয়নি।",
+        "en": "BSS reports that 172 Bangladeshis who had travelled irregularly to Libya while seeking to reach Europe returned on a special flight. A foreign ministry release said many reported abduction and torture at different times during their stay; 172 is not treated as a confirmed abuse-victim count or as victims of one incident."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_repatriation_record",
+      "added_at": "2026-10-29T15:02:14.878Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
