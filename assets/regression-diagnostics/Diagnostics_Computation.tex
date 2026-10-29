@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,longtable,array,hyperref,listings,xcolor,fancyhdr}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,pdftitle={Regression Diagnostics: Theory, Computation and R and D},pdfauthor={Md. Ikramul Haq Khan}}
+\lstset{language=R,basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,frame=none,showstringspaces=false}
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\pagestyle{fancy}\fancyhf{}\lhead{Regression diagnostics}\rhead{Md. Ikramul Haq Khan}\cfoot{\thepage}\setlength{\headheight}{14pt}
+\title{Model Diagnostics: Computational Practice}
+\author{Md. Ikramul Haq Khan}
+\date{October 29, 2026}
+\begin{document}
+\maketitle
+\textit{Standalone companion to the complete regression diagnostics reference. Personal study notes prepared with AI assistance; not an official course handout or organizational SOP.}
+\section{Real-data R laboratory: industrial stack loss}
+\textbf{Question:} How does mean stack loss vary with air flow, cooling-water temperature and acid concentration? The built-in \texttt{stackloss} dataset contains 21 observations from a nitric-acid plant. The response is an operational measure of ammonia loss; consult the dataset help for its scale and measurement details. This exercise estimates conditional associations, not causal effects. Allow about 45--60 minutes for the full lab, or 15 minutes for plots and influence only.
+\lstinputlisting{diagnostics_practice.R}
+
+\section{Research computation: stability, covariance and reproducibility}
+\subsection{QR and SVD instead of explicitly inverting normal equations}
+The inverse formula is useful for theory. In computation use a stable least-squares solver. For $X=QR$, with $Q^TQ=I_p$, solve $R\widehat\beta=Q^Ty$. Then $H=QQ^T$ and $h_{ii}=\sum_{k=1}^p Q_{ik}^2$; a full $n\times n$ matrix is unnecessary for leverage. For rank checks and near collinearity, inspect singular values $X=U\Sigma V^T$. For full rank, $\kappa_2(X)=s_{\max}/s_{\min}$ and $\kappa_2(X^TX)=\kappa_2(X)^2$. Scaling helps conditioning but cannot create information absent from the design. A small normal-equation residual alone cannot certify accurate coefficients in an ill-conditioned problem.
+\subsection{Coefficient deletion identity}
+For case design vector $x_i$ (a column) and full-rank deleted design, the Sherman--Morrison identity gives
+\[\widehat\beta-\widehat\beta_{(i)}
+=\frac{(X^TX)^{-1}x_i e_i}{1-h_{ii}}.\]
+Multiplying by $X$ and using $\|X(X^TX)^{-1}x_i\|^2=h_{ii}$ produces Cook's formula. This derivation separates mathematical identity from a practical influence threshold.
+\subsection{HC3 and generalized least squares}
+For independent observations with potentially unequal variances, an HC3 covariance estimator is
+\[\widehat V_{HC3}=(X^TX)^{-1}\left\{\sum_i x_ix_i^T\frac{e_i^2}{(1-h_{ii})^2}\right\}(X^TX)^{-1}.\]
+Its usual inferential justification is asymptotic; it is not an exact small-sample replacement for all classical tests. Cluster dependence needs cluster-aware methods and sufficient independent clusters.
+For $\operatorname{Var}(\varepsilon\mid X)=\sigma^2\Omega$ with known positive-definite $\Omega$, factor $\Omega=LL^T$ and whiten: $y^*=L^{-1}y$, $X^*=L^{-1}X$. OLS on the transformed data gives
+\[\widehat\beta_{GLS}=(X^T\Omega^{-1}X)^{-1}X^T\Omega^{-1}y.\]
+Use triangular solves rather than explicit inverses. Diagnostics should examine the transformed error structure and the scientific plausibility of $\Omega$. Estimating $\Omega$ introduces additional uncertainty; feasible GLS does not inherit every exact known-covariance result.
+\subsection{Independent computational checks}
+The accompanying \texttt{verify\_diagnostics.py} uses NumPy least-squares/QR and explicit case deletion to verify projection idempotence, residual orthogonality, $\sum h_{ii}=p$, Cook's formula and deleted residual identities. On the seeded synthetic example, maximum absolute discrepancies were $5.41\times10^{-15}$ for Cook's distance and $2.94\times10^{-15}$ for deleted residuals. These validate numerical identities on this example, not universal scientific adequacy. The R laboratory is supplied as reproducible source but was not executed in the authoring environment; run it in R and retain session information before reporting results.
+A stronger software exercise uses NIST certified reference data across multiple difficulty levels. Compare matched quantities under the exact specified model, intercept convention and units. Agreement checks numerical computation; it does not establish the model's scientific validity.
+
+\section{Expert resources and a reading pathway}
+This is a curated, broad pathway, not an exhaustive bibliography. Links were checked through source discovery on October 29, 2026. Package behavior can change; inspect installed help and session information.
+\begin{enumerate}
+\item \textbf{Penn State STAT 501}: \href{https://online.stat.psu.edu/stat501/Lesson11}{Lesson 11: Influential Points}; \href{https://online.stat.psu.edu/stat501/Lesson04}{Lesson 4: Model Assumptions}. Start here for worked distinctions among outliers, leverage and influence.
+\item \textbf{NIST/SEMATECH}: \href{https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/regrdiag.htm}{Regression diagnostics reference}. Use for a broad catalogue of diagnostic ideas and applied checks.
+\item \textbf{R Core documentation}: \href{https://stat.ethz.ch/R-manual/R-devel/library/stats/html/plot.lm.html}{plot.lm}; \href{https://stat.ethz.ch/R-manual/R-devel/library/stats/html/influence.measures.html}{influence.measures}. Read for exact definitions used by software.
+\item \textbf{lmtest authors' documentation}: \href{https://search.r-project.org/CRAN/refmans/lmtest/help/bptest.html}{bptest}; \href{https://search.r-project.org/CRAN/refmans/lmtest/html/bgtest.html}{bgtest}; \href{https://search.r-project.org/CRAN/refmans/lmtest/help/resettest.html}{resettest}. Study hypotheses, defaults and reference distributions before using tests.
+\item \textbf{Frank E. Harrell Jr.}: \href{https://hbiostat.org/rmsc/}{Regression Modeling Strategies course notes}. Continue here for specification, nonlinear effects, missing data, overfitting and validation, especially in biomedical work.
+\item \textbf{R datasets documentation}: \href{https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/stackloss.html}{Brownlee's Stack Loss Plant Data}. Read the primary software dataset record before interpreting the lab.
+\end{enumerate}
+\textbf{Suggested sequence:} definitions and figures; Penn State examples; execute the lab; consult R/lmtest references; then Harrell's broader modeling strategy. A defensible report connects the scientific target, evidence of departures, and sensitivity of conclusions.
+
+
+\end{document}

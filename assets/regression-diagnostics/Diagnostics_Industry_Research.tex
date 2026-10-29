@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,longtable,array,hyperref,listings,xcolor,fancyhdr}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,pdftitle={Regression Diagnostics: Theory, Computation and R and D},pdfauthor={Md. Ikramul Haq Khan}}
+\lstset{language=R,basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,frame=none,showstringspaces=false}
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\pagestyle{fancy}\fancyhf{}\lhead{Regression diagnostics}\rhead{Md. Ikramul Haq Khan}\cfoot{\thepage}\setlength{\headheight}{14pt}
+\title{Model Diagnostics: Industry and Research Practice}
+\author{Md. Ikramul Haq Khan}
+\date{October 29, 2026}
+\begin{document}
+\maketitle
+\textit{Standalone companion to the complete regression diagnostics reference. Personal study notes prepared with AI assistance; not an official course handout or organizational SOP.}
+\section{Start with the scientific question}
+Diagnostics assess whether limitations of a fitted model threaten a specific conclusion. Before fitting, record the study design, outcome, observational unit, target population and estimand. Description estimates patterns in observed data; prediction targets future outcomes; causal inference targets effects of interventions and requires identification assumptions beyond residual checks.
+For example, predicting industrial stack loss from operating conditions is different from claiming that changing one condition causes an outcome change. A clean residual plot cannot establish absence of confounding.
+
+\section{A practical diagnostic workflow}
+\begin{enumerate}
+\item Define the target and design. Identify repeated measures, sampling weights, clusters, missingness and temporal order before choosing a model.
+\item Check units, coding, impossible values and measurement processes. Preserve legitimate unusual observations.
+\item Examine outcome/predictor distributions and scientifically plausible nonlinearities or interactions.
+\item Fit a defensible initial model. Inspect residuals versus fitted values, each predictor and relevant time/group variables; inspect a Q--Q plot.
+\item Quantify leverage, externally studentized residuals and influence. Investigate flagged cases and compare estimates with and without them as sensitivity analysis, not automatic exclusion.
+\item Use targeted tests with stated hypotheses and assumptions. Avoid testing until all p-values exceed 0.05.
+\item Compare scientifically justified alternatives. For prediction, use held-out or cross-validated evaluation with splits matching future deployment; keep tuning separate from final evaluation.
+\item Report estimates, uncertainty, departures, sensitivity and remaining limitations.
+\end{enumerate}
+For clustered or survey data, ordinary $H$, Cook's distance and iid reference tests do not directly provide design-valid inference. Use the appropriate weighted/design model and cluster- or PSU-level sensitivity checks. For missing data, complete-case residuals describe the analyzed subset; they do not establish ignorability of missingness. For counts, binary outcomes or infection trajectories, choose appropriate likelihoods and dependence/observation models rather than forcing Gaussian diagnostics onto every outcome.
+
+\section{Industry and major research-group practice: a public-source pathway}
+The following translates public resources into training exercises. It is not a claim of access to proprietary pharmaceutical SOPs or internal procedures, nor a regulatory certification. Actual requirements depend on the study, organization and applicable guidance.
+\subsection{NIST: measurement, industrial modeling and numerical assurance}
+NIST's Statistical Reference Datasets provide certified computational targets. Pair these with the industrial stack-loss lab: separate data quality, numerical accuracy, model adequacy and decision consequences. An R\&D handoff should include the measurement units, calibration/provenance, fitted model, uncertainty, influential operating conditions and limits of extrapolation. Suggested extension (45 minutes): reproduce a linear-regression StRD dataset using QR, verify coefficients and residual SD against the certified values, and document relative/absolute tolerances with explanations.
+\subsection{FDA Office of Biostatistics and ICH: clinical-development reasoning}
+The FDA's May 2023 covariate-adjustment guidance addresses randomized parallel-group trials and prognostic baseline covariates; its stated scope excludes several other settings, including observational confounding adjustment and longitudinal repeated-measures modeling. Use the document for its actual scope, not as a universal regression manual. ICH E9(R1) supplies an estimand and sensitivity-analysis framework.
+Training exercise (60--90 minutes): simulate a two-arm randomized trial with a baseline outcome predictor. Define the population, treatment contrast, outcome, handling of intercurrent events and summary measure before fitting ANCOVA. Prespecify adjustment; compare conventional and justified robust uncertainty, inspect nonlinear baseline relationships and treatment interactions, and assess sensitivity for the same target. Report post-hoc analyses as such. A changed estimand is a different question, not automatically a sensitivity analysis for the original one.
+\subsection{Vanderbilt / Frank Harrell: modeling strategy and clinical prediction}
+Harrell's publicly available Regression Modeling Strategies material and reproducible-research guidance provide a broader framework: preserve predictor information, consider nonlinear effects, control model complexity, account for missingness and evaluate optimism. A useful diagnostic report connects those choices to performance and uncertainty rather than requiring every plot to look ideal. Exercise (60 minutes): compare prespecified linear and spline forms under resampling; put all adaptive selection inside the resampling loop and evaluate calibration as well as prediction error.
+\subsection{WEHI / Bioconductor limma: high-dimensional biomedical R\&D}
+The limma documentation, associated with the WEHI bioinformatics resource, illustrates linear modeling for gene-expression experiments and empirical-Bayes variance moderation. The voom method estimates a mean--variance relationship and uses precision weights for RNA-seq analysis. This is a concrete example of adapting the covariance model to measurement technology instead of relying on unweighted Gaussian diagnostics for raw counts.
+Exercise (90 minutes or more, optional): use a documented public limma/voom worked example. Check sample metadata and batch structure, inspect sample-level quality and mean--variance trends, verify design rank and estimability, define contrasts and adjust for multiplicity. Do not select genes by unadjusted $p<0.05$ across thousands of tests. Follow the method's own diagnostics; single-outcome OLS residual rules do not transfer unchanged.
+\subsection{What a reviewable R\&D diagnostic package contains}
+\begin{enumerate}
+\item A short scientific question and estimand, population and unit of analysis.
+\item A data dictionary, versioned provenance, processing/missingness rules and design information.
+\item A prespecified primary model and planned sensitivity checks, with later deviations logged.
+\item Stable numerical fitting, rank/conditioning checks and independent checks for critical computations.
+\item An evidence table: diagnostic finding, plausible explanation, action, effect on target estimate/uncertainty and remaining uncertainty.
+\item Appropriate validation, with participant/site/time splits when those represent intended deployment; no leakage from preprocessing or model selection.
+\item Versioned scripts, seeds, package/environment records and an executable report; an independent reviewer can reproduce key outputs.
+\end{enumerate}
+For an infection-burden thesis, extend this structure to the observation process, reporting delays, temporal dependence and stochastic simulation. A residual distribution check alone cannot validate a transmission mechanism or identify epidemiological parameters.
+
+\section{Additional primary resources for R\&D}
+\begin{enumerate}
+\item \href{https://www.nist.gov/itl/sed/statistical-reference-datasets}{NIST Statistical Reference Datasets}: numerical benchmarks.
+\item \href{https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adjusting-covariates-randomized-clinical-trials-drugs-and-biological-products}{FDA: Adjusting for Covariates in Randomized Clinical Trials (May 2023)}: scope-specific clinical-development guidance.
+\item \href{https://www.ema.europa.eu/en/scientific-guidelines/ich-e9-statistical-principles-clinical-trials}{EMA: ICH E9 and E9(R1)}: statistical principles, estimands and sensitivity analysis.
+\item \href{https://hbiostat.org/rr/}{Harrell: Reproducible Research}: reproducible statistical collaboration.
+\item \href{https://www.bioconductor.org/packages/release/bioc/html/limma}{Bioconductor limma}: current package documentation, user guide and linked primary methods papers. \href{https://bioinf.wehi.edu.au/limma/}{WEHI limma resource}.
+\end{enumerate}
+\textbf{Maintenance:} Recheck guidance status and installed software documentation before a new project. Retain this dated note as a versioned learning reference, and keep study-specific analysis decisions in the project's own analysis plan.
+
+
+\end{document}
