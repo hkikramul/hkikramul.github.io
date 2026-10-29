@@ -1,0 +1,92 @@
+[
+  [
+    "Foundations",
+    "Jolliffe & Cadima: PCA review (2016)",
+    "https://doi.org/10.1098/rsta.2015.0202",
+    "Geometry, variance, interpretation and extensions."
+  ],
+  [
+    "Foundations",
+    "Nature Reviews Methods Primers: PCA (2022)",
+    "https://www.nature.com/articles/s43586-022-00184-w",
+    "Research-methods orientation and practical considerations."
+  ],
+  [
+    "Computation",
+    "R prcomp documentation",
+    "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/prcomp.html",
+    "SVD, scaling, scores, coefficients and prediction for new observations."
+  ],
+  [
+    "Computation",
+    "scikit-learn PCA documentation",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html",
+    "Solvers, reconstruction, whitening and implementation details."
+  ],
+  [
+    "Validation",
+    "scikit-learn: common pitfalls and leakage",
+    "https://scikit-learn.org/stable/common_pitfalls.html",
+    "Fit preprocessing in training folds; use pipelines."
+  ],
+  [
+    "Industry",
+    "NIST: principal components control charts",
+    "https://itl.nist.gov/div898/handbook/pmc/section3/pmc342.htm",
+    "Multivariate process monitoring and diagnostic limitations."
+  ],
+  [
+    "Industry",
+    "UCI SECOM manufacturing dataset",
+    "https://archive.ics.uci.edu/dataset/179/secom",
+    "Real semiconductor observations, missing measurements and yield labels."
+  ],
+  [
+    "Biomedical research",
+    "DESeq2 RNA-seq analysis vignette",
+    "https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html",
+    "Variance stabilization, sample PCA, batch metadata and count-model inference."
+  ],
+  [
+    "Biomedical research",
+    "Wisconsin Diagnostic Breast Cancer data",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html",
+    "Data documentation for the executed 569-observation benchmark."
+  ],
+  [
+    "Genetics",
+    "Patterson, Price & Reich: Population Structure and Eigenanalysis",
+    "https://doi.org/10.1371/journal.pgen.0020190",
+    "Primary research linking genetic structure and eigenanalysis."
+  ],
+  [
+    "Advanced theory",
+    "Tipping & Bishop: probabilistic PCA",
+    "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bishop-ppca-jrss.pdf",
+    "Gaussian latent variables, likelihood and EM estimation."
+  ],
+  [
+    "Advanced theory",
+    "Johnstone & Paul: PCA in High Dimensions",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6167023/",
+    "Spiked covariance, signal strength and eigenvector inconsistency."
+  ],
+  [
+    "Advanced theory",
+    "Zou, Hastie & Tibshirani: sparse PCA",
+    "https://web.stanford.edu/~hastie/Papers/spc_jcgs.pdf",
+    "Sparse coefficients and interpretability tradeoffs."
+  ],
+  [
+    "Advanced theory",
+    "Candes et al.: Robust Principal Component Analysis?",
+    "https://statistics.stanford.edu/technical-reports/robust-principal-component-analysis",
+    "Low-rank plus sparse recovery and its assumptions."
+  ],
+  [
+    "Large-scale computation",
+    "Halko, Martinsson & Tropp: randomized decompositions",
+    "https://tropp.caltech.edu/papers/HMT11-Finding-Structure.pdf",
+    "Approximate SVD for large matrices."
+  ]
+]

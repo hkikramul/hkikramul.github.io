@@ -1,0 +1,20 @@
+{
+  "n": 569,
+  "p": 30,
+  "train_n": 455,
+  "test_n": 114,
+  "first_five_variance_ratios": [
+    0.4426084357432206,
+    0.19152950989512033,
+    0.09428348347308377,
+    0.06737617029861082,
+    0.05505541383331988
+  ],
+  "k_for_95_percent": 10,
+  "selected_parameters": "{'model__C': 1, 'pca__n_components': 5}",
+  "training_cv_auc": 0.9942208462332301,
+  "test_auc": 0.9933862433862434,
+  "test_average_precision": 0.9908978911842174,
+  "test_brier": 0.024734553417233775,
+  "test_standardized_reconstruction_mse": 0.08217581800766184
+}
