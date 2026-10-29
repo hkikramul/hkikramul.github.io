@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T14:58:28.557Z",
-  "last_successful_scan_at": "2026-10-28T14:58:28.557Z",
+  "updated_at": "2026-10-29T02:59:09.329Z",
+  "last_successful_scan_at": "2026-10-29T02:59:09.329Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-28",
+  "coverage_end": "2026-10-29",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1040,6 +1040,54 @@
       "status": "source_reported",
       "nationality_basis": "official_statement_reported",
       "added_at": "2026-10-28T14:58:28.557Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-DEPARTURE-EXPECTED-DAILYSUN-20261029",
+      "country": "MY",
+      "published_date": "2026-10-29",
+      "event_date": null,
+      "publisher": "Daily Sun",
+      "url": "https://www.daily-sun.com/bangladesh/905910",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়াগামী কর্মীদের যাত্রা নভেম্বরের প্রথম সপ্তাহে শুরুর প্রত্যাশা",
+        "en": "Malaysia-bound workers expected to start departing in first week of November"
+      },
+      "summary": {
+        "bn": "ডেইলি সান জানিয়েছে, প্রবাসী কল্যাণ প্রতিমন্ত্রী বলেছেন মেডিকেল পরীক্ষার পর ১ নভেম্বর বা নভেম্বরের প্রথম সপ্তাহে মালয়েশিয়াগামী বাংলাদেশি কর্মীদের যাত্রা শুরু হবে বলে আশা করা হচ্ছে। বোয়েসেলের মাধ্যমে সম্ভাব্য ব্যয় ১.৫৫–১.৬০ লাখ টাকা বলে প্রাথমিক অনুমান দেওয়া হয়েছে; অনুমোদিত মেডিকেল কেন্দ্রের তালিকা, চূড়ান্ত ব্যয় ও প্রকৃত যাত্রার তারিখ তখনও চূড়ান্ত হয়নি।",
+        "en": "Daily Sun reports the state minister for expatriates' welfare said departures of Malaysia-bound Bangladeshi workers were expected from 1 November or in the first week of November after medical examinations. An initial BOESL-route cost estimate of Tk155,000–160,000 was cited; the approved-centre list, final costs and actual departure date were not yet final."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_statement_reported",
+      "added_at": "2026-10-29T02:59:09.329Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "LA-LABOUR-SUSPENSION-BDNEWS-20261005",
+      "country": "LA",
+      "published_date": "2026-10-05",
+      "event_date": "2026-09-01",
+      "publisher": "bdnews24.com",
+      "url": "https://bdnews24.com/bangladesh/77qqkxr4e9",
+      "language": "en",
+      "title": {
+        "bn": "লাওসে বাংলাদেশি কর্মীদের নতুন নিয়োগ, ওয়ার্ক পারমিট ও শ্রমভিসা সাময়িক স্থগিত",
+        "en": "Laos temporarily suspends new recruitment, work permits and labour visas for Bangladeshis"
+      },
+      "summary": {
+        "bn": "bdnews24 জানিয়েছে, লাওস বাংলাদেশি কর্মীদের নতুন নিয়োগ, ওয়ার্ক পারমিট ও এলএ-বি২ শ্রমভিসা ১ সেপ্টেম্বর থেকে ৩১ ডিসেম্বর ২০২৬ পর্যন্ত সাময়িকভাবে স্থগিত করেছে। বাংলাদেশের প্রবাসী কল্যাণ মন্ত্রণালয় সম্ভাব্য কর্মীদের আপাতত লাওস না যেতে এবং ভুয়া ভিসা বা অননুমোদিত নিয়োগের প্রলোভন থেকে সতর্ক থাকতে বলেছে।",
+        "en": "bdnews24 reports that Laos temporarily suspended new recruitment of Bangladeshi workers, work permits and LA-B2 labour visas from 1 September through 31 December 2026. Bangladesh's expatriates' welfare ministry advised prospective workers not to travel for now and to beware of fake visas or unauthorized recruitment schemes."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_notice_reported",
+      "added_at": "2026-10-29T02:59:09.329Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
