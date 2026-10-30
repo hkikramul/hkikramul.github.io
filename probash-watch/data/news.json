@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T15:02:14.878Z",
-  "last_successful_scan_at": "2026-10-29T15:02:14.878Z",
+  "updated_at": "2026-10-30T03:00:02.909Z",
+  "last_successful_scan_at": "2026-10-30T03:00:02.909Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-29",
@@ -1112,6 +1112,102 @@
       "status": "source_reported",
       "nationality_basis": "official_repatriation_record",
       "added_at": "2026-10-29T15:02:14.878Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-WAGE-ARREARS-ST-20261029",
+      "country": "SG",
+      "published_date": "2026-10-29",
+      "event_date": null,
+      "publisher": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/unpaid-salaries-no-work-migrant-workers-in-2-related-firms-left-anxious?ai-allowed=1",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরের দুই প্রতিষ্ঠানে বাংলাদেশিসহ প্রায় ২৪০ শ্রমিকের বেতন বকেয়া",
+        "en": "Nearly 240 workers, mostly Bangladeshis, face unpaid wages at two Singapore firms"
+      },
+      "summary": {
+        "bn": "দ্য স্ট্রেইটস টাইমস জানিয়েছে, সিঙ্গাপুরের প্রক্রিয়াজাত শিল্পের দুই প্রতিষ্ঠানে প্রায় ২৪০ অভিবাসী শ্রমিক দুই থেকে তিন মাস বেতন পাননি এবং অনেকের ওয়ার্ক পারমিট বাতিল হয়েছে; তাঁদের অধিকাংশ বাংলাদেশি, তবে বাংলাদেশির সুনির্দিষ্ট সংখ্যা প্রকাশিত হয়নি। কিছু শ্রমিক বকেয়া পেয়েছেন, অন্যদের দাবি চলমান; জনশক্তি মন্ত্রণালয় তদন্ত করছে।",
+        "en": "The Straits Times reports that nearly 240 migrant workers at two Singapore process-sector firms went unpaid for two to three months and many had work permits cancelled; most are Bangladeshi, but the exact Bangladeshi count was not published. Some workers received arrears while other claims remain pending, and the Ministry of Manpower is investigating."
+      },
+      "record_type": "investigation",
+      "incident_key": "SG-WAGE-ARREARS-202608",
+      "status": "source_reported",
+      "nationality_basis": "source_reported_mostly_bangladeshi",
+      "added_at": "2026-10-30T03:00:02.909Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-WAGE-ARREARS-MWC-20261023",
+      "country": "SG",
+      "published_date": "2026-10-23",
+      "event_date": null,
+      "publisher": "Migrant Workers' Centre (Singapore)",
+      "url": "https://www.mwc.org.sg/news/mwc-supports-240-unpaid-migrant-workers/",
+      "language": "en",
+      "title": {
+        "bn": "বেতনবঞ্চিত ২৩০ শ্রমিকের দাবি ও সহায়তায় সিঙ্গাপুরের MWC",
+        "en": "Singapore MWC assists 230 workers with unpaid-salary claims and support"
+      },
+      "summary": {
+        "bn": "Migrant Workers' Centre জানিয়েছে, ১৯–২০ অক্টোবর তারা Process Maintenance Solutions ও Jurong Technical & Construction-এর বেতনবঞ্চিত ২৩০ শ্রমিকের সঙ্গে কথা বলেছে। অনেকে এক থেকে দুই মাসের বেতন পাওনা থাকার কথা বলেছেন; কেন্দ্রটি বেতন ও ওভারটাইম দাবি, খাবার, আবাসন এবং নতুন চাকরির সহায়তায় কর্তৃপক্ষের সঙ্গে কাজ করছে।",
+        "en": "Singapore's Migrant Workers' Centre says it engaged 230 workers from Process Maintenance Solutions and Jurong Technical & Construction on 19–20 October. Many reported one to two months of unpaid wages; the centre is working with authorities on salary and overtime claims, meals, housing and alternative employment."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SG-WAGE-ARREARS-202608",
+      "status": "source_reported",
+      "nationality_basis": "source_reported_workers_from_bangladesh",
+      "added_at": "2026-10-30T03:00:02.909Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KH-SCAM-TRAFFICKING-CID-DT-20261027",
+      "country": "KH",
+      "published_date": "2026-10-27",
+      "event_date": "2026-09-03",
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/crime/423074/two-held-for-trafficking-bangladeshi-youths-to",
+      "language": "en",
+      "title": {
+        "bn": "কম্বোডিয়ার স্ক্যাম সেন্টারে দুই বাংলাদেশিকে পাচারের অভিযোগে দুইজন গ্রেপ্তার",
+        "en": "Two arrested over alleged trafficking of two Bangladeshis to a Cambodian scam centre"
+      },
+      "summary": {
+        "bn": "বাংলাদেশের CID-এর বরাতে ঢাকা ট্রিবিউন জানিয়েছে, চাকরির প্রলোভনে দুই বাংলাদেশিকে কম্বোডিয়ায় নিয়ে পাসপোর্ট কেড়ে নেওয়া, স্ক্যাম সেন্টারে অনলাইন প্রতারণায় বাধ্য করা এবং নির্যাতন ও মুক্তিপণের অভিযোগে দুই সন্দেহভাজন গ্রেপ্তার হয়েছেন। দুই ভুক্তভোগী ৩ সেপ্টেম্বর দেশে ফেরেন; ২৬ অক্টোবর মামলা হয়। অভিযোগগুলো তদন্তাধীন, আদালতের সিদ্ধান্ত নয়।",
+        "en": "Citing Bangladesh's CID, Dhaka Tribune reports that two suspects were arrested over allegations that two Bangladeshis were lured to Cambodia for jobs, had passports taken, were forced into online fraud at a scam centre, abused and held for ransom. The two returned on 3 September and a case was filed on 26 October; the allegations remain under investigation and are not court findings."
+      },
+      "record_type": "follow_up",
+      "incident_key": "KH-SCAM-TRAFFICKING-2-20260903",
+      "status": "source_reported",
+      "nationality_basis": "CID_statement_reported",
+      "added_at": "2026-10-30T03:00:02.909Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "AU-STUDENT-CRASH-TBS-20261009",
+      "country": "AU",
+      "published_date": "2026-10-09",
+      "event_date": "2026-10-08",
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/bangladesh/bangladeshi-student-killed-australia-road-crash-1566966",
+      "language": "en",
+      "title": {
+        "bn": "পশ্চিম অস্ট্রেলিয়ায় সড়ক দুর্ঘটনায় এক বাংলাদেশি শিক্ষার্থী নিহত, তিনজন আহত",
+        "en": "Bangladeshi student killed and three others injured in Western Australia crash"
+      },
+      "summary": {
+        "bn": "দ্য বিজনেস স্ট্যান্ডার্ড জানিয়েছে, ৮ অক্টোবর পশ্চিম অস্ট্রেলিয়ার ব্রেটন বেতে একটি গাড়ি গাছে ধাক্কা দিলে এক বাংলাদেশি শিক্ষার্থী নিহত এবং আরও তিন বাংলাদেশি শিক্ষার্থী আহত হন। স্থানীয় পুলিশ দুর্ঘটনার তদন্ত শুরু করে; প্রতিবেদনের সময় আহতদের অবস্থা স্থিতিশীল ও প্রাণঘাতী নয় বলে জানানো হয়েছিল।",
+        "en": "The Business Standard reports that one Bangladeshi student was killed and three other Bangladeshi students were injured when a car struck a tree at Breton Bay, Western Australia, on 8 October. Local police opened an investigation; at the time of reporting the injured were described as stable with non-life-threatening injuries."
+      },
+      "record_type": "incident",
+      "incident_key": "AU-STUDENT-CRASH-20261008",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_student_association_and_high_commission_reporting",
+      "added_at": "2026-10-30T03:00:02.909Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
