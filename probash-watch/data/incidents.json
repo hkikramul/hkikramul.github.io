@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24T03:01:43.683Z",
+  "updated_at": "2026-10-30T03:00:02.909Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -881,6 +881,182 @@
       "follow_up": {
         "bn": "পুনর্বাসন, তদন্ত এবং কম্বোডিয়ায় থাকা বাংলাদেশিদের সহায়তা অনুসরণ",
         "en": "Track reintegration, investigations and assistance for Bangladeshis remaining in Cambodia"
+      }
+    },
+    {
+      "id": "SG-WAGE-ARREARS-202608",
+      "country": "SG",
+      "event_date": null,
+      "published_date": "2026-10-29",
+      "title": {
+        "bn": "সিঙ্গাপুরের দুই প্রতিষ্ঠানে বাংলাদেশিসহ শ্রমিকদের বেতন বকেয়া",
+        "en": "Workers, mostly Bangladeshis, face wage arrears at two Singapore firms"
+      },
+      "summary": {
+        "bn": "প্রকাশিত তদন্ত ও সহায়তাকারী সংস্থার তথ্যে, Process Maintenance Solutions ও Jurong Technical & Construction-এর প্রায় ২৪০ শ্রমিক দুই থেকে তিন মাস বেতন না পাওয়া এবং অনেকের ওয়ার্ক পারমিট বাতিল হওয়ার কথা বলা হয়েছে। অধিকাংশ বাংলাদেশি হলেও সুনির্দিষ্ট বাংলাদেশি সংখ্যা প্রকাশিত হয়নি। কিছু বকেয়া পরিশোধ হয়েছে; অন্য দাবি ও সরকারি তদন্ত চলমান।",
+        "en": "Published reporting and an assistance organisation say nearly 240 workers at Process Maintenance Solutions and Jurong Technical & Construction went unpaid for two to three months and many had work permits cancelled. Most are Bangladeshi, but the exact Bangladeshi count was not published. Some arrears were paid; other claims and a government investigation remain ongoing."
+      },
+      "category": "labour_rights",
+      "gender": "unknown",
+      "people_count": null,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported_majority_not_exact_count",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "The Straits Times",
+          "url": "https://www.straitstimes.com/singapore/unpaid-salaries-no-work-migrant-workers-in-2-related-firms-left-anxious?ai-allowed=1",
+          "date": "2026-10-29",
+          "language": "en"
+        },
+        {
+          "name": "Migrant Workers' Centre (Singapore)",
+          "url": "https://www.mwc.org.sg/news/mwc-supports-240-unpaid-migrant-workers/",
+          "date": "2026-10-23",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "সিঙ্গাপুরের জনশক্তি মন্ত্রণালয়",
+            "en": "Singapore Ministry of Manpower"
+          },
+          "response": {
+            "bn": "দুই প্রতিষ্ঠানকে তদন্ত, বেতন দাবি ও তাৎক্ষণিক প্রয়োজন—আবাসন ও বিকল্প কর্মসংস্থানসহ—সহায়তার কথা জানিয়েছে।",
+            "en": "Said it was investigating the two firms and assisting with salary claims and immediate needs, including accommodation and alternative employment."
+          },
+          "source_url": "https://www.straitstimes.com/singapore/unpaid-salaries-no-work-migrant-workers-in-2-related-firms-left-anxious?ai-allowed=1"
+        },
+        {
+          "actor": {
+            "bn": "Migrant Workers' Centre",
+            "en": "Migrant Workers' Centre"
+          },
+          "response": {
+            "bn": "বেতন ও ওভারটাইম দাবি, খাবার, আবাসন ও চাকরি পরিবর্তনে সহায়তা করছে।",
+            "en": "Is assisting with salary and overtime claims, meals, housing and job transitions."
+          },
+          "source_url": "https://www.mwc.org.sg/news/mwc-supports-240-unpaid-migrant-workers/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "শ্রমিকদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Workers' identities not republished"
+      },
+      "unknowns": {
+        "bn": "বাংলাদেশি শ্রমিকের সুনির্দিষ্ট সংখ্যা, প্রত্যেকের পাওনা, কতজনের পারমিট বাতিল এবং তদন্তের ফল প্রকাশিত হয়নি।",
+        "en": "The exact number of Bangladeshi workers, each worker's arrears, the number of cancelled permits and the investigation outcome are not published."
+      },
+      "follow_up": {
+        "bn": "বকেয়া পরিশোধ, বিকল্প চাকরি, পারমিট অবস্থা ও তদন্তের ফল অনুসরণ",
+        "en": "Track payment of arrears, alternative jobs, permit status and investigation outcomes"
+      }
+    },
+    {
+      "id": "KH-SCAM-TRAFFICKING-2-20260903",
+      "country": "KH",
+      "event_date": "2026-09-03",
+      "published_date": "2026-10-27",
+      "title": {
+        "bn": "দুই বাংলাদেশিকে কম্বোডিয়ার স্ক্যাম সেন্টারে পাচারের অভিযোগ",
+        "en": "Alleged trafficking of two Bangladeshis to a Cambodian scam centre"
+      },
+      "summary": {
+        "bn": "CID-এর বরাতে প্রকাশিত প্রতিবেদনে বলা হয়েছে, চাকরির প্রলোভনে দুই বাংলাদেশিকে কম্বোডিয়ায় নিয়ে পাসপোর্ট কেড়ে নেওয়া, স্ক্যাম সেন্টারে জোর করে অনলাইন প্রতারণায় লাগানো, নির্যাতন ও মুক্তিপণ আদায়ের অভিযোগ রয়েছে। তাঁরা ৩ সেপ্টেম্বর দেশে ফেরেন; ২৬ অক্টোবর মামলার পর দুই সন্দেহভাজন গ্রেপ্তার হন। অভিযোগগুলো আদালতে প্রমাণিত নয়।",
+        "en": "Reporting citing Bangladesh's CID alleges that two Bangladeshis were lured to Cambodia for jobs, had passports taken, were forced into online fraud at a scam centre, abused and held for ransom. They returned on 3 September; two suspects were arrested after a case was filed on 26 October. The allegations are not court findings."
+      },
+      "category": "trafficking",
+      "gender": "unknown",
+      "people_count": 2,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "CID_statement_reported",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Dhaka Tribune",
+          "url": "https://www.dhakatribune.com/bangladesh/crime/423074/two-held-for-trafficking-bangladeshi-youths-to",
+          "date": "2026-10-27",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ পুলিশের CID",
+            "en": "Bangladesh Police CID"
+          },
+          "response": {
+            "bn": "দুই সন্দেহভাজনকে গ্রেপ্তার করেছে; মামলা ও তদন্ত চলমান বলে জানিয়েছে।",
+            "en": "Arrested two suspects and said the case and investigation were ongoing."
+          },
+          "source_url": "https://www.dhakatribune.com/bangladesh/crime/423074/two-held-for-trafficking-bangladeshi-youths-to"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "ভুক্তভোগীদের পরিচয় প্রকাশ করা হয়নি",
+        "en": "Victims' identities not published"
+      },
+      "unknowns": {
+        "bn": "কম্বোডিয়ার সংশ্লিষ্ট ব্যক্তি বা প্রতিষ্ঠানের পরিচয়, অভিযোগের বিচারিক ফল এবং আদায়কৃত অর্থ উদ্ধারের অবস্থা জানা নেই।",
+        "en": "The identities of relevant persons or entities in Cambodia, the judicial outcome and recovery of money are unknown."
+      },
+      "follow_up": {
+        "bn": "মামলা, অন্যান্য সংশ্লিষ্ট ব্যক্তি ও ভুক্তভোগীদের পুনর্বাসন অনুসরণ",
+        "en": "Track the case, other alleged participants and survivor reintegration"
+      }
+    },
+    {
+      "id": "AU-STUDENT-CRASH-20261008",
+      "country": "AU",
+      "event_date": "2026-10-08",
+      "published_date": "2026-10-09",
+      "title": {
+        "bn": "পশ্চিম অস্ট্রেলিয়ায় বাংলাদেশি শিক্ষার্থীদের গাড়ি দুর্ঘটনা",
+        "en": "Crash involving Bangladeshi students in Western Australia"
+      },
+      "summary": {
+        "bn": "৮ অক্টোবর ব্রেটন বেতে একটি গাড়ি সড়ক ছেড়ে গাছে ধাক্কা দিলে এক বাংলাদেশি শিক্ষার্থী নিহত এবং আরও তিন বাংলাদেশি শিক্ষার্থী আহত হন। স্থানীয় প্রতিবেদনে দুর্ঘটনা ও আহতের সংখ্যা মেলে; বাংলাদেশি পরিচয় বাংলাদেশি শিক্ষার্থী সংগঠন ও হাইকমিশনের বরাতে প্রকাশিত হয়েছে।",
+        "en": "On 8 October, a car left the road and struck a tree at Breton Bay, killing one Bangladeshi student and injuring three other Bangladeshi students. Local reporting corroborates the crash and casualty count; Bangladeshi nationality was reported via a student association and the High Commission."
+      },
+      "category": "accident",
+      "gender": "mixed_or_unknown",
+      "people_count": 4,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "Bangladesh_student_association_and_high_commission_reporting",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "The Business Standard",
+          "url": "https://www.tbsnews.net/bangladesh/bangladeshi-student-killed-australia-road-crash-1566966",
+          "date": "2026-10-09",
+          "language": "en"
+        },
+        {
+          "name": "Yanchep News Online",
+          "url": "https://www.yanchepnewsonline.com.au/fatal-crash-on-indian-ocean-dr-in-breton-bay/",
+          "date": "2026-10-08",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "নিহত ও আহত শিক্ষার্থীদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The deceased and injured students' identities were not republished"
+      },
+      "unknowns": {
+        "bn": "পুলিশি তদন্তের চূড়ান্ত ফল এবং আহতদের পরবর্তী অবস্থা প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The final police investigation outcome and the injured students' later conditions are not established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "পুলিশি তদন্ত ও আহতদের পরবর্তী অবস্থা অনুসরণ",
+        "en": "Track the police investigation and the injured students' later conditions"
       }
     }
   ]
