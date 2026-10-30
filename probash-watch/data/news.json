@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T03:00:02.909Z",
-  "last_successful_scan_at": "2026-10-30T03:00:02.909Z",
+  "updated_at": "2026-10-30T14:57:17.756Z",
+  "last_successful_scan_at": "2026-10-30T14:57:17.756Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-29",
+  "coverage_end": "2026-10-30",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1208,6 +1208,102 @@
       "status": "source_reported",
       "nationality_basis": "Bangladesh_student_association_and_high_commission_reporting",
       "added_at": "2026-10-30T03:00:02.909Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-FACTORY-FIRE-DS-20260810",
+      "country": "SA",
+      "published_date": "2026-08-10",
+      "event_date": "2026-08-09",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/accidents-fires/news/16-bangladeshis-killed-saudi-factory-fire-4244126",
+      "language": "en",
+      "title": {
+        "bn": "রিয়াদের সোফা কারখানায় অগ্নিকাণ্ডে ১৬ বাংলাদেশি নিহত",
+        "en": "16 Bangladeshis killed in Riyadh sofa-factory fire"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার প্রবাসী কল্যাণ মন্ত্রণালয়ের বিজ্ঞপ্তির বরাতে জানিয়েছে, ৯ আগস্ট রিয়াদের একটি সোফা কারখানায় অগ্নিকাণ্ডে ১৬ বাংলাদেশি ঘটনাস্থলে নিহত হন। প্রতিবেদন প্রকাশের সময় দূতাবাস সৌদি কর্তৃপক্ষের সঙ্গে পরিচয় শনাক্তকরণ ও মরদেহ প্রত্যাবাসনের কাজ করছিল।",
+        "en": "The Daily Star, citing Bangladesh's expatriates' welfare ministry, reports that 16 Bangladeshis died at the scene of a fire at a sofa factory in Riyadh on 9 August. At publication, the embassy was working with Saudi authorities on identification and repatriation."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-RIYADH-FACTORY-FIRE-20260809",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_ministry_and_embassy_reported",
+      "added_at": "2026-10-30T14:57:17.756Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-FIRE-REMAINS-BDNEWS-20261030",
+      "country": "SA",
+      "published_date": "2026-10-30",
+      "event_date": "2026-10-31",
+      "publisher": "bdnews24.com",
+      "url": "https://bdnews24.com/bangladesh/10c696e457",
+      "language": "en",
+      "title": {
+        "bn": "রিয়াদ অগ্নিকাণ্ডে নিহত শেষ সাত বাংলাদেশির মরদেহ দেশে আনার উদ্যোগ",
+        "en": "Remaining seven Riyadh fire victims' bodies scheduled to return"
+      },
+      "summary": {
+        "bn": "bdnews24 জানিয়েছে, ১৬ নিহতের মধ্যে আগে নয়জনের মরদেহ দেশে ফেরার পর DNA পরীক্ষায় শনাক্ত বাকি সাতজনের মরদেহ ৩১ অক্টোবর ঢাকায় পৌঁছানোর কথা। রিয়াদ থেকে ফ্লাইট স্থগিত থাকায় মরদেহগুলো সড়কপথে জেদ্দায় নিয়ে বিমানে পাঠানো হয়েছে বলে মন্ত্রণালয় ও দূতাবাস জানিয়েছে।",
+        "en": "bdnews24 reports that, after nine of the 16 victims' bodies were returned earlier, the remaining seven identified through DNA testing were scheduled to arrive in Dhaka on 31 October. The ministry and embassy said they were transported by road to Jeddah for the flight because Riyadh flights were suspended."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-RIYADH-FACTORY-FIRE-20260809",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_ministry_and_embassy_reported",
+      "added_at": "2026-10-30T14:57:17.756Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "JP-100K-WORKER-CLAIM-REFUTED-20261030",
+      "country": "JP",
+      "published_date": "2026-10-30",
+      "event_date": "2026-10-29",
+      "publisher": "bdnews24.com",
+      "url": "https://bdnews24.com/bangladesh/6b62lx3bus",
+      "language": "en",
+      "title": {
+        "bn": "জাপান বছরে ১ লাখ বাংলাদেশি কর্মী নেবে—দাবিটি খণ্ডন",
+        "en": "Japan refutes claim of taking 100,000 Bangladeshi workers annually"
+      },
+      "summary": {
+        "bn": "bdnews24 জানিয়েছে, জাপানের পররাষ্ট্র মন্ত্রণালয়ের প্রেস সচিব বলেছেন, বছরে ১ লাখ বাংলাদেশি কর্মী নেওয়ার কোনো চুক্তি হয়নি এবং ২৭ অক্টোবরের শীর্ষ বৈঠকেও এমন সিদ্ধান্ত ছিল না। দক্ষ কর্মী চলাচল বাড়ানোর আলোচনা থাকলেও কোনো নির্দিষ্ট জাতীয় কোটা ঘোষণা করা হয়নি।",
+        "en": "bdnews24 reports that Japan's foreign ministry press secretary said no agreement exists to accept 100,000 Bangladeshi workers annually and no such decision was made at the 27 October summit. Workforce mobility was discussed, but no country-specific numerical quota was announced."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Japan_foreign_ministry_statement_reported",
+      "added_at": "2026-10-30T14:57:17.756Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KH-DEPORTATIONS-BDNEWS-20261028",
+      "country": "KH",
+      "published_date": "2026-10-28",
+      "event_date": null,
+      "publisher": "bdnews24.com",
+      "url": "https://bdnews24.com/bangladesh/6jhf5wdc1u",
+      "language": "en",
+      "title": {
+        "bn": "২০২৬ সালের প্রথম নয় মাসে কম্বোডিয়া থেকে ৩,০০০-এর বেশি বাংলাদেশি বহিষ্কার",
+        "en": "Cambodia deported more than 3,000 Bangladeshis in first nine months of 2026"
+      },
+      "summary": {
+        "bn": "bdnews24 কম্বোডিয়ার অভিবাসন বিভাগের তথ্য উদ্ধৃত করা গন্তব্যদেশীয় প্রতিবেদনের বরাতে জানিয়েছে, জানুয়ারি–সেপ্টেম্বর ২০২৬ সময়ে ৩,০০০-এর বেশি বাংলাদেশি বহিষ্কৃত হয়েছেন। এই সংখ্যা অনলাইন প্রতারণায় জড়িত বাংলাদেশি বা পাচার-শিকারের সংখ্যা নয়; বাংলাদেশিদের জন্য পৃথক এমন বিভাজন প্রকাশিত হয়নি।",
+        "en": "bdnews24, citing destination-country reporting based on Cambodia's immigration department, says more than 3,000 Bangladeshis were deported during January–September 2026. This is not the number of Bangladeshis involved in online scams or the number trafficked; no separate Bangladeshi breakdown was published."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Cambodia_immigration_data_reported",
+      "added_at": "2026-10-30T14:57:17.756Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
