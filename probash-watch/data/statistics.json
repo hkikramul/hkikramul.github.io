@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24T03:01:43.683Z",
+  "updated_at": "2026-10-30T14:57:17.756Z",
   "coverage_complete": false,
   "records": [
     {
@@ -350,6 +350,20 @@
       "period_basis": "range",
       "source_url": "https://www.thedailystar.net/news/work-and-migration/news/35-bangladeshis-repatriated-italy-greece-and-cyprus-4305656",
       "note": "Approximate cumulative returnees under the Bangladesh-EU arrangement; not an abuse-victim count.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "kh-deported-bangladeshis-jan-sep-2026-lower-bound",
+      "metric": "bangladeshi_nationals_deported",
+      "value": 3000,
+      "period": "Jan–Sep 2026",
+      "country": "KH",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "lower_bound_range",
+      "source_url": "https://bdnews24.com/bangladesh/6jhf5wdc1u",
+      "note": "Lower bound: reporting based on Cambodia immigration data says more than 3,000 Bangladeshis were deported. This is not a count of online-scam participants or trafficking survivors; no Bangladeshi subgroup breakdown was published.",
       "denominator": null,
       "status": "source_reported"
     }
