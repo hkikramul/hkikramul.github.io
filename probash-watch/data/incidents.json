@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T03:00:02.909Z",
+  "updated_at": "2026-10-30T14:57:17.756Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1057,6 +1057,67 @@
       "follow_up": {
         "bn": "পুলিশি তদন্ত ও আহতদের পরবর্তী অবস্থা অনুসরণ",
         "en": "Track the police investigation and the injured students' later conditions"
+      }
+    },
+    {
+      "id": "SA-RIYADH-FACTORY-FIRE-20260809",
+      "country": "SA",
+      "event_date": "2026-08-09",
+      "published_date": "2026-08-10",
+      "title": {
+        "bn": "রিয়াদের সোফা কারখানায় অগ্নিকাণ্ডে ১৬ বাংলাদেশি নিহত",
+        "en": "16 Bangladeshis killed in Riyadh sofa-factory fire"
+      },
+      "summary": {
+        "bn": "৯ আগস্ট রিয়াদের একটি সোফা কারখানায় অগ্নিকাণ্ডে ১৬ বাংলাদেশি শ্রমিক ঘটনাস্থলে নিহত হন বলে বাংলাদেশ সরকারের বিজ্ঞপ্তি উদ্ধৃত করে সংবাদমাধ্যম জানিয়েছে। নয়জনের মরদেহ ২৭ আগস্ট দেশে ফেরে; DNA পরীক্ষার পর বাকি সাতজনের মরদেহ ৩১ অক্টোবর পৌঁছানোর কথা জানানো হয়।",
+        "en": "Media citing Bangladesh government notices report that 16 Bangladeshi workers died at the scene of a fire at a Riyadh sofa factory on 9 August. Nine bodies returned on 27 August; after DNA testing, the remaining seven were reported scheduled to arrive on 31 October."
+      },
+      "category": "accident",
+      "gender": "unknown",
+      "people_count": 16,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "Bangladesh_ministry_and_embassy_reported",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/accidents-fires/news/16-bangladeshis-killed-saudi-factory-fire-4244126",
+          "date": "2026-08-10",
+          "language": "en"
+        },
+        {
+          "name": "bdnews24.com",
+          "url": "https://bdnews24.com/bangladesh/10c696e457",
+          "date": "2026-10-30",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "রিয়াদে বাংলাদেশ দূতাবাস ও সংশ্লিষ্ট মন্ত্রণালয়",
+            "en": "Bangladesh Embassy in Riyadh and relevant ministries"
+          },
+          "response": {
+            "bn": "পরিচয় শনাক্তকরণ, DNA পরীক্ষা, মরদেহ প্রত্যাবাসন এবং পরিবারের কাছে হস্তান্তরের ব্যবস্থা করেছে বলে জানিয়েছে।",
+            "en": "Reported arranging identification, DNA testing, repatriation and handover of the bodies to families."
+          },
+          "source_url": "https://bdnews24.com/bangladesh/10c696e457"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "নিহত শ্রমিকদের ব্যক্তিগত পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Deceased workers' identities not republished"
+      },
+      "unknowns": {
+        "bn": "অগ্নিকাণ্ডের চূড়ান্ত তদন্তের ফল, দায় নির্ধারণ এবং পরিবারগুলোর ক্ষতিপূরণের পূর্ণ অবস্থা প্রকাশিত উৎসে স্পষ্ট নয়।",
+        "en": "The final fire-investigation findings, attribution of responsibility and full status of compensation to families are not clear in the cited sources."
+      },
+      "follow_up": {
+        "bn": "চূড়ান্ত তদন্ত, দায় নির্ধারণ ও ক্ষতিপূরণ অনুসরণ",
+        "en": "Track final investigation findings, responsibility and compensation"
       }
     }
   ]
