@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T03:03:54.654Z",
-  "last_successful_scan_at": "2026-10-31T03:03:54.654Z",
+  "updated_at": "2026-10-31T14:56:58.293Z",
+  "last_successful_scan_at": "2026-10-31T14:56:58.293Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-30",
+  "coverage_end": "2026-10-31",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1376,6 +1376,78 @@
       "status": "source_reported",
       "nationality_basis": "Bangladesh_embassy_confirmed_to_source",
       "added_at": "2026-10-31T03:03:54.654Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-RIYADH-FIRE-REMAINS-ARRIVED-DT-20261031",
+      "country": "SA",
+      "published_date": "2026-10-31",
+      "event_date": "2026-10-31",
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/423367/bodies-of-7-bangladeshi-workers-killed-in-riyadh",
+      "language": "en",
+      "title": {
+        "bn": "রিয়াদ অগ্নিকাণ্ডে নিহত শেষ সাত বাংলাদেশির মরদেহ ঢাকায় পৌঁছেছে",
+        "en": "Bodies of remaining seven Riyadh fire victims arrive in Dhaka"
+      },
+      "summary": {
+        "bn": "ঢাকা ট্রিবিউন জানিয়েছে, ৯ আগস্টের রিয়াদ সোফা-কারখানা অগ্নিকাণ্ডে নিহত ১৬ বাংলাদেশির মধ্যে DNA পরীক্ষায় শনাক্ত শেষ সাতজনের মরদেহ ৩১ অক্টোবর সকাল ৮টা ৩০ মিনিটে ঢাকায় পৌঁছেছে। আগের নয়জনের মরদেহ ২৭ আগস্ট ফিরেছিল। ব্যক্তিগত পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Dhaka Tribune reports that the bodies of the remaining seven of 16 Bangladeshis killed in the 9 August Riyadh sofa-factory fire, identified through DNA testing, arrived in Dhaka at 8:30am on 31 October. The other nine bodies had returned on 27 August. Personal identities are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-RIYADH-FACTORY-FIRE-20260809",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_embassy_and_ministry_reported",
+      "added_at": "2026-10-31T14:56:58.293Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-MEDICAL-FEE-BSS-20261031",
+      "country": "MY",
+      "published_date": "2026-10-31",
+      "event_date": "2026-10-31",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news/440425",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়াগামী কর্মীদের মেডিকেল পরীক্ষার ফি ৮,০০০ টাকা নির্ধারণ",
+        "en": "Medical-test fee for Malaysia-bound workers fixed at Tk8,000"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণ মন্ত্রণালয়ের বিজ্ঞপ্তির বরাতে বাসস জানিয়েছে, মালয়েশিয়াগামী নির্বাচিত কর্মীদের অনুমোদিত কেন্দ্রে মেডিকেল পরীক্ষার ফি জনপ্রতি ৮,০০০ টাকা; অতিরিক্ত অর্থ বা MyGRAMS স্লিপের জন্য কোনো ফি নেওয়া যাবে না। কর্মীদের দালাল এড়িয়ে অনুমোদিত যেকোনো কেন্দ্রে পরীক্ষা করতে বলা হয়েছে।",
+        "en": "BSS, citing an expatriates' welfare ministry notice, reports that the medical-test fee for selected Malaysia-bound workers is fixed at Tk8,000 per person at authorised centres; no extra charge or MyGRAMS slip fee is allowed. Workers were told to avoid brokers and may use any authorised centre."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_ministry_notice_reported",
+      "added_at": "2026-10-31T14:56:58.293Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-REMITTANCE-BANKING-PROPOSAL-BSS-20261022",
+      "country": "MV",
+      "published_date": "2026-10-22",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news-flash/437337",
+      "language": "en",
+      "title": {
+        "bn": "মালদ্বীপে প্রবাসীদের রেমিট্যান্স সহজ করতে ব্যাংক শাখা ও বিকল্প নিষ্পত্তির প্রস্তাব",
+        "en": "Bangladesh explores bank branches and settlement options for workers' remittances from Maldives"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, বাংলাদেশ ব্যাংক মালদ্বীপে বাংলাদেশি ব্যাংকের শাখা, রুফিয়া-ভিত্তিক নিষ্পত্তি, কার্ড ব্যবস্থা ও সম্ভাব্য দ্বিপক্ষীয় মুদ্রা-সোয়াপসহ বিকল্প নিয়ে মালদ্বীপের কর্তৃপক্ষের সহযোগিতা চেয়েছে। এগুলো প্রস্তাব ও আলোচনার পর্যায়ে; অনুমোদিত বা চালু সেবা নয়।",
+        "en": "BSS reports that Bangladesh Bank sought Maldivian cooperation on options including Bangladeshi bank branches, rufiyaa-based settlement, card arrangements and a possible bilateral currency swap. These remain proposals under discussion, not approved or operational services."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_Bank_proposal_reported",
+      "added_at": "2026-10-31T14:56:58.293Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
