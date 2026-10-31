@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T14:57:17.756Z",
+  "updated_at": "2026-10-31T03:03:54.654Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1118,6 +1118,67 @@
       "follow_up": {
         "bn": "চূড়ান্ত তদন্ত, দায় নির্ধারণ ও ক্ষতিপূরণ অনুসরণ",
         "en": "Track final investigation findings, responsibility and compensation"
+      }
+    },
+    {
+      "id": "AE-ABUDHABI-ROAD-CRASH-20261012",
+      "country": "AE",
+      "event_date": "2026-10-12",
+      "published_date": "2026-10-14",
+      "title": {
+        "bn": "আবুধাবিতে সড়ক দুর্ঘটনায় বাংলাদেশি মা ও অপ্রাপ্তবয়স্ক ছেলে নিহত",
+        "en": "Bangladeshi mother and minor son killed in Abu Dhabi road crash"
+      },
+      "summary": {
+        "bn": "১২ অক্টোবর রাতের সড়ক দুর্ঘটনায় এক বাংলাদেশি নারী ও তাঁর ১৫ বছর বয়সী ছেলে নিহত হন। তাঁদের গাড়িচালক বাবা হাসপাতালে পর্যবেক্ষণ বা চিকিৎসা নেন এবং পরে ছাড়া পান বলে গন্তব্যদেশীয় সংবাদমাধ্যম জানিয়েছে। অন্য একটি গাড়ি পেছন থেকে আঘাত করার অভিযোগ রয়েছে; চূড়ান্ত পুলিশি সিদ্ধান্ত প্রকাশিত হয়নি।",
+        "en": "A Bangladeshi woman and her 15-year-old son were killed in a road crash on the night of 12 October. Destination-country media reported that the father, who was driving, received hospital observation or treatment and was later discharged. Another vehicle was reported to have struck their car from behind; no final police finding is cited."
+      },
+      "category": "accident",
+      "gender": "mixed",
+      "people_count": 3,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "Bangladesh_embassy_confirmed_to_sources",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/uae/bangladeshi-expat-mother-and-son15-killed-in-abu-dhabi-car-crash-1.500710513",
+          "date": "2026-10-14",
+          "language": "en"
+        },
+        {
+          "name": "Khaleej Times",
+          "url": "https://www.khaleejtimes.com/uae/mother-son-killed-abu-dhabi-traffic-accident-crash",
+          "date": "2026-10-14",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "আবুধাবিতে বাংলাদেশ দূতাবাস",
+            "en": "Bangladesh Embassy in Abu Dhabi"
+          },
+          "response": {
+            "bn": "মৃত্যুর তথ্য নিশ্চিত করেছে এবং পরবর্তী আনুষ্ঠানিকতায় যোগাযোগের কথা গন্তব্যদেশীয় সংবাদমাধ্যম জানিয়েছে।",
+            "en": "Destination-country media reported that the embassy confirmed the deaths and was in contact concerning subsequent formalities."
+          },
+          "source_url": "https://www.khaleejtimes.com/uae/mother-son-killed-abu-dhabi-traffic-accident-crash"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "নাবালক ও পরিবারের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The minor's and family's identities are not republished"
+      },
+      "unknowns": {
+        "bn": "দুর্ঘটনার চূড়ান্ত পুলিশি তদন্ত, দায় নির্ধারণ এবং পরবর্তী আইনি ফল প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The final police investigation, attribution of responsibility and later legal outcome are not established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "পুলিশি তদন্ত ও আইনি ফল অনুসরণ",
+        "en": "Track the police investigation and legal outcome"
       }
     }
   ]
