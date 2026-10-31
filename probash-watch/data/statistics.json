@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T14:57:17.756Z",
+  "updated_at": "2026-10-31T03:03:54.654Z",
   "coverage_complete": false,
   "records": [
     {
@@ -364,6 +364,62 @@
       "period_basis": "lower_bound_range",
       "source_url": "https://bdnews24.com/bangladesh/6jhf5wdc1u",
       "note": "Lower bound: reporting based on Cambodia immigration data says more than 3,000 Bangladeshis were deported. This is not a count of online-scam participants or trafficking survivors; no Bangladeshi subgroup breakdown was published.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "workers-abroad-2026-through-oct17",
+      "metric": "workers_deployed_abroad",
+      "value": 590188,
+      "period": "1 Jan–17 Oct 2026",
+      "country": "MULTI",
+      "note": "BMET-based count reported by The Business Standard; partial calendar-year period. May reflect overseas-employment clearances/deployment records rather than same-day physical departures.",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "partial_calendar_year",
+      "source_url": "https://www.tbsnews.net/bangladesh/saudi-jobs-slump-remittance-risks-rise-1581956",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "workers-abroad-2025-through-oct17",
+      "metric": "workers_deployed_abroad",
+      "value": 864735,
+      "period": "1 Jan–17 Oct 2025",
+      "country": "MULTI",
+      "note": "Comparison period reported by The Business Standard from BMET data; partial calendar-year period and not a full-year total.",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "partial_calendar_year",
+      "source_url": "https://www.tbsnews.net/bangladesh/saudi-jobs-slump-remittance-risks-rise-1581956",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "workers-saudi-2026-through-oct17",
+      "metric": "workers_deployed_to_destination",
+      "value": 315935,
+      "period": "1 Jan–17 Oct 2026",
+      "country": "SA",
+      "note": "Saudi-bound BMET-based deployment count reported by The Business Standard; partial calendar-year period.",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "partial_calendar_year",
+      "source_url": "https://www.tbsnews.net/bangladesh/saudi-jobs-slump-remittance-risks-rise-1581956",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "workers-saudi-2025-through-oct17",
+      "metric": "workers_deployed_to_destination",
+      "value": 577010,
+      "period": "1 Jan–17 Oct 2025",
+      "country": "SA",
+      "note": "Saudi-bound comparison count reported by The Business Standard from BMET data; partial calendar-year period.",
+      "gender": "all",
+      "unit": "count",
+      "period_basis": "partial_calendar_year",
+      "source_url": "https://www.tbsnews.net/bangladesh/saudi-jobs-slump-remittance-risks-rise-1581956",
       "denominator": null,
       "status": "source_reported"
     }
