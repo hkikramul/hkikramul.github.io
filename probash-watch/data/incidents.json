@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T03:03:54.654Z",
+  "updated_at": "2026-10-31T14:56:58.293Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1069,8 +1069,8 @@
         "en": "16 Bangladeshis killed in Riyadh sofa-factory fire"
       },
       "summary": {
-        "bn": "৯ আগস্ট রিয়াদের একটি সোফা কারখানায় অগ্নিকাণ্ডে ১৬ বাংলাদেশি শ্রমিক ঘটনাস্থলে নিহত হন বলে বাংলাদেশ সরকারের বিজ্ঞপ্তি উদ্ধৃত করে সংবাদমাধ্যম জানিয়েছে। নয়জনের মরদেহ ২৭ আগস্ট দেশে ফেরে; DNA পরীক্ষার পর বাকি সাতজনের মরদেহ ৩১ অক্টোবর পৌঁছানোর কথা জানানো হয়।",
-        "en": "Media citing Bangladesh government notices report that 16 Bangladeshi workers died at the scene of a fire at a Riyadh sofa factory on 9 August. Nine bodies returned on 27 August; after DNA testing, the remaining seven were reported scheduled to arrive on 31 October."
+        "bn": "৯ আগস্ট রিয়াদের একটি সোফা কারখানায় অগ্নিকাণ্ডে ১৬ বাংলাদেশি শ্রমিক ঘটনাস্থলে নিহত হন বলে বাংলাদেশ সরকারের বিজ্ঞপ্তি উদ্ধৃত করে সংবাদমাধ্যম জানিয়েছে। নয়জনের মরদেহ ২৭ আগস্ট এবং DNA পরীক্ষায় শনাক্ত বাকি সাতজনের মরদেহ ৩১ অক্টোবর ঢাকায় পৌঁছেছে।",
+        "en": "Media citing Bangladesh government notices report that 16 Bangladeshi workers died at the scene of a fire at a Riyadh sofa factory on 9 August. Nine bodies returned on 27 August, and the remaining seven identified through DNA testing arrived in Dhaka on 31 October."
       },
       "category": "accident",
       "gender": "unknown",
@@ -1090,6 +1090,12 @@
           "name": "bdnews24.com",
           "url": "https://bdnews24.com/bangladesh/10c696e457",
           "date": "2026-10-30",
+          "language": "en"
+        },
+        {
+          "name": "Dhaka Tribune",
+          "url": "https://www.dhakatribune.com/bangladesh/423367/bodies-of-7-bangladeshi-workers-killed-in-riyadh",
+          "date": "2026-10-31",
           "language": "en"
         }
       ],
@@ -1116,8 +1122,8 @@
         "en": "The final fire-investigation findings, attribution of responsibility and full status of compensation to families are not clear in the cited sources."
       },
       "follow_up": {
-        "bn": "চূড়ান্ত তদন্ত, দায় নির্ধারণ ও ক্ষতিপূরণ অনুসরণ",
-        "en": "Track final investigation findings, responsibility and compensation"
+        "bn": "চূড়ান্ত তদন্ত, দায় নির্ধারণ ও ক্ষতিপূরণের অবস্থা অনুসরণ",
+        "en": "Track final investigation findings, responsibility and compensation status"
       }
     },
     {
