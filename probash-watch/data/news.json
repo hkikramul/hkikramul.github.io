@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T14:57:17.756Z",
-  "last_successful_scan_at": "2026-10-30T14:57:17.756Z",
+  "updated_at": "2026-10-31T03:03:54.654Z",
+  "last_successful_scan_at": "2026-10-31T03:03:54.654Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-30",
@@ -1304,6 +1304,78 @@
       "status": "source_reported",
       "nationality_basis": "Cambodia_immigration_data_reported",
       "added_at": "2026-10-30T14:57:17.756Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-ALT-MARKETS-SKILLED-PLAN-BSS-20261030",
+      "country": "MULTI",
+      "published_date": "2026-10-30",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news-flash/440053",
+      "language": "en",
+      "title": {
+        "bn": "বিকল্প শ্রমবাজারে দক্ষ কর্মী পাঠানোর পাঁচ বছরের সরকারি লক্ষ্য",
+        "en": "Government sets five-year target for skilled-worker deployment to alternative markets"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, সরকার চাহিদাভিত্তিক প্রশিক্ষণ ও বিকল্প শ্রমবাজার সম্প্রসারণকে অগ্রাধিকার দিয়ে পাঁচ বছরে এক কোটি দক্ষ কর্মী বিদেশে পাঠানোর লক্ষ্য ঘোষণা করেছে। এটি পরিকল্পিত লক্ষ্য—সম্পন্ন নিয়োগ বা নিশ্চিত বিদেশি চাকরির সংখ্যা নয়।",
+        "en": "BSS reports that the government announced a five-year target of sending 10 million skilled workers abroad while prioritising demand-driven training and alternative labour markets. This is a policy target, not completed recruitment or a confirmed number of overseas jobs."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_government_plan_reported",
+      "added_at": "2026-10-31T03:03:54.654Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-OVERSEAS-EMPLOYMENT-TBS-20261024",
+      "country": "MULTI",
+      "published_date": "2026-10-24",
+      "event_date": null,
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/bangladesh/saudi-jobs-slump-remittance-risks-rise-1581956",
+      "language": "en",
+      "title": {
+        "bn": "২০২৬ সালের ১৭ অক্টোবর পর্যন্ত বিদেশগামী কর্মী ৩১.৮% কমার প্রতিবেদন",
+        "en": "Overseas worker deployment reported down 31.8% through 17 October 2026"
+      },
+      "summary": {
+        "bn": "দ্য বিজনেস স্ট্যান্ডার্ড BMET-এর তথ্য উদ্ধৃত করে জানিয়েছে, ১ জানুয়ারি–১৭ অক্টোবর ২০২৬ সময়ে ৫৯০,১৮৮ কর্মী বিদেশে গেছেন, আগের বছরের একই সময়ে ৮৬৪,৭৩৫। সৌদিগামী সংখ্যা ৫৭৭,০১০ থেকে ৩১৫,৯৩৫-এ নেমেছে। এগুলো আংশিক ক্যালেন্ডার-বর্ষের একই সময়সীমার তুলনা; পূর্ণ বছরের সংখ্যার সঙ্গে যোগ করা হয়নি।",
+        "en": "The Business Standard, citing BMET data, reports 590,188 workers went abroad from 1 January through 17 October 2026, compared with 864,735 in the same 2025 period. Saudi-bound deployment fell from 577,010 to 315,935. These are like-for-like partial-calendar-year figures and are not added to full-year totals."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BMET_data_reported",
+      "added_at": "2026-10-31T03:03:54.654Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "AE-ABUDHABI-FAMILY-CRASH-GULFNEWS-20261014",
+      "country": "AE",
+      "published_date": "2026-10-14",
+      "event_date": "2026-10-12",
+      "publisher": "Gulf News",
+      "url": "https://gulfnews.com/uae/bangladeshi-expat-mother-and-son15-killed-in-abu-dhabi-car-crash-1.500710513",
+      "language": "en",
+      "title": {
+        "bn": "আবুধাবির সড়ক দুর্ঘটনায় বাংলাদেশি মা ও অপ্রাপ্তবয়স্ক ছেলে নিহত",
+        "en": "Bangladeshi mother and minor son killed in Abu Dhabi road crash"
+      },
+      "summary": {
+        "bn": "Gulf News জানিয়েছে, ১২ অক্টোবর আবুধাবির আল ওয়াথবা সেতুর কাছে সড়ক দুর্ঘটনায় এক বাংলাদেশি নারী ও তাঁর ১৫ বছর বয়সী ছেলে নিহত হন। পরিবারের গাড়িচালক বাবা হাসপাতালে পর্যবেক্ষণ/চিকিৎসা নেন; পুলিশ দুর্ঘটনার তদন্ত করছে বলে প্রতিবেদনে বলা হয়। নাবালক ও পরিবারের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Gulf News reports that a Bangladeshi woman and her 15-year-old son were killed in a road crash near Al Wathba Bridge, Abu Dhabi, on 12 October. The father, who was driving, received hospital observation or treatment; police were reported to be investigating. The minor's and family's identities are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "AE-ABUDHABI-ROAD-CRASH-20261012",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_embassy_confirmed_to_source",
+      "added_at": "2026-10-31T03:03:54.654Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
