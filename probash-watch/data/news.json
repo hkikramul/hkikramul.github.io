@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T03:03:05.441Z",
-  "last_successful_scan_at": "2026-11-01T03:03:05.441Z",
+  "updated_at": "2026-11-01T15:56:40.571Z",
+  "last_successful_scan_at": "2026-11-01T15:56:40.571Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-10-31",
+  "coverage_end": "2026-11-01",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1472,6 +1472,54 @@
       "status": "source_reported",
       "nationality_basis": "India_and_Bangladesh_immigration_handover_reported",
       "added_at": "2026-11-01T03:03:05.441Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "IT-BARI-SCOOTER-BUS-CRASH-20261027",
+      "country": "IT",
+      "published_date": "2026-10-29",
+      "event_date": "2026-10-27",
+      "publisher": "Corriere della Sera — Bari",
+      "url": "https://bari.corriere.it/notizie/cronaca/26_ottobre_29/bari-30enne-in-monopattino-investito-dal-bus-in-corso-vittorio-emanuele-autista-indagato-per-omicidio-stradale-sotto-esame-anche-46be69c5-679d-43e8-9c7c-779ecbc7axlk.shtml",
+      "language": "it",
+      "title": {
+        "bn": "ইতালির বারিতে বাস–ই-স্কুটার সংঘর্ষে বাংলাদেশি নিহত; তদন্ত চলছে",
+        "en": "Bangladeshi killed in Bari bus–e-scooter collision; investigation under way"
+      },
+      "summary": {
+        "bn": "বারির স্থানীয় সংবাদমাধ্যম জানিয়েছে, ২৭ অক্টোবর শহরের কেন্দ্রে একটি AMTAB বাসের সঙ্গে ই-স্কুটারের সংঘর্ষে ৩০ বছর বয়সী এক বাংলাদেশি নিহত হন। ২৯ অক্টোবরের ফলো-আপে বলা হয়, বাসচালকের বিরুদ্ধে সড়ক-হত্যার তদন্ত খোলা হয়েছে—এটি অভিযোগ/তদন্তের ধাপ, দায়ের চূড়ান্ত সিদ্ধান্ত নয়। তদন্তকারীরা ফোন, বিষতাত্ত্বিক পরীক্ষা ও বাসের সম্ভাব্য ব্লাইন্ড স্পট পরীক্ষা করছেন। নিহতের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Bari media report that a 30-year-old Bangladeshi was killed when an e-scooter and an AMTAB bus collided in the city centre on 27 October. A 29 October follow-up says a road-homicide investigation was opened into the bus driver; this is an investigative step, not a final finding of responsibility. Investigators are examining phones, toxicology tests and a possible bus blind spot. The deceased person's identity is not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "IT-BARI-SCOOTER-BUS-CRASH-20261027",
+      "status": "source_reported",
+      "nationality_basis": "destination_local_media_reported_Bangladeshi_origin",
+      "added_at": "2026-11-01T15:56:40.571Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "LV-TRAFFICKING-ALLEGATION-DEATH-20261008",
+      "country": "LV",
+      "published_date": "2026-10-20",
+      "event_date": "2026-10-08",
+      "publisher": "United News of Bangladesh (UNB)",
+      "url": "https://unb.com.bd/category/x/x/198358",
+      "language": "en",
+      "title": {
+        "bn": "লাতভিয়ায় বাংলাদেশির মৃত্যু; পরিবারের পাচার ও নির্যাতনের অভিযোগে মামলা",
+        "en": "Bangladeshi dies in Latvia; family files case alleging trafficking and torture"
+      },
+      "summary": {
+        "bn": "UNB ও Dhaka Tribune জানিয়েছে, লাতভিয়া–বেলারুশ সীমান্তের কাছে বন থেকে গুরুতর অসুস্থ অবস্থায় উদ্ধার এক বাংলাদেশি হাসপাতালে মারা যান। পরিবারের অভিযোগ, ইতালিতে বৈধভাবে পাঠানোর প্রতিশ্রুতির পর তাঁকে বিভিন্ন দেশে নেওয়া, অর্থ দাবি ও নির্যাতন করা হয়েছিল; স্ত্রী বাংলাদেশে নয়জনের বিরুদ্ধে মামলা করেছেন। এগুলো পরিবারের অভিযোগ ও মামলার বক্তব্য—আদালতে প্রমাণিত সিদ্ধান্ত নয়। মৃত্যুর তারিখ নিয়ে প্রতিবেদনে অমিল আছে (৮ অক্টোবর বনাম ১২ অক্টোবর); পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "UNB and Dhaka Tribune report that a Bangladeshi rescued critically ill from a forest near the Latvia–Belarus border died in hospital. The family alleges that, after a promise of lawful migration to Italy, he was moved through several countries, subjected to money demands and tortured; his wife filed a case in Bangladesh against nine people. These are allegations in the family's account and court complaint, not adjudicated findings. Reports conflict on the death date (8 versus 12 October). The person's identity is not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "LV-TRAFFICKING-ALLEGATION-DEATH-20261008",
+      "status": "source_reported_allegation",
+      "nationality_basis": "family_and_Bangladesh_media_reporting",
+      "added_at": "2026-11-01T15:56:40.571Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
