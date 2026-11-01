@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T14:56:58.293Z",
+  "updated_at": "2026-11-01T15:56:40.571Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1185,6 +1185,128 @@
       "follow_up": {
         "bn": "পুলিশি তদন্ত ও আইনি ফল অনুসরণ",
         "en": "Track the police investigation and legal outcome"
+      }
+    },
+    {
+      "id": "IT-BARI-SCOOTER-BUS-CRASH-20261027",
+      "country": "IT",
+      "event_date": "2026-10-27",
+      "published_date": "2026-10-29",
+      "title": {
+        "bn": "বারিতে বাস–ই-স্কুটার সংঘর্ষে বাংলাদেশি নিহত",
+        "en": "Bangladeshi killed in Bari bus–e-scooter collision"
+      },
+      "summary": {
+        "bn": "২৭ অক্টোবর বারির কেন্দ্রে একটি AMTAB বাসের সঙ্গে ই-স্কুটারের সংঘর্ষে ৩০ বছর বয়সী এক বাংলাদেশি নিহত হন। স্থানীয় কৌঁসুলি বাসচালককে সড়ক-হত্যার তদন্তে রেখেছেন; এটি দায়ের চূড়ান্ত সিদ্ধান্ত নয়। ফোন, বিষতাত্ত্বিক পরীক্ষা ও সম্ভাব্য ব্লাইন্ড স্পট পরীক্ষা করা হচ্ছে।",
+        "en": "A 30-year-old Bangladeshi was killed in a collision between an e-scooter and an AMTAB bus in central Bari on 27 October. The local prosecutor placed the bus driver under investigation for road homicide; this is not a final finding of responsibility. Phones, toxicology tests and a possible blind spot are being examined."
+      },
+      "category": "accident",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "destination_local_media_reported_Bangladeshi_origin",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "Corriere della Sera — Bari",
+          "url": "https://bari.corriere.it/notizie/cronaca/26_ottobre_27/bari-ragazzo-su-un-monopattino-investito-e-ucciso-da-un-bus-tra-corso-vittorio-emanuele-e-piazza-massari-5fa5ac98-01d2-4e5d-9195-5f3311b45xlk_amp.shtml",
+          "date": "2026-10-27",
+          "language": "it"
+        },
+        {
+          "name": "Corriere della Sera — Bari",
+          "url": "https://bari.corriere.it/notizie/cronaca/26_ottobre_29/bari-30enne-in-monopattino-investito-dal-bus-in-corso-vittorio-emanuele-autista-indagato-per-omicidio-stradale-sotto-esame-anche-46be69c5-679d-43e8-9c7c-779ecbc7axlk.shtml",
+          "date": "2026-10-29",
+          "language": "it"
+        },
+        {
+          "name": "Daily Sun",
+          "url": "https://www.daily-sun.com/index.php/bangladeshi-expatriate/906020/bangladeshi-expatriate-ziaur-killed-in-italy-road-accident",
+          "date": "2026-10-29",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "নিহত ব্যক্তির পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The deceased person's identity is not republished"
+      },
+      "unknowns": {
+        "bn": "সংঘর্ষের চূড়ান্ত পুনর্গঠন, দায় নির্ধারণ এবং তদন্তের আইনি ফল এখনো প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The final crash reconstruction, attribution of responsibility and legal outcome of the investigation are not yet established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "কৌঁসুলির তদন্ত ও কারিগরি পরীক্ষার ফল অনুসরণ",
+        "en": "Track the prosecutor's investigation and technical examination results"
+      }
+    },
+    {
+      "id": "LV-TRAFFICKING-ALLEGATION-DEATH-20261008",
+      "country": "LV",
+      "event_date": "2026-10-08",
+      "published_date": "2026-10-20",
+      "title": {
+        "bn": "লাতভিয়ায় বাংলাদেশির মৃত্যু; পাচার ও নির্যাতনের অভিযোগ",
+        "en": "Bangladeshi dies in Latvia amid trafficking and torture allegations"
+      },
+      "summary": {
+        "bn": "লাতভিয়া–বেলারুশ সীমান্তের কাছে বন থেকে গুরুতর অসুস্থ অবস্থায় উদ্ধার এক বাংলাদেশি হাসপাতালে মারা যান। পরিবারের অভিযোগ, ইতালিতে বৈধভাবে পাঠানোর প্রতিশ্রুতি দিয়ে তাঁকে বিভিন্ন দেশে নেওয়া, অর্থ দাবি ও নির্যাতন করা হয়েছিল; বাংলাদেশে নয়জনের বিরুদ্ধে মামলা হয়েছে। অভিযোগগুলো আদালতে প্রমাণিত নয়। মৃত্যুর তারিখ নিয়ে উৎসে অমিল আছে।",
+        "en": "A Bangladeshi rescued critically ill from a forest near the Latvia–Belarus border died in hospital. The family alleges he was moved through several countries, subjected to money demands and tortured after a promise of lawful migration to Italy; a case was filed in Bangladesh against nine people. The allegations have not been adjudicated. Sources conflict on the date of death."
+      },
+      "category": "alleged_human_trafficking",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported_allegation",
+      "nationality": "BD",
+      "nationality_basis": "family_account_and_Bangladesh_media_reporting",
+      "location_precision": "region",
+      "sources": [
+        {
+          "name": "United News of Bangladesh (UNB)",
+          "url": "https://unb.com.bd/category/x/x/198358",
+          "date": "2026-10-20",
+          "language": "en"
+        },
+        {
+          "name": "Dhaka Tribune",
+          "url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/422578/jhenaidah-man-dies-in-latvia-after-alleged-torture/",
+          "date": "2026-10-20",
+          "language": "en"
+        },
+        {
+          "name": "United News of Bangladesh (UNB)",
+          "url": "https://www.unb.com.bd/category/bangladesh/sohel-ranas-body-returns-home-from-latvia/198698",
+          "date": "2026-10-25",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "ঝিনাইদহের আদালত ও পুলিশ",
+            "en": "Court and police in Jhenaidah"
+          },
+          "response": {
+            "bn": "প্রকাশিত প্রতিবেদন অনুযায়ী, আদালত অভিযোগটি এফআইআর হিসেবে নথিভুক্ত করতে থানাকে নির্দেশ দিয়েছেন; মামলার চূড়ান্ত ফল হয়নি।",
+            "en": "Published reporting says the court directed police to register the complaint as an FIR; there is no final case outcome."
+          },
+          "source_url": "https://www.unb.com.bd/category/bangladesh/sohel-ranas-body-returns-home-from-latvia/198698"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "মৃত ব্যক্তির পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "The deceased person's identity and the family's private details are not republished"
+      },
+      "unknowns": {
+        "bn": "মৃত্যুর তারিখে উৎসভেদে অমিল (৮ বা ১২ অক্টোবর), নির্যাতনের অভিযোগের স্বাধীন যাচাই, ময়নাতদন্ত/লাতভীয় তদন্ত এবং মামলার ফল প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "Sources conflict on the death date (8 or 12 October); independent verification of the torture allegation, post-mortem or Latvian investigation findings, and the case outcome are not established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "লাতভীয় কর্তৃপক্ষের নথি, ময়নাতদন্ত এবং বাংলাদেশের মামলার অগ্রগতি অনুসরণ",
+        "en": "Track Latvian official records, any post-mortem findings and progress of the Bangladesh case"
       }
     }
   ]
