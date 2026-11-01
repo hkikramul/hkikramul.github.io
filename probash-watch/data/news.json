@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T14:56:58.293Z",
-  "last_successful_scan_at": "2026-10-31T14:56:58.293Z",
+  "updated_at": "2026-11-01T03:03:05.441Z",
+  "last_successful_scan_at": "2026-11-01T03:03:05.441Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-10-31",
@@ -1448,6 +1448,30 @@
       "status": "source_reported",
       "nationality_basis": "Bangladesh_Bank_proposal_reported",
       "added_at": "2026-10-31T14:56:58.293Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "IN-WOMEN-REPATRIATED-UNB-20261031",
+      "country": "IN",
+      "published_date": "2026-10-31",
+      "event_date": "2026-10-30",
+      "publisher": "United News of Bangladesh (UNB)",
+      "url": "https://www.unb.com.bd/category/Bangladesh/10-bangladeshi-women-return-home-after-serving-jail-terms-in-india/199160",
+      "language": "en",
+      "title": {
+        "bn": "ভারতে কারাভোগ শেষে ১০ বাংলাদেশি নারীর দেশে ফেরা",
+        "en": "Ten Bangladeshi women return after serving prison terms in India"
+      },
+      "summary": {
+        "bn": "UNB জানিয়েছে, অবৈধ প্রবেশের মামলায় ভারতের পুনে কেন্দ্রীয় কারাগারে দুই থেকে তিন বছরের সাজা শেষ করা ১০ বাংলাদেশি নারী ৩০ অক্টোবর বিশেষ ট্রাভেল পারমিটে বেনাপোল দিয়ে দেশে ফিরেছেন। বেনাপোল ইমিগ্রেশন পুলিশের ভাষ্য অনুযায়ী, তাঁরা কাজের সন্ধানে দালাল/মানবপাচারকারীর সহায়তায় ভারতে গিয়েছিলেন; এই বিবরণ আদালতে প্রমাণিত পাচার-শিকার অবস্থার পৃথক সিদ্ধান্ত নয়। পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "UNB reports that ten Bangladeshi women returned through Benapole on 30 October under special travel permits after serving two- to three-year terms in Pune Central Jail for illegal entry. Benapole immigration police said they had travelled to India seeking work with help from brokers or traffickers; this does not constitute a separate court finding that each was a trafficking survivor. Identities are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "India_and_Bangladesh_immigration_handover_reported",
+      "added_at": "2026-11-01T03:03:05.441Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
