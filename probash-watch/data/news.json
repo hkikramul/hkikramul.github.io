@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T15:56:40.571Z",
-  "last_successful_scan_at": "2026-11-01T15:56:40.571Z",
+  "updated_at": "2026-11-02T03:57:19.932Z",
+  "last_successful_scan_at": "2026-11-02T03:57:19.932Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-01",
@@ -1520,6 +1520,54 @@
       "status": "source_reported_allegation",
       "nationality_basis": "family_and_Bangladesh_media_reporting",
       "added_at": "2026-11-01T15:56:40.571Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-EXEC-BODIES-STATUS-DS-20261101",
+      "country": "SA",
+      "published_date": "2026-11-01",
+      "event_date": "2026-10-14",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/families-still-dark-about-bodies-bangladeshis-executed-saudi-arabia-4312771",
+      "language": "en",
+      "title": {
+        "bn": "সৌদিতে মৃত্যুদণ্ড: মরদেহের অবস্থান ও সরকারি জবাব এখনো অজানা",
+        "en": "Saudi executions: whereabouts of remains and official response still unknown"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার ১ নভেম্বর জানিয়েছে, ১৪ অক্টোবর মৃত্যুদণ্ড কার্যকর হওয়া দুই বাংলাদেশির মরদেহ কোথায় বা ফেরত দেওয়া হবে কি না—পরিবারগুলো তখনও জানত না। বাংলাদেশের আদালতের রায়, আইনি সহায়তা, কনস্যুলার যোগাযোগ ও মরদেহের বিষয়ে পাঠানো নোট ভারবালের জবাবও সৌদি কর্তৃপক্ষ দেয়নি বলে পররাষ্ট্র মন্ত্রণালয়ের একটি সূত্র জানিয়েছে। পরিবারের দাবি ও অধিকার সংগঠনের তদন্ত-আহ্বান প্রতিবেদিত বক্তব্য; কোনো নতুন বিচারিক সিদ্ধান্ত নয়। পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The Daily Star reported on 1 November that the families still did not know the whereabouts of the remains of the two Bangladeshis executed on 14 October or whether they would be repatriated. A foreign-ministry source said Saudi authorities had not answered Bangladesh's note verbale seeking judgments, legal-assistance and consular-notification details, and information about the remains. Family claims and rights groups' calls for investigation are reported positions, not new judicial findings. Identities are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-EXEC-2026",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_consulate_and_foreign_ministry_reporting",
+      "added_at": "2026-11-02T03:57:19.932Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KW-MUTLAA-GUARD-KILLING-ARREST-20261031",
+      "country": "KW",
+      "published_date": "2026-10-31",
+      "event_date": "2026-10-30",
+      "publisher": "Times Kuwait",
+      "url": "https://timeskuwait.com/kuwait-arrests-al-mutlaa-bangladeshi-murder-suspect-within-24-hours/",
+      "language": "en",
+      "title": {
+        "bn": "কুয়েতের আল-মুতলায় প্রহরী হত্যার ঘটনায় বাংলাদেশি সন্দেহভাজন গ্রেপ্তার",
+        "en": "Bangladeshi suspect arrested in Al Mutlaa guard killing"
+      },
+      "summary": {
+        "bn": "কুয়েতের স্থানীয় সংবাদমাধ্যম স্বরাষ্ট্র মন্ত্রণালয়/পুলিশের বক্তব্যের বরাতে জানিয়েছে, ৩০ অক্টোবর আল-মুতলার একটি নির্মাণাধীন ভবনের ছাদে এক নিরাপত্তাপ্রহরীর মরদেহ পাওয়ার পর এক বাংলাদেশি সাবেক প্রহরীকে গ্রেপ্তার করা হয়েছে। পুলিশের দাবি, জিজ্ঞাসাবাদে তিনি বিরোধের পর হামলার কথা স্বীকার করেছেন। বিষয়টি তদন্ত ও বিচারের আগে পুলিশের অভিযোগভিত্তিক প্রতিবেদন; আদালতে দোষ প্রমাণিত হয়নি। সন্দেহভাজন বা নিহত ব্যক্তির পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Kuwaiti local media, citing the interior ministry and police, report that a Bangladeshi former guard was arrested after a security guard's body was found on the roof of a building under construction in Al Mutlaa on 30 October. Police allege that he admitted during questioning to an attack following a dispute. This is a police-reported allegation before trial; guilt has not been established in court. Neither the suspect's nor the deceased person's identity is republished."
+      },
+      "record_type": "incident",
+      "incident_key": "KW-MUTLAA-GUARD-KILLING-20261030",
+      "status": "police_reported_allegation",
+      "nationality_basis": "Kuwait_interior_ministry_reported_Bangladeshi_nationality",
+      "added_at": "2026-11-02T03:57:19.932Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
