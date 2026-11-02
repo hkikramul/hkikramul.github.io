@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T15:56:40.571Z",
+  "updated_at": "2026-11-02T03:57:19.932Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -227,8 +227,8 @@
         "en": "Executions and consular notification"
       },
       "summary": {
-        "bn": "সংবাদে ১৪ অক্টোবর মৃত্যুদণ্ড কার্যকরের কথা আছে; বাংলাদেশ কনস্যুলেট পূর্বে অবহিত হয়নি বলে জানিয়েছে।",
-        "en": "Coverage reports executions on 14 October; Bangladesh’s consulate said it received no advance notice."
+        "bn": "প্রকাশিত প্রতিবেদনে ১৪ অক্টোবর দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকরের কথা আছে; বাংলাদেশ কনস্যুলেট বলেছে, তাকে আগে জানানো হয়নি। ১ নভেম্বর পর্যন্ত বাংলাদেশ আদালতের রায়, আইনি সহায়তা, কনস্যুলার যোগাযোগ ও মরদেহের অবস্থান বিষয়ে সৌদি জবাব পায়নি বলে দ্য ডেইলি স্টার জানিয়েছে। পরিবারগুলোও মরদেহের অবস্থান জানত না।",
+        "en": "Published reporting says two Bangladeshis were executed on 14 October; Bangladesh's consulate said it was not notified in advance. The Daily Star reported that, as of 1 November, Bangladesh had received no Saudi response about the judgments, legal assistance, consular notification or whereabouts of the remains. The families also did not know where the remains were."
       },
       "category": "justice",
       "gender": "mixed",
@@ -279,6 +279,12 @@
           "url": "https://www.prothomalo.com/bangladesh/q9hzy5o8z5",
           "date": "2026-10-20",
           "language": "bn"
+        },
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/work-and-migration/news/families-still-dark-about-bodies-bangladeshis-executed-saudi-arabia-4312771",
+          "date": "2026-11-01",
+          "language": "en"
         }
       ],
       "responses": [],
@@ -288,12 +294,12 @@
         "en": "Identity withheld"
       },
       "unknowns": {
-        "bn": "সংবাদে প্রকাশিত তথ্য; স্বাধীন নিশ্চিতকরণ নয়।",
-        "en": "Source-reported; not independently confirmed."
+        "bn": "আদালতের পূর্ণ রায়, আইনি প্রতিনিধিত্বের নথি, কনস্যুলার নোটিশ এবং মরদেহের অবস্থান বা প্রত্যাবাসনের সিদ্ধান্ত প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The full judgments, legal-representation records, consular notification, and the location or repatriation decision concerning the remains are not established in the cited sources."
       },
       "follow_up": {
-        "bn": "পরবর্তী সংবাদ ও সরকারি বক্তব্য অনুসরণ",
-        "en": "Track follow-up reporting and official statements"
+        "bn": "সৌদি জবাব, নথি প্রকাশ, হাইকোর্টের রিট এবং মরদেহ বিষয়ে সিদ্ধান্ত অনুসরণ",
+        "en": "Track any Saudi response, disclosure of records, the High Court petition and decisions concerning the remains"
       }
     },
     {
@@ -1307,6 +1313,73 @@
       "follow_up": {
         "bn": "লাতভীয় কর্তৃপক্ষের নথি, ময়নাতদন্ত এবং বাংলাদেশের মামলার অগ্রগতি অনুসরণ",
         "en": "Track Latvian official records, any post-mortem findings and progress of the Bangladesh case"
+      }
+    },
+    {
+      "id": "KW-MUTLAA-GUARD-KILLING-20261030",
+      "country": "KW",
+      "event_date": "2026-10-30",
+      "published_date": "2026-10-31",
+      "title": {
+        "bn": "আল-মুতলায় প্রহরী হত্যার ঘটনায় বাংলাদেশি সন্দেহভাজন গ্রেপ্তার",
+        "en": "Bangladeshi suspect arrested in Al Mutlaa guard killing"
+      },
+      "summary": {
+        "bn": "৩০ অক্টোবর কুয়েতের আল-মুতলার একটি নির্মাণাধীন ভবনের ছাদে এক নিরাপত্তাপ্রহরীর মরদেহ পাওয়ার পর এক বাংলাদেশি সাবেক প্রহরীকে গ্রেপ্তার করা হয়েছে বলে স্থানীয় সংবাদমাধ্যম জানিয়েছে। পুলিশের দাবি, জিজ্ঞাসাবাদে তিনি বিরোধের পর কাঠের বস্তু ও ছুরি দিয়ে হামলার কথা স্বীকার করেছেন। এটি পুলিশের অভিযোগভিত্তিক বিবরণ; আদালতে দোষ প্রমাণিত হয়নি।",
+        "en": "Kuwaiti local media report that a Bangladeshi former guard was arrested after a security guard's body was found on the roof of a building under construction in Al Mutlaa on 30 October. Police allege he admitted during questioning to attacking the victim with a wooden object and knife following a dispute. This is a police-reported allegation; guilt has not been established in court."
+      },
+      "category": "criminal_case",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "police_reported_allegation",
+      "nationality": "BD",
+      "nationality_basis": "Kuwait_interior_ministry_reported_Bangladeshi_nationality",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Times Kuwait",
+          "url": "https://timeskuwait.com/kuwait-arrests-al-mutlaa-bangladeshi-murder-suspect-within-24-hours/",
+          "date": "2026-10-31",
+          "language": "en"
+        },
+        {
+          "name": "Kuwait Times",
+          "url": "https://kuwaittimes.com/article/52714/kuwait/suspect-arrested-within-24-hours-in-mutlaa-killing/",
+          "date": "2026-10-31",
+          "language": "en"
+        },
+        {
+          "name": "Arab Times",
+          "url": "https://www.arabtimesonline.com/news/bangladeshi-expat-confesses-to-killing-guard-who-replaced-him-at-work/",
+          "date": "2026-10-31",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "কুয়েতের স্বরাষ্ট্র মন্ত্রণালয় ও অপরাধ তদন্ত বিভাগ",
+            "en": "Kuwait Ministry of Interior and Criminal Investigation Department"
+          },
+          "response": {
+            "bn": "সন্দেহভাজনকে গ্রেপ্তার করে পরবর্তী আইনি প্রক্রিয়ার জন্য সংশ্লিষ্ট কর্তৃপক্ষের কাছে পাঠানোর কাজ চলেছে বলে জানিয়েছে।",
+            "en": "Reported arresting the suspect and completing procedures to refer him to the competent authorities."
+          },
+          "source_url": "https://kuwaittimes.com/article/52714/kuwait/suspect-arrested-within-24-hours-in-mutlaa-killing/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "সন্দেহভাজন ও নিহত ব্যক্তির পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The suspect's and deceased person's identities are not republished"
+      },
+      "unknowns": {
+        "bn": "নিহত ব্যক্তির জাতীয়তা, ফরেনসিক ফল, আনুষ্ঠানিক অভিযোগপত্র, আত্মপক্ষের বক্তব্য এবং আদালতের ফল প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The deceased person's nationality, forensic findings, formal charge, defence account and court outcome are not established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "আনুষ্ঠানিক অভিযোগ, আদালতের কার্যক্রম ও রায়ের ফল অনুসরণ",
+        "en": "Track formal charges, court proceedings and outcome"
       }
     }
   ]
