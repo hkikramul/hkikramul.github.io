@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T03:57:19.932Z",
-  "last_successful_scan_at": "2026-11-02T03:57:19.932Z",
+  "updated_at": "2026-11-02T16:06:03.404Z",
+  "last_successful_scan_at": "2026-11-02T16:06:03.404Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-01",
+  "coverage_end": "2026-11-02",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1568,6 +1568,54 @@
       "status": "police_reported_allegation",
       "nationality_basis": "Kuwait_interior_ministry_reported_Bangladeshi_nationality",
       "added_at": "2026-11-02T03:57:19.932Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-MIGRANT-CHILDREN-SCHOLARSHIP-BSS-20261019",
+      "country": "BD",
+      "published_date": "2026-10-19",
+      "event_date": "2026-10-25",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/bangla/national/351759",
+      "language": "bn",
+      "title": {
+        "bn": "প্রবাসী কর্মীদের সন্তানদের শিক্ষাবৃত্তির আবেদন ২৪ নভেম্বর পর্যন্ত",
+        "en": "Scholarship applications for migrant workers' children open through 24 November"
+      },
+      "summary": {
+        "bn": "বাসস ওয়েজ আর্নার্স কল্যাণ বোর্ডের বিজ্ঞপ্তির বরাতে জানিয়েছে, নির্ধারিত SSC/সমমান-২০২৬, HSC/সমমান-২০২৫ ও ডিপ্লোমা-ইন-ইঞ্জিনিয়ারিং-২০২৫ উত্তীর্ণ প্রবাসী কর্মীদের যোগ্য সন্তানরা ২৫ অক্টোবর থেকে ২৪ নভেম্বর ২০২৬ পর্যন্ত অনলাইনে শিক্ষাবৃত্তির আবেদন করতে পারবেন। পিতা বা মাতাকে BMET বহির্গমন ছাড়পত্রধারী বা বোর্ডের সদস্য হতে হবে; একজন কর্মীর সর্বোচ্চ দুই সন্তান আবেদন করতে পারে। যোগ্যতা, GPA, নথি ও মেয়াদ পরীক্ষাভেদে আলাদা—আবেদনকারীকে মূল বিজ্ঞপ্তি যাচাই করতে হবে।",
+        "en": "BSS, citing a Wage Earners' Welfare Board notice, reports that eligible children of migrant workers who passed specified SSC/equivalent 2026, HSC/equivalent 2025 or Diploma-in-Engineering 2025 examinations may apply online for scholarships from 25 October through 24 November 2026. A parent must hold BMET emigration clearance or Welfare Board membership, and no more than two children per worker may apply. Eligibility, GPA, documents and award duration vary by examination category, so applicants should verify the original notice."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_notice_reported",
+      "nationality_basis": "Bangladesh_welfare_board_program",
+      "added_at": "2026-11-02T16:06:03.404Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-NRB-REMITTANCE-INCENTIVE-DEMAND-DS-20261101",
+      "country": "MULTI",
+      "published_date": "2026-11-01",
+      "event_date": "2026-11-01",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/nrb-world-urges-govt-raise-remittance-incentive-3-4312881",
+      "language": "en",
+      "title": {
+        "bn": "রেমিট্যান্স প্রণোদনা ৩% করার দাবি জানিয়েছে NRB World",
+        "en": "NRB World calls for raising remittance incentive to 3%"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার জানিয়েছে, NRB World সংবাদ সম্মেলনে প্রবাসীদের পাঠানো রেমিট্যান্সের নগদ প্রণোদনা ২.৫% থেকে ৩% করার আহ্বান জানিয়েছে। সংগঠনটি তথ্য, ব্যাংকিং ও বিনিয়োগ-প্রক্রিয়ায় প্রবাসীদের প্রবেশ সহজ করারও দাবি জানিয়েছে। এগুলো সংগঠনের প্রস্তাব—সরকারি অনুমোদন, কার্যকর নীতি বা সবার জন্য ঘোষিত নতুন হার নয়।",
+        "en": "The Daily Star reports that NRB World called at a press conference for the cash incentive on expatriate remittances to rise from 2.5% to 3%. The organisation also sought easier diaspora access to information, banking and investment procedures. These are the organisation's proposals, not government approval, an implemented policy or a newly announced universal rate."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported_proposal",
+      "nationality_basis": "diaspora_organisation_public_proposal",
+      "added_at": "2026-11-02T16:06:03.404Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
