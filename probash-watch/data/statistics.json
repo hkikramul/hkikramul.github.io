@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T03:03:54.654Z",
+  "updated_at": "2026-11-03T04:01:41.977Z",
   "coverage_complete": false,
   "records": [
     {
@@ -420,6 +420,34 @@
       "unit": "count",
       "period_basis": "partial_calendar_year",
       "source_url": "https://www.tbsnews.net/bangladesh/saudi-jobs-slump-remittance-risks-rise-1581956",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-fy-partial-2026-jul1-nov1",
+      "metric": "workers_remittances_received",
+      "value": 11687,
+      "period": "1 Jul–1 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "partial_fiscal_year",
+      "source_url": "https://www.bssnews.net/business/441212",
+      "note": "Workers' remittances reported by BSS for a partial fiscal-year period; do not add to full-year or overlapping monthly totals.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-fy-partial-2025-jul1-nov1",
+      "metric": "workers_remittances_received",
+      "value": 10192,
+      "period": "1 Jul–1 Nov 2025",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "partial_fiscal_year_comparison",
+      "source_url": "https://www.bssnews.net/business/441212",
+      "note": "Corresponding previous-fiscal-year comparison reported by BSS; overlaps any monthly or full-year series and must not be summed with them.",
       "denominator": null,
       "status": "source_reported"
     }
