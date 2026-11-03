@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T04:01:41.977Z",
+  "updated_at": "2026-11-03T16:03:38.575Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1527,6 +1527,156 @@
       "follow_up": {
         "bn": "দুর্ঘটনা তদন্ত ও ক্ষতিপূরণের অবস্থা অনুসরণ",
         "en": "Track the crash investigation and compensation status"
+      }
+    },
+    {
+      "id": "MV-BOLIDHUFFARU-WAGE-PROTEST-20261101",
+      "country": "MV",
+      "event_date": "2026-11-01",
+      "published_date": "2026-11-02",
+      "title": {
+        "bn": "বলিধুফারু রিসোর্ট প্রকল্পে মজুরি-বিক্ষোভের পর আটক ও প্রত্যাবাসন প্রক্রিয়া",
+        "en": "Detention and repatriation process follows wage protest at Bolidhuffaru resort project"
+      },
+      "summary": {
+        "bn": "মালদ্বীপের কাফু বলিধুফারু রিসোর্ট উন্নয়ন প্রকল্পে বকেয়া বেতন ও কর্ম-সুবিধা নিয়ে বিক্ষোভের পর শ্রমিকদের বিমানবন্দরে নিয়ে প্রত্যাবাসনের চেষ্টা এবং ২১ জনকে ইমিগ্রেশন হেফাজতে দেওয়ার কথা স্থানীয় সংবাদমাধ্যম জানিয়েছে। বাংলাদেশি ও ভারতীয় শ্রমিকের অংশগ্রহণের দাবি বাংলাদেশি প্রতিবেদনে আছে, তবে স্থানীয় সরকারি বক্তব্যে আটক ২১ জনের জাতীয়তা বা বাংলাদেশির সংখ্যা প্রকাশ করা হয়নি।",
+        "en": "Maldivian local media report that after a protest over unpaid wages and working conditions at the Kaafu Bolidhuffaru resort-development project, workers were taken to the airport for attempted repatriation and 21 were handed to Immigration custody. Bangladeshi reporting says Bangladeshis and Indians participated, but local official accounts did not disclose the 21 detainees’ nationalities or how many were Bangladeshi."
+      },
+      "category": "labour_dispute_detention_and_deportation",
+      "gender": "unknown",
+      "people_count": null,
+      "status": "source_reported_with_official_follow_up",
+      "nationality": "BD",
+      "nationality_basis": "Bangladeshi_participation_source_reported; detainee_nationality_breakdown_unconfirmed",
+      "location_precision": "project_site",
+      "sources": [
+        {
+          "name": "JagoNews24",
+          "url": "https://www.jagonews24.com/probash/news/1174613",
+          "date": "2026-11-02",
+          "language": "bn"
+        },
+        {
+          "name": "Maldives Now",
+          "url": "https://maldivesnow.today/article/mn-2026-000289",
+          "date": "2026-11-02",
+          "language": "en"
+        },
+        {
+          "name": "Adhadhu",
+          "url": "https://adhadhu.com/89420",
+          "date": "2026-11-03",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "মালদ্বীপ পুলিশ ও ইমিগ্রেশন",
+            "en": "Maldives Police and Immigration"
+          },
+          "response": {
+            "bn": "পুলিশ বলেছে ২২ বিদেশিকে বিমানবন্দরে নেওয়া হয়েছিল; একজন চলে যান এবং নির্দেশ না মানায় ২১ জনকে ইমিগ্রেশনের কাছে হস্তান্তর করা হয়। ইমিগ্রেশন নির্ধারিত নিয়মে ব্যবস্থা নেওয়ার কথা জানিয়েছে।",
+            "en": "Police said 22 foreign nationals were taken to the airport; one departed and 21 were handed to Immigration after refusing orders. Immigration said it would proceed under established procedures."
+          },
+          "source_url": "https://adhadhu.com/89420"
+        },
+        {
+          "actor": {
+            "bn": "ট্রান্সপারেন্সি মালদ্বীপ",
+            "en": "Transparency Maldives"
+          },
+          "response": {
+            "bn": "বিক্ষোভের কারণে শ্রমিকদের প্রত্যাবাসনের বিরোধিতা করে মুক্তি, সিদ্ধান্ত প্রত্যাহার এবং অধিকার-লঙ্ঘনের তদন্ত দাবি করেছে।",
+            "en": "Opposed deportation for protesting and called for release, reversal of the decision and investigation of potential rights violations."
+          },
+          "source_url": "https://maldivesnow.today/article/mn-2026-000289"
+        }
+      ],
+      "protests": [
+        {
+          "bn": "বকেয়া মজুরি, কর্মঘণ্টা, ওভারটাইম ও চিকিৎসাসুবিধা নিয়ে শ্রমিকদের বিক্ষোভের কথা প্রকাশিত প্রতিবেদনে আছে।",
+          "en": "Published reports describe a workers’ protest over unpaid wages, hours, overtime and medical benefits."
+        }
+      ],
+      "victim": {
+        "bn": "আটক শ্রমিকদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The detained workers’ identities are not republished"
+      },
+      "unknowns": {
+        "bn": "২১ জনের জাতীয়তা-বণ্টন, বাংলাদেশির সংখ্যা, চূড়ান্ত প্রত্যাবাসন সিদ্ধান্ত, বকেয়া মজুরির পরিমাণ ও অভিযোগগুলোর চূড়ান্ত তদন্ত-ফল নিশ্চিত নয়। প্রায় ১৫০ বাংলাদেশিকে ফেরত পাঠানোর আশঙ্কা শ্রমিকদের দাবি—নিশ্চিত সংখ্যা নয়।",
+        "en": "The 21 detainees’ nationality breakdown, number of Bangladeshis, final deportation decision, amount of unpaid wages and final investigation findings remain unconfirmed. The reported fear that about 150 Bangladeshis could be repatriated is a workers’ claim, not a confirmed total."
+      },
+      "follow_up": {
+        "bn": "আটকদের আইনি অবস্থা, জাতীয়তা-বণ্টন, প্রত্যাবাসন সিদ্ধান্ত, বকেয়া মজুরি ও শ্রম-তদন্ত অনুসরণ",
+        "en": "Track detainees’ legal status, nationality breakdown, deportation decisions, unpaid wages and labour investigation"
+      }
+    },
+    {
+      "id": "GR-SINTIKI-DETENTION-ESCAPE-20261101",
+      "country": "GR",
+      "event_date": "2026-11-01",
+      "published_date": "2026-11-02",
+      "title": {
+        "bn": "সিনতিকি আটককেন্দ্র থেকে ১০ বাংলাদেশির পালানো ও ৭ জনের পুনরায় আটক",
+        "en": "Ten Bangladeshis escape Sintiki detention centre; seven recaptured"
+      },
+      "summary": {
+        "bn": "গ্রিসের রাষ্ট্রীয় সম্প্রচারমাধ্যম ERT জানিয়েছে, সেরেসের সিনতিকি বন্ধ কেন্দ্রে আটক ১০ বাংলাদেশি ১ নভেম্বর পালান। পুলিশের তল্লাশিতে সাতজনকে পুনরায় আটক করা হয়; প্রতিবেদন প্রকাশের সময় তিনজনের সন্ধান চলছিল।",
+        "en": "Greek public broadcaster ERT reports that ten Bangladeshi nationals held at the closed Sintiki facility in Serres escaped on 1 November. Police recaptured seven; three were still being sought when the report was published."
+      },
+      "category": "immigration_detention_escape_and_rearrest",
+      "gender": "unknown",
+      "people_count": 10,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "ERT_reported_Bangladeshi_nationality",
+      "location_precision": "detention_facility",
+      "sources": [
+        {
+          "name": "ERT News",
+          "url": "https://www.ertnews.gr/eidiseis/serres-maziki-apodrasi-10-metanaston-apo-tin-kleisti-domi-sintikis-synelifthisan-oi-epta/",
+          "date": "2026-11-02",
+          "language": "el"
+        },
+        {
+          "name": "eKathimerini",
+          "url": "https://www.ekathimerini.com/news/1319999/seven-migrants-recaptured-after-escaping-from-detention-center-in-northern-greece/",
+          "date": "2026-11-02",
+          "language": "en"
+        },
+        {
+          "name": "JagoNews24",
+          "url": "https://www.jagonews24.com/probash/probash/news/1175092",
+          "date": "2026-11-03",
+          "language": "bn"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "গ্রিক পুলিশ",
+            "en": "Hellenic Police"
+          },
+          "response": {
+            "bn": "তল্লাশি চালিয়ে সাতজনকে পুনরায় আটক করা হয়েছে এবং তিনজনের খোঁজ চলছিল বলে সংবাদমাধ্যম জানিয়েছে।",
+            "en": "Media reported that police searched the area, recaptured seven and continued seeking three."
+          },
+          "source_url": "https://www.ertnews.gr/eidiseis/serres-maziki-apodrasi-10-metanaston-apo-tin-kleisti-domi-sintikis-synelifthisan-oi-epta/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The individuals’ identities are not republished"
+      },
+      "unknowns": {
+        "bn": "তাদের প্রাথমিক আটক ও আশ্রয় মামলার ভিত্তি, আনুষ্ঠানিক অভিযোগ, আইনজীবীর প্রবেশাধিকার এবং বাকি তিনজনের পরবর্তী অবস্থা প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The basis for their initial detention and asylum cases, formal charges, access to counsel and the later status of the remaining three are not established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "বাকি তিনজনের অবস্থা, আনুষ্ঠানিক অভিযোগ ও আদালত/আশ্রয়-প্রক্রিয়া অনুসরণ",
+        "en": "Track the remaining three, formal charges and court/asylum proceedings"
       }
     }
   ]
