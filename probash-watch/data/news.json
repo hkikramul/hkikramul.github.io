@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T04:01:41.977Z",
-  "last_successful_scan_at": "2026-11-03T04:01:41.977Z",
+  "updated_at": "2026-11-03T16:03:38.575Z",
+  "last_successful_scan_at": "2026-11-03T16:03:38.575Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-02",
+  "coverage_end": "2026-11-03",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1688,6 +1688,126 @@
       "status": "source_reported",
       "nationality_basis": "Bangladesh_remittance_reporting",
       "added_at": "2026-11-03T04:01:41.977Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-BOLIDHUFFARU-WAGE-PROTEST-JAGO-20261102",
+      "country": "MV",
+      "published_date": "2026-11-02",
+      "event_date": "2026-11-01",
+      "publisher": "JagoNews24",
+      "url": "https://www.jagonews24.com/probash/news/1174613",
+      "language": "bn",
+      "title": {
+        "bn": "মালদ্বীপে মজুরি-বিক্ষোভের পর বাংলাদেশিসহ শ্রমিকদের আটক ও প্রত্যাবাসন-শঙ্কা",
+        "en": "Workers including Bangladeshis detained after Maldives wage protest; repatriation feared"
+      },
+      "summary": {
+        "bn": "জাগোনিউজ জানিয়েছে, মালদ্বীপের একটি রিসোর্ট নির্মাণ প্রকল্পে বকেয়া বেতন, কর্মঘণ্টা, ওভারটাইম ও চিকিৎসাসুবিধা নিয়ে আন্দোলনের পর বাংলাদেশি ও ভারতীয়সহ ২০–২৫ জন শ্রমিককে পুলিশ আটক করেছে বলে শ্রমিকেরা দাবি করেছেন। প্রায় ১৫০ বাংলাদেশিকে ফেরত পাঠানোর আশঙ্কাটিও শ্রমিকদের বক্তব্য; আটক বা প্রত্যাবাসনের নিশ্চিত সংখ্যা নয়। কোম্পানি, পুলিশ বা কর্তৃপক্ষের আনুষ্ঠানিক বক্তব্য তখন পাওয়া যায়নি।",
+        "en": "JagoNews reports workers’ claims that police detained 20–25 workers, including Bangladeshis and Indians, after a protest over unpaid wages, hours, overtime and medical benefits at a Maldives resort-development project. The reported fear that about 150 Bangladeshis could be repatriated is a workers’ concern, not a confirmed detention or deportation total. The report said no formal response from the company, police or authorities was then available."
+      },
+      "record_type": "incident",
+      "incident_key": "MV-BOLIDHUFFARU-WAGE-PROTEST-20261101",
+      "status": "source_reported_allegation",
+      "nationality_basis": "Bangladeshi_and_Indian_participation_reported_by_workers; exact_nationality_breakdown_unconfirmed",
+      "added_at": "2026-11-03T16:03:38.575Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-BOLIDHUFFARU-DEPORTATION-FOLLOWUP-ADHADHU-20261103",
+      "country": "MV",
+      "published_date": "2026-11-03",
+      "event_date": "2026-11-02",
+      "publisher": "Adhadhu",
+      "url": "https://adhadhu.com/89420",
+      "language": "en",
+      "title": {
+        "bn": "মালদ্বীপে মজুরি-বিক্ষোভের পর ২১ বিদেশি শ্রমিক ইমিগ্রেশন হেফাজতে",
+        "en": "Twenty-one foreign workers held by Maldives Immigration after wage protest"
+      },
+      "summary": {
+        "bn": "আধাধু জানিয়েছে, কাফু বলিধুফারু রিসোর্ট প্রকল্পে মজুরি ও কল্যাণ-দাবির বিক্ষোভের পর ২২ বিদেশি শ্রমিককে প্রত্যাবাসনের জন্য বিমানবন্দরে নেওয়া হয়; একজন চলে গেলেও ২১ জন যেতে অস্বীকৃতি জানালে তাদের ইমিগ্রেশনের কাছে হস্তান্তর করা হয়। পুলিশ ও ইমিগ্রেশন এ প্রক্রিয়ার কথা বলেছে; ট্রান্সপারেন্সি মালদ্বীপ প্রতিবাদ-অধিকার উল্লেখ করে প্রত্যাবাসনের সিদ্ধান্ত প্রত্যাহারের দাবি জানিয়েছে। এই স্থানীয় প্রতিবেদনে ২১ জনের জাতীয়তা বা বাংলাদেশির সংখ্যা নিশ্চিত করা হয়নি।",
+        "en": "Adhadhu reports that after a protest over wages and welfare at the Kaafu Bolidhuffaru resort project, 22 foreign workers were taken to the airport for repatriation; one departed, while 21 who refused were handed to Maldives Immigration. Police and Immigration described the process, while Transparency Maldives invoked the right to protest and called for reversal of the deportation decision. The local report did not confirm the 21 workers’ nationalities or how many were Bangladeshi."
+      },
+      "record_type": "follow_up",
+      "incident_key": "MV-BOLIDHUFFARU-WAGE-PROTEST-20261101",
+      "status": "official_actions_reported; nationality_breakdown_unconfirmed",
+      "nationality_basis": "linked_event_has_source_reported_Bangladeshi_participation; local_follow_up_does_not_specify_nationalities",
+      "added_at": "2026-11-03T16:03:38.575Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-EMPLOYMENT-CONTRACT-COPY-GUIDANCE-JAGO-20261102",
+      "country": "MV",
+      "published_date": "2026-11-02",
+      "event_date": "2026-11-01",
+      "publisher": "JagoNews24 / Bangladesh High Commission in Maldives",
+      "url": "https://www.jagonews24.com/probash/news/1174596",
+      "language": "bn",
+      "title": {
+        "bn": "মালদ্বীপে কর্মরত বাংলাদেশিদের চুক্তিপত্রের কপি সংরক্ষণের নির্দেশনা",
+        "en": "Bangladeshis working in Maldives advised to retain employment-contract copies"
+      },
+      "summary": {
+        "bn": "মালদ্বীপে বাংলাদেশ হাইকমিশনের ১ নভেম্বরের বিজ্ঞপ্তির বরাতে জাগোনিউজ জানিয়েছে, প্রত্যেক বাংলাদেশি কর্মীকে নিয়োগকর্তার সঙ্গে লিখিত চাকরির চুক্তি করতে এবং তার একটি কপি নিরাপদে রাখতে বলা হয়েছে। চুক্তিতে কাজ ও দায়িত্ব, বেতন, সুবিধা ও অন্যান্য শর্ত স্পষ্টভাবে উল্লেখ থাকার কথা।",
+        "en": "Citing a 1 November notice from the Bangladesh High Commission in Maldives, JagoNews reports that every Bangladeshi worker was advised to have a written employment contract with the employer and keep a copy safely. The contract should clearly state the work and duties, salary, benefits and other employment terms."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_notice_reported",
+      "nationality_basis": "Bangladesh_High_Commission_guidance_for_Bangladeshi_workers",
+      "added_at": "2026-11-03T16:03:38.575Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "GR-SINTIKI-DETENTION-ESCAPE-ERT-20261102",
+      "country": "GR",
+      "published_date": "2026-11-02",
+      "event_date": "2026-11-01",
+      "publisher": "ERT News",
+      "url": "https://www.ertnews.gr/eidiseis/serres-maziki-apodrasi-10-metanaston-apo-tin-kleisti-domi-sintikis-synelifthisan-oi-epta/",
+      "language": "el",
+      "title": {
+        "bn": "গ্রিসের সিনতিকি আটককেন্দ্র থেকে ১০ বাংলাদেশির পালানো; ৭ জন পুনরায় আটক",
+        "en": "Ten Bangladeshis escape Greece's Sintiki facility; seven recaptured"
+      },
+      "summary": {
+        "bn": "গ্রিসের রাষ্ট্রীয় সম্প্রচারমাধ্যম ERT জানিয়েছে, ১ নভেম্বর সেরেসের সিনতিকি বন্ধ কেন্দ্রে আটক ২১–৩৭ বছর বয়সী ১০ বাংলাদেশি পালান। পুলিশি তল্লাশিতে সাতজনকে পুনরায় আটক করা হয়; প্রকাশিত প্রতিবেদন অনুযায়ী বাকি তিনজনের সন্ধান চলছিল। ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Greek public broadcaster ERT reports that on 1 November, ten Bangladeshi nationals aged 21–37 escaped from the closed Sintiki facility in Serres. A police search recaptured seven; according to the published report, three remained sought. The individuals’ identities are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "GR-SINTIKI-DETENTION-ESCAPE-20261101",
+      "status": "source_reported",
+      "nationality_basis": "ERT_reported_Bangladeshi_nationality",
+      "added_at": "2026-11-03T16:03:38.575Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "GR-SINTIKI-DETENTION-ESCAPE-JAGO-20261103",
+      "country": "GR",
+      "published_date": "2026-11-03",
+      "event_date": "2026-11-01",
+      "publisher": "JagoNews24",
+      "url": "https://www.jagonews24.com/probash/probash/news/1175092",
+      "language": "bn",
+      "title": {
+        "bn": "গ্রিসে আটককেন্দ্র থেকে পালানো ১০ বাংলাদেশির মধ্যে ৭ জন ফের আটক",
+        "en": "Seven of ten Bangladeshis who escaped Greek detention centre recaptured"
+      },
+      "summary": {
+        "bn": "জাগোনিউজ গ্রিসের কাথিমেরিনি ও ERT-এর প্রতিবেদনের ভিত্তিতে জানিয়েছে, সিনতিকি আটককেন্দ্র থেকে পালানো ১০ বাংলাদেশির সাতজনকে পুলিশ পুনরায় আটক করেছে এবং তিনজনের খোঁজ চলছিল। এটি গ্রিক উৎসগুলোর একই ঘটনার পুনরায় প্রতিবেদন; স্বাধীন দ্বিতীয় তদন্ত হিসেবে গণনা করা হয়নি।",
+        "en": "JagoNews, citing Greek coverage by Kathimerini and ERT, reports that police recaptured seven of ten Bangladeshis who escaped from the Sintiki detention facility and were still searching for three. This is secondary coverage of the same event, not treated as an independent second investigation."
+      },
+      "record_type": "incident",
+      "incident_key": "GR-SINTIKI-DETENTION-ESCAPE-20261101",
+      "status": "source_reported",
+      "nationality_basis": "source_reported_citing_Greek_media",
+      "added_at": "2026-11-03T16:03:38.575Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
