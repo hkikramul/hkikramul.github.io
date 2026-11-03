@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T03:57:19.932Z",
+  "updated_at": "2026-11-03T04:01:41.977Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1380,6 +1380,153 @@
       "follow_up": {
         "bn": "আনুষ্ঠানিক অভিযোগ, আদালতের কার্যক্রম ও রায়ের ফল অনুসরণ",
         "en": "Track formal charges, court proceedings and outcome"
+      }
+    },
+    {
+      "id": "AE-SHARJAH-ROAD-CRASH-20261029",
+      "country": "AE",
+      "event_date": "2026-10-29",
+      "published_date": "2026-11-01",
+      "title": {
+        "bn": "শারজাহতে কর্মস্থলে যাওয়ার পথে সড়ক দুর্ঘটনায় বাংলাদেশি নিহত",
+        "en": "Bangladeshi killed in Sharjah road crash while travelling to work"
+      },
+      "summary": {
+        "bn": "২৯ অক্টোবর শারজাহর আল খোয়াজামিয়া এলাকায় কর্মস্থলে যাওয়ার পথে পিকআপে থাকা এক বাংলাদেশি লরির ধাক্কায় গুরুতর আহত হন এবং হাসপাতালে নেওয়ার পর মারা যান বলে বিডিনিউজ টোয়েন্টিফোর জানিয়েছে।",
+        "en": "bdnews24 reports that on 29 October a Bangladeshi travelling to work in a pickup was seriously injured when a lorry struck it in Sharjah's Al Khawazamiah area and died after being taken to hospital."
+      },
+      "category": "accident",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported_as_Bangladeshi_expatriate",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "bdnews24.com",
+          "url": "https://bangla.bdnews24.com/bangladesh/9s9leg7ghc",
+          "date": "2026-11-01",
+          "language": "bn"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "নিহত ব্যক্তির পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The deceased person's identity is not republished"
+      },
+      "unknowns": {
+        "bn": "চূড়ান্ত পুলিশি তদন্ত, সংঘর্ষের দায় এবং ক্ষতিপূরণ বা বীমার অবস্থা প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The final police investigation, attribution of responsibility and any compensation or insurance status are not established in the cited source."
+      },
+      "follow_up": {
+        "bn": "পুলিশি তদন্ত, মরদেহ প্রত্যাবাসন ও ক্ষতিপূরণের অবস্থা অনুসরণ",
+        "en": "Track the police investigation, repatriation and compensation status"
+      }
+    },
+    {
+      "id": "AE-FUJAIRAH-ROAD-CRASH-20261030",
+      "country": "AE",
+      "event_date": "2026-10-30",
+      "published_date": "2026-11-01",
+      "title": {
+        "bn": "ফুজাইরাহ–খোরফাক্কান সড়কে বাংলাদেশি ডেলিভারি কর্মী নিহত",
+        "en": "Bangladeshi delivery worker killed on Fujairah–Khor Fakkan road"
+      },
+      "summary": {
+        "bn": "৩০ অক্টোবর ফুজাইরাহ–খোরফাক্কান সড়কের আল ফৌজ এলাকায় দাঁড়িয়ে থাকা ট্রাকের সঙ্গে মোটরসাইকেলের সংঘর্ষে পণ্য সরবরাহের কাজে থাকা এক বাংলাদেশি নিহত হন বলে বিডিনিউজ টোয়েন্টিফোর জানিয়েছে।",
+        "en": "bdnews24 reports that on 30 October a Bangladeshi working in goods delivery was killed when his motorcycle collided with a stationary truck in the Al Fawz area of the Fujairah–Khor Fakkan road."
+      },
+      "category": "accident",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported_as_Bangladeshi_expatriate",
+      "location_precision": "region",
+      "sources": [
+        {
+          "name": "bdnews24.com",
+          "url": "https://bangla.bdnews24.com/bangladesh/9s9leg7ghc",
+          "date": "2026-11-01",
+          "language": "bn"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "নিহত ব্যক্তির পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The deceased person's identity is not republished"
+      },
+      "unknowns": {
+        "bn": "চূড়ান্ত পুলিশি তদন্ত, ট্রাকের অবস্থান বা চালকের বিষয়ে সিদ্ধান্ত এবং ক্ষতিপূরণ বা বীমার অবস্থা প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The final police investigation, findings about the truck or driver, and any compensation or insurance status are not established in the cited source."
+      },
+      "follow_up": {
+        "bn": "পুলিশি তদন্ত, মরদেহ প্রত্যাবাসন ও ক্ষতিপূরণের অবস্থা অনুসরণ",
+        "en": "Track the police investigation, repatriation and compensation status"
+      }
+    },
+    {
+      "id": "KW-ADAN-FOUR-VEHICLE-CRASH-20261028",
+      "country": "KW",
+      "event_date": "2026-10-28",
+      "published_date": "2026-10-29",
+      "title": {
+        "bn": "কুয়েতের আদানে চার গাড়ির সংঘর্ষে বাংলাদেশি ডেলিভারি কর্মী নিহত",
+        "en": "Bangladeshi delivery worker dies in four-vehicle collision in Adan, Kuwait"
+      },
+      "summary": {
+        "bn": "২৮ অক্টোবর কুয়েতের আদান এলাকার একটি অভ্যন্তরীণ সড়কে চার গাড়ির সংঘর্ষে মোটরসাইকেলে থাকা এক বাংলাদেশি ডেলিভারি কর্মী গুরুতর আহত হন এবং পরে হাসপাতালে মারা যান বলে আরব টাইমস ও বিডিনিউজ টোয়েন্টিফোর জানিয়েছে।",
+        "en": "Arab Times and bdnews24 report that on 28 October a Bangladeshi delivery worker riding a motorcycle was seriously injured in a four-vehicle collision on an internal road in Adan, Kuwait, and later died in hospital."
+      },
+      "category": "accident",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "Kuwait_security_sources_reported_Bangladeshi_nationality",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Arab Times",
+          "url": "https://www.arabtimesonline.com/news/bangladeshi-delivery-worker-dies-in-four-vehicle-collision/",
+          "date": "2026-10-29",
+          "language": "en"
+        },
+        {
+          "name": "bdnews24.com",
+          "url": "https://bangla.bdnews24.com/probash/5pzjb5uhx3",
+          "date": "2026-10-31",
+          "language": "bn"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "কুয়েতের স্বরাষ্ট্র মন্ত্রণালয়ের অপারেশনস রুম",
+            "en": "Kuwait Interior Ministry Operations Room"
+          },
+          "response": {
+            "bn": "সংঘর্ষের খবর পেয়ে নিরাপত্তাকর্মীদের ঘটনাস্থলে পাঠানো হয়েছিল বলে স্থানীয় সংবাদমাধ্যম জানিয়েছে।",
+            "en": "Local media reported that security personnel were dispatched after the Operations Room received notice of the collision."
+          },
+          "source_url": "https://www.arabtimesonline.com/news/bangladeshi-delivery-worker-dies-in-four-vehicle-collision/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "নিহত ব্যক্তির পরিচয় ও জন্মসাল পুনঃপ্রকাশ করা হয়নি",
+        "en": "The deceased person's identity and birth year are not republished"
+      },
+      "unknowns": {
+        "bn": "চূড়ান্ত দুর্ঘটনা তদন্ত, দায় নির্ধারণ এবং ক্ষতিপূরণ বা বীমার অবস্থা প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The final crash investigation, attribution of responsibility and any compensation or insurance status are not established in the cited sources."
+      },
+      "follow_up": {
+        "bn": "দুর্ঘটনা তদন্ত ও ক্ষতিপূরণের অবস্থা অনুসরণ",
+        "en": "Track the crash investigation and compensation status"
       }
     }
   ]
