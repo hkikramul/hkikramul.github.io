@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T16:06:03.404Z",
-  "last_successful_scan_at": "2026-11-02T16:06:03.404Z",
+  "updated_at": "2026-11-03T04:01:41.977Z",
+  "last_successful_scan_at": "2026-11-03T04:01:41.977Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-02",
@@ -1616,6 +1616,78 @@
       "status": "source_reported_proposal",
       "nationality_basis": "diaspora_organisation_public_proposal",
       "added_at": "2026-11-02T16:06:03.404Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "AE-SEPARATE-ROAD-DEATHS-BDNEWS-20261101",
+      "country": "AE",
+      "published_date": "2026-11-01",
+      "event_date": null,
+      "publisher": "bdnews24.com",
+      "url": "https://bangla.bdnews24.com/bangladesh/9s9leg7ghc",
+      "language": "bn",
+      "title": {
+        "bn": "আমিরাতে পৃথক দুই সড়ক দুর্ঘটনায় দুই বাংলাদেশি নিহত",
+        "en": "Two Bangladeshis killed in separate UAE road crashes"
+      },
+      "summary": {
+        "bn": "বিডিনিউজ টোয়েন্টিফোর জানিয়েছে, ২৯ অক্টোবর শারজাহর আল খোয়াজামিয়া এলাকায় কর্মস্থলে যাওয়ার পথে পিকআপে থাকা এক বাংলাদেশি লরির ধাক্কায় আহত হয়ে হাসপাতালে মারা যান। ৩০ অক্টোবর ফুজাইরাহ–খোরফাক্কান সড়কে দাঁড়িয়ে থাকা ট্রাকের সঙ্গে মোটরসাইকেলের সংঘর্ষে পণ্য সরবরাহের কাজে থাকা আরেক বাংলাদেশি নিহত হন। এগুলো পৃথক ঘটনা; ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "bdnews24 reports that on 29 October a Bangladeshi travelling to work in a pickup was struck by a lorry in Sharjah's Al Khawazamiah area and died after being taken to hospital. On 30 October, another Bangladeshi working in goods delivery was killed when his motorcycle collided with a stationary truck on the Fujairah–Khor Fakkan road. These are separate incidents; the individuals' identities are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported_as_Bangladeshi_expatriates",
+      "added_at": "2026-11-03T04:01:41.977Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KW-ADAN-DELIVERY-CRASH-BDNEWS-20261031",
+      "country": "KW",
+      "published_date": "2026-10-31",
+      "event_date": "2026-10-28",
+      "publisher": "bdnews24.com / Arab Times",
+      "url": "https://bangla.bdnews24.com/probash/5pzjb5uhx3",
+      "language": "bn",
+      "title": {
+        "bn": "কুয়েতে চার গাড়ির সংঘর্ষে বাংলাদেশি ডেলিভারি কর্মী নিহত",
+        "en": "Bangladeshi delivery worker dies after four-vehicle collision in Kuwait"
+      },
+      "summary": {
+        "bn": "কুয়েতের স্থানীয় সংবাদমাধ্যম ও স্বরাষ্ট্র মন্ত্রণালয়ের অপারেশনস রুমের বরাতে বিডিনিউজ টোয়েন্টিফোর জানিয়েছে, ২৮ অক্টোবর আদান এলাকার একটি অভ্যন্তরীণ সড়কে চার গাড়ির সংঘর্ষে মোটরসাইকেল চালানো এক বাংলাদেশি ডেলিভারি কর্মী গুরুতর আহত হন এবং পরে হাসপাতালে মারা যান। পরিচয় ও জন্মসাল পুনঃপ্রকাশ করা হয়নি; চূড়ান্ত দুর্ঘটনা তদন্তের ফল প্রকাশিত নয়।",
+        "en": "bdnews24, citing Kuwaiti local media and the Interior Ministry's Operations Room, reports that on 28 October a Bangladeshi delivery worker riding a motorcycle was seriously injured in a four-vehicle collision on an internal road in Adan and later died in hospital. His identity and birth year are not republished; no final crash-investigation finding is cited."
+      },
+      "record_type": "incident",
+      "incident_key": "KW-ADAN-FOUR-VEHICLE-CRASH-20261028",
+      "status": "source_reported",
+      "nationality_basis": "Kuwait_security_sources_reported_Bangladeshi_nationality",
+      "added_at": "2026-11-03T04:01:41.977Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-REMITTANCE-JUL-NOV1-BSS-20261102",
+      "country": "MULTI",
+      "published_date": "2026-11-02",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/business/441212",
+      "language": "en",
+      "title": {
+        "bn": "১ জুলাই–১ নভেম্বর রেমিট্যান্স ১১.৬৮৭ বিলিয়ন ডলার",
+        "en": "Remittances reach $11.687 billion from 1 July through 1 November"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ১ জুলাই–১ নভেম্বর ২০২৬ সময়ে বাংলাদেশে কর্মীদের রেমিট্যান্স এসেছে ১১.৬৮৭ বিলিয়ন ডলার; আগের অর্থবছরের একই সময়ে ছিল ১০.১৯২ বিলিয়ন ডলার। প্রতিবেদনটি ১৪.৭% বছরওয়ারি বৃদ্ধির কথা বলেছে। এগুলো আংশিক অর্থবছরের তুলনামূলক সময়কাল—পূর্ণ অর্থবছর বা ক্যালেন্ডার-বছরের মোট নয়।",
+        "en": "BSS reports $11.687 billion in workers' remittances from 1 July through 1 November 2026, compared with $10.192 billion in the corresponding period of the previous fiscal year, a reported 14.7% year-on-year increase. These are comparable partial-fiscal-year periods, not full fiscal- or calendar-year totals."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_remittance_reporting",
+      "added_at": "2026-11-03T04:01:41.977Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
