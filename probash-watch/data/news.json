@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T16:03:38.575Z",
-  "last_successful_scan_at": "2026-11-03T16:03:38.575Z",
+  "updated_at": "2026-11-04T03:59:37.696Z",
+  "last_successful_scan_at": "2026-11-04T03:59:37.696Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-03",
@@ -1808,6 +1808,126 @@
       "status": "source_reported",
       "nationality_basis": "source_reported_citing_Greek_media",
       "added_at": "2026-11-03T16:03:38.575Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-FLIGHT-DISRUPTION-CAAB-TBS-20261103",
+      "country": "SA",
+      "published_date": "2026-11-03",
+      "event_date": null,
+      "publisher": "The Business Standard / Civil Aviation Authority of Bangladesh",
+      "url": "https://www.tbsnews.net/economy/aviation/saudi-airport-restrictions-23077-passengers-affected-171-flights-disrupted-so-far",
+      "language": "en",
+      "title": {
+        "bn": "সৌদি বিমানবন্দর বিধিনিষেধে বাংলাদেশ-সংশ্লিষ্ট ১৭১ ফ্লাইট বিঘ্নিত",
+        "en": "Saudi airport restrictions disrupt 171 Bangladesh-related flights"
+      },
+      "summary": {
+        "bn": "CAAB-এর ASM Flight Management তথ্যের বরাতে দ্য বিজনেস স্ট্যান্ডার্ড জানিয়েছে, ৩ নভেম্বর পর্যন্ত সৌদি বিমানবন্দর-সংক্রান্ত বিধিনিষেধে বাংলাদেশ-সংশ্লিষ্ট ৯৪টি সরাসরি ও ৭৭টি ট্রানজিট ফ্লাইট—মোট ১৭১টি—বিঘ্নিত হয়েছে এবং ২৩,০৭৭ যাত্রী প্রভাবিত হয়েছেন। যাত্রীদের জাতীয়তা আলাদা করে দেওয়া হয়নি; তাই ২৩,০৭৭-কে বাংলাদেশি নাগরিকের সংখ্যা হিসেবে গণনা করা হয়নি।",
+        "en": "The Business Standard, citing CAAB's ASM Flight Management data, reports that by 3 November Saudi airport restrictions had disrupted 94 direct and 77 transit flights involving Bangladesh—171 in total—affecting 23,077 passengers. Passenger nationalities were not broken down, so 23,077 is not treated as the number of Bangladeshi citizens."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "official_data_reported",
+      "nationality_basis": "Bangladesh_related_flights; passenger_nationalities_not_specified",
+      "added_at": "2026-11-04T03:59:37.696Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-DAMMAM-FLIGHTS-RESUME-BSS-20261103",
+      "country": "SA",
+      "published_date": "2026-11-03",
+      "event_date": "2026-11-07",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS) / Biman Bangladesh Airlines",
+      "url": "https://www.bssnews.net/others/441612",
+      "language": "en",
+      "title": {
+        "bn": "৭ নভেম্বর থেকে বিমানের দাম্মাম ফ্লাইট চালু; রিয়াদ রুট স্থগিতই থাকবে",
+        "en": "Biman to resume Dammam flights on 7 November; Riyadh route remains suspended"
+      },
+      "summary": {
+        "bn": "বিমানের সংবাদ বিজ্ঞপ্তির বরাতে বাসস জানিয়েছে, ঢাকা–দাম্মাম–ঢাকা নিয়মিত ফ্লাইট ৭ নভেম্বর থেকে দিনের বেলায় পুনরায় চলবে। নিরাপত্তা ও পরিচালনাগত অনিশ্চয়তার কারণে ঢাকা–রিয়াদ–ঢাকা ফ্লাইট পরবর্তী নির্দেশ না দেওয়া পর্যন্ত স্থগিত থাকবে; যাত্রীদের হালনাগাদ সময়সূচির জন্য বিমান বিক্রয়কেন্দ্রে যোগাযোগ করতে বলা হয়েছে।",
+        "en": "BSS, citing a Biman Bangladesh Airlines release, reports that regular Dhaka–Dammam–Dhaka flights will resume in daytime from 7 November. Dhaka–Riyadh–Dhaka services will remain suspended until further notice because of security and operational uncertainty; passengers were told to contact Biman sales centres for current schedules."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_notice_reported",
+      "nationality_basis": "Bangladesh_national_carrier_routes_serving_Saudi_travel",
+      "added_at": "2026-11-04T03:59:37.696Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "AE-SKILLED-WORKER-WELFARE-TALKS-BSS-20261103",
+      "country": "AE",
+      "published_date": "2026-11-03",
+      "event_date": "2026-11-02",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS) / Ministry of Foreign Affairs",
+      "url": "https://www.bssnews.net/news/441370",
+      "language": "en",
+      "title": {
+        "bn": "UAE-তে দক্ষ কর্মসংস্থান ও প্রবাসী কল্যাণ নিয়ে বাংলাদেশ–আমিরাত আলোচনা",
+        "en": "Bangladesh and UAE discuss skilled employment and expatriate welfare"
+      },
+      "summary": {
+        "bn": "পররাষ্ট্র মন্ত্রণালয়ের সংবাদ বিজ্ঞপ্তির বরাতে বাসস জানিয়েছে, ২ নভেম্বর দুই দেশের মন্ত্রীরা UAE শ্রমবাজারে দক্ষ ও আধা-দক্ষ বাংলাদেশিদের কর্মসংস্থান সহজ করা এবং সেখানে থাকা বাংলাদেশিদের কল্যাণ সুরক্ষার বিষয়ে আলোচনা করেছেন। এটি দ্বিপক্ষীয় আলোচনার বিবরণ—নতুন নিয়োগ কোটা, ভিসা খোলা বা নিশ্চিত চাকরির ঘোষণা নয়।",
+        "en": "BSS, citing a foreign ministry release, reports that on 2 November the two countries' ministers discussed facilitating employment for skilled and semi-skilled Bangladeshis in the UAE labour market and safeguarding the welfare of Bangladeshis already there. This describes bilateral talks, not a new hiring quota, visa reopening or guaranteed jobs."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_talks_reported",
+      "nationality_basis": "Bangladesh_foreign_ministry_statement_on_Bangladeshi_workers_and_residents",
+      "added_at": "2026-11-04T03:59:37.696Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-FAIR-RECRUITMENT-JOINT-MONITORING-BSS-20261103",
+      "country": "MY",
+      "published_date": "2026-11-03",
+      "event_date": "2026-11-03",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS) / Ministry of Foreign Affairs",
+      "url": "https://www.bssnews.net/news-flash/441722",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় বাংলাদেশি কর্মী নিয়োগে যৌথ পরিদর্শন ও monitoring নিয়ে আলোচনা",
+        "en": "Bangladesh and Malaysia discuss joint monitoring of worker recruitment"
+      },
+      "summary": {
+        "bn": "পররাষ্ট্র মন্ত্রণালয়ের বিজ্ঞপ্তির বরাতে বাসস জানিয়েছে, ৩ নভেম্বর বাংলাদেশের ভারপ্রাপ্ত পররাষ্ট্রমন্ত্রী ও মালয়েশিয়ার পররাষ্ট্রমন্ত্রী বাংলাদেশি কর্মী নিয়োগে স্বচ্ছতা ও ন্যায্যতা নিশ্চিত করতে যৌথ পরিদর্শন ও monitoring-এর প্রয়োজনীয়তা আলোচনা করেছেন। এটি আলোচ্য ব্যবস্থা; কার্যকর নতুন পরিদর্শন কাঠামো বা নিয়োগসংখ্যা ঘোষণা করা হয়নি।",
+        "en": "BSS, citing a foreign ministry release, reports that on 3 November Bangladesh's acting foreign minister and Malaysia's foreign minister discussed the need for joint inspections and monitoring to make recruitment of Bangladeshi workers fair and transparent. This is a proposed approach under discussion; no implemented inspection framework or hiring number was announced."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_talks_reported",
+      "nationality_basis": "official_statement_explicitly_about_Bangladeshi_worker_recruitment",
+      "added_at": "2026-11-04T03:59:37.696Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-WORKER-DO-DONT-GUIDANCE-JAGO-20261102",
+      "country": "SA",
+      "published_date": "2026-11-02",
+      "event_date": "2026-11-02",
+      "publisher": "JagoNews24 / Ministry of Expatriates' Welfare and Overseas Employment",
+      "url": "https://www.jagonews24.com/probash/news/1174855",
+      "language": "bn",
+      "title": {
+        "bn": "সৌদি আরবে বাংলাদেশি কর্মীদের জন্য ভিসা, চুক্তি, বেতন ও নিরাপত্তা নির্দেশনা",
+        "en": "Guidance for Bangladeshi workers in Saudi Arabia on visas, contracts, pay and safety"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণ মন্ত্রণালয়ের ২ নভেম্বরের নির্দেশনার বরাতে জাগোনিউজ জানিয়েছে, কর্মীদের ভিসা ও নিয়োগচুক্তি যাচাই, BMET ছাড়পত্র, পাসপোর্ট নিজের কাছে রাখা, QIWA-তে চুক্তি পরীক্ষা, ব্যাংকিং চ্যানেলে বেতন নেওয়া এবং প্রমাণ সংরক্ষণের পরামর্শ দেওয়া হয়েছে। শ্রম-অভিযোগে ১৯৯১১ বা দূতাবাসে যোগাযোগ এবং জরুরি অবস্থায় ৯১১/৯৯৯ ব্যবহারের কথাও বলা হয়েছে।",
+        "en": "JagoNews, citing 2 November guidance from the expatriates' welfare ministry, reports advice to verify visas and contracts, complete BMET clearance, retain one's passport, check contracts through QIWA, receive wages through banking channels and preserve evidence. The guidance also directs labour complaints to 19911 or the embassy and emergencies to 911/999."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_guidance_reported",
+      "nationality_basis": "Bangladesh_ministry_guidance_for_Bangladeshi_workers_in_Saudi_Arabia",
+      "added_at": "2026-11-04T03:59:37.696Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
