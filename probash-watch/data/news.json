@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T03:59:37.696Z",
-  "last_successful_scan_at": "2026-11-04T03:59:37.696Z",
+  "updated_at": "2026-11-04T16:05:46.290Z",
+  "last_successful_scan_at": "2026-11-04T16:05:46.290Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-03",
+  "coverage_end": "2026-11-04",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -1928,6 +1928,174 @@
       "status": "official_guidance_reported",
       "nationality_basis": "Bangladesh_ministry_guidance_for_Bangladeshi_workers_in_Saudi_Arabia",
       "added_at": "2026-11-04T03:59:37.696Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KW-FACEBOOK-MURDER-DEATH-SENTENCE-ARABTIMES-20261103",
+      "country": "KW",
+      "published_date": "2026-11-03",
+      "event_date": "2026-11-03",
+      "publisher": "Arab Times Kuwait",
+      "url": "https://www.arabtimesonline.com/news/kuwait-court-sentences-bangladeshi-man-to-death-for-stabbing-friend-over-wifes-photos-on-facebook/",
+      "language": "en",
+      "title": {
+        "bn": "কুয়েতে বন্ধুকে হত্যার মামলায় বাংলাদেশির মৃত্যুদণ্ড",
+        "en": "Bangladeshi sentenced to death in Kuwait for friend's murder"
+      },
+      "summary": {
+        "bn": "কুয়েতের ফৌজদারি আদালত এক বাংলাদেশি প্রবাসীকে পূর্বপরিকল্পিত হত্যার দায়ে মৃত্যুদণ্ড দিয়েছে বলে স্থানীয় সংবাদমাধ্যম জানিয়েছে। প্রতিবেদনে প্রসিকিউশনের বক্তব্য ও আদালতে আসামির স্বীকারোক্তির কথা আছে; আপিলের অবস্থা নিশ্চিত নয় এবং সংশ্লিষ্ট ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Kuwaiti local media report that a criminal court sentenced a Bangladeshi expatriate to death for premeditated murder. The report cites the prosecution and says the defendant admitted the charge in court; the appeal status is not established, and identities are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "KW-FACEBOOK-MURDER-DEATH-SENTENCE-20261103",
+      "status": "court_conviction_reported",
+      "nationality_basis": "Arab_Times_reported_Bangladeshi_nationality",
+      "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "KW-E-CIGARETTE-SALES-ARRESTS-ARABTIMES-20261103",
+      "country": "KW",
+      "published_date": "2026-11-03",
+      "event_date": null,
+      "publisher": "Arab Times Kuwait",
+      "url": "https://www.arabtimesonline.com/news/5-bangladeshis-arrested-in-kuwait-for-selling-e-cigarettes-to-school-students/",
+      "language": "en",
+      "title": {
+        "bn": "কুয়েতে শিক্ষার্থীদের ই-সিগারেট বিক্রির অভিযোগে পাঁচ বাংলাদেশি গ্রেপ্তার",
+        "en": "Five Bangladeshis arrested in Kuwait over alleged e-cigarette sales to students"
+      },
+      "summary": {
+        "bn": "কুয়েতের অপরাধ তদন্ত বিভাগ পাঁচ বাংলাদেশিকে একটি আবাসিক বাড়ির ভেতর অবৈধভাবে পরিচালিত দোকান থেকে স্কুলশিক্ষার্থীদের ই-সিগারেট বিক্রির অভিযোগে গ্রেপ্তার করেছে বলে স্থানীয় সংবাদমাধ্যম জানিয়েছে। এটি গ্রেপ্তার ও অভিযোগের খবর; আদালতে দোষ প্রমাণিত হওয়ার তথ্য নেই।",
+        "en": "Kuwaiti local media report that the Criminal Investigation Department arrested five Bangladeshis accused of selling e-cigarettes to school students from an allegedly unlicensed grocery inside a residence. This is an arrest and allegation report; no court finding is established."
+      },
+      "record_type": "incident",
+      "incident_key": "KW-E-CIGARETTE-SALES-ARRESTS-20261103",
+      "status": "police_reported_allegation",
+      "nationality_basis": "Arab_Times_reported_Bangladeshi_nationality",
+      "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "US-TWO-BANGLADESHI-YOUTHS-DEATHS-AMERICABANGLA-20261103",
+      "country": "US",
+      "published_date": "2026-11-03",
+      "event_date": null,
+      "publisher": "America Bangla",
+      "url": "https://www.americabangla.com/usa/usa-community/110326113012",
+      "language": "bn",
+      "title": {
+        "bn": "যুক্তরাষ্ট্রে একই দিনে দুই বাংলাদেশি তরুণের মৃত্যুর খবর",
+        "en": "Two young Bangladeshis reported dead on the same day in the United States"
+      },
+      "summary": {
+        "bn": "যুক্তরাষ্ট্রভিত্তিক কমিউনিটি সংবাদমাধ্যম একই দিনে সন্দ্বীপের দুই তরুণ—একজন বিশ্ববিদ্যালয় শিক্ষার্থী ও অন্যজন সংগীতশিল্পী—মারা যাওয়ার খবর দিয়েছে। মৃত্যুর কারণ বা নির্দিষ্ট ঘটনার তারিখ প্রকাশিত প্রতিবেদনে দেওয়া হয়নি; পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "A US-based community outlet reports that two young people from Sandwip—one a university student and the other a musician—died on the same day. The report does not state causes of death or a specific event date; identities are not republished."
+      },
+      "record_type": "news",
+      "incident_key": null,
+      "status": "source_reported_limited_details",
+      "nationality_basis": "community_outlet_reported_Bangladeshi_origin",
+      "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-DEATHS-FIRST-HALF-2026-BDNEWS-20261025",
+      "country": "MV",
+      "published_date": "2026-10-25",
+      "event_date": null,
+      "publisher": "bdnews24.com",
+      "url": "https://bangla.bdnews24.com/probash/735tpe9bzy",
+      "language": "bn",
+      "title": {
+        "bn": "মালদ্বীপে ২০২৬ সালের প্রথম ছয় মাসে ৪৫ বাংলাদেশির মৃত্যুর হিসাব",
+        "en": "45 Bangladeshi deaths reported in Maldives in the first half of 2026"
+      },
+      "summary": {
+        "bn": "বাংলাদেশ হাইকমিশনের তথ্য উদ্ধৃত করে প্রতিবেদনে জানুয়ারি–জুন ২০২৬ সময়ে ৪৫ বাংলাদেশির মৃত্যুর কথা বলা হয়েছে: ৩৫টি হৃদ্‌রোগ/স্ট্রোক, আটটি কর্মক্ষেত্র দুর্ঘটনা এবং দুটি আত্মহত্যা। এটি নির্দিষ্ট ছয় মাসের সমষ্টিগত হিসাব; আলাদা ঘটনা হিসেবে যোগ করা হয়নি।",
+        "en": "Citing Bangladesh High Commission data, the report gives 45 Bangladeshi deaths in January–June 2026: 35 attributed to heart disease or stroke, eight to workplace accidents and two to suicide. This is a bounded six-month aggregate, not 45 separate incident records."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_High_Commission_data_reported_by_bdnews24",
+      "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-REMITTANCE-JUL-NOV3-BSS-20261104",
+      "country": "MULTI",
+      "published_date": "2026-11-04",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha",
+      "url": "https://www.bssnews.net/business/441963",
+      "language": "en",
+      "title": {
+        "bn": "১ জুলাই–৩ নভেম্বর রেমিট্যান্স ১১.৯৮৬ বিলিয়ন ডলার",
+        "en": "Remittances reach USD 11.986 billion from 1 July to 3 November"
+      },
+      "summary": {
+        "bn": "BSS জানিয়েছে, ২০২৬ সালের ১ জুলাই–৩ নভেম্বর প্রবাসীরা ১১.৯৮৬ বিলিয়ন ডলার পাঠিয়েছেন; আগের অর্থবছরের একই সময়ের ১০.৪৭৮ বিলিয়ন ডলারের তুলনায় ১৪.৪% বেশি। এটি আংশিক অর্থবছরের ও পরস্পর-ওভারল্যাপ করা সময়সীমার হিসাব।",
+        "en": "BSS reports USD 11.986 billion in remittances from 1 July to 3 November 2026, 14.4% above USD 10.478 billion in the corresponding prior-year period. This is a partial-fiscal-year, overlapping period snapshot."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BSS_reported_official_data",
+      "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-FLIGHT-DISRUPTION-CAAB-TBS-20261104",
+      "country": "SA",
+      "published_date": "2026-11-04",
+      "event_date": null,
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/economy/aviation/saudi-airport-restrictions-23077-passengers-affected-174-flights-disrupted-so-far",
+      "language": "en",
+      "title": {
+        "bn": "সৌদি বিমানবন্দর বিধিনিষেধে ১৭৪ ফ্লাইট ও ২৩,০৭৭ যাত্রী প্রভাবিত",
+        "en": "Saudi airport restrictions disrupt 174 flights and affect 23,077 passengers"
+      },
+      "summary": {
+        "bn": "বেবিচকের সর্বশেষ তথ্য উদ্ধৃত করে প্রতিবেদনে বাংলাদেশ-সংশ্লিষ্ট ৯৭টি সরাসরি ও ৭৭টি ট্রানজিট ফ্লাইট—মোট ১৭৪টি—ব্যাহত এবং ২৩,০৭৭ যাত্রী প্রভাবিত হওয়ার কথা বলা হয়েছে। এটি আগের সংখ্যার হালনাগাদ; পৃথক নতুন ঘটনা নয়।",
+        "en": "Citing the latest CAAB data, the report says 97 direct and 77 transit flights involving Bangladesh—174 total—were disrupted, affecting 23,077 passengers. This updates an earlier count and is not a separate new incident."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-FLIGHT-DISRUPTION-2026",
+      "status": "official_data_reported",
+      "nationality_basis": "Bangladesh_route_and_expatriate_impact_reported",
+      "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "IR-HORMUZ-BD-FLAGGED-SHIPS-ASSURANCE-20261104",
+      "country": "IR",
+      "published_date": "2026-11-04",
+      "event_date": "2026-11-04",
+      "publisher": "The Daily Observer",
+      "url": "https://observerbd.com/news/603884",
+      "language": "en",
+      "title": {
+        "bn": "আগাম সমন্বয়ে বাংলাদেশি পতাকাবাহী জাহাজের হরমুজ পারাপারে সহায়তার আশ্বাস",
+        "en": "Iran assures coordinated safe passage for Bangladesh-flagged ships through Hormuz"
+      },
+      "summary": {
+        "bn": "ঢাকায় ইরানের রাষ্ট্রদূত বলেছেন, আগাম সমন্বয় থাকলে হরমুজ প্রণালি দিয়ে বাংলাদেশি পতাকাবাহী বাণিজ্যিক জাহাজের নিরাপদ পারাপারে ইরান সহযোগিতা করবে। এটি নীতিগত আশ্বাস; কোনো নির্দিষ্ট জাহাজের নিরাপদ পারাপার নিশ্চিত হওয়ার খবর নয়।",
+        "en": "Iran's ambassador in Dhaka said Iran would cooperate in the safe passage of Bangladesh-flagged commercial vessels through the Strait of Hormuz with prior coordination. This is a policy assurance, not confirmation that any specific vessel has passed safely."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "diplomatic_assurance_reported",
+      "nationality_basis": "Bangladesh_flagged_vessels",
+      "added_at": "2026-11-04T16:05:46.290Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
