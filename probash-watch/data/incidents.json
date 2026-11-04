@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T16:03:38.575Z",
+  "updated_at": "2026-11-04T16:05:46.290Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1677,6 +1677,122 @@
       "follow_up": {
         "bn": "বাকি তিনজনের অবস্থা, আনুষ্ঠানিক অভিযোগ ও আদালত/আশ্রয়-প্রক্রিয়া অনুসরণ",
         "en": "Track the remaining three, formal charges and court/asylum proceedings"
+      }
+    },
+    {
+      "id": "KW-FACEBOOK-MURDER-DEATH-SENTENCE-20261103",
+      "country": "KW",
+      "event_date": "2026-11-03",
+      "published_date": "2026-11-03",
+      "title": {
+        "bn": "বন্ধুকে হত্যার মামলায় বাংলাদেশি প্রবাসীর মৃত্যুদণ্ড",
+        "en": "Bangladeshi expatriate sentenced to death for friend's murder"
+      },
+      "summary": {
+        "bn": "কুয়েতের ফৌজদারি আদালত এক বাংলাদেশি প্রবাসীকে পূর্বপরিকল্পিত হত্যার দায়ে মৃত্যুদণ্ড দিয়েছে বলে আরব টাইমস জানিয়েছে। প্রতিবেদনে প্রসিকিউশনের বক্তব্য ও আদালতে আসামির স্বীকারোক্তির কথা আছে। সংশ্লিষ্ট ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Arab Times reports that a Kuwaiti criminal court sentenced a Bangladeshi expatriate to death for premeditated murder. The report cites the prosecution and says the defendant admitted the charge in court. Identities are not republished."
+      },
+      "category": "criminal_case_death_sentence",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "court_conviction_reported",
+      "nationality": "BD",
+      "nationality_basis": "Arab_Times_reported_Bangladeshi_nationality",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Arab Times Kuwait",
+          "url": "https://www.arabtimesonline.com/news/kuwait-court-sentences-bangladeshi-man-to-death-for-stabbing-friend-over-wifes-photos-on-facebook/",
+          "date": "2026-11-03",
+          "language": "en"
+        },
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-sentences-bangladeshi-man-to-death-for-killing-friend-over-wifes-facebook-photos-1.500735536",
+          "date": "2026-11-04",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "কুয়েতের ফৌজদারি আদালত",
+            "en": "Kuwait Criminal Court"
+          },
+          "response": {
+            "bn": "প্রকাশিত প্রতিবেদন অনুযায়ী, পূর্বপরিকল্পিত হত্যার দায়ে মৃত্যুদণ্ড দিয়েছে।",
+            "en": "According to published reporting, it convicted the defendant of premeditated murder and imposed a death sentence."
+          },
+          "source_url": "https://www.arabtimesonline.com/news/kuwait-court-sentences-bangladeshi-man-to-death-for-stabbing-friend-over-wifes-photos-on-facebook/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "দণ্ডিত ব্যক্তি, নিহত ব্যক্তি ও সংশ্লিষ্ট পরিবারের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The convicted person, deceased person and related family identities are not republished"
+      },
+      "unknowns": {
+        "bn": "রায় চূড়ান্ত কি না, আপিল হয়েছে কি না, নিহত ব্যক্তির জাতীয়তা এবং কনস্যুলার সহায়তার অবস্থা প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The cited sources do not establish whether the judgment is final, whether an appeal has been filed, the deceased person's nationality or the status of consular assistance."
+      },
+      "follow_up": {
+        "bn": "আপিল, চূড়ান্ত রায় ও কনস্যুলার সহায়তার অবস্থা অনুসরণ",
+        "en": "Track appeal, final judgment and consular assistance"
+      }
+    },
+    {
+      "id": "KW-E-CIGARETTE-SALES-ARRESTS-20261103",
+      "country": "KW",
+      "event_date": null,
+      "published_date": "2026-11-03",
+      "title": {
+        "bn": "স্কুলশিক্ষার্থীদের ই-সিগারেট বিক্রির অভিযোগে পাঁচ বাংলাদেশি গ্রেপ্তার",
+        "en": "Five Bangladeshis arrested over alleged e-cigarette sales to school students"
+      },
+      "summary": {
+        "bn": "কুয়েতের অপরাধ তদন্ত বিভাগ সাদ আল-আবদুল্লাহ এলাকায় একটি আবাসিক বাড়ির ভেতর অবৈধভাবে পরিচালিত দোকান থেকে স্কুলশিক্ষার্থীদের ই-সিগারেট বিক্রির অভিযোগে পাঁচ বাংলাদেশিকে গ্রেপ্তার করেছে বলে আরব টাইমস জানিয়েছে। এটি পুলিশের অভিযোগভিত্তিক বিবরণ; আদালতে দোষ প্রমাণিত হয়নি।",
+        "en": "Arab Times reports that Kuwait's Criminal Investigation Department arrested five Bangladeshis accused of selling e-cigarettes to school students from an allegedly illegal grocery inside a residence in Saad Al-Abdullah. This is a police-reported allegation; guilt has not been established in court."
+      },
+      "category": "criminal_case",
+      "gender": "unknown",
+      "people_count": 5,
+      "status": "police_reported_allegation",
+      "nationality": "BD",
+      "nationality_basis": "Arab_Times_reported_Bangladeshi_nationality",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Arab Times Kuwait",
+          "url": "https://www.arabtimesonline.com/news/5-bangladeshis-arrested-in-kuwait-for-selling-e-cigarettes-to-school-students/",
+          "date": "2026-11-03",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "কুয়েতের অপরাধ তদন্ত বিভাগ",
+            "en": "Kuwait General Department of Criminal Investigation"
+          },
+          "response": {
+            "bn": "পাঁচজনকে গ্রেপ্তার এবং ই-সিগারেট ও বিক্রির অর্থ জব্দের কথা সংবাদমাধ্যমে জানানো হয়েছে।",
+            "en": "Media reported that five people were arrested and e-cigarettes and sales proceeds were seized."
+          },
+          "source_url": "https://www.arabtimesonline.com/news/5-bangladeshis-arrested-in-kuwait-for-selling-e-cigarettes-to-school-students/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "গ্রেপ্তার ব্যক্তিদের ও অপ্রাপ্তবয়স্ক শিক্ষার্থীদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The arrested persons' and minor students' identities are not republished"
+      },
+      "unknowns": {
+        "bn": "আনুষ্ঠানিক অভিযোগপত্র, জব্দ সামগ্রীর পরিমাণ, আইনজীবীর সহায়তা, আত্মপক্ষের বক্তব্য ও আদালতের ফল প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "Formal charges, seizure quantities, access to counsel, the defence account and court outcome are not established in the cited source."
+      },
+      "follow_up": {
+        "bn": "আনুষ্ঠানিক অভিযোগ, আদালতের কার্যক্রম ও কনস্যুলার সহায়তা অনুসরণ",
+        "en": "Track formal charges, court proceedings and consular assistance"
       }
     }
   ]
