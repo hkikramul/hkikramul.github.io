@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T04:05:20.817Z",
+  "updated_at": "2026-11-05T16:03:45.315Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1989,6 +1989,110 @@
       "follow_up": {
         "bn": "পুলিশি অনুসন্ধান, অভিযোগ ও বিচারিক ফল অনুসরণ",
         "en": "Track the police inquiry, any charges and judicial outcome"
+      }
+    },
+    {
+      "id": "MU-WORKPLACE-GLASS-20261104",
+      "country": "MU",
+      "event_date": "2026-11-04",
+      "published_date": "2026-11-04",
+      "title": {
+        "bn": "মরিশাসে কাচের প্যানেলের বাক্সচাপায় তিন বাংলাদেশি শ্রমিকের মৃত্যু",
+        "en": "Three Bangladeshi workers killed by falling glass-panel crate in Mauritius"
+      },
+      "summary": {
+        "bn": "প্লেইন-দে-পাপাই এলাকায় কনটেইনার থেকে কাচের প্যানেল সরানোর সময় ভারী বাক্স পড়ে তিন বাংলাদেশি শ্রমিক মারা যান। শ্রম মন্ত্রণালয় নিরাপত্তা মান, প্রশিক্ষণ ও সুরক্ষা সরঞ্জাম নিয়ে তদন্ত শুরু করেছে; কারণ বা দায় এখনো চূড়ান্ত নয়।",
+        "en": "Three Bangladeshi workers died at Plaine-des-Papayes when a heavy crate fell as glass panels were moved from a container. The labour ministry opened an inquiry into safety standards, training and protective equipment; cause and responsibility are not final."
+      },
+      "category": "workplace_death",
+      "gender": "male",
+      "people_count": 3,
+      "status": "authority_investigation_opened",
+      "nationality": "BD",
+      "nationality_basis": "Mauritius_local_media_police_and_labour_ministry_identify_Bangladeshi_workers",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Defimedia.info",
+          "url": "https://defimedia.info/plaine-des-papayes-les-corps-de-trois-ouvriers-bangladais-transferes-la-morgue-apres-un-accident-du",
+          "date": "2026-11-04",
+          "language": "fr"
+        },
+        {
+          "name": "Defimedia.info",
+          "url": "https://defimedia.info/drame-plaine-des-papayes-le-ministere-du-travail-ouvre-une-enquete-apres-la-mort-de-trois-ouvriers",
+          "date": "2026-11-05",
+          "language": "fr"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "মরিশাসের শ্রম মন্ত্রণালয়",
+            "en": "Mauritius Ministry of Labour"
+          },
+          "response": {
+            "bn": "তদন্ত শুরু করেছে; শ্রমমন্ত্রী নিয়োগকর্তার ক্ষতিপূরণ ও পরিবারের অনুরোধে মরদেহ প্রত্যাবাসনের দায়িত্বের কথা বলেছেন।",
+            "en": "Opened an inquiry; the labour minister said the employer must compensate families and repatriate the bodies if requested."
+          },
+          "source_url": "https://defimedia.info/drame-plaine-des-papayes-le-ministere-du-travail-ouvre-une-enquete-apres-la-mort-de-trois-ouvriers"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "তিন প্রাপ্তবয়স্ক বাংলাদেশি শ্রমিক; পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Three adult Bangladeshi workers; identities are not republished"
+      },
+      "unknowns": {
+        "bn": "দুর্ঘটনার চূড়ান্ত কারণ, নিরাপত্তা লঙ্ঘন বা দায়, ক্ষতিপূরণ প্রদান এবং প্রত্যাবাসনের সময় নিশ্চিত নয়।",
+        "en": "The final cause, any safety breach or liability, payment of compensation and repatriation timing remain unconfirmed."
+      },
+      "follow_up": {
+        "bn": "শ্রম মন্ত্রণালয়ের তদন্ত, ক্ষতিপূরণ ও মরদেহ প্রত্যাবাসন অনুসরণ",
+        "en": "Track the labour inquiry, compensation and repatriation"
+      }
+    },
+    {
+      "id": "MY-JALAN-SULTAN-ISMAIL-RAID-20261101",
+      "country": "MY",
+      "event_date": "2026-11-01",
+      "published_date": "2026-11-01",
+      "title": {
+        "bn": "কুয়ালালামপুরের অভিযানে চার বাংলাদেশি আটক",
+        "en": "Four Bangladeshis detained in Kuala Lumpur venue raid"
+      },
+      "summary": {
+        "bn": "একটি অনুমোদনহীন বিনোদনকেন্দ্রে মাদক-সংশ্লিষ্ট সন্দেহে আটক ৪১৭ জনের মধ্যে চার বাংলাদেশি ছিলেন বলে পুলিশ জানিয়েছে। কোন নির্দিষ্ট অভিযোগ তাঁদের কার ক্ষেত্রে প্রযোজ্য তা আলাদা করা হয়নি; দোষ প্রমাণিত নয়।",
+        "en": "Police said four Bangladeshis were among 417 people detained at an unlicensed entertainment venue during a suspected drug-related raid. The source does not identify which specific allegation applied to any of them; guilt is not established."
+      },
+      "category": "police_detention",
+      "gender": "unknown",
+      "people_count": 4,
+      "status": "police_detention_reported",
+      "nationality": "BD",
+      "nationality_basis": "police_breakdown_reported_by_Malay_Mail_identifies_four_Bangladeshis",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Malay Mail",
+          "url": "https://www.malaymail.com/news/malaysia/2026/11/01/over-400-people-detained-in-drug-raid-on-jalan-sultan-ismail-entertainment-centre/241620",
+          "date": "2026-11-01",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "আটক ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The detained persons' identities are not republished"
+      },
+      "unknowns": {
+        "bn": "চার বাংলাদেশির প্রত্যেকের বিরুদ্ধে নির্দিষ্ট অভিযোগ, formal charge, আইনি/কনস্যুলার সহায়তা এবং মামলার ফল নিশ্চিত নয়।",
+        "en": "The specific allegation against each Bangladeshi, any formal charge, legal/consular support and case outcomes are not established."
+      },
+      "follow_up": {
+        "bn": "formal charge, মুক্তি এবং বিচারিক ফল অনুসরণ",
+        "en": "Track formal charges, release and judicial outcomes"
       }
     }
   ]
