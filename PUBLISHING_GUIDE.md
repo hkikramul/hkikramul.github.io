@@ -21,3 +21,12 @@ Use PUBLISHING_QUEUE.md for all ideas: Idea → Draft → Review → Published. 
 
 ## Migration
 `publishing-migration.json` maps the moved files. Old public HTML addresses forward to their corresponding pages, preserving hash/query through `/assets/redirect.js`; ordinary links and canonical URLs use the new addresses. The general reading anthology was split: statistical history/research collections remain in Making Sense; other reading moved to EBR. Old reading anchors provide forwarding links. Do not republish data or full articles at legacy addresses. Scheduled news writes must use the nested Probash Watch path.
+
+## Shared reading and accessibility
+All public pages load /assets/edition.js, reading-shade.js, site-tools.js and shared CSS. Do not add separate theme algorithms or autoplay. Automatic display uses solar elevation only after a visitor explicitly requests geolocation; otherwise a local-clock 18:00–20:00 fade-in and 06:00–08:00 fade-out. The same stored automatic/light/dark preference applies across this origin. Coordinates remain in memory.
+
+## Bilingual mirrors
+The English cover uses the same HTML/CSS and images as Bangla with `?lang=en`. Text-node maps in assets/translations translate the source in place. Existing independently published -en.html article pairs remain linked. Every new or edited Bengali paragraph needs a matching English entry, including dynamic controls, labels and alt text. Retain citation links, dates, factual qualifiers and the full text. Do not silently present an English summary as a complete translation. The academic profile and Debabrata Basu remain English-only. Probash Watch is native Bangla/English; additional country languages are explicitly opt-in external machine translations, not verified native editions.
+
+## Audio, rights and privacy
+Speech uses local browser voices by default; visitors may opt into online voices with disclosure. No form inputs are narrated. Optional procedural ambient sound is CC0, off by default, and stops for narration/media or hidden pages. The national anthem has its own user-controlled player and separate rights notice; never reuse it as ambient sound. Respect reduced-motion preferences. Read ASSET_RIGHTS.md and the public reuse/privacy policy before adding third-party material. No blanket promise of legal compliance or blanket relicensing. Do not restore analytics or third-party media auto-loading without revising the actual privacy behavior and notice.

@@ -1,0 +1,22 @@
+{
+  "Md. Ikramul Haq Khan": "মো. ইকরামুল হক খান",
+  "Making Sense": "Making Sense",
+  "East Bengal Renaissance": "পূর্ববঙ্গ নবজাগরণ",
+  "Probash Watch": "প্রবাসপ্রহরী",
+  "Civic Library": "নাগরিক পাঠাগার",
+  "Accessibility": "প্রবেশগম্যতা",
+  "Read, listen, and choose your settings.": "পড়ুন, শুনুন এবং নিজের সুবিধামতো সেটিং বেছে নিন।",
+  "Open “Reading tools” near the start of each page for display, language, speech and music controls. These features supplement your browser and screen reader; they are not a claim of complete WCAG conformance.": "প্রতিটি পেজের শুরুর কাছে “পড়ার সহায়ক টুল” খুলে প্রদর্শন, ভাষা, পড়ে শোনানো ও সংগীত নিয়ন্ত্রণ করুন। এই সুবিধাগুলো আপনার ব্রাউজার ও স্ক্রিন রিডারের সহায়ক; এগুলোকে WCAG-এর সব মান পূরণের দাবি হিসেবে উপস্থাপন করা হচ্ছে না।",
+  "Use the skip link to reach the main content. Buttons, links, selectors and audio controls work with a keyboard and show a visible focus outline.": "মূল লেখায় যেতে স্কিপ লিংক ব্যবহার করুন। বোতাম, লিংক, নির্বাচনতালিকা ও অডিও নিয়ন্ত্রণ কিবোর্ড দিয়ে ব্যবহার করা যায় এবং ফোকাসে থাকলে দৃশ্যমান রেখা দেখায়।",
+  "Automatic light adjustment uses the same algorithm across every site. Choose Light or Dark to override it. Automatic uses your local clock, or solar elevation if you explicitly permit location.": "সব সাইটে স্বয়ংক্রিয় আলো সমন্বয় একই অ্যালগরিদম ব্যবহার করে। তা বদলে দিতে হালকা বা গাঢ় মোড বেছে নিন। স্বয়ংক্রিয় মোড আপনার স্থানীয় ঘড়ি ব্যবহার করে; অবস্থানের স্পষ্ট অনুমতি দিলে সূর্যের উচ্চতা ব্যবহার করে।",
+  "Speech reads visible article text, excluding private form inputs. Choose a voice matching the current page language. If no voice is available, install one through your device or explicitly allow an online voice. We cannot guarantee Bangla or other language voices on every device.": "পড়ে শোনানোর সুবিধা দৃশ্যমান প্রবন্ধের লেখা পড়ে; ব্যক্তিগত ফর্মের তথ্য বাদ রাখে। বর্তমান পেজের ভাষার সঙ্গে মিলিয়ে কণ্ঠ বেছে নিন। কোনো কণ্ঠ না থাকলে আপনার যন্ত্রে সেটি ইনস্টল করুন অথবা স্পষ্ট সম্মতি দিয়ে অনলাইন কণ্ঠ ব্যবহার করুন। সব যন্ত্রে বাংলা বা অন্য ভাষার কণ্ঠ পাওয়ার নিশ্চয়তা দেওয়া যায় না।",
+  "Listen, pause/resume, and stop are separate controls. Escape stops speech and ambient music. Music also stops when narration starts or the page becomes hidden.": "শুনুন, বিরতি/আবার শুরু এবং বন্ধ করার জন্য পৃথক নিয়ন্ত্রণ আছে। Escape চাপলে পড়ে শোনানো ও আবহসংগীত বন্ধ হয়। পড়ে শোনানো শুরু হলে বা পেজ আড়ালে গেলে সংগীতও বন্ধ হয়।",
+  "Ambient music is optional and off by default. It has separate volume and stop controls. The national anthem has its own native audio player and is not part of ambient music.": "আবহসংগীত ঐচ্ছিক এবং শুরুতে বন্ধ থাকে। এর শব্দের মাত্রা ও বন্ধ করার নিয়ন্ত্রণ আলাদা। জাতীয় সংগীতের নিজস্ব অডিও প্লেয়ার আছে; সেটি আবহসংগীতের অংশ নয়।",
+  "Motion is brief and illustrative. Operating-system reduced-motion preferences are respected, and the shared Reduce Motion setting disables animations and smooth scrolling.": "অ্যানিমেশন সংক্ষিপ্ত এবং বিষয় বোঝানোর জন্য। অপারেটিং সিস্টেমে কম অ্যানিমেশনের পছন্দ মানা হয়; সবার জন্য থাকা “অ্যানিমেশন কমান” সেটিং অ্যানিমেশন ও মসৃণ স্ক্রল বন্ধ করে।",
+  "Bangla and English editions share the same page structure, images and reading order. Some archive articles already contain both languages; linked published translations remain available. Newly prepared archive translations should be checked against sources for consequential use.": "বাংলা ও ইংরেজি সংস্করণে পেজের কাঠামো, ছবি ও পড়ার ক্রম একই। সংগ্রহের কিছু প্রবন্ধে আগে থেকেই দুই ভাষা আছে; প্রকাশিত অনুবাদের লিংকগুলোও বহাল আছে। গুরুত্বপূর্ণ সিদ্ধান্তে ব্যবহারের আগে নতুন করে প্রস্তুত সংগ্রহের অনুবাদ মূল সূত্রের সঙ্গে মিলিয়ে দেখা উচিত।",
+  "Probash Watch has native Bangla/English interfaces. Country-language choices offer clearly labelled external machine translations, which may be incomplete or affect interactive features.": "প্রবাসপ্রহরীর নিজস্ব বাংলা ও ইংরেজি ইন্টারফেস আছে। দেশভিত্তিক ভাষা বেছে নিলে স্পষ্টভাবে চিহ্নিত বাহ্যিক যান্ত্রিক অনুবাদের সুযোগ পাওয়া যায়; তা অসম্পূর্ণ হতে পারে বা ইন্টারঅ্যাকটিভ সুবিধায় প্রভাব ফেলতে পারে।",
+  "Report a barrier with the page URL and your device/browser to": "ব্যবহারে বাধা পেলে পেজের ঠিকানা এবং আপনার যন্ত্র/ব্রাউজারের বিবরণ দিয়ে জানান:",
+  "ikramul.statistics@gmail.com": "ikramul.statistics@gmail.com",
+  ". Avoid sharing private reports or medical information.": "। ব্যক্তিগত অভিযোগ বা চিকিৎসাসংক্রান্ত তথ্য পাঠাবেন না।",
+  "Reuse & privacy policy": "পুনর্ব্যবহার ও গোপনীয়তা নীতি"
+}

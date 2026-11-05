@@ -945,7 +945,7 @@ content:
 - name: learning_reading_journey
   label: Making Sense · মানুষ ও সমাজ পাঠযাত্রা
   type: file
-  path: content/learning/reading-journey.json
+  path: content/editorial/reading-journey.json
   format: json
   fields:
   - name: title

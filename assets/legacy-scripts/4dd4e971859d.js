@@ -1,0 +1,1 @@
+document.getElementById('media-search').addEventListener('input',function(){let n=0;const q=this.value.toLocaleLowerCase();document.querySelectorAll('#media-table tbody tr').forEach(r=>{r.hidden=!r.textContent.toLocaleLowerCase().includes(q);if(!r.hidden)n++});document.getElementById('media-count').textContent=n+' publications';});
