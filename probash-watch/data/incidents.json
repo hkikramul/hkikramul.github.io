@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T16:05:46.290Z",
+  "updated_at": "2026-11-05T04:05:20.817Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -1793,6 +1793,202 @@
       "follow_up": {
         "bn": "আনুষ্ঠানিক অভিযোগ, আদালতের কার্যক্রম ও কনস্যুলার সহায়তা অনুসরণ",
         "en": "Track formal charges, court proceedings and consular assistance"
+      }
+    },
+    {
+      "id": "ID-IRREGULAR-ENTRY-20261004",
+      "country": "ID",
+      "event_date": "2026-10-04",
+      "published_date": "2026-11-03",
+      "title": {
+        "bn": "ইন্দোনেশিয়ায় অনিয়মিত প্রবেশের অভিযোগে চার বাংলাদেশি আটক",
+        "en": "Four Bangladeshis detained over alleged irregular entry into Indonesia"
+      },
+      "summary": {
+        "bn": "পূর্ব নুসা তেঙ্গারার পশ্চিম কুপাং এলাকায় চার বাংলাদেশিকে বৈধ প্রবেশ-নথি না থাকার অভিযোগে আটক করা হয়েছে বলে bdnews24 জানিয়েছে। এটি কর্তৃপক্ষের অভিযোগ; পরিচয় ও বিচারিক ফল পুনঃপ্রকাশ/প্রতিষ্ঠিত নয়।",
+        "en": "bdnews24 reports that four Bangladeshis were detained in West Kupang, East Nusa Tenggara, for allegedly lacking lawful entry documents. This is an authority-reported allegation; identities are withheld and no court outcome is established."
+      },
+      "category": "immigration_detention",
+      "gender": "unknown",
+      "people_count": 4,
+      "status": "authority_reported_allegation",
+      "nationality": "BD",
+      "nationality_basis": "source_reported_Bangladeshi_nationality",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "bdnews24 Bangla",
+          "url": "https://bangla.bdnews24.com/probash/2a91ihvt7x",
+          "date": "2026-11-03",
+          "language": "bn"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "আটক ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The detained persons' identities are not republished"
+      },
+      "unknowns": {
+        "bn": "আনুষ্ঠানিক অভিযোগ, আইনজীবী/কনস্যুলার সহায়তা ও মামলার ফল নিশ্চিত নয়।",
+        "en": "Formal charges, access to counsel/consular support and case outcome are not established."
+      },
+      "follow_up": {
+        "bn": "অভিযোগ, কনস্যুলার সহায়তা ও বিচারিক ফল অনুসরণ",
+        "en": "Track charges, consular support and judicial outcome"
+      }
+    },
+    {
+      "id": "MY-CHOW-KIT-RAID-20261031",
+      "country": "MY",
+      "event_date": "2026-10-31",
+      "published_date": "2026-10-31",
+      "title": {
+        "bn": "চৌ কিট অভিযানে ২০ বাংলাদেশি আটক",
+        "en": "Twenty Bangladeshis detained in Chow Kit immigration raid"
+      },
+      "summary": {
+        "bn": "১৮১ বিদেশির মধ্যে ২০ বাংলাদেশিকে নথি, অতিরিক্ত অবস্থান বা পাস অপব্যবহারের অভিযোগে আটক করার কথা মালয়েশিয়ার অভিবাসন বিভাগ জানিয়েছে। মোট আটকদের মধ্যে থাকা শিশুটির জাতীয়তা বাংলাদেশি বলা হয়নি।",
+        "en": "Malaysia's immigration department reported detaining 20 Bangladeshis among 181 foreign nationals over alleged documentation, overstay or pass-misuse issues. The nationality of a child among all detainees was not identified as Bangladeshi."
+      },
+      "category": "immigration_detention",
+      "gender": "unknown",
+      "people_count": 20,
+      "status": "immigration_detention_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_breakdown_identifies_20_Bangladeshis",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Malay Mail",
+          "url": "https://www.malaymail.com/news/malaysia/2026/10/31/child-10-among-181-detained-in-chow-kit-immigration-raid/241434",
+          "date": "2026-10-31",
+          "language": "en"
+        }
+      ],
+      "responses": [],
+      "protests": [],
+      "victim": {
+        "bn": "আটক ব্যক্তি ও শিশুর পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Identities of detainees and the child are not republished"
+      },
+      "unknowns": {
+        "bn": "কোন অভিযোগ কোন বাংলাদেশির ক্ষেত্রে প্রযোজ্য, আনুষ্ঠানিক মামলা, আইনি/কনস্যুলার সহায়তা ও ফল নিশ্চিত নয়।",
+        "en": "It is unclear which allegation applies to which Bangladeshi; formal cases, legal/consular support and outcomes are not established."
+      },
+      "follow_up": {
+        "bn": "মামলা, মুক্তি/প্রত্যাবাসন ও কনস্যুলার সহায়তা অনুসরণ",
+        "en": "Track cases, release/repatriation and consular support"
+      }
+    },
+    {
+      "id": "US-UNLAWFUL-VOTING-20241105",
+      "country": "US",
+      "event_date": "2024-11-05",
+      "published_date": "2026-10-27",
+      "title": {
+        "bn": "২০২৪ নির্বাচনে বেআইনি ভোটের অভিযোগে বাংলাদেশি নাগরিকের বিরুদ্ধে মামলা",
+        "en": "Bangladeshi national charged with unlawful voting in 2024 election"
+      },
+      "summary": {
+        "bn": "যুক্তরাষ্ট্রের বিচার বিভাগ এক বাংলাদেশি নাগরিকের বিরুদ্ধে ২০২৪ সালের নির্বাচনে জেনেশুনে বেআইনি ভোট দেওয়ার অভিযোগ জানিয়েছে। এটি অভিযোগপত্র; দোষ প্রমাণিত হয়নি এবং পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The U.S. Justice Department charged a Bangladeshi national with knowingly voting unlawfully in the 2024 election. This is a charge, not a finding of guilt, and the person's identity is withheld."
+      },
+      "category": "criminal_case",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "federal_charge_reported",
+      "nationality": "BD",
+      "nationality_basis": "DOJ_identifies_Bangladeshi_national",
+      "location_precision": "state",
+      "sources": [
+        {
+          "name": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/usao-md/pr/bangladesh-illegal-alien-charged-unlawful-voting",
+          "date": "2026-10-27",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "যুক্তরাষ্ট্রের বিচার বিভাগ",
+            "en": "U.S. Department of Justice"
+          },
+          "response": {
+            "bn": "ফেডারেল অভিযোগ আনার কথা জানিয়েছে এবং অভিযোগকে প্রমাণ হিসেবে না ধরার নির্দেশনা দিয়েছে।",
+            "en": "Announced the federal charge and stated that the information is not evidence of guilt."
+          },
+          "source_url": "https://www.justice.gov/usao-md/pr/bangladesh-illegal-alien-charged-unlawful-voting"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "অভিযুক্তের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "The accused person's identity is not republished"
+      },
+      "unknowns": {
+        "bn": "আত্মপক্ষের বক্তব্য, আইনজীবী/কনস্যুলার সহায়তা ও আদালতের ফল নিশ্চিত নয়।",
+        "en": "The defence account, access to counsel/consular support and court outcome are not established."
+      },
+      "follow_up": {
+        "bn": "আদালতের কার্যক্রম ও মামলার ফল অনুসরণ",
+        "en": "Track court proceedings and outcome"
+      }
+    },
+    {
+      "id": "GB-BETHNAL-GREEN-INVESTIGATION-20240801",
+      "country": "GB",
+      "event_date": "2024-08-01",
+      "published_date": "2026-11-03",
+      "title": {
+        "bn": "ইস্ট লন্ডনে অপ্রাপ্তবয়স্ক survivor-এর মামলায় দুই বাংলাদেশিকে খুঁজছে পুলিশ",
+        "en": "Police seek two Bangladeshis in East London minor-survivor investigation"
+      },
+      "summary": {
+        "bn": "মেট্রোপলিটন পুলিশ ২০২৪ সালের যৌন সহিংসতা তদন্তে জিজ্ঞাসাবাদের জন্য দুই বাংলাদেশিকে খুঁজছে। এটি তদন্ত পর্যায়; দোষ প্রমাণ নয়। survivor বা খোঁজা ব্যক্তিদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Metropolitan Police are seeking two Bangladeshis for questioning in a 2024 sexual-violence investigation. This remains an investigation, not a finding of guilt. Neither the survivor nor the sought persons are identified here."
+      },
+      "category": "sexual_violence_investigation",
+      "gender": "unknown",
+      "people_count": 2,
+      "status": "police_seeking_persons_for_questioning",
+      "nationality": "BD",
+      "nationality_basis": "Metropolitan_Police_identifies_Bangladeshi_nationality",
+      "location_precision": "district",
+      "sources": [
+        {
+          "name": "Metropolitan Police",
+          "url": "https://news.met.police.uk/news/detectives-seek-to-trace-two-men-following-rape-in-bethnal-green-514510",
+          "date": "2026-11-03",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "মেট্রোপলিটন পুলিশ",
+            "en": "Metropolitan Police"
+          },
+          "response": {
+            "bn": "দুই ব্যক্তিকে খুঁজে পেতে জনসাধারণের সহায়তা চেয়েছে।",
+            "en": "Asked the public for assistance in tracing two people for questioning."
+          },
+          "source_url": "https://news.met.police.uk/news/detectives-seek-to-trace-two-men-following-rape-in-bethnal-green-514510"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "অপ্রাপ্তবয়স্ক survivor-এর পরিচয় ও ব্যক্তিগত তথ্য প্রকাশ করা হয়নি",
+        "en": "The minor survivor's identity and private details are not published"
+      },
+      "unknowns": {
+        "bn": "খোঁজা ব্যক্তিদের বক্তব্য, গ্রেপ্তার/অভিযোগ এবং মামলার ফল নিশ্চিত নয়।",
+        "en": "The sought persons' accounts, any arrest/charge and the case outcome are not established."
+      },
+      "follow_up": {
+        "bn": "পুলিশি অনুসন্ধান, অভিযোগ ও বিচারিক ফল অনুসরণ",
+        "en": "Track the police inquiry, any charges and judicial outcome"
       }
     }
   ]
