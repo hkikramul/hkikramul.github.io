@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T04:05:20.817Z",
-  "last_successful_scan_at": "2026-11-05T04:05:20.817Z",
+  "updated_at": "2026-11-05T16:03:45.315Z",
+  "last_successful_scan_at": "2026-11-05T16:03:45.315Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-05",
@@ -2312,6 +2312,126 @@
       "status": "police_seeking_persons_for_questioning",
       "nationality_basis": "Metropolitan_Police_identifies_Bangladeshi_nationality",
       "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MU-WORKPLACE-GLASS-20261104-INITIAL",
+      "country": "MU",
+      "published_date": "2026-11-04",
+      "event_date": "2026-11-04",
+      "publisher": "Defimedia.info",
+      "url": "https://defimedia.info/plaine-des-papayes-les-corps-de-trois-ouvriers-bangladais-transferes-la-morgue-apres-un-accident-du",
+      "language": "fr",
+      "title": {
+        "bn": "মরিশাসে কাচের প্যানেলের বাক্সচাপায় তিন বাংলাদেশি শ্রমিকের মৃত্যু",
+        "en": "Three Bangladeshi workers killed by falling glass-panel crate in Mauritius"
+      },
+      "summary": {
+        "bn": "মরিশাসের স্থানীয় প্রতিবেদনে বলা হয়েছে, প্লেইন-দে-পাপাই এলাকায় কনটেইনার থেকে কাচের প্যানেলের বাক্স সরানোর সময় সেটি পড়ে তিন বাংলাদেশি শ্রমিক ঘটনাস্থলে মারা যান। মৃত্যুর কারণ ও নিরাপত্তা ব্যবস্থার তদন্ত চলছিল; পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Local reporting says three Bangladeshi workers died at Plaine-des-Papayes when a crate of glass panels fell while being moved from a container. The cause and safety arrangements were under investigation; identities are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "MU-WORKPLACE-GLASS-20261104",
+      "status": "source_reported",
+      "nationality_basis": "Mauritius_local_media_and_police_identify_Bangladeshi_workers",
+      "added_at": "2026-11-05T16:03:45.315Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MU-WORKPLACE-GLASS-20261105-PROBE",
+      "country": "MU",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-04",
+      "publisher": "Defimedia.info",
+      "url": "https://defimedia.info/drame-plaine-des-papayes-le-ministere-du-travail-ouvre-une-enquete-apres-la-mort-de-trois-ouvriers",
+      "language": "fr",
+      "title": {
+        "bn": "মরিশাসে তিন শ্রমিকের মৃত্যুর ঘটনায় শ্রম মন্ত্রণালয়ের তদন্ত",
+        "en": "Mauritius labour ministry investigates deaths of three workers"
+      },
+      "summary": {
+        "bn": "মরিশাসের শ্রম মন্ত্রণালয় নিরাপত্তা মান, প্রশিক্ষণ ও সুরক্ষা সরঞ্জাম যাচাইয়ে তদন্ত শুরু করেছে। শ্রমমন্ত্রী বলেছেন, নিয়োগকর্তাকে পরিবারকে ক্ষতিপূরণ দিতে এবং পরিবার চাইলে মরদেহ বাংলাদেশে ফেরাতে হবে; এটি তদন্তাধীন ঘটনায় কর্তৃপক্ষের প্রতিক্রিয়া।",
+        "en": "Mauritius's labour ministry opened an inquiry into safety standards, training and protective equipment. The labour minister said the employer must compensate the families and repatriate the bodies if requested; this is an authority response while the incident remains under investigation."
+      },
+      "record_type": "follow_up",
+      "incident_key": "MU-WORKPLACE-GLASS-20261104",
+      "status": "authority_investigation_opened",
+      "nationality_basis": "Mauritius_labour_ministry_and_local_media_identify_Bangladeshi_workers",
+      "added_at": "2026-11-05T16:03:45.315Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "AE-VISA-DIPLOMATIC-EFFORTS-20261105",
+      "country": "AE",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-03",
+      "publisher": "The Daily Observer",
+      "url": "https://observerbd.com/news/604059",
+      "language": "en",
+      "title": {
+        "bn": "UAE visa সংকট সমাধানে কূটনৈতিক প্রচেষ্টা চলার কথা জানালেন মন্ত্রী",
+        "en": "Minister says diplomatic efforts continue over UAE visa difficulties"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণমন্ত্রী বলেছেন, UAE-তে বাংলাদেশিদের visa-সংক্রান্ত সমস্যাটি কূটনৈতিকভাবে উত্থাপন করা হয়েছে এবং মন্ত্রী পর্যায়ের আলোচনার চেষ্টা চলছে। এটি সমাধান, নতুন visa quota বা visa পুনরায় চালুর ঘোষণা নয়।",
+        "en": "The expatriates' welfare minister said Bangladesh has raised visa-related difficulties affecting Bangladeshis in the UAE through diplomatic channels and is seeking ministerial-level talks. This is not an announcement that the problem is resolved, that a quota exists or that visas have reopened."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "minister_statement_explicitly_concerns_Bangladeshis_in_UAE",
+      "added_at": "2026-11-05T16:03:45.315Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-REPATRIATION-45BD-20261104",
+      "country": "MY",
+      "published_date": "2026-11-04",
+      "event_date": null,
+      "publisher": "The Daily Observer",
+      "url": "https://observerbd.com/news/603761",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়া থেকে ৪৫ বাংলাদেশিসহ ১৮২ বিদেশি প্রত্যাবাসন",
+        "en": "Malaysia repatriates 182 foreign nationals including 45 Bangladeshis"
+      },
+      "summary": {
+        "bn": "মালয়েশিয়ার অভিবাসন বিভাগের তথ্য উদ্ধৃত করে প্রতিবেদনে বলা হয়েছে, অক্টোবরের শেষ সপ্তাহে immigration-law violation-এর জন্য আটক ১৮২ বিদেশির মধ্যে ৪৫ বাংলাদেশিকে নিজ দেশে পাঠানো হয়েছে এবং পুনঃপ্রবেশে নিষেধাজ্ঞার তালিকায় রাখা হয়েছে। ব্যক্তিগত পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Citing Malaysia's immigration department, the report says 45 Bangladeshis were among 182 foreign nationals repatriated after detention for immigration-law violations during the final week of October and placed on re-entry blacklists. No personal identities are republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "authority_reported_repatriation",
+      "nationality_basis": "Malaysian_Immigration_breakdown_identifies_45_Bangladeshis",
+      "added_at": "2026-11-05T16:03:45.315Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-JALAN-SULTAN-ISMAIL-RAID-20261101",
+      "country": "MY",
+      "published_date": "2026-11-01",
+      "event_date": "2026-11-01",
+      "publisher": "Malay Mail",
+      "url": "https://www.malaymail.com/news/malaysia/2026/11/01/over-400-people-detained-in-drug-raid-on-jalan-sultan-ismail-entertainment-centre/241620",
+      "language": "en",
+      "title": {
+        "bn": "কুয়ালালামপুরের অভিযানে আটক ৪১৭ জনের মধ্যে চার বাংলাদেশি",
+        "en": "Four Bangladeshis among 417 detained in Kuala Lumpur raid"
+      },
+      "summary": {
+        "bn": "মালয়েশিয়ার পুলিশ একটি অনুমোদনহীন বিনোদনকেন্দ্রে মাদক-সংশ্লিষ্ট সন্দেহে ৪১৭ জনকে আটক করার কথা জানিয়েছে; তাঁদের মধ্যে চার বাংলাদেশি ছিলেন। কোন অভিযোগ কোন বাংলাদেশির ক্ষেত্রে প্রযোজ্য তা উৎসে আলাদা করা হয়নি, এবং দোষ আদালতে প্রমাণিত নয়।",
+        "en": "Malaysian police reported detaining 417 people at an unlicensed entertainment venue in a suspected drug-related raid, including four Bangladeshis. The source does not specify which allegation applied to which Bangladeshi, and guilt has not been established."
+      },
+      "record_type": "incident",
+      "incident_key": "MY-JALAN-SULTAN-ISMAIL-RAID-20261101",
+      "status": "police_detention_reported",
+      "nationality_basis": "police_breakdown_reported_by_Malay_Mail_identifies_four_Bangladeshis",
+      "added_at": "2026-11-05T16:03:45.315Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
