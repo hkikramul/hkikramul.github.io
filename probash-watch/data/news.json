@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T16:05:46.290Z",
-  "last_successful_scan_at": "2026-11-04T16:05:46.290Z",
+  "updated_at": "2026-11-05T04:05:20.817Z",
+  "last_successful_scan_at": "2026-11-05T04:05:20.817Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-04",
+  "coverage_end": "2026-11-05",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -2096,6 +2096,222 @@
       "status": "diplomatic_assurance_reported",
       "nationality_basis": "Bangladesh_flagged_vessels",
       "added_at": "2026-11-04T16:05:46.290Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BD-MIGRATION-ACCOUNTABILITY-20261105",
+      "country": "MULTI",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-04",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/review-migration-ministry-diplomatic-missions-regularly-4316006",
+      "language": "en",
+      "title": {
+        "bn": "অভিবাসন মন্ত্রণালয় ও দূতাবাসের কাজ নিয়মিত পর্যালোচনার আহ্বান",
+        "en": "Call for regular reviews of migration ministry and diplomatic missions"
+      },
+      "summary": {
+        "bn": "ঢাকার এক অনুষ্ঠানে বক্তারা নারী অভিবাসী শ্রমিকের সুরক্ষা, বিদেশে আটক বাংলাদেশিদের আইনি প্রতিনিধিত্ব এবং মন্ত্রণালয় ও মিশনের জবাবদিহি নিয়মিত পর্যালোচনার আহ্বান জানিয়েছেন। এগুলো বক্তাদের নীতিগত প্রস্তাব, সরকারি সিদ্ধান্ত নয়।",
+        "en": "Speakers at a Dhaka event called for regular accountability reviews, stronger protection for women migrant workers and legal representation for Bangladeshis detained abroad. These are policy proposals by speakers, not announced government decisions."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "topic_explicitly_concerns_Bangladeshi_migrants",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-EXPAT-NID-20261103",
+      "country": "MULTI",
+      "published_date": "2026-11-03",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/ec-distributes-over-30000-nids-among-bangladeshi-expats-17-countries-4314701",
+      "language": "en",
+      "title": {
+        "bn": "১৭ দেশে প্রবাসীদের জন্য ৩০ হাজারের বেশি NID পাঠানোর হিসাব",
+        "en": "More than 30,000 NIDs dispatched for expatriates in 17 countries"
+      },
+      "summary": {
+        "bn": "নির্বাচন কমিশনের তথ্য উদ্ধৃত করে প্রতিবেদনে আবেদন, বায়োমেট্রিক, কার্ড আপলোড ও মিশনে পাঠানোর পৃথক cumulative snapshot দেওয়া হয়েছে। এগুলো একই কর্মসূচির overlapping ধাপ; যোগ করে মোট করা যাবে না।",
+        "en": "The report cites Election Commission figures for applications, biometrics, uploaded cards and cards dispatched to missions. These are overlapping stages of the same programme and must not be added together."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Election_Commission_programme_for_Bangladeshi_expatriates",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "ID-IRREGULAR-ENTRY-20261103",
+      "country": "ID",
+      "published_date": "2026-11-03",
+      "event_date": "2026-10-04",
+      "publisher": "bdnews24 Bangla",
+      "url": "https://bangla.bdnews24.com/probash/2a91ihvt7x",
+      "language": "bn",
+      "title": {
+        "bn": "ইন্দোনেশিয়ায় অনিয়মিত প্রবেশের অভিযোগে চার বাংলাদেশি আটক",
+        "en": "Four Bangladeshis detained in Indonesia over alleged irregular entry"
+      },
+      "summary": {
+        "bn": "প্রতিবেদন অনুযায়ী, পূর্ব নুসা তেঙ্গারার পশ্চিম কুপাং এলাকায় ৪ অক্টোবর চার বাংলাদেশিকে বৈধ প্রবেশ-নথি না থাকার অভিযোগে আটক করা হয়। এটি কর্তৃপক্ষের অভিযোগ; বিচারিক ফল প্রকাশিত হয়নি।",
+        "en": "The report says four Bangladeshis were detained in West Kupang, East Nusa Tenggara, on 4 October for allegedly lacking lawful entry documents. This is an authority-reported allegation; no court outcome is reported."
+      },
+      "record_type": "incident",
+      "incident_key": "ID-IRREGULAR-ENTRY-20261004",
+      "status": "authority_reported_allegation",
+      "nationality_basis": "source_reported_Bangladeshi_nationality",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-CHOW-KIT-RAID-20261031",
+      "country": "MY",
+      "published_date": "2026-10-31",
+      "event_date": "2026-10-31",
+      "publisher": "Malay Mail",
+      "url": "https://www.malaymail.com/news/malaysia/2026/10/31/child-10-among-181-detained-in-chow-kit-immigration-raid/241434",
+      "language": "en",
+      "title": {
+        "bn": "চৌ কিট অভিযানে আটক ১৮১ বিদেশির মধ্যে ২০ বাংলাদেশি",
+        "en": "Twenty Bangladeshis among 181 foreigners detained in Chow Kit raid"
+      },
+      "summary": {
+        "bn": "মালয়েশিয়ার অভিবাসন বিভাগের অভিযানে ১৮১ বিদেশির মধ্যে ২০ বাংলাদেশিকে নথি, অতিরিক্ত অবস্থান বা পাস অপব্যবহারের অভিযোগে আটক করা হয়েছে বলে প্রতিবেদনে বলা হয়। মোট আটকদের মধ্যে একটি শিশু ছিল; শিশুটির জাতীয়তা বাংলাদেশি বলা হয়নি।",
+        "en": "Malaysia's immigration department reportedly detained 181 foreign nationals, including 20 Bangladeshis, over alleged documentation, overstay or pass-misuse issues. One child was among all detainees; the source does not identify the child as Bangladeshi."
+      },
+      "record_type": "incident",
+      "incident_key": "MY-CHOW-KIT-RAID-20261031",
+      "status": "immigration_detention_reported",
+      "nationality_basis": "source_breakdown_identifies_20_Bangladeshis",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "IT-INTERPRETER-ALLEGATION-20261029",
+      "country": "IT",
+      "published_date": "2026-10-29",
+      "event_date": null,
+      "publisher": "Adnkronos",
+      "url": "https://www.adnkronos.com/cronaca/migranti-traduceva-male-colloqui-con-richiedenti-asilo-fermato-interprete-a-siracusa_5vMa3X3mAtKQyFa4nKJRm4",
+      "language": "it",
+      "title": {
+        "bn": "সিরাকিউসায় আশ্রয় সাক্ষাৎকার ভুল অনুবাদের অভিযোগে বাংলা দোভাষীর বিরুদ্ধে ব্যবস্থা",
+        "en": "Bengali interpreter investigated over alleged mistranslation of asylum interviews"
+      },
+      "summary": {
+        "bn": "ইতালির প্রতিবেদনে বাংলাদেশি বংশোদ্ভূত/বাংলাভাষী এক দোভাষীর বিরুদ্ধে ইচ্ছাকৃত ভুল অনুবাদের অভিযোগ এবং গৃহবন্দি রাখার কথা বলা হয়েছে। নাগরিকত্ব নিশ্চিত নয় এবং অভিযোগ আদালতে চূড়ান্তভাবে প্রমাণিত নয়।",
+        "en": "Italian reporting describes a Bengali interpreter of Bangladeshi origin accused of deliberately mistranslating asylum interviews and placed under house arrest. Citizenship is unconfirmed and the allegation has not been finally adjudicated."
+      },
+      "record_type": "incident_report",
+      "incident_key": null,
+      "status": "judicial_allegation_reported",
+      "nationality_basis": "source_described_Bangladeshi_origin; citizenship_unconfirmed",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "CA-NANAIMO-DRIVING-CHARGE-20261031",
+      "country": "CA",
+      "published_date": "2026-10-31",
+      "event_date": null,
+      "publisher": "bdnews24 Bangla",
+      "url": "https://bangla.bdnews24.com/probash/knkrlnvyyn",
+      "language": "bn",
+      "title": {
+        "bn": "নানাইমোতে বাংলাদেশি অভিবাসীর মৃত্যুর ঘটনায় চালকের বিরুদ্ধে অভিযোগ",
+        "en": "Driver charged in death of Bangladeshi immigrant in Nanaimo"
+      },
+      "summary": {
+        "bn": "২০২৫ সালের নভেম্বরে ব্রিটিশ কলাম্বিয়ার নানাইমোতে এক বাংলাদেশি অভিবাসীর মৃত্যুর ঘটনায় এক চালকের বিরুদ্ধে dangerous driving causing death অভিযোগ আনার অনুসরণী খবর। মৃত ব্যক্তি, পরিবার ও অভিযুক্তের নাম পুনঃপ্রকাশ করা হয়নি; দোষ আদালতে প্রমাণিত নয়।",
+        "en": "A follow-up report says a driver was charged with dangerous driving causing death after a Bangladeshi immigrant died in Nanaimo, British Columbia, in November 2025. Names of the deceased, family and accused are withheld; guilt has not been established."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "charge_reported",
+      "nationality_basis": "source_reported_Bangladeshi_immigrant",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "US-UNLAWFUL-VOTING-CHARGE-20261027",
+      "country": "US",
+      "published_date": "2026-10-27",
+      "event_date": "2024-11-05",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/usao-md/pr/bangladesh-illegal-alien-charged-unlawful-voting",
+      "language": "en",
+      "title": {
+        "bn": "২০২৪ নির্বাচনে বেআইনি ভোটের অভিযোগে বাংলাদেশি নাগরিকের বিরুদ্ধে ফেডারেল মামলা",
+        "en": "Bangladeshi national federally charged with unlawful voting in 2024 election"
+      },
+      "summary": {
+        "bn": "যুক্তরাষ্ট্রের বিচার বিভাগের বিজ্ঞপ্তি অনুযায়ী, এক বাংলাদেশি নাগরিকের বিরুদ্ধে ২০২৪ সালের নির্বাচনে জেনেশুনে বেআইনি ভোট দেওয়ার অভিযোগ আনা হয়েছে। অভিযোগপত্র দোষের প্রমাণ নয়; পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The U.S. Justice Department says a Bangladeshi national was charged with knowingly voting unlawfully in the 2024 election. A charging document is not proof of guilt; the person's identity is not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "US-UNLAWFUL-VOTING-20241105",
+      "status": "federal_charge_reported",
+      "nationality_basis": "DOJ_identifies_Bangladeshi_national",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SI-BORDER-DETENTIONS-20261101",
+      "country": "SI",
+      "published_date": "2026-11-01",
+      "event_date": null,
+      "publisher": "Jago News 24",
+      "url": "https://www.jagonews24.com/probash/news/1174219",
+      "language": "bn",
+      "title": {
+        "bn": "স্লোভেনিয়ায় আটক ১৪৭ অভিবাসীর মধ্যে ২০ বাংলাদেশি",
+        "en": "Twenty Bangladeshis among 147 migrants detained in Slovenia"
+      },
+      "summary": {
+        "bn": "স্লোভেনিয়ার দুই এলাকায় মোট ১৪৭ অভিবাসী আটকের প্রতিবেদনে দুই দলে যথাক্রমে ৭ ও ১৩ বাংলাদেশির কথা বলা হয়েছে। প্রকাশিত প্রতিবেদনে নির্ভরযোগ্য নির্দিষ্ট ঘটনার তারিখ না থাকায় পৃথক incident entry করা হয়নি।",
+        "en": "Reporting on 147 migrants detained in two Slovenian areas identifies 7 and 13 Bangladeshis in the two groups. No separate incident entry is made because a sufficiently precise event date was not established."
+      },
+      "record_type": "incident_report",
+      "incident_key": null,
+      "status": "border_authority_reported_detention",
+      "nationality_basis": "source_breakdown_identifies_20_Bangladeshis",
+      "added_at": "2026-11-05T04:05:20.817Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "GB-BETHNAL-GREEN-POLICE-APPEAL-20261103",
+      "country": "GB",
+      "published_date": "2026-11-03",
+      "event_date": "2024-08-01",
+      "publisher": "Metropolitan Police",
+      "url": "https://news.met.police.uk/news/detectives-seek-to-trace-two-men-following-rape-in-bethnal-green-514510",
+      "language": "en",
+      "title": {
+        "bn": "ইস্ট লন্ডনে অপ্রাপ্তবয়স্ক survivor-এর মামলায় দুই বাংলাদেশিকে খুঁজছে পুলিশ",
+        "en": "Police seek two Bangladeshis in East London minor-survivor investigation"
+      },
+      "summary": {
+        "bn": "মেট্রোপলিটন পুলিশ ২০২৪ সালের একটি যৌন সহিংসতা তদন্তে জিজ্ঞাসাবাদের জন্য দুই বাংলাদেশিকে খুঁজছে। এটি পুলিশি অনুসন্ধান, দোষ প্রমাণ নয়; survivor ও সংশ্লিষ্ট ব্যক্তিদের নাম বা ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Metropolitan Police are seeking two Bangladeshis for questioning in a 2024 sexual-violence investigation involving a minor survivor. This is a police inquiry, not a finding of guilt; no names or private details are republished."
+      },
+      "record_type": "incident",
+      "incident_key": "GB-BETHNAL-GREEN-INVESTIGATION-20240801",
+      "status": "police_seeking_persons_for_questioning",
+      "nationality_basis": "Metropolitan_Police_identifies_Bangladeshi_nationality",
+      "added_at": "2026-11-05T04:05:20.817Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
