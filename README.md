@@ -1,17 +1,11 @@
-# Ikramul’s websites
+# Ikramul’s publishing system
 
-- Academic: https://hkikramul.github.io/
-- Learning: https://hkikramul.github.io/making-sense/
-- Editing guide: https://hkikramul.github.io/admin/
+- Academic profile: https://hkikramul.github.io/
+- Making Sense: https://hkikramul.github.io/making-sense/
+- Debabrata Basu founding vision (English): https://hkikramul.github.io/making-sense/debabrata-basu/
+- East Bengal Renaissance: https://hkikramul.github.io/east-bengal-renaissance/
+- Probash Watch, an EBR subsection: https://hkikramul.github.io/east-bengal-renaissance/probash-watch/
 
-## Editing without code
+Maintain these GitHub Pages sites in this repository. Do not create duplicate hosted websites. See PUBLISHING_GUIDE.md for ownership, languages, redirects, editing and the maintenance routine; PUBLISHING_QUEUE.md is the single editorial queue. Old public HTML URLs remain forwarding pages.
 
-Sign in at https://app.pagescms.org/ and grant the Pages CMS GitHub app access to **only this repository**. Select the main branch. The root `.pages.yml` defines form-based editors for both sites. Save to publish via GitHub Pages. Content is stored in `content/academic/` and `content/learning/` JSON files. Content is public; never store credentials, personal records, or private drafts in this repository.
-
-The public pages load same-origin JSON using `content-loader.js`. Original content remains available as a fallback if a fetch fails. Lesson and resource content use escaped text and HTTPS-only resource URLs. The visual demo runs locally in the visitor’s browser. No visitor editor credentials are stored or requested by the public websites.
-
-To change the layout, edit HTML/CSS. For everyday content changes, use Pages CMS. GitHub commit history preserves prior versions.
-
-## Website maintenance preference
-
-Use https://hkikramul.github.io/ as the sole canonical personal academic website and https://hkikramul.github.io/making-sense/ for public learning. Publish future updates only to this GitHub Pages repository. Do not create or update duplicate ChatGPT-hosted websites.
+Edit static HTML for layout and editorial text. JSON lesson/resource data and Probash Watch data remain editable where used by the apps. Legacy CMS forms are not the authority for revised static text. Never commit private drafts, credentials, personal records, or private report intake.

@@ -1,7 +1,7 @@
 # Probash Watch automatic media updates
 
-Public app: https://hkikramul.github.io/probash-watch/
-Canonical repository: hkikramul/hkikramul.github.io, main branch, directory probash-watch/.
+Public app: https://hkikramul.github.io/east-bengal-renaissance/probash-watch/
+Canonical repository: hkikramul/hkikramul.github.io, main branch, directory east-bengal-renaissance/probash-watch/.
 
 ## User-authorized publication policy
 News reports from domestic or foreign media may be published directly as source-reported coverage WITHOUT human editorial approval. Scope: Bangladeshi citizens abroad in every destination, including workers, students, seafarers and other diaspora members. Do not infer citizenship from ethnicity or birthplace. News, published NGO investigations and official statements may be included from any relevant source; sources.json is a starting registry, not an exclusive allowlist.

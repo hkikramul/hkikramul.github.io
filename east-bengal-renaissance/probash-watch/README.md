@@ -1,6 +1,6 @@
 # প্রবাসপ্রহরী | Probash Watch
 
-Public dashboard: https://hkikramul.github.io/probash-watch/
+Public dashboard: https://hkikramul.github.io/east-bengal-renaissance/probash-watch/
 
 A personal initiative by Md. Ikramul Haq Khan.
 

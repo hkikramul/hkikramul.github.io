@@ -1,0 +1,1 @@
+.publication-bar{display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;padding:.8rem max(1rem,4vw);font:600 .875rem/1.5 system-ui;background:#172c2a;color:#fff}.publication-bar a{color:#fff;text-decoration:underline}.publication-bar a:focus-visible{outline:2px solid #ffd477;outline-offset:4px}

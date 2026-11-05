@@ -1,14 +1,14 @@
 {
   "text_1": "·",
   "text_2": "MAKING SENSE\nWITH IKRAMUL",
-  "text_3": "কী শিখবেন",
-  "link_3": "#topics",
-  "text_4": "পরিসংখ্যান",
-  "link_4": "#learn",
-  "text_5": "নিজে করে দেখুন",
-  "link_5": "#lab",
-  "text_6": "বিশ্লেষণের ধাপ",
-  "link_6": "#protocols",
-  "text_7": "ফ্রি বই ও টুল",
-  "link_7": "#resources"
+  "text_3": "Learn / শিখুন",
+  "link_3": "/making-sense/statistics.html",
+  "text_4": "Research Explained",
+  "link_4": "/making-sense/research-explained.html",
+  "text_5": "Debabrata Basu",
+  "link_5": "/making-sense/debabrata-basu/",
+  "text_6": "About",
+  "link_6": "/making-sense/#about",
+  "text_7": "English",
+  "link_7": "/making-sense/en.html"
 }
