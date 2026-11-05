@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T04:05:20.817Z",
+  "updated_at": "2026-11-05T16:03:45.315Z",
   "coverage_complete": false,
   "records": [
     {
@@ -743,6 +743,20 @@
       "source_url": "https://www.thedailystar.net/news/work-and-migration/news/ec-distributes-over-30000-nids-among-bangladeshi-expats-17-countries-4314701",
       "note": "Destination component of the 30,183-card total; selected-country breakdown only.",
       "denominator": 30183,
+      "status": "source_reported"
+    },
+    {
+      "id": "my-bangladeshi-repatriations-final-week-oct-2026",
+      "metric": "bangladeshi_nationals_repatriated_after_immigration_detention",
+      "value": 45,
+      "period": "Final week of Oct 2026",
+      "country": "MY",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "relative_window",
+      "source_url": "https://observerbd.com/news/603761",
+      "note": "Bangladeshi component of 182 foreign nationals repatriated from Pekan Nenas Immigration Detention Depot. Exact start and end dates of the 'final week' were not stated; this is not a measure of all deportations in October and must not be added to overlapping detention or repatriation series.",
+      "denominator": 182,
       "status": "source_reported"
     }
   ]
