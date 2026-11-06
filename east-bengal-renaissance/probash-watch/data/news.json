@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T03:58:59.397Z",
-  "last_successful_scan_at": "2026-11-06T03:58:59.397Z",
+  "updated_at": "2026-11-06T16:04:36.050Z",
+  "last_successful_scan_at": "2026-11-06T16:04:36.050Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-06",
@@ -2576,6 +2576,30 @@
       "status": "source_reported",
       "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
       "added_at": "2026-11-06T03:58:59.397Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-12-COUNTRY-CLEARANCE-DETAIL-DS-20261106",
+      "country": "MULTI",
+      "published_date": "2026-11-06",
+      "event_date": "2026-11-04",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/44000-clearances-later-govt-tightens-migration-rules-4316861",
+      "language": "en",
+      "title": {
+        "bn": "১২ গন্তব্যে ৪৪,১২২ clearance-এর পর নিয়ন্ত্রণ কঠোর করার বিশদ প্রতিবেদন",
+        "en": "Detailed report on tightened controls after 44,122 clearances to 12 destinations"
+      },
+      "summary": {
+        "bn": "BMET portal বিশ্লেষণ করে দ্য ডেইলি স্টার জানিয়েছে, ১ জানুয়ারি ২০২৫–৩০ অক্টোবর ২০২৬ সময়ে ১২ গন্তব্যে ৪৪,১২২ বাংলাদেশি কর্মী clearance পেয়েছেন; এগুলো departure count নয়। প্রতিবেদনে Cambodia, Russia, Laos ও Belarus-এ প্রতারণা/পাচার ঝুঁকির প্রেক্ষাপট এবং ministry approval ছাড়া clearance না দেওয়ার নির্দেশ আছে। আগের bdnews24 প্রতিবেদনে Bosnia থাকলেও এই প্রতিবেদনে Russia আছে—উৎসভিত্তিক তালিকার এই অমিল অমীমাংসিত রাখা হয়েছে।",
+        "en": "The Daily Star's analysis of the BMET portal reports 44,122 clearances for Bangladeshi workers bound for 12 destinations from 1 January 2025 to 30 October 2026; these are clearances, not departure counts. It describes trafficking and deception concerns involving Cambodia, Russia, Laos and Belarus and the directive requiring ministry approval before clearance. An earlier bdnews24 report listed Bosnia, while this report lists Russia; the source-level discrepancy remains unresolved."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BMET_clearance_data_reported_for_Bangladeshi_workers",
+      "added_at": "2026-11-06T16:04:36.050Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
