@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T16:03:45.315Z",
+  "updated_at": "2026-11-06T03:58:59.397Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2023,6 +2023,12 @@
           "url": "https://defimedia.info/drame-plaine-des-papayes-le-ministere-du-travail-ouvre-une-enquete-apres-la-mort-de-trois-ouvriers",
           "date": "2026-11-05",
           "language": "fr"
+        },
+        {
+          "name": "Defimedia.info",
+          "url": "https://defimedia.info/drame-plaine-des-papayes-nous-esperons-connaitre-les-causes-exactes-des-deces",
+          "date": "2026-11-05",
+          "language": "fr"
         }
       ],
       "responses": [
@@ -2036,6 +2042,17 @@
             "en": "Opened an inquiry; the labour minister said the employer must compensate families and repatriate the bodies if requested."
           },
           "source_url": "https://defimedia.info/drame-plaine-des-papayes-le-ministere-du-travail-ouvre-une-enquete-apres-la-mort-de-trois-ouvriers"
+        },
+        {
+          "actor": {
+            "bn": "বাংলাদেশ হাইকমিশন",
+            "en": "Bangladesh High Commission"
+          },
+          "response": {
+            "bn": "ঘটনাস্থল পরিদর্শন করে মৃত্যুর সঠিক কারণ জানা এবং মরদেহ দ্রুত পরিবারের কাছে ফেরাতে সমন্বয়ের আশা প্রকাশ করেছে।",
+            "en": "Visited the site and expressed hope that the exact cause would be established and the bodies repatriated to their families promptly."
+          },
+          "source_url": "https://defimedia.info/drame-plaine-des-papayes-nous-esperons-connaitre-les-causes-exactes-des-deces"
         }
       ],
       "protests": [],
