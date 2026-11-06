@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T16:03:45.315Z",
-  "last_successful_scan_at": "2026-11-05T16:03:45.315Z",
+  "updated_at": "2026-11-06T03:58:59.397Z",
+  "last_successful_scan_at": "2026-11-06T03:58:59.397Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-05",
+  "coverage_end": "2026-11-06",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -2432,6 +2432,150 @@
       "status": "police_detention_reported",
       "nationality_basis": "police_breakdown_reported_by_Malay_Mail_identifies_four_Bangladeshis",
       "added_at": "2026-11-05T16:03:45.315Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MU-WORKPLACE-GLASS-HC-20261105",
+      "country": "MU",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-04",
+      "publisher": "Defimedia.info",
+      "url": "https://defimedia.info/drame-plaine-des-papayes-nous-esperons-connaitre-les-causes-exactes-des-deces",
+      "language": "fr",
+      "title": {
+        "bn": "মরিশাসে তিন শ্রমিকের মরদেহ দ্রুত ফেরানোর আশা বাংলাদেশ হাইকমিশনের",
+        "en": "Bangladesh High Commission seeks prompt repatriation after Mauritius deaths"
+      },
+      "summary": {
+        "bn": "বাংলাদেশ হাইকমিশনের একজন প্রতিনিধি ঘটনাস্থল পরিদর্শন করে মৃত্যুর সঠিক কারণ জানতে এবং মরদেহ যত দ্রুত সম্ভব পরিবারের কাছে ফেরাতে সমন্বয়ের আশা প্রকাশ করেছেন। এটি আগের কর্মস্থল-মৃত্যুর ঘটনায় কনস্যুলার follow-up; প্রত্যাবাসনের তারিখ তখনো নিশ্চিত হয়নি।",
+        "en": "A Bangladesh High Commission representative visited the site and said the mission hoped to establish the exact cause and repatriate the bodies to their families as soon as possible. This is a consular follow-up to the workplace deaths; no repatriation date was yet confirmed."
+      },
+      "record_type": "follow_up",
+      "incident_key": "MU-WORKPLACE-GLASS-20261104",
+      "status": "consular_response_reported",
+      "nationality_basis": "Bangladesh_High_Commission_response_and_local_reporting",
+      "added_at": "2026-11-06T03:58:59.397Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-ZERO-COST-112-REPORT-20261105",
+      "country": "MY",
+      "published_date": "2026-11-05",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/govt-invites-applications-112-zero-cost-malaysia-jobs-4316596",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় zero-cost চাকরির আবেদন আহ্বান—ডেইলি স্টারের প্রতিবেদনে ১১২ পদ",
+        "en": "Applications invited for zero-cost Malaysia jobs—Daily Star reports 112 positions"
+      },
+      "summary": {
+        "bn": "ডেইলি স্টার BOESL circular-এর বরাতে ১১২ কর্মী নির্বাচনের কথা জানিয়েছে; আবেদন ৬ নভেম্বর সকাল ১০টা থেকে ৮ নভেম্বর বিকেল ৪টা পর্যন্ত এবং basic salary ১,৭০০ ringgit। অন্য একটি সংবাদমাধ্যম দুই category মিলিয়ে ২২৩ পদ বলেছে; official notice সরাসরি নিশ্চিত না হওয়ায় সংখ্যার অমিল বজায় রাখা হয়েছে।",
+        "en": "The Daily Star, citing a BOESL circular, reports selection of 112 workers, with applications open from 10am on 6 November to 4pm on 8 November and a basic salary of 1,700 ringgit. Another outlet reports 223 positions across two categories; the discrepancy is retained because the official notice was not directly verified."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BOESL_recruitment_for_Bangladeshi_workers_as_reported",
+      "added_at": "2026-11-06T03:58:59.397Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-ZERO-COST-223-REPORT-20261106",
+      "country": "MY",
+      "published_date": "2026-11-06",
+      "event_date": null,
+      "publisher": "Daily Sun",
+      "url": "https://www.daily-sun.com/business/907546/boesl-to-recruit-223-skilled-workers-for-malaysia-at-zero-migration-cost",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় zero-cost নিয়োগ—ডেইলি সানের প্রতিবেদনে ২২৩ পদ",
+        "en": "Daily Sun reports 223 zero-cost Malaysia positions"
+      },
+      "summary": {
+        "bn": "ডেইলি সান BOESL notice-এর বরাতে operations assistant ১১২ এবং technical skill worker ১১১—মোট ২২৩ পুরুষ কর্মীর কথা জানিয়েছে, basic salary ১,৭০০ ringgit। ডেইলি স্টারের একই উদ্যোগের প্রতিবেদনে মোট ১১২ বলা হয়েছে; তাই কোনো একক vacancy statistic প্রকাশ করা হয়নি।",
+        "en": "Daily Sun, citing a BOESL notice, reports 112 operations-assistant and 111 technical-skill positions, totalling 223 male workers, at a 1,700-ringgit basic salary. The Daily Star reports 112 total for the same initiative, so no single vacancy statistic is published."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BOESL_recruitment_for_Bangladeshi_workers_as_reported",
+      "added_at": "2026-11-06T03:58:59.397Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-ZERO-COST-FLIGHTS-DEC-20261105",
+      "country": "MY",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-05",
+      "publisher": "The Daily Observer",
+      "url": "https://observerbd.com/news/604095",
+      "language": "en",
+      "title": {
+        "bn": "ডিসেম্বরে Malaysia zero-cost worker flights শুরুর লক্ষ্য",
+        "en": "Minister targets December for first zero-cost Malaysia worker flights"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণমন্ত্রী বলেছেন, zero-cost উদ্যোগের প্রথম দুই বা তিনটি worker flight ডিসেম্বর মাসে শুরু করার লক্ষ্য আছে এবং employer বা তাদের agency খরচ বহন করবে। এটি পরিকল্পিত সময়সীমা—নিশ্চিত flight schedule বা ইতোমধ্যে departure নয়।",
+        "en": "The expatriates' welfare minister said the first two or three worker flights under the zero-cost initiative are targeted for December, with costs borne by employers or their agencies. This is a planned timeframe, not a confirmed flight schedule or completed departure."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "minister_statement_about_Bangladeshi_workers_to_Malaysia",
+      "added_at": "2026-11-06T03:58:59.397Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-12-COUNTRY-CLEARANCE-RULE-20261105",
+      "country": "MULTI",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-04",
+      "publisher": "bdnews24 Bangla",
+      "url": "https://bangla.bdnews24.com/bangladesh/gmv8c6hbqf",
+      "language": "bn",
+      "title": {
+        "bn": "১২ গন্তব্যে ministry approval ছাড়া worker clearance না দেওয়ার নির্দেশ",
+        "en": "Clearance restricted without ministry approval for workers bound for 12 destinations"
+      },
+      "summary": {
+        "bn": "মন্ত্রণালয়ের চিঠি অনুযায়ী Serbia, Moldova, Belarus, Kosovo, Bosnia, Japan, Iraq, Laos, Vietnam, Cambodia, Ukraine ও Libya-গামী কর্মীদের recruitment approval ছাড়া emigration clearance না দিতে বলা হয়েছে। এটি clearance condition; দেশগুলোতে সব কর্মসংস্থান বা visa সম্পূর্ণ বন্ধের ঘোষণা নয়।",
+        "en": "A ministry letter directs that workers bound for Serbia, Moldova, Belarus, Kosovo, Bosnia, Japan, Iraq, Laos, Vietnam, Cambodia, Ukraine and Libya should not receive emigration clearance without recruitment approval. This is a clearance condition, not an announcement that all employment or visas for those destinations are closed."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_ministry_directive_for_outbound_Bangladeshi_workers",
+      "added_at": "2026-11-06T03:58:59.397Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261105",
+      "country": "MULTI",
+      "published_date": "2026-11-05",
+      "event_date": "2026-11-05",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-05/",
+      "language": "bn",
+      "title": {
+        "bn": "৫ নভেম্বর ২,৯৮১ কর্মী overseas-employment clearance পেয়েছেন",
+        "en": "2,981 workers received overseas-employment clearance on 5 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী প্রতিবেদনে ৫ নভেম্বর ২৯টি গন্তব্যের জন্য ২,৯৮১ clearance-এর কথা আছে; এর মধ্যে নারী ৪৫৫। এটি clearance count, ওই দিন physical departure-এর সংখ্যা নয়; সরকারি পোর্টালে দেরিতে entry হলে সংখ্যা সংশোধিত হতে পারে।",
+        "en": "A report reproducing government OEP country-clearance data records 2,981 clearances for 29 destinations on 5 November, including 455 women. This is a clearance count, not the number physically departing that day, and may be revised if the official portal receives late entries."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-06T03:58:59.397Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
