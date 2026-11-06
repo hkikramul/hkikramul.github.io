@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T16:03:45.315Z",
+  "updated_at": "2026-11-06T03:58:59.397Z",
   "coverage_complete": false,
   "records": [
     {
@@ -757,6 +757,34 @@
       "source_url": "https://observerbd.com/news/603761",
       "note": "Bangladeshi component of 182 foreign nationals repatriated from Pekan Nenas Immigration Detention Depot. Exact start and end dates of the 'final week' were not stated; this is not a measure of all deportations in October and must not be added to overlapping detention or repatriation series.",
       "denominator": 182,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-2026-11-05",
+      "metric": "workers_receiving_overseas_employment_clearance",
+      "value": 2981,
+      "period": "5 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "single_calendar_day",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-05/",
+      "note": "Single-day BMET/OEP clearance count reproduced by Probashi Info for 29 destinations; not the number who physically departed that day. The republisher warns that late official entries may revise the figure. Do not add to overlapping weekly or monthly totals.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-2026-11-05",
+      "metric": "women_receiving_overseas_employment_clearance",
+      "value": 455,
+      "period": "5 Nov 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "single_calendar_day_component",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-05/",
+      "note": "Female component of the 2,981 single-day clearance total; not a departure count and must not be added to the all-gender total.",
+      "denominator": 2981,
       "status": "source_reported"
     }
   ]
