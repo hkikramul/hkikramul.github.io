@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T16:04:36.050Z",
+  "updated_at": "2026-11-07T04:02:12.185Z",
   "coverage_complete": false,
   "records": [
     {
@@ -967,6 +967,62 @@
       "source_url": "https://www.thedailystar.net/news/bangladesh/news/44000-clearances-later-govt-tightens-migration-rules-4316861",
       "note": "Ukraine component of the 44,122 total; do not add again.",
       "denominator": 44122,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-2026-11-06",
+      "metric": "workers_receiving_overseas_employment_clearance",
+      "value": 220,
+      "period": "6 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "single_calendar_day",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-06/",
+      "note": "Single-day BMET/OEP clearance count reproduced by Probashi Info for 10 destinations; not physical departures. Late official entries may revise the figure. Do not add to the overlapping weekly or monthly total.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-2026-11-06",
+      "metric": "women_receiving_overseas_employment_clearance",
+      "value": 8,
+      "period": "6 Nov 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "single_calendar_day_component",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-06/",
+      "note": "Female component of the 220 single-day clearance total; not a departure count and must not be added to the all-gender total.",
+      "denominator": 220,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-week-2026-10-31-2026-11-06",
+      "metric": "workers_receiving_overseas_employment_clearance",
+      "value": 13783,
+      "period": "31 Oct–6 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "rolling_seven_calendar_days",
+      "source_url": "https://probashiinfo.com/bmet-weekly-report-2026-11-06/",
+      "note": "Seven-day BMET/OEP clearance total reproduced by Probashi Info for 49 destinations; overlaps the daily records and any monthly totals and must not be added to them. Not a physical departure count; may be revised for late official entries.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-week-2026-10-31-2026-11-06",
+      "metric": "women_receiving_overseas_employment_clearance",
+      "value": 1599,
+      "period": "31 Oct–6 Nov 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "rolling_seven_calendar_days_component",
+      "source_url": "https://probashiinfo.com/bmet-weekly-report-2026-11-06/",
+      "note": "Female component of the 13,783 seven-day clearance total; overlaps daily and monthly data and must not be added to the all-gender total.",
+      "denominator": 13783,
       "status": "source_reported"
     }
   ]
