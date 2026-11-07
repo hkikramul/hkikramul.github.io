@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T04:02:12.185Z",
-  "last_successful_scan_at": "2026-11-07T04:02:12.185Z",
+  "updated_at": "2026-11-07T16:01:58.467Z",
+  "last_successful_scan_at": "2026-11-07T16:01:58.467Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-07",
@@ -2472,8 +2472,8 @@
         "en": "Applications invited for zero-cost Malaysia jobs—Daily Star reports 112 positions"
       },
       "summary": {
-        "bn": "ডেইলি স্টার BOESL circular-এর বরাতে ১১২ কর্মী নির্বাচনের কথা জানিয়েছে; আবেদন ৬ নভেম্বর সকাল ১০টা থেকে ৮ নভেম্বর বিকেল ৪টা পর্যন্ত এবং basic salary ১,৭০০ ringgit। অন্য একটি সংবাদমাধ্যম দুই category মিলিয়ে ২২৩ পদ বলেছে; official notice সরাসরি নিশ্চিত না হওয়ায় সংখ্যার অমিল বজায় রাখা হয়েছে।",
-        "en": "The Daily Star, citing a BOESL circular, reports selection of 112 workers, with applications open from 10am on 6 November to 4pm on 8 November and a basic salary of 1,700 ringgit. Another outlet reports 223 positions across two categories; the discrepancy is retained because the official notice was not directly verified."
+        "bn": "ডেইলি স্টার BOESL circular-এর বরাতে ১১২ কর্মী নির্বাচনের কথা জানিয়েছে। পরে খুঁজে পাওয়া BOESL-এর সরকারি বিজ্ঞপ্তির টেবিলে ১১২ operations assistant ও ৩৮ technical worker আছে, কিন্তু একই বিজ্ঞপ্তির পরের অংশে final selection ১১২ বলা হয়েছে। তাই সরকারি নথির অভ্যন্তরীণ অসঙ্গতি বজায় রাখা হয়েছে; কোনো একক vacancy statistic প্রকাশ করা হয়নি।",
+        "en": "The Daily Star, citing a BOESL circular, reported selection of 112 workers. The subsequently located official BOESL notice lists 112 operations assistants and 38 technical workers in its table, but a later section says 112 candidates will be selected. The official document's internal inconsistency is retained, and no single vacancy statistic is published."
       },
       "record_type": "policy",
       "incident_key": null,
@@ -2496,12 +2496,12 @@
         "en": "Daily Sun reports 223 zero-cost Malaysia positions"
       },
       "summary": {
-        "bn": "ডেইলি সান BOESL notice-এর বরাতে operations assistant ১১২ এবং technical skill worker ১১১—মোট ২২৩ পুরুষ কর্মীর কথা জানিয়েছে, basic salary ১,৭০০ ringgit। ডেইলি স্টারের একই উদ্যোগের প্রতিবেদনে মোট ১১২ বলা হয়েছে; তাই কোনো একক vacancy statistic প্রকাশ করা হয়নি।",
-        "en": "Daily Sun, citing a BOESL notice, reports 112 operations-assistant and 111 technical-skill positions, totalling 223 male workers, at a 1,700-ringgit basic salary. The Daily Star reports 112 total for the same initiative, so no single vacancy statistic is published."
+        "bn": "ডেইলি সান ২২৩ পদ (১১২ operations assistant ও ১১১ technical worker) বলেছিল। পরে খুঁজে পাওয়া BOESL-এর সরকারি বিজ্ঞপ্তিতে technical worker ৩৮ এবং টেবিলের মোট ১৫০; একই নথির পরের অংশে final selection ১১২ বলা হয়েছে। তাই ২২৩-এর সংবাদ-দাবি সরকারি নথির সঙ্গে মেলে না এবং কোনো একক vacancy statistic প্রকাশ করা হয়নি।",
+        "en": "Daily Sun reported 223 positions (112 operations assistants and 111 technical workers). The subsequently located official BOESL notice instead lists 38 technical workers and a table total of 150, while a later section of that document says 112 candidates will be selected. The media claim of 223 does not match the official notice, and no single vacancy statistic is published."
       },
       "record_type": "policy",
       "incident_key": null,
-      "status": "source_reported",
+      "status": "source_reported_conflicts_with_official_notice",
       "nationality_basis": "BOESL_recruitment_for_Bangladeshi_workers_as_reported",
       "added_at": "2026-11-06T03:58:59.397Z",
       "translation_status": "summary_draft",
@@ -2720,6 +2720,78 @@
       "status": "source_reported",
       "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
       "added_at": "2026-11-07T04:02:12.185Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-WAGE-JOB-MATCHING-ST-20261107",
+      "country": "SG",
+      "published_date": "2026-11-07",
+      "event_date": "2026-11-06",
+      "publisher": "The Daily Star / The Straits Times / ANN",
+      "url": "https://www.thedailystar.net/news/world/asia/news/bangladeshis-among-migrant-workers-singapore-get-job-offers-amid-unpaid-wage-claims-4317511",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরে বকেয়া-মজুরি দাবির মধ্যে ২৩০-এর বেশি শ্রমিকের সম্ভাব্য নতুন চাকরির সংযোগ",
+        "en": "More than 230 Singapore workers linked to potential jobs amid unpaid-wage claims"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার/স্ট্রেইটস টাইমস জানিয়েছে, Process Maintenance Solutions ও Jurong Technical & Construction-এর ২৩০-এর বেশি শ্রমিককে সম্ভাব্য নিয়োগকর্তার সঙ্গে যুক্ত করা হয়েছে এবং অস্থায়ী আবাসনে রাখা হয়েছে; অধিকাংশ বাংলাদেশি, তবে সুনির্দিষ্ট বাংলাদেশি সংখ্যা প্রকাশিত হয়নি। ৬ নভেম্বর job-matching হয়। প্রথম প্রতিষ্ঠানের প্রায় ১২০ শ্রমিকের অধিকাংশ বকেয়া পেয়েছেন বলে শ্রমিকেরা জানিয়েছেন, কিন্তু দ্বিতীয় প্রতিষ্ঠানের কিছু দাবি তখনো চলমান। ২৩০ জনের ৯০%-এর বেশি salary claim করেছেন; MOM-এর তদন্ত চলমান। ব্যক্তিগত পরিচয় ও আর্থিক বিবরণ পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The Daily Star/Straits Times reports that more than 230 workers from Process Maintenance Solutions and Jurong Technical & Construction were linked with potential employers and housed temporarily; most are Bangladeshi, but the exact Bangladeshi count was not published. A job-matching exercise was held on 6 November. Workers said nearly all of roughly 120 affected workers at the first firm had received arrears, while some claims at the second remained pending. More than 90% of the 230 had lodged salary claims, and MOM's investigation was ongoing. Personal identities and financial details are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SG-WAGE-ARREARS-202608",
+      "status": "source_reported",
+      "nationality_basis": "source_reported_mostly_Bangladeshi_exact_count_unknown",
+      "added_at": "2026-11-07T16:01:58.467Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-BOESL-ZERO-COST-OFFICIAL-20261105",
+      "country": "MY",
+      "published_date": "2026-11-05",
+      "event_date": null,
+      "publisher": "Bangladesh Overseas Employment and Services Limited (BOESL)",
+      "url": "https://employee.oep.gov.bd/uploads/notifications/notifications_malaysia_1793941036.pdf",
+      "language": "bn",
+      "title": {
+        "bn": "মালয়েশিয়ায় শূন্য অভিবাসন ব্যয়ের নিয়োগে BOESL-এর সরকারি বিজ্ঞপ্তি",
+        "en": "Official BOESL notice for zero-migration-cost recruitment to Malaysia"
+      },
+      "summary": {
+        "bn": "BOESL-এর ৫ নভেম্বরের সরকারি বিজ্ঞপ্তিতে DHL Supply Chain (Malaysia)-এর জন্য ১১২ operations assistant ও ৩৮ technical skill worker-এর টেবিল রয়েছে, প্রত্যেকের basic salary ১,৭০০ ringgit। একই বিজ্ঞপ্তির পরের অংশে technical/oral test-এর মাধ্যমে ১১২ জন নির্বাচনের কথা আছে; তাই টেবিলের মোট ১৫০ ও চূড়ান্ত ১১২-এর অসঙ্গতি অক্ষুণ্ণ রাখা হয়েছে এবং ২২৩ পদের সংবাদ-দাবি সরকারি বিজ্ঞপ্তির সঙ্গে মেলে না। আবেদন ৬ নভেম্বর সকাল ১০টা থেকে ৮ নভেম্বর রাত ৮টা; নির্বাচিত কর্মীকে কোনো পর্যায়ে অর্থ না দিতে বলা হয়েছে।",
+        "en": "BOESL's official 5 November notice contains a table listing 112 operations-assistant and 38 technical-skill-worker positions for DHL Supply Chain (Malaysia), each with a 1,700-ringgit basic salary. A later section of the same notice says 112 candidates will be selected after technical/oral tests. The inconsistency between the table total of 150 and the final-selection figure of 112 is preserved, and a media claim of 223 positions does not match the official notice. Applications run from 10am on 6 November to 8pm on 8 November, and selected workers are instructed not to pay money at any stage."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_notice_reported_with_internal_number_discrepancy",
+      "nationality_basis": "official_Bangladesh_recruitment_notice_for_Bangladeshi_workers",
+      "added_at": "2026-11-07T16:01:58.467Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-FOREIGN-WORKER-SAFEGUARDS-MALAYMAIL-20261107",
+      "country": "MY",
+      "published_date": "2026-11-07",
+      "event_date": "2026-11-06",
+      "publisher": "Malay Mail",
+      "url": "https://www.malaymail.com/news/malaysia/2026/11/07/anwar-open-to-easing-foreign-worker-rules-for-sectors-facing-shortages-warns-against-exploitation/242266",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় শ্রমঘাটতির খাতে বিদেশি কর্মী অনুমোদন সহজ করার সম্ভাবনা ও শোষণবিরোধী শর্ত",
+        "en": "Malaysia considers easing foreign-worker approvals in shortage sectors with safeguards against exploitation"
+      },
+      "summary": {
+        "bn": "মালয়েশিয়ার প্রধানমন্ত্রী বলেছেন, বিশেষ করে plantation harvesting-এ প্রকৃত শ্রমঘাটতি থাকলে foreign-worker approval সহজ করার বিষয় বিবেচনা করা যেতে পারে, তবে mechanisation-এর অঙ্গীকার ও শোষণবিরোধী সুরক্ষা থাকতে হবে। তিনি অতিরিক্ত recruitment fee, মজুরি/পাসপোর্ট আটকে রাখা ও অমানবিক আবাসনের বিরুদ্ধে ব্যবস্থা চেয়েছেন। এটি বাংলাদেশিদের জন্য আলাদা quota বা কার্যকর নতুন rule নয়; মালয়েশিয়ার immigration guidance-এ বাংলাদেশ অনুমোদিত source country হওয়ায় সম্ভাব্য প্রাসঙ্গিক policy development হিসেবে রাখা হয়েছে।",
+        "en": "Malaysia's prime minister said foreign-worker approvals could be considered for genuine labour shortages, particularly plantation harvesting, subject to mechanisation commitments and safeguards against exploitation. He called for action against excessive recruitment fees, wage or passport retention and inhumane housing. This is not a Bangladesh-specific quota or an enacted new rule; it is retained as a potentially relevant policy development because Bangladesh is an approved source country under Malaysian immigration guidance."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported_policy_proposal_not_enacted_rule",
+      "nationality_basis": "Malaysia_approved_source_country_policy_includes_Bangladesh_but_no_Bangladesh_specific_measure",
+      "added_at": "2026-11-07T16:01:58.467Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
