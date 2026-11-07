@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T04:02:12.185Z",
+  "updated_at": "2026-11-07T16:01:58.467Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -899,8 +899,8 @@
         "en": "Workers, mostly Bangladeshis, face wage arrears at two Singapore firms"
       },
       "summary": {
-        "bn": "প্রকাশিত তদন্ত ও সহায়তাকারী সংস্থার তথ্যে, Process Maintenance Solutions ও Jurong Technical & Construction-এর প্রায় ২৪০ শ্রমিক দুই থেকে তিন মাস বেতন না পাওয়া এবং অনেকের ওয়ার্ক পারমিট বাতিল হওয়ার কথা বলা হয়েছে। অধিকাংশ বাংলাদেশি হলেও সুনির্দিষ্ট বাংলাদেশি সংখ্যা প্রকাশিত হয়নি। কিছু বকেয়া পরিশোধ হয়েছে; অন্য দাবি ও সরকারি তদন্ত চলমান।",
-        "en": "Published reporting and an assistance organisation say nearly 240 workers at Process Maintenance Solutions and Jurong Technical & Construction went unpaid for two to three months and many had work permits cancelled. Most are Bangladeshi, but the exact Bangladeshi count was not published. Some arrears were paid; other claims and a government investigation remain ongoing."
+        "bn": "প্রকাশিত প্রতিবেদন ও সহায়তাকারী সংস্থার তথ্যে, Process Maintenance Solutions ও Jurong Technical & Construction-এর ২৩০-এর বেশি শ্রমিক বকেয়া মজুরি ও বাতিল work permit-এর সমস্যায় পড়েন; অধিকাংশ বাংলাদেশি হলেও সুনির্দিষ্ট সংখ্যা প্রকাশিত হয়নি। ৬ নভেম্বর job-matching-এর মাধ্যমে তাঁদের সম্ভাব্য নিয়োগকর্তার সঙ্গে যুক্ত করা হয় এবং অস্থায়ী আবাসন দেওয়া হয়। প্রথম প্রতিষ্ঠানের বহু শ্রমিক বকেয়া পাওয়ার কথা জানিয়েছেন; দ্বিতীয় প্রতিষ্ঠানের কিছু দাবি ও MOM-এর তদন্ত চলমান।",
+        "en": "Published reporting and an assistance organisation say more than 230 workers from Process Maintenance Solutions and Jurong Technical & Construction faced unpaid wages and cancelled work permits; most are Bangladeshi, but the exact number is unpublished. A 6 November job-matching exercise connected them with potential employers and temporary housing. Many workers at the first firm reported receiving arrears, while some claims at the second firm and MOM's investigation remained ongoing."
       },
       "category": "labour_rights",
       "gender": "unknown",
@@ -921,6 +921,13 @@
           "url": "https://www.mwc.org.sg/news/mwc-supports-240-unpaid-migrant-workers/",
           "date": "2026-10-23",
           "language": "en"
+        },
+        {
+          "name": "The Daily Star / The Straits Times / ANN",
+          "url": "https://www.thedailystar.net/news/world/asia/news/bangladeshis-among-migrant-workers-singapore-get-job-offers-amid-unpaid-wage-claims-4317511",
+          "date": "2026-11-07",
+          "language": "en",
+          "type": "follow_up"
         }
       ],
       "responses": [
@@ -945,6 +952,17 @@
             "en": "Is assisting with salary and overtime claims, meals, housing and job transitions."
           },
           "source_url": "https://www.mwc.org.sg/news/mwc-supports-240-unpaid-migrant-workers/"
+        },
+        {
+          "actor": {
+            "bn": "Migrant Workers' Centre ও সংশ্লিষ্ট নিয়োগকর্তা সংগঠন",
+            "en": "Migrant Workers' Centre and participating employer organisations"
+          },
+          "response": {
+            "bn": "৬ নভেম্বর দক্ষতা ও অভিজ্ঞতা অনুযায়ী সম্ভাব্য চাকরির সঙ্গে শ্রমিকদের সংযুক্ত করার job-matching আয়োজন করেছে; আবাসন, খাবার ও দাবি-সহায়তা অব্যাহত রাখার কথা জানিয়েছে।",
+            "en": "Organised job matching on 6 November to connect workers with potential jobs based on skills and experience, while continuing housing, meals and claims assistance."
+          },
+          "source_url": "https://www.thedailystar.net/news/world/asia/news/bangladeshis-among-migrant-workers-singapore-get-job-offers-amid-unpaid-wage-claims-4317511"
         }
       ],
       "protests": [],
@@ -953,13 +971,14 @@
         "en": "Workers' identities not republished"
       },
       "unknowns": {
-        "bn": "বাংলাদেশি শ্রমিকের সুনির্দিষ্ট সংখ্যা, প্রত্যেকের পাওনা, কতজনের পারমিট বাতিল এবং তদন্তের ফল প্রকাশিত হয়নি।",
-        "en": "The exact number of Bangladeshi workers, each worker's arrears, the number of cancelled permits and the investigation outcome are not published."
+        "bn": "বাংলাদেশি শ্রমিকের সুনির্দিষ্ট সংখ্যা, প্রত্যেকের পাওনা, কতজন নতুন চাকরি পেয়েছেন, কতজনের permit পুনর্বহাল/পরিবর্তন হয়েছে এবং তদন্তের চূড়ান্ত ফল প্রকাশিত হয়নি।",
+        "en": "The exact number of Bangladeshi workers, each worker's arrears, how many secured new jobs, how many permits were restored or changed, and the final investigation outcome are unpublished."
       },
       "follow_up": {
         "bn": "বকেয়া পরিশোধ, বিকল্প চাকরি, পারমিট অবস্থা ও তদন্তের ফল অনুসরণ",
         "en": "Track payment of arrears, alternative jobs, permit status and investigation outcomes"
-      }
+      },
+      "reviewed_at": "2026-11-07"
     },
     {
       "id": "KH-SCAM-TRAFFICKING-2-20260903",
