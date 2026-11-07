@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T16:04:36.050Z",
-  "last_successful_scan_at": "2026-11-06T16:04:36.050Z",
+  "updated_at": "2026-11-07T04:02:12.185Z",
+  "last_successful_scan_at": "2026-11-07T04:02:12.185Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-06",
+  "coverage_end": "2026-11-07",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -2600,6 +2600,126 @@
       "status": "source_reported",
       "nationality_basis": "BMET_clearance_data_reported_for_Bangladeshi_workers",
       "added_at": "2026-11-06T16:04:36.050Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "TW-DEATH-REPATRIATION-APPEAL-20261106",
+      "country": "TW",
+      "published_date": "2026-11-06",
+      "event_date": "2026-10-31",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/we-want-see-him-one-last-time-family-seeks-help-bring-anisurs-body-home-taiwan-4317021",
+      "language": "en",
+      "title": {
+        "bn": "তাইওয়ানে বাংলাদেশির মৃত্যু; মরদেহ ফেরাতে সরকারি সহায়তার আবেদন",
+        "en": "Bangladeshi dies in Taiwan; family seeks government help for repatriation"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টার জানিয়েছে, ৩১ অক্টোবর তাইওয়ানের একটি হাসপাতালে চিকিৎসাধীন অবস্থায় এক বাংলাদেশির মৃত্যু হয়; প্রকাশিত প্রতিবেদনে নির্দিষ্ট চিকিৎসাগত কারণ নেই। পরিবার ২ নভেম্বর পররাষ্ট্র মন্ত্রণালয়, প্রবাসী কল্যাণ মন্ত্রণালয় ও ওয়েজ আর্নার্স কল্যাণ বোর্ডে মরদেহ ফেরানোর সহায়তা চেয়েছে। স্থানীয় প্রশাসন যোগাযোগের চেষ্টা করছে, তবে প্রত্যাবাসন তখনো নিশ্চিত হয়নি। ব্যক্তিগত পরিচয়, পরিবারের অপ্রাপ্তবয়স্ক সদস্য ও আর্থিক বিবরণ পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The Daily Star reports that a Bangladeshi died while receiving hospital treatment in Taiwan on 31 October; no specific medical cause is stated. The family applied on 2 November to the foreign affairs and expatriates’ welfare ministries and the Wage Earners’ Welfare Board for help returning the body. Local officials were seeking guidance, but repatriation was not yet confirmed. Personal identities, minor family members and financial details are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "TW-DEATH-20261031",
+      "status": "source_reported",
+      "nationality_basis": "source_reported_as_Bangladeshi",
+      "added_at": "2026-11-07T04:02:12.185Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-51-MEDICAL-CENTRES-20261106",
+      "country": "MY",
+      "published_date": "2026-11-06",
+      "event_date": "2026-11-06",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/51-bangladeshi-medical-centres-accredited-malaysia-worker-recruitment-4316981",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়াগামী কর্মীদের জন্য ৫১টি medical centre অনুমোদনের তালিকা",
+        "en": "Malaysia lists 51 accredited medical centres for Bangladeshi workers"
+      },
+      "summary": {
+        "bn": "মালয়েশিয়ার FWCMS-এ বাংলাদেশে ৫১টি অনুমোদিত medical centre-এর তালিকা প্রকাশিত হয়েছে বলে দ্য ডেইলি স্টার জানিয়েছে। সরকার পরীক্ষার fee ৮,০০০ টাকা নির্ধারণ করেছে; MiGRAMS slip-এর জন্য fee নেই, কর্মীরা যেকোনো অনুমোদিত centre ব্যবহার ও agency বদল করতে পারবেন বলে নির্দেশনায় আছে। অতিরিক্ত fee বা হয়রানির বিরুদ্ধে ব্যবস্থা নেওয়ার সতর্কতাও রয়েছে। এটি নিয়োগ বা যাত্রা নিশ্চিত হওয়ার খবর নয়।",
+        "en": "The Daily Star reports that Malaysia's FWCMS listed 51 accredited medical centres in Bangladesh. The government fixed the examination fee at Tk 8,000; its directive says the MiGRAMS slip is free and workers may use any authorised centre and change agencies. It also warns of action over extra charges or harassment. Accreditation does not by itself confirm recruitment or departure."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "policy_for_Bangladeshi_workers_bound_for_Malaysia",
+      "added_at": "2026-11-07T04:02:12.185Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-SEATRIUM-PERMIT-PETITION-20261106",
+      "country": "SG",
+      "published_date": "2026-11-06",
+      "event_date": "2026-11-21",
+      "publisher": "The Online Citizen",
+      "url": "https://theonlinecitizen.com/2026/11/06/petition-24-groups-urge-mom-to-renew-work-permit-of-long-time-seatrium-worker",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরে বাংলাদেশি শ্রমিকের permit renewal-এর পক্ষে petition ও ২৪ সংগঠনের আবেদন",
+        "en": "Petition and 24 groups urge renewal of Bangladeshi worker's Singapore permit"
+      },
+      "summary": {
+        "bn": "Metadata-only: search-indexed প্রতিবেদনে বলা হয়েছে, সিঙ্গাপুরের marine industry-তে ১৬ বছর কাজ করা এক বাংলাদেশি শ্রমিকের work permit renewal নাকচ হয়েছে এবং permit ২১ নভেম্বর শেষ হওয়ার কথা। ৬ নভেম্বর পর্যন্ত petition-এ ১,৯৬০ স্বাক্ষর ছিল এবং ২৪টি সংগঠন MOM-কে লিখেছে; MOM-এর জবাব তখনো প্রকাশিত হয়নি। মূল পৃষ্ঠা সরাসরি খোলা যায়নি, তাই এর বাইরে কোনো দাবি করা হয়নি এবং পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Metadata only: the indexed report says renewal was rejected for a Bangladeshi worker who had spent 16 years in Singapore's marine industry, with the permit due to expire on 21 November. By 6 November the petition had 1,960 signatures and 24 groups had written to MOM; no MOM response was reported. The original page could not be opened directly, so no further claims are made and the worker's identity is not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_title_and_metadata_identify_Bangladeshi_worker",
+      "added_at": "2026-11-07T04:02:12.185Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261106",
+      "country": "MULTI",
+      "published_date": "2026-11-06",
+      "event_date": "2026-11-06",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-06/",
+      "language": "bn",
+      "title": {
+        "bn": "৬ নভেম্বর ২২০ কর্মী overseas-employment clearance পেয়েছেন",
+        "en": "220 workers received overseas-employment clearance on 6 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী প্রতিবেদনে ৬ নভেম্বর ১০টি গন্তব্যের জন্য ২২০ clearance-এর কথা আছে; এর মধ্যে নারী ৮। এটি clearance count, ওই দিনের physical departure নয় এবং late official entry-তে সংশোধিত হতে পারে।",
+        "en": "A report reproducing government OEP country-clearance data records 220 clearances for 10 destinations on 6 November, including eight women. This is a clearance count, not physical departures that day, and may be revised for late official entries."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-07T04:02:12.185Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-WEEKLY-CLEARANCE-20261106",
+      "country": "MULTI",
+      "published_date": "2026-11-06",
+      "event_date": null,
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-weekly-report-2026-11-06/",
+      "language": "bn",
+      "title": {
+        "bn": "৩১ অক্টোবর–৬ নভেম্বর ১৩,৭৮৩ কর্মী clearance পেয়েছেন",
+        "en": "13,783 workers received clearance from 31 October to 6 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP data পুনঃপ্রকাশকারী সাপ্তাহিক প্রতিবেদনে ৩১ অক্টোবর–৬ নভেম্বর ৪৯টি গন্তব্যের জন্য ১৩,৭৮৩ clearance-এর কথা আছে; নারী ১,৫৯৯। এটি overlapping seven-day window এবং daily/monthly totals-এর সঙ্গে যোগ করা যাবে না; physical departure countও নয়।",
+        "en": "A weekly report reproducing government OEP data records 13,783 clearances for 49 destinations from 31 October to 6 November, including 1,599 women. This is an overlapping seven-day window, must not be added to daily or monthly totals, and is not a physical departure count."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-07T04:02:12.185Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
