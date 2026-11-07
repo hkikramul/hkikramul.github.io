@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T03:58:59.397Z",
+  "updated_at": "2026-11-07T04:02:12.185Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2110,6 +2110,61 @@
       "follow_up": {
         "bn": "formal charge, মুক্তি এবং বিচারিক ফল অনুসরণ",
         "en": "Track formal charges, release and judicial outcomes"
+      }
+    },
+    {
+      "id": "TW-DEATH-20261031",
+      "country": "TW",
+      "event_date": "2026-10-31",
+      "published_date": "2026-11-06",
+      "title": {
+        "bn": "তাইওয়ানে বাংলাদেশির মৃত্যু ও মরদেহ প্রত্যাবাসন আবেদন",
+        "en": "Bangladeshi death in Taiwan and repatriation appeal"
+      },
+      "summary": {
+        "bn": "৩১ অক্টোবর তাইওয়ানের হাসপাতালে চিকিৎসাধীন অবস্থায় এক বাংলাদেশির মৃত্যু হয়েছে বলে দ্য ডেইলি স্টার জানিয়েছে। নির্দিষ্ট চিকিৎসাগত কারণ প্রকাশিত হয়নি। পরিবার সরকারি সহায়তায় মরদেহ ফেরানোর আবেদন করেছে; প্রত্যাবাসন তখনো নিশ্চিত হয়নি।",
+        "en": "The Daily Star reports that a Bangladeshi died while receiving hospital treatment in Taiwan on 31 October. No specific medical cause was published. The family sought government help to return the body; repatriation was not yet confirmed."
+      },
+      "category": "death_repatriation_request",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_reported_as_Bangladeshi",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/work-and-migration/news/we-want-see-him-one-last-time-family-seeks-help-bring-anisurs-body-home-taiwan-4317021",
+          "date": "2026-11-06",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "স্থানীয় উপজেলা প্রশাসন",
+            "en": "Local sub-district administration"
+          },
+          "response": {
+            "bn": "সংশ্লিষ্ট কর্তৃপক্ষের সঙ্গে যোগাযোগ করে সহায়তার পথ খোঁজার কথা জানিয়েছে; মরদেহ ফেরানো সম্ভব হবে কি না তখনো নিশ্চিত করেনি।",
+            "en": "It said it would contact the relevant authorities to explore assistance, without confirming whether repatriation would be possible."
+          },
+          "source_url": "https://www.thedailystar.net/news/work-and-migration/news/we-want-see-him-one-last-time-family-seeks-help-bring-anisurs-body-home-taiwan-4317021"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "Identity and private family details are not republished"
+      },
+      "unknowns": {
+        "bn": "চিকিৎসাগত মৃত্যুর কারণ, কনস্যুলার ব্যবস্থাপনা, ব্যয় বহনের সিদ্ধান্ত এবং প্রত্যাবাসনের সময় প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The medical cause of death, consular arrangements, funding decision and repatriation timing are not established in the cited source."
+      },
+      "follow_up": {
+        "bn": "সরকারি সহায়তা, কনস্যুলার সমন্বয় ও মরদেহ প্রত্যাবাসনের অবস্থা অনুসরণ",
+        "en": "Track government assistance, consular coordination and repatriation status"
       }
     }
   ]
