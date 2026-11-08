@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T04:03:42.327Z",
+  "updated_at": "2026-11-08T16:00:29.867Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2227,6 +2227,13 @@
           "date": "2026-11-07",
           "language": "en",
           "type": "news_citing_consulate"
+        },
+        {
+          "name": "Bangladesh Sangbad Sangstha (BSS)",
+          "url": "https://www.bssnews.net/news-flash/443237",
+          "date": "2026-11-08",
+          "language": "en",
+          "type": "government_response_follow_up"
         }
       ],
       "responses": [
@@ -2240,6 +2247,17 @@
             "en": "Reported contacting the local traffic office and relevant authorities, gathering information, and taking necessary steps concerning the injured and the deceased."
           },
           "source_url": "https://www.bssnews.net/bangla/news/357687"
+        },
+        {
+          "actor": {
+            "bn": "বাংলাদেশ সরকার ও সৌদিতে বাংলাদেশ মিশন",
+            "en": "Bangladesh government and Bangladesh mission in Saudi Arabia"
+          },
+          "response": {
+            "bn": "প্রধানমন্ত্রীর বার্তায় ক্ষতিগ্রস্ত পরিবারের পাশে থাকার এবং দূতাবাস ও কনস্যুলেটের প্রয়োজনীয় সহায়তা অব্যাহত রাখার কথা বলা হয়েছে।",
+            "en": "The prime minister's message said the government stands with the affected families and that the embassy and consulate will continue necessary assistance."
+          },
+          "source_url": "https://www.bssnews.net/news-flash/443237"
         }
       ],
       "protests": [],
