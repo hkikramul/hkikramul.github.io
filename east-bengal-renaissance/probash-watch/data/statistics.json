@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T04:03:42.327Z",
+  "updated_at": "2026-11-08T16:00:29.867Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1051,6 +1051,90 @@
       "source_url": "https://probashiinfo.com/bmet-report-2026-11-07/",
       "note": "Female component of the 541 single-day clearance total; not a departure count and must not be added to the all-gender total.",
       "denominator": 541,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-2026-nov1-7",
+      "metric": "workers_remittances_received",
+      "value": 879,
+      "period": "1–7 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "seven_calendar_days",
+      "source_url": "https://www.bssnews.net/business/443478",
+      "note": "Seven-day November snapshot reported by BSS; includes the 5–7 Nov component and overlaps the partial-fiscal-year total, so it must not be added to either.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-2026-nov5-7",
+      "metric": "workers_remittances_received",
+      "value": 231,
+      "period": "5–7 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "three_calendar_days_component",
+      "source_url": "https://www.bssnews.net/business/443478",
+      "note": "Component of the 1–7 Nov 2026 total and included in the 1 Jul–7 Nov fiscal-year snapshot; do not add to either.",
+      "denominator": 879,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-fy-partial-2026-jul1-nov7",
+      "metric": "workers_remittances_received",
+      "value": 12344,
+      "period": "1 Jul–7 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "partial_fiscal_year",
+      "source_url": "https://www.bssnews.net/business/443478",
+      "note": "Partial FY2026-27 snapshot; overlaps earlier Jul–Nov snapshots and November sub-periods and must not be summed with them.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-fy-partial-2025-jul1-nov7",
+      "metric": "workers_remittances_received",
+      "value": 10865,
+      "period": "1 Jul–7 Nov 2025",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "partial_fiscal_year_comparison",
+      "source_url": "https://www.bssnews.net/business/443478",
+      "note": "Corresponding prior-fiscal-year comparison reported by BSS; overlaps other snapshots and must not be summed with them.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-month-2026-10",
+      "metric": "workers_receiving_overseas_employment_clearance",
+      "value": 42888,
+      "period": "Oct 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "calendar_month",
+      "source_url": "https://www.migrationconcern.com/bangladesh/8761",
+      "note": "Monthly BMET clearance count reproduced by Migration Concern; not treated as the number who physically departed. It overlaps any daily, rolling or partial-period series and must not be added to them.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-month-2026-10",
+      "metric": "women_receiving_overseas_employment_clearance",
+      "value": 4108,
+      "period": "Oct 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "calendar_month_component",
+      "source_url": "https://www.migrationconcern.com/bangladesh/8761",
+      "note": "Female component of the 42,888 October clearance total; not a departure count and must not be added to the all-gender total.",
+      "denominator": 42888,
       "status": "source_reported"
     }
   ]
