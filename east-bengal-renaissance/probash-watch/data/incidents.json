@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T16:01:58.467Z",
+  "updated_at": "2026-11-08T04:03:42.327Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2184,6 +2184,76 @@
       "follow_up": {
         "bn": "সরকারি সহায়তা, কনস্যুলার সমন্বয় ও মরদেহ প্রত্যাবাসনের অবস্থা অনুসরণ",
         "en": "Track government assistance, consular coordination and repatriation status"
+      }
+    },
+    {
+      "id": "SA-AL-HIMNA-ROAD-CRASH-20261107",
+      "country": "SA",
+      "event_date": "2026-11-07",
+      "published_date": "2026-11-07",
+      "title": {
+        "bn": "আল-হিমনায় সড়ক দুর্ঘটনায় তিন বাংলাদেশি পরিবারের সাতজন নিহত ও ছয়জন আহত",
+        "en": "Seven killed and six injured across three Bangladeshi families in Al-Himnah road crash"
+      },
+      "summary": {
+        "bn": "মদিনা থেকে জেদ্দায় ফেরার পথে আল-হিমনা এলাকায় একটি গাড়ি উল্টে ১৩ বাংলাদেশির মধ্যে সাতজন নিহত ও ছয়জন আহত হন বলে বাংলাদেশ কনস্যুলেটের প্রাথমিক প্রতিবেদনে জানানো হয়েছে। নিহতদের মধ্যে নারী ও শিশু ছিল; তাঁদের পরিচয় পুনঃপ্রকাশ করা হয়নি। প্রাথমিকভাবে অতিরিক্ত গতি সম্ভাব্য কারণ হিসেবে উল্লেখ করা হয়েছে, কিন্তু চালক টায়ার ফেটে যাওয়ার দাবি করেছেন।",
+        "en": "A preliminary Bangladesh Consulate report says a vehicle overturned in the Al-Himnah area while returning from Madinah to Jeddah, killing seven and injuring six among 13 Bangladeshis. Women and children were among those killed; their identities are not republished. Excessive speed was initially cited as a possible cause, while the driver alleged a tyre burst."
+      },
+      "category": "accident",
+      "gender": "mixed",
+      "people_count": 13,
+      "status": "official_preliminary_report_source_reported",
+      "nationality": "BD",
+      "nationality_basis": "Bangladesh_Consulate_preliminary_report_identifies_all_13_as_Bangladeshi",
+      "location_precision": "area",
+      "sources": [
+        {
+          "name": "Bangladesh Sangbad Sangstha (BSS)",
+          "url": "https://www.bssnews.net/bangla/news/357687",
+          "date": "2026-11-07",
+          "language": "bn",
+          "type": "official_wire_citing_consulate_preliminary_report"
+        },
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/accidents-and-fires/news/7-bangladeshis-killed-saudi-road-crash-4318056",
+          "date": "2026-11-08",
+          "language": "en",
+          "type": "follow_up_citing_ministry_and_consulate"
+        },
+        {
+          "name": "United News of Bangladesh (UNB)",
+          "url": "https://unb.com.bd/category/Bangladesh/seven-bangladeshis-killed-6-injured-in-saudi-road-accident/199786",
+          "date": "2026-11-07",
+          "language": "en",
+          "type": "news_citing_consulate"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ কনস্যুলেট জেনারেল, জেদ্দা",
+            "en": "Bangladesh Consulate General in Jeddah"
+          },
+          "response": {
+            "bn": "দুর্ঘটনার পর স্থানীয় ট্রাফিক অফিস ও সংশ্লিষ্ট কর্তৃপক্ষের সঙ্গে যোগাযোগ, তথ্য সংগ্রহ এবং আহত ও মরদেহসংক্রান্ত প্রয়োজনীয় সহায়তার পদক্ষেপ নেওয়ার কথা জানিয়েছে।",
+            "en": "Reported contacting the local traffic office and relevant authorities, gathering information, and taking necessary steps concerning the injured and the deceased."
+          },
+          "source_url": "https://www.bssnews.net/bangla/news/357687"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "সাত নিহত ও ছয় আহত; নাবালক ও পরিবারের পরিচয় পুনঃপ্রকাশ করা হয়নি",
+        "en": "Seven killed and six injured; minor and family identities are not republished"
+      },
+      "unknowns": {
+        "bn": "চূড়ান্ত দুর্ঘটনা-কারণ, দায় নির্ধারণ, আহতদের পরবর্তী অবস্থা, মরদেহ দাফন/প্রত্যাবাসন এবং ক্ষতিপূরণ বা বীমার ফল নিশ্চিত নয়। প্রথম দিকের প্রতিবেদনে ১৫ আহত ও truck collision বলা হলেও পরের কনস্যুলেট/মন্ত্রণালয় প্রতিবেদনে ছয় আহত ও vehicle overturn বলা হয়েছে।",
+        "en": "The final crash cause, attribution of responsibility, later condition of the injured, burial or repatriation arrangements, and compensation or insurance outcomes are not established. Early reports said 15 injured and described a truck collision, while the later consulate/ministry report says six injured and a vehicle overturn."
+      },
+      "follow_up": {
+        "bn": "সৌদি তদন্ত, আহতদের অবস্থা, মরদেহসংক্রান্ত ব্যবস্থা ও ক্ষতিপূরণ অনুসরণ",
+        "en": "Track the Saudi investigation, condition of the injured, arrangements for the deceased and compensation"
       }
     }
   ]
