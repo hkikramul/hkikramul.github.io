@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T04:03:42.327Z",
-  "last_successful_scan_at": "2026-11-08T04:03:42.327Z",
+  "updated_at": "2026-11-08T16:00:29.867Z",
+  "last_successful_scan_at": "2026-11-08T16:00:29.867Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-08",
@@ -2840,6 +2840,78 @@
       "status": "source_reported",
       "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
       "added_at": "2026-11-08T04:03:42.327Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-AL-HIMNA-PM-RESPONSE-BSS-20261108",
+      "country": "SA",
+      "published_date": "2026-11-08",
+      "event_date": "2026-11-07",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/news-flash/443237",
+      "language": "en",
+      "title": {
+        "bn": "সৌদি সড়ক দুর্ঘটনায় সরকারি সহায়তা অব্যাহত রাখার বক্তব্য",
+        "en": "Government says assistance will continue after Saudi road crash"
+      },
+      "summary": {
+        "bn": "প্রধানমন্ত্রী সাত বাংলাদেশির মৃত্যু ও ছয়জন আহত হওয়ার ঘটনায় শোক জানিয়ে বলেছেন, সরকার ক্ষতিগ্রস্ত পরিবারের পাশে আছে এবং বাংলাদেশ দূতাবাস ও কনস্যুলেট প্রয়োজনীয় সহায়তা অব্যাহত রাখবে। এটি ৭ নভেম্বরের একই আল-হিমনা দুর্ঘটনার সরকারি প্রতিক্রিয়া; নতুন ঘটনা নয়।",
+        "en": "The prime minister expressed condolences over seven deaths and six injuries, saying the government stands with the affected families and that Bangladesh's embassy and consulate will continue necessary assistance. This is an official response to the same 7 November Al-Himnah crash, not a new incident."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-AL-HIMNA-ROAD-CRASH-20261107",
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-11-08T16:00:29.867Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-REMITTANCE-SNAPSHOT-BSS-20261108",
+      "country": "MULTI",
+      "published_date": "2026-11-08",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/business/443478",
+      "language": "en",
+      "title": {
+        "bn": "১–৭ নভেম্বর রেমিট্যান্স ৮৭৯ মিলিয়ন ডলার",
+        "en": "Remittances reach $879 million during 1–7 November"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ১–৭ নভেম্বর ২০২৬ সময়ে workers' remittance ছিল ৮৭৯ মিলিয়ন ডলার এবং ৫–৭ নভেম্বরের অংশ ছিল ২৩১ মিলিয়ন ডলার। ১ জুলাই–৭ নভেম্বর চলতি অর্থবছরের snapshot ১২.৩৪৪ বিলিয়ন ডলার, আগের অর্থবছরের একই সময়ের ১০.৮৬৫ বিলিয়ন ডলারের তুলনায় ১৩.৬% বেশি। এগুলো overlapping calendar ও fiscal-period snapshot; একসঙ্গে যোগ করা যাবে না।",
+        "en": "BSS reports $879 million in workers' remittances during 1–7 November 2026, including $231 million during 5–7 November. The 1 July–7 November fiscal-year snapshot was $12.344 billion, 13.6% above $10.865 billion in the corresponding prior-fiscal-year period. These are overlapping calendar and fiscal-period snapshots and must not be added together."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-11-08T16:00:29.867Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-MONTHLY-CLEARANCE-202610",
+      "country": "MULTI",
+      "published_date": "2026-11-08",
+      "event_date": null,
+      "publisher": "Migration Concern",
+      "url": "https://www.migrationconcern.com/bangladesh/8761",
+      "language": "bn",
+      "title": {
+        "bn": "অক্টোবরে ৪২,৮৮৮ কর্মীর overseas-employment clearance",
+        "en": "42,888 workers received overseas-employment clearance in October"
+      },
+      "summary": {
+        "bn": "BMET-এর সর্বশেষ পরিসংখ্যান উদ্ধৃত করে প্রতিবেদনে অক্টোবর ২০২৬-এ ৪২,৮৮৮ কর্মীর clearance-এর কথা বলা হয়েছে; নারী ৪,১০৮ এবং পুরুষ ৩৮,৭৮০। গন্তব্যভিত্তিক হিসাবে সৌদি আরব ১৮,৬১০, সিঙ্গাপুর ৫,৩৪৭, মালদ্বীপ ৪,৩১২, কাতার ২,৬৪৩, UAE ৯৫১, ইতালি ৬৯০ ও মালয়েশিয়া ৬৫। এগুলো clearance count—প্রকৃত যাত্রার সংখ্যা হিসেবে ধরা হয়নি; অন্যান্য rolling বা daily period-এর সঙ্গে যোগ করা যাবে না।",
+        "en": "Citing the latest BMET figures, the report says 42,888 workers received clearance in October 2026, including 4,108 women and 38,780 men. Destination figures cited were Saudi Arabia 18,610, Singapore 5,347, Maldives 4,312, Qatar 2,643, UAE 951, Italy 690 and Malaysia 65. These are treated as clearance counts, not physical departures, and must not be added to overlapping rolling or daily periods."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reported",
+      "added_at": "2026-11-08T16:00:29.867Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
