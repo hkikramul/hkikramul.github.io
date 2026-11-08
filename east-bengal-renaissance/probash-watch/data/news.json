@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T16:01:58.467Z",
-  "last_successful_scan_at": "2026-11-07T16:01:58.467Z",
+  "updated_at": "2026-11-08T04:03:42.327Z",
+  "last_successful_scan_at": "2026-11-08T04:03:42.327Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-07",
+  "coverage_end": "2026-11-08",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -2792,6 +2792,54 @@
       "status": "source_reported_policy_proposal_not_enacted_rule",
       "nationality_basis": "Malaysia_approved_source_country_policy_includes_Bangladesh_but_no_Bangladesh_specific_measure",
       "added_at": "2026-11-07T16:01:58.467Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-AL-HIMNA-ROAD-CRASH-BSS-20261107",
+      "country": "SA",
+      "published_date": "2026-11-07",
+      "event_date": "2026-11-07",
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/bangla/news/357687",
+      "language": "bn",
+      "title": {
+        "bn": "সৌদির আল-হিমনা এলাকায় সড়ক দুর্ঘটনায় ৭ বাংলাদেশি নিহত, ৬ আহত",
+        "en": "Seven Bangladeshis killed and six injured in Al-Himnah road crash in Saudi Arabia"
+      },
+      "summary": {
+        "bn": "বাসস জেদ্দায় বাংলাদেশ কনস্যুলেটের প্রাথমিক প্রতিবেদন উদ্ধৃত করে জানিয়েছে, ৭ নভেম্বর ভোরে মদিনা থেকে জেদ্দায় ফেরার পথে আল-হিমনা এলাকায় একটি গাড়ি উল্টে তিন পরিবারের ১৩ বাংলাদেশির মধ্যে সাতজন নিহত ও ছয়জন আহত হন। প্রাথমিকভাবে খোলাইস ট্রাফিক অফিস অতিরিক্ত গতিকে সম্ভাব্য কারণ বললেও চালক টায়ার ফেটে যাওয়ার দাবি করেছেন; চূড়ান্ত কারণ সৌদি তদন্তের পর জানা যাবে। আগের কয়েকটি প্রতিবেদনে ১৫ আহত ও পেছন থেকে ট্রাকের ধাক্কার কথা ছিল—সর্বশেষ মন্ত্রণালয়/কনস্যুলেট সংখ্যার সঙ্গে এই অমিল সংরক্ষিত। নাবালক ও পরিবারের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "BSS, citing a preliminary report from the Bangladesh Consulate in Jeddah, says a vehicle overturned in the Al-Himnah area early on 7 November while returning from Madinah to Jeddah, killing seven and injuring six among 13 Bangladeshis from three families. Khulais traffic officials initially considered excessive speed a possible cause, while the driver alleged a tyre burst; the final cause awaits the Saudi investigation. Some earlier reports said 15 were injured and described a rear-end truck collision; that discrepancy with the later ministry/consulate figures is retained. Minor and family identities are not republished."
+      },
+      "record_type": "incident",
+      "incident_key": "SA-AL-HIMNA-ROAD-CRASH-20261107",
+      "status": "official_preliminary_report_source_reported",
+      "nationality_basis": "Bangladesh_Consulate_preliminary_report_identifies_all_13_as_Bangladeshi",
+      "added_at": "2026-11-08T04:03:42.327Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261107",
+      "country": "MULTI",
+      "published_date": "2026-11-07",
+      "event_date": "2026-11-07",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-07/",
+      "language": "bn",
+      "title": {
+        "bn": "৭ নভেম্বর ৫৪১ কর্মী overseas-employment clearance পেয়েছেন",
+        "en": "541 workers received overseas-employment clearance on 7 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী পূর্ণ দিনের প্রতিবেদনে ৭ নভেম্বর ২৩টি গন্তব্যের জন্য ৫৪১ clearance-এর কথা আছে; এর মধ্যে নারী ৫৩। এটি clearance count, ওই দিনের physical departure নয় এবং late official entry-তে সংশোধিত হতে পারে। সরকারি OEP পৃষ্ঠা সরাসরি মোট দেখায়নি; স্বাধীন পুনঃপ্রকাশকের সংখ্যাই উৎসনির্দিষ্টভাবে রাখা হয়েছে।",
+        "en": "A completed-day report reproducing government OEP country-clearance data records 541 clearances for 23 destinations on 7 November, including 53 women. This is a clearance count, not physical departures that day, and may be revised for late official entries. The official OEP page did not directly expose the total, so the figure is retained as reported by the independent republisher."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-08T04:03:42.327Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
