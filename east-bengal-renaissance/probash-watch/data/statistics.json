@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T04:02:12.185Z",
+  "updated_at": "2026-11-08T04:03:42.327Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1023,6 +1023,34 @@
       "source_url": "https://probashiinfo.com/bmet-weekly-report-2026-11-06/",
       "note": "Female component of the 13,783 seven-day clearance total; overlaps daily and monthly data and must not be added to the all-gender total.",
       "denominator": 13783,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-2026-11-07",
+      "metric": "workers_receiving_overseas_employment_clearance",
+      "value": 541,
+      "period": "7 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "single_calendar_day",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-07/",
+      "note": "Single-day BMET/OEP clearance count reproduced by Probashi Info for 23 destinations; not physical departures. Late official entries may revise the figure. Do not add to overlapping weekly or monthly totals.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-2026-11-07",
+      "metric": "women_receiving_overseas_employment_clearance",
+      "value": 53,
+      "period": "7 Nov 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "single_calendar_day_component",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-07/",
+      "note": "Female component of the 541 single-day clearance total; not a departure count and must not be added to the all-gender total.",
+      "denominator": 541,
       "status": "source_reported"
     }
   ]
