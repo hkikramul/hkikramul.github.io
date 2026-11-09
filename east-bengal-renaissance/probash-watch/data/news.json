@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T03:59:16.073Z",
-  "last_successful_scan_at": "2026-11-09T03:59:16.073Z",
+  "updated_at": "2026-11-09T16:05:35.820Z",
+  "last_successful_scan_at": "2026-11-09T16:05:35.820Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-09",
@@ -3008,6 +3008,30 @@
       "status": "source_reported",
       "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
       "added_at": "2026-11-09T03:59:16.073Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-BOESL-LOTTERY-OFFICIAL-20261109",
+      "country": "MY",
+      "published_date": "2026-11-09",
+      "event_date": "2026-11-09",
+      "publisher": "Ministry of Expatriates’ Welfare and Overseas Employment, Bangladesh",
+      "url": "https://probashi.gov.bd/pages/notices/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B6%E0%A7%82%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-operations-assistant-%E0%A6%93-technical-skill-worker-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%B2%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE-374n4e-6af14eb15d06f0834d9498c3",
+      "language": "bn",
+      "title": {
+        "bn": "শূন্য-ব্যয়ের মালয়েশিয়া নিয়োগে লটারির প্রাথমিক নির্বাচিত তালিকা প্রকাশ",
+        "en": "Official preliminary lottery selection notice issued for zero-cost Malaysia recruitment"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণ মন্ত্রণালয় ৯ নভেম্বর Operations Assistant ও Technical Skill Worker পদের লটারিতে প্রাথমিকভাবে নির্বাচিত প্রার্থীদের তালিকা প্রকাশ করেছে। নোটিশের সংযুক্ত ব্যক্তিনাম সংগ্রহ বা পুনঃপ্রকাশ করা হয়নি। এটি প্রাথমিক selection; final recruitment, visa, clearance বা departure নয়।",
+        "en": "Bangladesh’s Expatriates’ Welfare Ministry published a 9 November notice listing candidates provisionally selected by lottery for Operations Assistant and Technical Skill Worker roles. Names in the attachment were neither collected nor republished. This is a preliminary selection, not final recruitment, a visa, clearance or departure."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_Bangladesh_government_overseas_recruitment_notice",
+      "added_at": "2026-11-09T16:05:35.820Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
