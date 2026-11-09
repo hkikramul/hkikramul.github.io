@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T16:00:29.867Z",
-  "last_successful_scan_at": "2026-11-08T16:00:29.867Z",
+  "updated_at": "2026-11-09T03:59:16.073Z",
+  "last_successful_scan_at": "2026-11-09T03:59:16.073Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-08",
+  "coverage_end": "2026-11-09",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -2912,6 +2912,102 @@
       "status": "source_reported",
       "nationality_basis": "source_reported",
       "added_at": "2026-11-08T16:00:29.867Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-WOMEN-WORKERS-INVESTIGATION-DS-20261109",
+      "country": "SA",
+      "published_date": "2026-11-09",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/bangladeshi-women-saudi-arabia-back-home-dead-or-scarred-4318796",
+      "language": "en",
+      "title": {
+        "bn": "সৌদিতে বাংলাদেশি নারী কর্মীদের মৃত্যু, নির্যাতনের অভিযোগ ও সুরক্ষা-ঘাটতি নিয়ে অনুসন্ধান",
+        "en": "Investigation examines deaths, abuse allegations and protection gaps affecting Bangladeshi women in Saudi Arabia"
+      },
+      "summary": {
+        "bn": "Metadata-only/search-indexed: দ্য ডেইলি স্টারের অনুসন্ধানে ফেরত নারী কর্মীদের শারীরিক ও মানসিক নির্যাতন, খাবার ও চিকিৎসা না পাওয়া, মজুরি ও যোগাযোগ-নিয়ন্ত্রণের অভিযোগ; WEWB নথি ও RMMRU গবেষণাভিত্তিক মৃত্যু ও কর্মসংস্থান পরিসংখ্যান; এবং forensic examination, shelter ও embassy-supervised যোগাযোগের আহ্বান রয়েছে। ব্যক্তিগত survivor ও পরিবারের পরিচয় পুনঃপ্রকাশ করা হয়নি। BRAC কর্মীর প্রায় ৯০% estimate তাঁর দেখা case-এর অভিজ্ঞতা—population prevalence হিসেবে গণনা করা হয়নি।",
+        "en": "Metadata only/search-indexed: The Daily Star investigation reports allegations involving physical and psychological abuse, food and medical deprivation, wage and communication restrictions among returning women workers; WEWB- and RMMRU-based mortality and employment statistics; and calls for forensic examination, shelters and embassy-supervised contact. Survivor and family identities are not republished. A BRAC worker's nearly 90% estimate concerns cases she encountered and is not treated as population prevalence."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_original_fetch_blocked",
+      "nationality_basis": "source_reported_Bangladeshi_women_migrant_workers",
+      "added_at": "2026-11-09T03:59:16.073Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-BOESL-ZERO-COST-LOTTERY-20261108",
+      "country": "MY",
+      "published_date": "2026-11-08",
+      "event_date": "2026-11-08",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/zero-means-zero-boesl-says-malaysia-bound-workers-will-pay-nothing-4318461",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় zero-cost নিয়োগে ৩০০ জনের প্রাথমিক shortlist",
+        "en": "300 candidates provisionally shortlisted for zero-cost Malaysia recruitment"
+      },
+      "summary": {
+        "bn": "Metadata-only/search-indexed: BOESL ৪,০৩৯ আবেদনকারীর মধ্য থেকে digital lottery-তে ৩০০ জনকে প্রাথমিকভাবে shortlist করেছে; practical ও oral পরীক্ষার পর ১১২ জনকে DHL Supply Chain Malaysia-তে নির্বাচন করার পরিকল্পনা। BOESL বলেছে employer medical fee, airfare ও অন্যান্য migration cost বহন করবে এবং কাউকে অর্থ না দিতে সতর্ক করেছে। এটি final selection, visa বা departure নয়; প্রথম flight ডিসেম্বরের প্রথম সপ্তাহে হওয়ার প্রত্যাশা মাত্র।",
+        "en": "Metadata only/search-indexed: BOESL provisionally shortlisted 300 of 4,039 applicants through a digital lottery, with practical and oral tests planned before 112 are selected for DHL Supply Chain Malaysia. BOESL said the employer would bear medical, airfare and other migration costs and warned candidates not to pay anyone. This is not final selection, a visa or departure; a first flight in early December remains an expectation."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_original_fetch_blocked",
+      "nationality_basis": "Bangladesh_state_recruitment_program_for_Bangladeshi_workers",
+      "added_at": "2026-11-09T03:59:16.073Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-DEMAND-LETTER-ATTESTATION-JAGO-20261108",
+      "country": "MY",
+      "published_date": "2026-11-08",
+      "event_date": null,
+      "publisher": "JagoNews24",
+      "url": "https://www.jagonews24.com/probash/news/1176909",
+      "language": "bn",
+      "title": {
+        "bn": "মালয়েশিয়ায় ৪,৫৭০ কর্মীর চাহিদাপত্র সত্যায়নের খবর",
+        "en": "Demand letters reportedly attested for 4,570 Malaysia-bound workers"
+      },
+      "summary": {
+        "bn": "Metadata-only/search-indexed: জাগোনিউজ কুয়ালালামপুরে বাংলাদেশ হাইকমিশন-সংশ্লিষ্ট সূত্রের বরাতে জানিয়েছে, ১৩০টি আবেদনে ৪,৫৭০ কর্মীর demand letter ও power of attorney সত্যায়ন করা হয়েছে। মোট ২৫৪টি আবেদনে ৮,৬০০-এর বেশি কর্মীর চাহিদা ছিল; কর্মস্থল, আবাসন ও সক্ষমতা যাচাই শেষে সত্যায়ন করা হচ্ছে। এটি চাকরি, final selection, clearance বা departure নিশ্চিত করে না।",
+        "en": "Metadata only/search-indexed: JagoNews, citing sources linked to the Bangladesh High Commission in Kuala Lumpur, reports that demand letters and powers of attorney covering 4,570 workers in 130 applications were attested. More than 8,600 workers were covered by 254 applications, with workplace, accommodation and capacity checks preceding attestation. This does not confirm jobs, final selection, clearance or departure."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_original_fetch_blocked",
+      "nationality_basis": "Bangladesh_High_Commission_attestation_process_for_Bangladeshi_workers",
+      "added_at": "2026-11-09T03:59:16.073Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261108",
+      "country": "MULTI",
+      "published_date": "2026-11-08",
+      "event_date": "2026-11-08",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-08/",
+      "language": "bn",
+      "title": {
+        "bn": "৮ নভেম্বর ২,৪৯১ কর্মী overseas-employment clearance পেয়েছেন",
+        "en": "2,491 workers received overseas-employment clearance on 8 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী প্রতিবেদনে ৮ নভেম্বর ৩৫টি গন্তব্যের জন্য ২,৪৯১ clearance-এর কথা আছে; এর মধ্যে নারী ১৬৫। সবচেয়ে বেশি Saudi Arabia ১,১৮৩, Singapore ৩১৭ ও Maldives ২৮২। এটি clearance count, ওই দিনের physical departure নয়; late official entry-তে সংশোধিত হতে পারে।",
+        "en": "A report reproducing government OEP country-clearance data records 2,491 clearances for 35 destinations on 8 November, including 165 women. Saudi Arabia had 1,183, Singapore 317 and Maldives 282. This is a clearance count, not physical departures that day, and may be revised for late official entries."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-09T03:59:16.073Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
