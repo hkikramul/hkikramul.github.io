@@ -1,0 +1,670 @@
+---
+title: "Stochastic epidemic simulation and ABCel recovery"
+subtitle: "UNLV MS thesis | Reproducible pilot notebook"
+author: "Md. Ikramul Haq Khan"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+params:
+  output_dir: "thesis_pilot_output"
+  run_abcel: true
+  run_finer: true
+  run_recovery_repeats: false
+---
+
+# Scope and how to run
+
+This notebook reconstructs the pilot from the R console records. The two-strain simulation studies fixed-parameter infectious burden under hypothetical vaccination scenarios. The separate single-strain ABCel experiment assesses recovery of two known rates from synthetic prevalence. No real observations are used and the ABCel draws are not propagated into the two-strain study here.
+
+In RStudio, install `rmarkdown`, `knitr`, and `abcel` once, then click **Knit**. Set `run_abcel: false` in the YAML header for a simulation-only knit. The original run used R 4.5.1 and abcel 1.0; package or RNG differences may change stochastic output. Output paths are relative to this notebook unless changed in the YAML. Rates are per day.
+
+# Two-strain burden experiment
+
+## Transition rules and AUC
+
+Infections, vaccination and recovery are drawn at each time step from the current counts. Strain 2 can infect susceptible people, vaccinated people, and people recovered from strain 1. The horizon is 120 days. For each path, add the two strain-specific prevalence areas, computed by multiplying the count at the start of each interval by its length. The result is in infectious person-days.
+
+
+```{r simulator}
+# START OF COMPLETE SCRIPT
+# UNLV MS thesis pilot: two-strain infectious burden
+# Rates are illustrative and measured per day.
+# The lower vaccination rate is a hypothetical scenario.
+# Run the whole script with Source in RStudio.
+
+set.seed(2761)
+
+out <- file.path(params$output_dir, "fixed_rate")
+dir.create(out, recursive = TRUE, showWarnings = FALSE)
+dir.create(out, showWarnings = FALSE)
+
+# 1. Define the stochastic epidemic simulator.
+
+simulate_epidemic <- function(initial, beta, gamma, nu,
+                              H = 120, dt = 0.5) {
+  N <- sum(initial)
+  time <- sort(unique(c(seq(0, H, by = dt), H)))
+  steps <- diff(time)
+  
+  X <- matrix(
+    0, nrow = length(time), ncol = 6,
+    dimnames = list(NULL, c("S", "V", "I1", "R1", "I2", "R2"))
+  )
+  X[1, ] <- initial[colnames(X)]
+  
+  for (k in seq_along(steps)) {
+    x <- X[k, ]
+    d <- steps[k]
+    
+    # Per-person hazards for infection and vaccination.
+    h1 <- beta[1] * x["I1"] / N
+    h2 <- beta[2] * x["I2"] / N
+    hazards <- c(h1, h2, nu)
+    L <- sum(hazards)
+    
+    # A susceptible person can have at most one event per step.
+    if (L > 0) {
+      p <- c(hazards / L * (-expm1(-L * d)), exp(-L * d))
+    } else {
+      p <- c(0, 0, 0, 1)
+    }
+    s <- rmultinom(1, size = x["S"], prob = p)[, 1]
+    
+    # Recoveries from strains 1 and 2.
+    y <- rbinom(2, x[c("I1", "I2")], -expm1(-gamma * d))
+    
+    # Strain 2 can infect vaccinated people and strain-1 recoverees.
+    z <- rbinom(2, x[c("V", "R1")], -expm1(-h2 * d))
+    
+    X[k + 1, ] <- c(
+      s[4],
+      x["V"] + s[3] - z[1],
+      x["I1"] + s[1] - y[1],
+      x["R1"] + y[1] - z[2],
+      x["I2"] + s[2] + sum(z) - y[2],
+      x["R2"] + y[2]
+    )
+  }
+  
+  stopifnot(all(X >= 0), all(rowSums(X) == N))
+  
+  # Area under each prevalence curve, in infectious person-days.
+  rows <- seq_along(steps)
+  A1 <- sum(X[rows, "I1"] * steps)
+  A2 <- sum(X[rows, "I2"] * steps)
+  
+  list(curve = data.frame(day = time, X), A1 = A1, A2 = A2, B = A1 + A2)
+}
+```
+
+## Baseline settings and repeated simulations
+
+```{r fixed-runs}
+initial <- c(S = 8490, V = 1400, I1 = 100, R1 = 0, I2 = 10, R2 = 0)
+beta <- c(0.32, 0.39)
+gamma <- c(0.12, 0.13)
+uptake <- c(baseline = 0.005, lower = 0.004)
+H <- 120
+M <- 200L
+
+one <- simulate_epidemic(initial, beta, gamma, uptake[["baseline"]], H)
+write.csv(one$curve, file.path(out, "example_curve.csv"), row.names = FALSE)
+
+burden_row <- function(epidemic) {
+  c(A1 = epidemic$A1, A2 = epidemic$A2, B = epidemic$B)
+}
+
+run_scenario <- function(scenario, dt, M) {
+  values <- matrix(
+    NA_real_, nrow = M, ncol = 3,
+    dimnames = list(NULL, c("A1", "A2", "B"))
+  )
+  
+  for (i in seq_len(M)) {
+    epidemic <- simulate_epidemic(initial, beta, gamma,
+                                  uptake[[scenario]], H, dt)
+    values[i, ] <- burden_row(epidemic)
+  }
+  
+  data.frame(scenario = scenario, dt = dt, run = seq_len(M), values)
+}
+
+# This is where fixed is CREATED, before any plotting.
+fixed <- rbind(
+  run_scenario("baseline", 0.50, M),
+  run_scenario("lower",    0.50, M),
+  run_scenario("baseline", 0.25, M),
+  run_scenario("lower",    0.25, M)
+)
+
+stopifnot(nrow(fixed) == 4L * M)
+stopifnot(all(abs(fixed$B - fixed$A1 - fixed$A2) < 1e-8))
+write.csv(fixed, file.path(out, "fixed_rate_burdens.csv"), row.names = FALSE)
+
+summarize_group <- function(x) {
+  rows <- lapply(c("A1", "A2", "B"), function(outcome) {
+    v <- x[[outcome]]
+    data.frame(
+      scenario = x$scenario[1], dt = x$dt[1], outcome = outcome,
+      runs = length(v), mean = mean(v), sd = sd(v),
+      mcse_mean = sd(v) / sqrt(length(v)), median = median(v),
+      q90 = unname(quantile(v, 0.90))
+    )
+  })
+  do.call(rbind, rows)
+}
+
+groups <- split(fixed, list(fixed$scenario, fixed$dt))
+fixed_summary <- do.call(rbind, lapply(groups, summarize_group))
+print(fixed_summary, row.names = FALSE)
+write.csv(fixed_summary, file.path(out, "fixed_rate_summary.csv"),
+          row.names = FALSE)
+```
+
+## Infection curves and burden distribution
+
+```{r fixed-plots}
+pdf(file.path(out, "fixed_rate_plots.pdf"), width = 9, height = 4.5)
+par(mfrow = c(1, 2))
+cols <- c("steelblue", "firebrick")
+
+with(one$curve, matplot(
+  day, cbind(I1, I2), type = "s", lty = 1, col = cols,
+  xlab = "Day", ylab = "Currently infectious", main = "One baseline run"
+))
+legend("topright", c("Strain 1", "Strain 2"), col = cols, lty = 1, bty = "n")
+
+fine <- subset(fixed, dt == 0.25)
+baseline_B <- fine$B[fine$scenario == "baseline"]
+lower_B <- fine$B[fine$scenario == "lower"]
+
+plot(ecdf(baseline_B), col = cols[1], xlim = range(fine$B),
+     xlab = "Infectious person-days", main = "Total burden")
+lines(ecdf(lower_B), col = cols[2])
+legend("bottomright", c("Baseline", "Lower uptake"),
+       col = cols, lty = 1, bty = "n")
+invisible(dev.off())
+
+message("Baseline complete: ", nrow(fixed), " simulations.")
+message("Pilot outputs: ", normalizePath(out))
+```
+
+The plotting chunk saves `fixed_rate_plots.pdf` in the output folder.
+
+## Time-step sensitivity and Monte Carlo precision
+
+The 0.125-day run below continues the RNG stream after the baseline. Its original raw draws and RNG state were not archived in the supplied files, so its rerun may differ from the recorded values. The 0.0625-day run uses the recorded seed 90625. The reported 95% intervals quantify Monte Carlo error in the contrast at a fixed time step.
+
+
+```{r finer-steps}
+summarize_step <- function(x) {
+  b0 <- x$B[x$scenario == "baseline"]
+  b1 <- x$B[x$scenario == "lower"]
+  d <- mean(b1) - mean(b0)
+  se <- sqrt(var(b0) / length(b0) + var(b1) / length(b1))
+  data.frame(dt = x$dt[1], baseline = mean(b0), lower = mean(b1),
+             contrast = d, mcse = se, lower95 = d - 1.96 * se,
+             upper95 = d + 1.96 * se)
+}
+if (params$run_finer) {
+  finer <- rbind(run_scenario("baseline", 0.125, 200),
+                 run_scenario("lower", 0.125, 200))
+  set.seed(90625)
+  finest <- rbind(run_scenario("baseline", 0.0625, 200),
+                  run_scenario("lower", 0.0625, 200))
+  write.csv(rbind(finer, finest), file.path(out, "finer_runs.csv"),
+            row.names = FALSE)
+  print(rbind(summarize_step(finer), summarize_step(finest)))
+}
+```
+
+
+Recorded means (infectious person-days):
+
+| Step (days) | Baseline | Lower uptake | Lower minus baseline |
+|---:|---:|---:|---:|
+| 0.5000 | 100628.45 | 101985.69 | 1357.23 |
+| 0.2500 | 98103.54 | 98946.38 | 842.85 |
+| 0.1250 | 96885.71 | 97991.51 | 1105.80 |
+| 0.0625 | 96462.08 | 97349.50 | 887.43 |
+
+# ABCel parameter recovery
+
+## Generate one synthetic outbreak and fit the first chain
+
+The single-strain pilot uses a 0.5-day internal step and observes noisy log prevalence every four days. AUC is excluded from the fitting summaries. Its predictive check uses new epidemic trajectories and compares their AUCs to the latent AUC of the same synthetic outbreak used for calibration.
+
+
+```{r abcel-setup, eval=params$run_abcel}
+# START OF COMPLETE SCRIPT
+# UNLV MS thesis: ABCel parameter-recovery pilot
+# Synthetic single-strain epidemic with vaccination
+
+if (!requireNamespace("abcel", quietly = TRUE)) {
+  stop('Run install.packages("abcel") in the Console first.')
+}
+
+set.seed(5613)
+
+out <- file.path(params$output_dir, "abcel_pilot_results")
+dir.create(out, recursive = TRUE, showWarnings = FALSE)
+stopifnot(dir.exists(out))
+
+# 1. Set up the pilot.
+# Rates are per day. Use the same time step for generating the
+# synthetic observations and for all simulations inside ABCel.
+dt <- 0.5
+obs_days <- seq(0, 80, by = 4)
+obs_idx <- as.integer(round(obs_days / dt)) + 1L
+K <- max(obs_idx) - 1L
+
+N <- 10000L
+S0 <- 8500L
+I0 <- 100L
+nu <- 0.005
+noise_sd <- 0.10
+truth <- c(beta1 = 0.32, gamma1 = 0.12)
+```
+
+### Single-strain simulator
+
+```{r abcel-1, eval=params$run_abcel}
+# 2. Simulate a single-strain epidemic.
+# The remaining 1,400 people begin protected. Vaccinated and recovered
+# people stay protected, so only S and I need to be tracked here.
+simulate_strain1 <- function(beta, gamma) {
+  S <- S0
+  I <- integer(K + 1L)
+  I[1L] <- I0
+  
+  p_recovery <- -expm1(-gamma * dt)
+  
+  for (j in seq_len(K)) {
+    infectious <- I[j]
+    infection_hazard <- beta * infectious / N
+    total_hazard <- infection_hazard + nu
+    
+    p_event <- -expm1(-total_hazard * dt)
+    probs <- c(
+      p_event * infection_hazard / total_hazard,
+      p_event * nu / total_hazard,
+      exp(-total_hazard * dt)
+    )
+    
+    # Susceptible people can become infected, get vaccinated, or stay S.
+    counts <- rmultinom(1L, size = S, prob = probs)[, 1L]
+    recoveries <- rbinom(1L, size = infectious, prob = p_recovery)
+    
+    S <- counts[3L]
+    I[j + 1L] <- infectious + counts[1L] - recoveries
+  }
+  
+  list(
+    prevalence = I[obs_idx],
+    auc = sum(I[seq_len(K)]) * dt
+  )
+}
+```
+
+### Synthetic observations
+
+```{r abcel-3, eval=params$run_abcel}
+# 3. Generate one synthetic outbreak at the known rates.
+# The observations are noisy log(1 + prevalence), not new case counts.
+observe <- function(epidemic) {
+  log1p(epidemic$prevalence) + rnorm(length(obs_days), sd = noise_sd)
+}
+
+target <- simulate_strain1(truth[["beta1"]], truth[["gamma1"]])
+y_obs <- observe(target)
+
+write.csv(
+  data.frame(day = obs_days, latent_I = target$prevalence,
+             observed_log_I = y_obs),
+  file.path(out, "synthetic_observations.csv"),
+  row.names = FALSE
+)
+```
+
+### Summary statistics and priors
+
+```{r abcel-5, eval=params$run_abcel}
+# 4. Define the simulator, summaries, prior, and proposal for ABCel.
+# ABCel samples log rates; exp() converts them back to positive rates.
+generate_data <- function(theta, n) {
+  stopifnot(n == length(obs_days))
+  rates <- exp(theta)
+  observe(simulate_strain1(rates[1L], rates[2L]))
+}
+
+early <- obs_days <= 16
+late <- obs_days >= 52 & obs_days <= 68
+
+summary_stats <- function(y) {
+  early_slope <- cov(obs_days[early], y[early]) / var(obs_days[early])
+  c(early_growth = early_slope, late_level = mean(y[late]))
+}
+
+log_prior <- function(theta) {
+  # Independent uniform priors on log(beta1) and log(gamma1).
+  dunif(
+    theta,
+    min = log(c(0.18, 0.07)),
+    max = log(c(0.50, 0.24)),
+    log = TRUE
+  )
+}
+
+propose <- function(theta, ...) {
+  last <- as.numeric(theta[nrow(theta), ])
+  last + rnorm(2L, sd = 0.025)
+}
+```
+
+### First-chain fit
+
+```{r abcel-7, eval=params$run_abcel}
+# 5. Fit ABCel.
+message("Starting ABCel. This step may take several minutes.")
+
+fit <- abcel::abcel(
+  data.obs = y_obs,
+  theta0 = log(c(0.30, 0.115)),
+  rep = 600L,
+  m = 60L,
+  n = length(y_obs),
+  burn_in = 150L,
+  data.func = generate_data,
+  summ.func = summary_stats,
+  prior.func = log_prior,
+  proposal.func = propose,
+  print_interval = 100L,
+  plot_interval = 1000L,  # Numeric; larger than 600 skips in-run plots.
+  k = 10L
+)
+
+saveRDS(fit, file.path(out, "abcel_fit.rds"))
+```
+
+### Parameter recovery
+
+```{r abcel-9, eval=params$run_abcel}
+# 6. Compare the approximate posterior with the true rates.
+keep <- is.finite(fit$logpost) & fit$logpost > -9999
+draws <- exp(as.matrix(fit$theta)[keep, , drop = FALSE])
+colnames(draws) <- names(truth)
+
+if (nrow(draws) < 10L || nrow(unique(draws)) < 5L) {
+  stop("The chain barely moved. The raw fit was saved in abcel_fit.rds.")
+}
+
+write.csv(draws, file.path(out, "posterior_draws.csv"), row.names = FALSE)
+
+result <- rbind(
+  true_value = truth,
+  apply(draws, 2L, quantile, probs = c(0.05, 0.50, 0.95))
+)
+
+print(round(result, 4))
+cat("Final acceptance fraction:", tail(fit$acceptance_rate, 1L), "\n")
+write.csv(result, file.path(out, "parameter_recovery_summary.csv"))
+```
+
+### Burden predictive check
+
+```{r abcel-11, eval=params$run_abcel}
+# 7. Check predicted infectious burden (AUC).
+# AUC was not used as a fitting summary.
+ids <- sample.int(nrow(draws), min(150L, nrow(draws)))
+auc_pred <- numeric(length(ids))
+
+for (j in seq_along(ids)) {
+  i <- ids[j]
+  epidemic <- simulate_strain1(draws[i, 1L], draws[i, 2L])
+  auc_pred[j] <- epidemic$auc
+}
+
+write.csv(
+  data.frame(predicted_auc = auc_pred, target_auc = target$auc),
+  file.path(out, "auc_predictive_check.csv"),
+  row.names = FALSE
+)
+```
+
+### Diagnostic plots
+
+```{r abcel-13, eval=params$run_abcel}
+# 8. Save diagnostics. Red markers show the synthetic truth.
+pdf(file.path(out, "abcel_diagnostics.pdf"), width = 9, height = 7)
+par(mfrow = c(2, 2))
+
+for (j in 1:2) {
+  plot(draws[, j], type = "l", xlab = "Retained iteration",
+       ylab = names(truth)[j], main = "Parameter trace")
+  abline(h = truth[j], col = "firebrick", lty = 2)
+}
+
+plot(draws[, 1L], draws[, 2L], pch = 16, cex = 0.5,
+     xlab = "beta1", ylab = "gamma1",
+     main = "Approximate joint posterior")
+points(truth[1L], truth[2L], col = "firebrick", pch = 4, lwd = 2)
+
+hist(auc_pred, xlim = range(c(auc_pred, target$auc)),
+     main = "Predictive check: strain-1 AUC",
+     xlab = "Infectious person-days")
+abline(v = target$auc, col = "firebrick", lwd = 2)
+
+invisible(dev.off())
+capture.output(sessionInfo(), file = file.path(out, "session_info.txt"))
+message("ABCel pilot complete: ", normalizePath(out))
+
+# END OF COMPLETE SCRIPT
+```
+
+## Compare a second chain on the same observations
+
+Different initial rates and a longer run check sensitivity to initialization. Both chains use identical observations, summaries, priors and simulator settings.
+
+```{r second-chain, eval=params$run_abcel}
+if (!requireNamespace("abcel", quietly = TRUE)) {
+  stop('Install ABCel first with install.packages("abcel").')
+}
+
+pilot_dir <- file.path(params$output_dir, "abcel_pilot_results")
+out <- file.path(pilot_dir, "chain_comparison")
+
+obs_file <- file.path(pilot_dir, "synthetic_observations.csv")
+draws_file <- file.path(pilot_dir, "posterior_draws.csv")
+
+if (!all(file.exists(c(obs_file, draws_file)))) {
+  stop("Original files not found. Check pilot_dir at the top of the script.")
+}
+
+dir.create(out, showWarnings = FALSE)
+stopifnot(dir.exists(out))
+
+observed <- read.csv(obs_file)
+chain1 <- read.csv(draws_file)[, c("beta1", "gamma1")]
+obs_days <- observed$day
+y_obs <- observed$observed_log_I
+
+stopifnot(
+  isTRUE(all.equal(obs_days, seq(0, 80, by = 4))),
+  all(is.finite(y_obs)),
+  nrow(chain1) > 0L
+)
+
+# Keep the same simulator, observation model, summaries, and prior.
+dt <- 0.5
+N <- 10000L
+nu <- 0.005
+noise_sd <- 0.10
+truth <- c(beta1 = 0.32, gamma1 = 0.12)
+obs_idx <- as.integer(round(obs_days / dt)) + 1L
+K <- max(obs_idx) - 1L
+
+simulate_strain1 <- function(beta, gamma) {
+  S <- 8500L
+  I <- integer(K + 1L)
+  I[1L] <- 100L
+  p_recovery <- -expm1(-gamma * dt)
+  
+  for (j in seq_len(K)) {
+    h <- beta * I[j] / N
+    total_h <- h + nu
+    p_event <- -expm1(-total_h * dt)
+    probs <- c(p_event * h / total_h,
+               p_event * nu / total_h,
+               exp(-total_h * dt))
+    
+    events <- rmultinom(1L, size = S, prob = probs)[, 1L]
+    recoveries <- rbinom(1L, size = I[j], prob = p_recovery)
+    S <- events[3L]
+    I[j + 1L] <- I[j] + events[1L] - recoveries
+  }
+  
+  list(prevalence = I[obs_idx], auc = sum(I[seq_len(K)]) * dt)
+}
+
+observe <- function(epidemic) {
+  log1p(epidemic$prevalence) + rnorm(length(obs_days), sd = noise_sd)
+}
+
+generate_data <- function(theta, n) {
+  stopifnot(n == length(obs_days))
+  rates <- exp(theta)
+  observe(simulate_strain1(rates[1L], rates[2L]))
+}
+
+summary_stats <- function(y) {
+  early <- obs_days <= 16
+  late <- obs_days >= 52 & obs_days <= 68
+  slope <- cov(obs_days[early], y[early]) / var(obs_days[early])
+  c(early_growth = slope, late_level = mean(y[late]))
+}
+
+log_prior <- function(theta) {
+  dunif(theta, min = log(c(0.18, 0.07)),
+        max = log(c(0.50, 0.24)), log = TRUE)
+}
+
+propose <- function(theta, ...) {
+  as.numeric(theta[nrow(theta), ]) + rnorm(2L, sd = 0.025)
+}
+
+fit_chain <- function(y, start, seed, iterations, burn) {
+  set.seed(seed)
+  abcel::abcel(
+    data.obs = y, theta0 = log(start),
+    rep = iterations, m = 60L, n = length(y), burn_in = burn,
+    data.func = generate_data, summ.func = summary_stats,
+    prior.func = log_prior, proposal.func = propose,
+    print_interval = 250L,
+    plot_interval = iterations + 1L,
+    k = 10L
+  )
+}
+
+extract_draws <- function(fit) {
+  keep <- is.finite(fit$logpost) & fit$logpost > -9999
+  x <- exp(as.matrix(fit$theta)[keep, , drop = FALSE])
+  colnames(x) <- names(truth)
+  
+  if (nrow(x) < 10L || nrow(unique(x)) < 5L) {
+    stop("The chain barely moved. Inspect the saved raw fit.")
+  }
+  as.data.frame(x)
+}
+
+summarize_draws <- function(draws, label) {
+  rows <- lapply(names(truth), function(p) {
+    q <- quantile(draws[[p]], c(0.05, 0.50, 0.95), names = FALSE)
+    data.frame(
+      chain = label, parameter = p, true = truth[[p]],
+      lower_90 = q[1], median = q[2], upper_90 = q[3],
+      retained = nrow(draws),
+      truth_in_interval = q[1] <= truth[[p]] && truth[[p]] <= q[3]
+    )
+  })
+  do.call(rbind, rows)
+}
+
+message("Starting the longer chain on the original observations.")
+fit2 <- fit_chain(y_obs, start = c(0.35, 0.14), seed = 7462L,
+                  iterations = 1500L, burn = 300L)
+saveRDS(fit2, file.path(out, "chain2_fit.rds"))
+
+chain2 <- extract_draws(fit2)
+write.csv(chain2, file.path(out, "chain2_draws.csv"), row.names = FALSE)
+
+comparison <- rbind(
+  summarize_draws(chain1, "Original"),
+  summarize_draws(chain2, "Longer")
+)
+print(comparison, row.names = FALSE)
+write.csv(comparison, file.path(out, "chain_comparison.csv"),
+          row.names = FALSE)
+
+pdf(file.path(out, "chain_comparison.pdf"), width = 9, height = 6)
+par(mfrow = c(2, 2), mar = c(4, 4, 3, 1))
+
+for (p in names(truth)) {
+  yr <- range(chain1[[p]], chain2[[p]], truth[[p]])
+  plot(chain1[[p]], type = "l", ylim = yr, xlab = "Retained iteration",
+       ylab = p, main = paste("Original:", p))
+  abline(h = truth[[p]], col = "firebrick", lty = 2)
+  
+  plot(chain2[[p]], type = "l", ylim = yr, xlab = "Retained iteration",
+       ylab = p, main = paste("Longer:", p))
+  abline(h = truth[[p]], col = "firebrick", lty = 2)
+}
+
+invisible(dev.off())
+message("Chain comparison saved to: ", normalizePath(out))
+
+# OPTIONAL: Set this to TRUE after inspecting the chain comparison.
+# Running this section by itself in the same R session avoids refitting
+# the second chain. This is a small follow-up, not a coverage study.
+```
+
+## Optional independent-outbreak check
+
+This was not run in the supplied transcript. Three additional synthetic outbreaks give a small feasibility check, not a reliable coverage estimate.
+
+```{r outbreak-repeats, eval=params$run_abcel && params$run_recovery_repeats}
+run_recovery_repeats <- params$run_recovery_repeats
+
+if (run_recovery_repeats) {
+  recovery_rows <- vector("list", 3L)
+  
+  for (j in seq_along(recovery_rows)) {
+    message("Fitting new synthetic outbreak ", j, " of ", length(recovery_rows))
+    set.seed(8100L + j)
+    target_j <- simulate_strain1(truth[["beta1"]], truth[["gamma1"]])
+    y_j <- observe(target_j)
+    
+    write.csv(data.frame(day = obs_days, observed_log_I = y_j),
+              file.path(out, paste0("outbreak_", j, "_observations.csv")),
+              row.names = FALSE)
+    
+    fit_j <- fit_chain(y_j, start = c(0.30, 0.115), seed = 9100L + j,
+                       iterations = 1500L, burn = 300L)
+    saveRDS(fit_j, file.path(out, paste0("outbreak_", j, "_fit.rds")))
+    
+    draws_j <- extract_draws(fit_j)
+    recovery_rows[[j]] <- summarize_draws(draws_j, paste("Outbreak", j))
+    write.csv(do.call(rbind, recovery_rows[seq_len(j)]),
+              file.path(out, "independent_outbreak_recovery.csv"),
+              row.names = FALSE)
+  }
+  
+  print(do.call(rbind, recovery_rows), row.names = FALSE)
+}
+```
+
+# Software environment
+
+```{r session-info}
+sessionInfo()
+```
