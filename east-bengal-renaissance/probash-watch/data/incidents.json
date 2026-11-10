@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T04:06:04.679Z",
+  "updated_at": "2026-11-10T16:04:04.260Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2335,6 +2335,182 @@
       "translation_status": "summary_draft",
       "nationality": "BD",
       "nationality_basis": "source_identifies_three_workers_and_convicted_person_as_Bangladeshi"
+    },
+    {
+      "id": "MV-WORKER-DEATH-20261105",
+      "country": "MV",
+      "event_date": "2026-11-05",
+      "published_date": "2026-11-10",
+      "title": {
+        "bn": "মালেতে হৃদ্‌যন্ত্র-সংক্রান্ত জটিলতার পর বাংলাদেশি কর্মীর মৃত্যু",
+        "en": "Bangladeshi worker dies after heart-related complication in Malé"
+      },
+      "summary": {
+        "bn": "Sarabangla ও বাংলাদেশ হাইকমিশনের welfare assistant-এর তথ্য অনুযায়ী, ৫ নভেম্বর মালেতে অসুস্থ হওয়ার পর এক প্রাপ্তবয়স্ক বাংলাদেশি কর্মী হাসপাতালে মারা যান। হাইকমিশন ও ওয়েজ আর্নার্স কল্যাণ বোর্ডের সহায়তায় মরদেহ ফেরানোর কথা প্রতিবেদনে বলা হয়েছে। পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি; নির্দিষ্ট চিকিৎসাগত কারণ স্বাধীনভাবে নিশ্চিত নয়।",
+        "en": "According to Sarabangla and information from a Bangladesh High Commission welfare assistant, an adult Bangladeshi worker died in a Malé hospital after becoming ill on 5 November. The report says the High Commission and Wage Earners’ Welfare Board assisted the return of the body. Identity and private family details are withheld; the specific medical cause is not independently confirmed."
+      },
+      "category": "death_repatriation",
+      "gender": "male",
+      "people_count": 1,
+      "status": "source_reported",
+      "nationality": "BD",
+      "nationality_basis": "source_and_Bangladesh_High_Commission_welfare_official_identify_Bangladeshi_worker",
+      "location_precision": "city",
+      "sources": [
+        {
+          "name": "Sarabangla English",
+          "url": "https://en.sarabangla.net/diaspora/post-50376/two-bangladeshi-workers-die-in-maldives-within-a-day/",
+          "date": "2026-11-10",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ হাইকমিশন ও ওয়েজ আর্নার্স কল্যাণ বোর্ড",
+            "en": "Bangladesh High Commission and Wage Earners’ Welfare Board"
+          },
+          "response": {
+            "bn": "মরদেহ বাংলাদেশে ফেরানোর ব্যবস্থায় সহায়তার কথা প্রতিবেদনে বলা হয়েছে।",
+            "en": "The report says they assisted arrangements to return the body to Bangladesh."
+          },
+          "source_url": "https://en.sarabangla.net/diaspora/post-50376/two-bangladeshi-workers-die-in-maldives-within-a-day/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "এক প্রাপ্তবয়স্ক পুরুষ কর্মী; পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "One adult male worker; identity and private family details are not republished"
+      },
+      "unknowns": {
+        "bn": "চূড়ান্ত চিকিৎসাগত কারণ, নিয়োগ/নথির অবস্থা-সংক্রান্ত কোনো প্রাসঙ্গিক সহায়তা এবং ক্ষতিপূরণ বা বীমার ফল নিশ্চিত নয়।",
+        "en": "The final medical cause, any relevant support concerning employment or documentation status, and compensation or insurance outcomes are not established."
+      },
+      "follow_up": {
+        "bn": "মৃত্যু-সনদ, মরদেহ প্রত্যাবাসন ও পরিবারকে সহায়তার ফল অনুসরণ",
+        "en": "Track the death certificate, repatriation and support for the family"
+      }
+    },
+    {
+      "id": "MV-WORKER-DEATH-20261106",
+      "country": "MV",
+      "event_date": "2026-11-06",
+      "published_date": "2026-11-10",
+      "title": {
+        "bn": "মালদ্বীপে চিকিৎসাধীন অবস্থায় বাংলাদেশি কর্মীর মৃত্যু",
+        "en": "Bangladeshi worker dies during hospital treatment in the Maldives"
+      },
+      "summary": {
+        "bn": "Sarabangla জানিয়েছে, কয়েক দিন অসুস্থ থাকার পর ৬ নভেম্বর হাসপাতালে ভর্তি এক প্রাপ্তবয়স্ক বাংলাদেশি কর্মী সেদিনই মারা যান—মালদ্বীপে পৌঁছানোর প্রায় এক মাস পর। মরদেহ প্রত্যাবাসনের ব্যবস্থা চলছিল। পরিচয়, পরিবারের ব্যক্তিগত তথ্য ও ঋণের বিস্তারিত পুনঃপ্রকাশ করা হয়নি; চিকিৎসাগত কারণ স্বাধীনভাবে যাচাই করা হয়নি।",
+        "en": "Sarabangla reports that an adult Bangladeshi worker who had been unwell for several days was admitted to hospital and died on 6 November, about one month after arriving in the Maldives. Repatriation arrangements were under way. Identity, private family details and debt specifics are withheld; the medical cause was not independently verified."
+      },
+      "category": "death_repatriation",
+      "gender": "male",
+      "people_count": 1,
+      "status": "source_reported_repatriation_pending",
+      "nationality": "BD",
+      "nationality_basis": "source_identifies_Bangladeshi_migrant_worker",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "Sarabangla English",
+          "url": "https://en.sarabangla.net/diaspora/post-50376/two-bangladeshi-workers-die-in-maldives-within-a-day/",
+          "date": "2026-11-10",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ হাইকমিশন",
+            "en": "Bangladesh High Commission"
+          },
+          "response": {
+            "bn": "মরদেহ প্রত্যাবাসনের ব্যবস্থা চলার কথা এবং শোক প্রকাশের কথা প্রতিবেদনে বলা হয়েছে।",
+            "en": "The report says repatriation arrangements were under way and the High Commissioner expressed condolences."
+          },
+          "source_url": "https://en.sarabangla.net/diaspora/post-50376/two-bangladeshi-workers-die-in-maldives-within-a-day/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "এক প্রাপ্তবয়স্ক পুরুষ কর্মী; পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "One adult male worker; identity and private family details are not republished"
+      },
+      "unknowns": {
+        "bn": "চূড়ান্ত চিকিৎসাগত কারণ, মরদেহ প্রত্যাবাসনের সময় এবং ক্ষতিপূরণ, বীমা বা পরিবার-সহায়তার ফল নিশ্চিত নয়।",
+        "en": "The final medical cause, repatriation timing, and compensation, insurance or family-support outcomes are not established."
+      },
+      "follow_up": {
+        "bn": "মৃত্যু-সনদ, মরদেহ প্রত্যাবাসন ও পরিবারকে সহায়তার ফল অনুসরণ",
+        "en": "Track the death certificate, repatriation and support for the family"
+      }
+    },
+    {
+      "id": "EG-MEDITERRANEAN-RESCUE-20261013",
+      "country": "EG",
+      "event_date": "2026-10-13",
+      "published_date": "2026-11-10",
+      "title": {
+        "bn": "ভূমধ্যসাগরে উদ্ধার ৬৫ বাংলাদেশি মিশরে আটক",
+        "en": "Sixty-five Bangladeshis rescued in the Mediterranean and detained in Egypt"
+      },
+      "summary": {
+        "bn": "বাংলাদেশ দূতাবাসের প্রতিবেদন উদ্ধৃত করে Sarabangla জানিয়েছে, ৮ অক্টোবর গ্রিসের উদ্দেশে যাত্রা করা একটি overcrowded rubber boat জ্বালানি হারিয়ে ও ফুটো হয়ে পড়ার পর ১৩ অক্টোবর একটি বাণিজ্যিক জাহাজ ৬৫ বাংলাদেশিসহ ৬৯ জনকে উদ্ধার করে দামিয়েত্তা বন্দরে নেয়। ৫ নভেম্বর দূতাবাসের শ্রমসচিব তাঁদের কারাগারে দেখেন। তাঁরা দালালদের প্রতারণা ও লিবিয়ায় অমানবিক অবস্থায় আটকে রাখার অভিযোগ করেছেন; অভিযোগগুলো বিচারিকভাবে প্রমাণিত নয়।",
+        "en": "Citing a Bangladesh Embassy report, Sarabangla says a commercial vessel rescued 69 people, including 65 Bangladeshis, on 13 October after an overcrowded Greece-bound rubber boat that departed on 8 October ran out of fuel and leaked, then took them to Damietta Port. An embassy labour official visited them in prison on 5 November. They alleged broker deception and inhumane confinement in Libya; the allegations are not judicially established."
+      },
+      "category": "trafficking_irregular_migration_detention",
+      "gender": "unknown",
+      "people_count": 65,
+      "status": "detention_and_trafficking_allegations_source_reported",
+      "nationality": "BD",
+      "nationality_basis": "Bangladesh_Embassy_report_identifies_65_Bangladeshis",
+      "location_precision": "port_city",
+      "sources": [
+        {
+          "name": "Sarabangla English",
+          "url": "https://en.sarabangla.net/diaspora/post-50344/65-bangladeshis-rescued-from-mediterranean-now-in-egyptian-prison/",
+          "date": "2026-11-10",
+          "language": "en"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "বাংলাদেশ দূতাবাস, কায়রো",
+            "en": "Bangladesh Embassy in Cairo"
+          },
+          "response": {
+            "bn": "শ্রমসচিব ৫ নভেম্বর কারাগারে সাক্ষাৎ, welfare check ও পরিবারের সঙ্গে ফোনালাপের ব্যবস্থা করেছেন; আইনি/কনস্যুলার সহায়তা ও দ্রুত প্রত্যাবাসনের জন্য মিশরীয় কর্তৃপক্ষের সঙ্গে কাজ চলছে।",
+            "en": "Its labour official visited the prison on 5 November, checked welfare and arranged family calls; the embassy is working with Egyptian authorities on legal and consular support and early repatriation."
+          },
+          "source_url": "https://en.sarabangla.net/diaspora/post-50344/65-bangladeshis-rescued-from-mediterranean-now-in-egyptian-prison/"
+        },
+        {
+          "actor": {
+            "bn": "বাংলাদেশ দূতাবাস ও IOM",
+            "en": "Bangladesh Embassy and IOM"
+          },
+          "response": {
+            "bn": "প্রত্যাবাসনের air tickets-এর ব্যবস্থা নিয়ে কাজ করার কথা প্রতিবেদনে বলা হয়েছে।",
+            "en": "The report says they are working to arrange return air tickets."
+          },
+          "source_url": "https://en.sarabangla.net/diaspora/post-50344/65-bangladeshis-rescued-from-mediterranean-now-in-egyptian-prison/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "৬৫ বাংলাদেশি প্রাপ্তবয়স্ক বলে উৎসে উল্লেখ; কোনো পরিচয় বা পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "The source identifies 65 Bangladeshi adults; no identities or private family details are republished"
+      },
+      "unknowns": {
+        "bn": "প্রত্যেকের আইনি অবস্থা, অভিযোগ/মামলার ভিত্তি, আটকাদেশের মেয়াদ, পাচারকারী শনাক্তকরণ, asylum/return consent এবং প্রত্যাবাসনের সময় নিশ্চিত নয়।",
+        "en": "Each person’s legal status, basis for any charge or detention, detention duration, identification of alleged traffickers, asylum or return consent, and repatriation timing are not established."
+      },
+      "follow_up": {
+        "bn": "আইনি অবস্থা, কনস্যুলার সহায়তা, IOM সমন্বয় ও নিরাপদ প্রত্যাবাসন অনুসরণ",
+        "en": "Track legal status, consular support, IOM coordination and safe repatriation"
+      }
     }
   ]
 }
