@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T16:00:29.867Z",
+  "updated_at": "2026-11-10T04:06:04.679Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2273,6 +2273,68 @@
         "bn": "সৌদি তদন্ত, আহতদের অবস্থা, মরদেহসংক্রান্ত ব্যবস্থা ও ক্ষতিপূরণ অনুসরণ",
         "en": "Track the Saudi investigation, condition of the injured, arrangements for the deceased and compensation"
       }
+    },
+    {
+      "id": "BN-TRAFFICKING-CASE-2025",
+      "country": "BN",
+      "location": "Brunei Darussalam",
+      "coordinates": null,
+      "location_precision": "country",
+      "event_date": "2026-11-07",
+      "date_precision": "day",
+      "published_date": "2026-11-08",
+      "category": "human_trafficking_court_judgment",
+      "status": "appeal_dismissed_sentence_upheld",
+      "gender": "male",
+      "people_count": 3,
+      "title": {
+        "bn": "তিন বাংলাদেশি শ্রমিককে forced labour-এ শোষণের মামলায় আপিল খারিজ",
+        "en": "Appeal dismissed in forced-labour trafficking case involving three Bangladeshi workers"
+      },
+      "summary": {
+        "bn": "ব্রুনাইয়ের Court of Appeal ৭ নভেম্বর মানবপাচার মামলার দণ্ডের বিরুদ্ধে আপিল খারিজ করেছে। আদালতের প্রতিবেদনে বলা হয়েছে, তিন বাংলাদেশি শ্রমিককে চাকরির প্রতিশ্রুতি দিয়ে এনে কম মজুরির বা কাজবিহীন অবস্থায় রাখা, passport আটকে রাখা এবং অর্থ দাবি করা হয়েছিল। পাঁচ বছরের কারাদণ্ড, BND ৫০,০০০ জরিমানা ও ছয়টি বেত্রাঘাত বহাল আছে। শ্রমিকদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Brunei’s Court of Appeal dismissed an appeal on 7 November in a trafficking case. The court report says three Bangladeshi workers were recruited with job promises, then placed in low-paid work or left without work, while passports were retained and payments demanded. Five years’ imprisonment, BND50,000 in fines and six strokes were upheld. The workers’ identities are not republished."
+      },
+      "unknowns": {
+        "bn": "পরবর্তী কোনো আইনি আবেদন, জরিমানা পরিশোধ, default imprisonment বা শ্রমিকদের ক্ষতিপূরণ/বর্তমান অবস্থার তথ্য প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "Any further legal application, payment of fines, default imprisonment, compensation or the workers’ current circumstances are not established in the published source."
+      },
+      "victim": {
+        "bn": "তিন প্রাপ্তবয়স্ক পুরুষ শ্রমিক; পরিচয় ও ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "Three adult male workers; identities and private details are not republished"
+      },
+      "sources": [
+        {
+          "name": "LexBru",
+          "url": "https://lexbru.com/news/human-trafficking-sentence-appeal-dismissed/",
+          "date": "2026-11-08",
+          "language": "en",
+          "type": "destination_local_legal_reporting"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "ব্রুনাই Court of Appeal",
+            "en": "Brunei Court of Appeal"
+          },
+          "response": {
+            "bn": "আপিল খারিজ করে মূল aggregate sentence বহাল রেখেছে।",
+            "en": "Dismissed the appeal and upheld the aggregate sentence."
+          },
+          "source_url": "https://lexbru.com/news/human-trafficking-sentence-appeal-dismissed/"
+        }
+      ],
+      "protests": [],
+      "follow_up": {
+        "bn": "আরও আইনি আবেদন, ক্ষতিপূরণ ও শ্রমিকদের সহায়তার ফল অনুসরণ",
+        "en": "Track any further legal application, compensation and support outcomes"
+      },
+      "reviewed_at": "2026-11-10T04:06:04.679Z",
+      "review_note": "Published court-outcome reporting; survivor identities withheld.",
+      "translation_status": "summary_draft",
+      "nationality": "BD",
+      "nationality_basis": "source_identifies_three_workers_and_convicted_person_as_Bangladeshi"
     }
   ]
 }
