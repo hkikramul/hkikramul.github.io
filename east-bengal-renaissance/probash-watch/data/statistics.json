@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T03:59:16.073Z",
+  "updated_at": "2026-11-10T04:06:04.679Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1444,6 +1444,90 @@
       "note": "Female component of the 2,491 single-day clearance total; not a departure count and must not be added to the all-gender total.",
       "denominator": 2491,
       "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-2026-11-09",
+      "metric": "workers_receiving_overseas_employment_clearance",
+      "value": 2499,
+      "period": "9 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "single_calendar_day",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-09/",
+      "note": "Single-day OEP clearance count reproduced by Probashi Info for 27 destinations; not physical departures. Late official entries may revise the figure; do not add to overlapping weekly or monthly totals.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-2026-11-09",
+      "metric": "women_receiving_overseas_employment_clearance",
+      "value": 269,
+      "period": "9 Nov 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "single_calendar_day_component",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-09/",
+      "note": "Female component of the 2,499 single-day clearance total; not a departure count and must not be added to the all-gender total.",
+      "denominator": 2499,
+      "status": "source_reported"
+    },
+    {
+      "id": "remittance-2026-nov1-8",
+      "metric": "workers_remittances_received",
+      "value": 1130,
+      "period": "1–8 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "eight_calendar_days",
+      "source_url": "https://www.bssnews.net/business/443818",
+      "note": "Eight-day November snapshot reported by BSS; overlaps the 8 Nov component, the earlier 1–7 Nov snapshot and the partial-fiscal-year total, so it must not be added to them.",
+      "denominator": null,
+      "status": "source_reported_metadata_only"
+    },
+    {
+      "id": "remittance-2026-nov8",
+      "metric": "workers_remittances_received",
+      "value": 251,
+      "period": "8 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "single_calendar_day_component",
+      "source_url": "https://www.bssnews.net/business/443818",
+      "note": "Single-day component of the 1–8 Nov 2026 total and included in the 1 Jul–8 Nov fiscal-year snapshot; do not add to either.",
+      "denominator": 1130,
+      "status": "source_reported_metadata_only"
+    },
+    {
+      "id": "remittance-fy-partial-2026-jul1-nov8",
+      "metric": "workers_remittances_received",
+      "value": 12595,
+      "period": "1 Jul–8 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "partial_fiscal_year",
+      "source_url": "https://www.bssnews.net/business/443818",
+      "note": "Partial FY2026-27 snapshot; overlaps earlier Jul–Nov snapshots and November sub-periods and must not be summed with them.",
+      "denominator": null,
+      "status": "source_reported_metadata_only"
+    },
+    {
+      "id": "remittance-fy-partial-2025-jul1-nov8",
+      "metric": "workers_remittances_received",
+      "value": 10903,
+      "period": "1 Jul–8 Nov 2025",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "USD_million",
+      "period_basis": "partial_fiscal_year_comparison",
+      "source_url": "https://www.bssnews.net/business/443818",
+      "note": "Corresponding prior-fiscal-year comparison reported by BSS; overlaps other snapshots and must not be summed with them.",
+      "denominator": null,
+      "status": "source_reported_metadata_only"
     }
   ]
 }
