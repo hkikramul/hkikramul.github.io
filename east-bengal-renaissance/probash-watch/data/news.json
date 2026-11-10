@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T16:05:35.820Z",
-  "last_successful_scan_at": "2026-11-09T16:05:35.820Z",
+  "updated_at": "2026-11-10T04:06:04.679Z",
+  "last_successful_scan_at": "2026-11-10T04:06:04.679Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-09",
+  "coverage_end": "2026-11-10",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -3032,6 +3032,102 @@
       "status": "source_reported",
       "nationality_basis": "official_Bangladesh_government_overseas_recruitment_notice",
       "added_at": "2026-11-09T16:05:35.820Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BN-TRAFFICKING-APPEAL-LEXBRU-20261108",
+      "country": "BN",
+      "published_date": "2026-11-08",
+      "event_date": "2026-11-07",
+      "publisher": "LexBru",
+      "url": "https://lexbru.com/news/human-trafficking-sentence-appeal-dismissed/",
+      "language": "en",
+      "title": {
+        "bn": "ব্রুনাইয়ে তিন বাংলাদেশি শ্রমিককে মানবপাচারের মামলায় আপিল খারিজ",
+        "en": "Brunei appeal dismissed in trafficking case involving three Bangladeshi workers"
+      },
+      "summary": {
+        "bn": "ব্রুনাইয়ের Court of Appeal তিন বাংলাদেশি শ্রমিককে প্রতারণার মাধ্যমে এনে forced labour-এ শোষণের মামলায় দণ্ডিত এক বাংলাদেশি ব্যবসায়ীর আপিল ৭ নভেম্বর খারিজ করেছে। আদালত পাঁচ বছরের কারাদণ্ড, BND ৫০,০০০ জরিমানা ও ছয়টি বেত্রাঘাত বহাল রেখেছে। এটি আদালতের দণ্ডাদেশ; শ্রমিকদের পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Brunei’s Court of Appeal dismissed on 7 November an appeal by a Bangladeshi businessman convicted of recruiting three Bangladeshi workers through deception for forced-labour exploitation. The court upheld five years’ imprisonment, BND50,000 in fines and six strokes. This is a court judgment; the workers’ identities are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": "BN-TRAFFICKING-CASE-2025",
+      "status": "court_judgment_reported",
+      "nationality_basis": "source_and_court_report_identify_convicted_person_and_three_workers_as_Bangladeshi",
+      "added_at": "2026-11-10T04:06:04.679Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-ZERO-COST-SELECTION-SCHEDULE-FE-20261110",
+      "country": "MY",
+      "published_date": "2026-11-10",
+      "event_date": null,
+      "publisher": "The Financial Express",
+      "url": "https://today.thefinancialexpress.com.bd/last-page/process-of-sending-workers-to-malaysia-with-zero-migration-cost-underway-1794249041",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ার zero-cost কর্মসূচিতে final selection-এর নতুন সময়সূচি",
+        "en": "New final-selection schedule reported for Malaysia zero-cost programme"
+      },
+      "summary": {
+        "bn": "BOESL-এর ব্যবস্থাপনা পরিচালক Financial Express-কে বলেছেন, ৩০০ জনের shortlist থেকে Malaysian company delegates ১১ বা ১২ নভেম্বর ১১২ জনকে final selection করতে পারেন এবং প্রথম batch ডিসেম্বরের প্রথম সপ্তাহে পাঠানোর প্রত্যাশা রয়েছে। প্রতিবেদনে primary applicant ৪,০২৯ বলা হয়েছে, যেখানে আগের প্রতিবেদনে ৪,০৩৯ ছিল—অমিলটি অক্ষুণ্ণ রাখা হয়েছে। এগুলো পরিকল্পিত ধাপ, নিশ্চিত selection, visa, clearance বা departure নয়।",
+        "en": "BOESL’s managing director told the Financial Express that Malaysian company delegates may finally select 112 people from the 300-person shortlist on 11 or 12 November, with the first batch expected in early December. This report gives 4,029 primary applicants, while earlier coverage gave 4,039; the discrepancy is preserved. These are planned stages, not confirmed selections, visas, clearances or departures."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported_planned_schedule",
+      "nationality_basis": "Bangladesh_state_recruitment_program_for_Bangladeshi_workers",
+      "added_at": "2026-11-10T04:06:04.679Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261109",
+      "country": "MULTI",
+      "published_date": "2026-11-10",
+      "event_date": "2026-11-09",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-09/",
+      "language": "bn",
+      "title": {
+        "bn": "৯ নভেম্বর ২,৪৯৯ কর্মী overseas-employment clearance পেয়েছেন",
+        "en": "2,499 workers received overseas-employment clearance on 9 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী প্রতিবেদনে ৯ নভেম্বর ২৭টি গন্তব্যের জন্য ২,৪৯৯ clearance-এর কথা আছে; এর মধ্যে নারী ২৬৯। সবচেয়ে বেশি Saudi Arabia ১,২৭৪, Singapore ৩১২ ও Maldives ২০৫। এটি clearance count, physical departure নয়; late official entry-তে সংশোধিত হতে পারে।",
+        "en": "A report reproducing government OEP country-clearance data records 2,499 clearances for 27 destinations on 9 November, including 269 women. Saudi Arabia had 1,274, Singapore 312 and Maldives 205. This is a clearance count, not physical departures, and may be revised for late official entries."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_original_fetch_failed",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-10T04:06:04.679Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-REMITTANCE-SNAPSHOT-BSS-20261109",
+      "country": "MULTI",
+      "published_date": "2026-11-09",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/business/443818",
+      "language": "en",
+      "title": {
+        "bn": "১–৮ নভেম্বর রেমিট্যান্স ১.১৩ বিলিয়ন ডলার",
+        "en": "Remittances reach $1.13 billion during 1–8 November"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ১–৮ নভেম্বর ২০২৬ সময়ে workers’ remittance ছিল ১.১৩ বিলিয়ন ডলার; ৮ নভেম্বরের অংশ ২৫১ মিলিয়ন ডলার। ১ জুলাই–৮ নভেম্বর FY2026-27 snapshot ১২.৫৯৫ বিলিয়ন ডলার, আগের অর্থবছরের একই সময়ে ১০.৯০৩ বিলিয়ন ডলার। এগুলো overlapping calendar ও fiscal-period snapshot; একসঙ্গে বা আগের ১–৭ নভেম্বরের হিসাবের সঙ্গে যোগ করা যাবে না। মূল পৃষ্ঠা সরাসরি খোলা যায়নি; search-indexed metadata-এর বাইরে দাবি করা হয়নি।",
+        "en": "BSS reports $1.13 billion in workers’ remittances during 1–8 November 2026, including $251 million on 8 November. The 1 July–8 November FY2026-27 snapshot was $12.595 billion, compared with $10.903 billion in the corresponding prior-fiscal-year period. These are overlapping calendar and fiscal-period snapshots and must not be added together or to the earlier 1–7 November figures. The original page could not be opened directly, so no claims are made beyond indexed metadata."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_original_fetch_blocked",
+      "nationality_basis": "source_reported_workers_remittances_from_Bangladeshi_expatriates",
+      "added_at": "2026-11-10T04:06:04.679Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
