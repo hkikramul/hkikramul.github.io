@@ -37,3 +37,11 @@ header nav .focus-link{border:1px solid var(--green);border-radius:5px;padding:7
 
 /* Photo gallery for delivered conference presentations */
 .presentation-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0 8px}.presentation-photos figure{margin:0}.presentation-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line);border-radius:8px}.presentation-photos figcaption{font-size:12px;color:#64766b;padding-top:8px}@media(max-width:650px){.presentation-photos{grid-template-columns:1fr}}
+
+/* Academic navigation and section links */
+header .academic-nav a { display: inline-flex; align-items: center; min-height: 44px; }
+.academic-nav a:focus-visible, body:has(.academic-nav) .topic-links a:focus-visible { outline: 3px solid var(--rust); outline-offset: 3px; }
+body:has(.academic-nav) .topic-links a { min-height: 44px; display: inline-flex; align-items: center; }
+body:has(.academic-nav) main [id] { scroll-margin-top: 16px; }
+@media (max-width: 900px) { header:has(.academic-nav) { flex-direction: column; align-items: flex-start; gap: 12px; } }
+@media print { header .academic-nav, body:has(.academic-nav) .topic-links { display: none; } }
