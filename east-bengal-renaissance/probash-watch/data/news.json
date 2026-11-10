@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T04:06:04.679Z",
-  "last_successful_scan_at": "2026-11-10T04:06:04.679Z",
+  "updated_at": "2026-11-10T16:04:04.260Z",
+  "last_successful_scan_at": "2026-11-10T16:04:04.260Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-10",
@@ -3128,6 +3128,78 @@
       "status": "source_reported_metadata_only_original_fetch_blocked",
       "nationality_basis": "source_reported_workers_remittances_from_Bangladeshi_expatriates",
       "added_at": "2026-11-10T04:06:04.679Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MV-TWO-WORKER-DEATHS-SARABANGLA-20261110",
+      "country": "MV",
+      "published_date": "2026-11-10",
+      "event_date": null,
+      "publisher": "Sarabangla English",
+      "url": "https://en.sarabangla.net/diaspora/post-50376/two-bangladeshi-workers-die-in-maldives-within-a-day/",
+      "language": "en",
+      "title": {
+        "bn": "মালদ্বীপে এক দিনের ব্যবধানে দুই বাংলাদেশি কর্মীর মৃত্যু",
+        "en": "Two Bangladeshi workers die within a day in the Maldives"
+      },
+      "summary": {
+        "bn": "Sarabangla জানিয়েছে, মালদ্বীপে হৃদ্‌যন্ত্র-সংক্রান্ত জটিলতায় ৫ ও ৬ নভেম্বর পৃথকভাবে দুই প্রাপ্তবয়স্ক বাংলাদেশি কর্মী মারা যান। বাংলাদেশ হাইকমিশন একটি মরদেহ ফেরাতে সহায়তা করেছে এবং অন্যটির প্রত্যাবাসনের ব্যবস্থা চলছিল। পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি; চিকিৎসাগত কারণ স্বাধীনভাবে যাচাই করা হয়নি।",
+        "en": "Sarabangla reports that two adult Bangladeshi workers died separately in the Maldives on 5 and 6 November after heart-related complications. The Bangladesh High Commission assisted with one repatriation and arrangements for the other were under way. Identities and private family details are withheld; the medical causes were not independently verified."
+      },
+      "record_type": "incident",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_and_Bangladesh_High_Commission_confirmation_identify_Bangladeshi_migrant_workers",
+      "added_at": "2026-11-10T16:04:04.260Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "EG-MEDITERRANEAN-RESCUE-DETENTION-SARABANGLA-20261110",
+      "country": "EG",
+      "published_date": "2026-11-10",
+      "event_date": "2026-10-13",
+      "publisher": "Sarabangla English",
+      "url": "https://en.sarabangla.net/diaspora/post-50344/65-bangladeshis-rescued-from-mediterranean-now-in-egyptian-prison/",
+      "language": "en",
+      "title": {
+        "bn": "ভূমধ্যসাগরে উদ্ধার ৬৫ বাংলাদেশি মিশরের কারাগারে",
+        "en": "Sixty-five Bangladeshis rescued in the Mediterranean held in Egypt"
+      },
+      "summary": {
+        "bn": "বাংলাদেশ দূতাবাসের প্রতিবেদনের ভিত্তিতে Sarabangla জানিয়েছে, গ্রিসে যাওয়ার পথে নৌকা জ্বালানি হারিয়ে ও ফুটো হয়ে পড়ার পর ৬৫ বাংলাদেশিসহ ৬৯ জনকে ১৩ অক্টোবর একটি বাণিজ্যিক জাহাজ উদ্ধার করে মিশরের দামিয়েত্তা বন্দরে নেয়। ৫ নভেম্বর দূতাবাসের শ্রমসচিব কারাগারে তাঁদের সঙ্গে দেখা করেন; তাঁরা দালালদের প্রতারণা ও লিবিয়ায় অমানবিক অবস্থায় আটকে রাখার অভিযোগ করেন। দূতাবাস আইনি/কনস্যুলার সহায়তা ও IOM-এর সঙ্গে প্রত্যাবাসনের চেষ্টা করছে; অভিযোগগুলো চূড়ান্ত বিচারিক সিদ্ধান্ত নয়।",
+        "en": "Citing a Bangladesh Embassy report, Sarabangla says a commercial vessel rescued 69 people, including 65 Bangladeshis, on 13 October after their Greece-bound boat ran out of fuel and leaked, then took them to Egypt’s Damietta Port. An embassy labour official visited them in prison on 5 November; they alleged deception by brokers and inhumane confinement in Libya. The embassy is pursuing legal and consular support and repatriation with IOM; the allegations are not judicial findings."
+      },
+      "record_type": "incident",
+      "incident_key": "EG-MEDITERRANEAN-RESCUE-20261013",
+      "status": "source_reported_allegations",
+      "nationality_basis": "Bangladesh_Embassy_report_identifies_65_Bangladeshis",
+      "added_at": "2026-11-10T16:04:04.260Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-INTERVIEW-NOTICE-OFFICIAL-20261110",
+      "country": "MY",
+      "published_date": "2026-11-10",
+      "event_date": null,
+      "publisher": "Ministry of Expatriates’ Welfare and Overseas Employment, Bangladesh",
+      "url": "https://probashi.gov.bd/pages/notices/%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%AD%E0%A6%BF%E0%A6%89-%E0%A6%A8%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%B6-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-xo8cts-6af2a509862c6f28f3cae0f5",
+      "language": "bn",
+      "title": {
+        "bn": "মালয়েশিয়া কর্মীদের সাক্ষাৎকারের সরকারি নোটিশ প্রকাশ",
+        "en": "Official interview notice issued for Malaysia-bound workers"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণ মন্ত্রণালয় ১০ নভেম্বর মালয়েশিয়া কর্মীদের জন্য একটি সাক্ষাৎকার নোটিশ প্রকাশ করেছে। মূল পৃষ্ঠায় সংযুক্তির পাঠ্য preview করা যায়নি, তাই এই রেকর্ডটি metadata-only; সংযুক্তির ব্যক্তিনাম বা অপ্রকাশিত সময়সূচি সংগ্রহ বা পুনঃপ্রকাশ করা হয়নি। নোটিশটি সাক্ষাৎকার ধাপ, final selection, visa, clearance বা departure নয়।",
+        "en": "Bangladesh’s Expatriates’ Welfare Ministry issued an interview notice for Malaysia-bound workers on 10 November. The attachment text was not previewable on the original page, so this is metadata-only; names and any unexposed schedule details were neither collected nor republished. The notice concerns an interview stage, not final selection, a visa, clearance or departure."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_attachment_not_previewable",
+      "nationality_basis": "official_Bangladesh_government_overseas_recruitment_notice",
+      "added_at": "2026-11-10T16:04:04.260Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
