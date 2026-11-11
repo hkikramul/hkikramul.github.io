@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T16:04:04.260Z",
-  "last_successful_scan_at": "2026-11-10T16:04:04.260Z",
+  "updated_at": "2026-11-11T04:05:11.676Z",
+  "last_successful_scan_at": "2026-11-11T04:05:11.676Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-10",
@@ -3200,6 +3200,30 @@
       "status": "source_reported_metadata_only_attachment_not_previewable",
       "nationality_basis": "official_Bangladesh_government_overseas_recruitment_notice",
       "added_at": "2026-11-10T16:04:04.260Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261110",
+      "country": "MULTI",
+      "published_date": "2026-11-10",
+      "event_date": "2026-11-10",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-10/",
+      "language": "bn",
+      "title": {
+        "bn": "১০ নভেম্বর ২,৫৭২ কর্মী overseas-employment clearance পেয়েছেন",
+        "en": "2,572 workers received overseas-employment clearance on 10 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী পূর্ণ দিনের প্রতিবেদনে ১০ নভেম্বর ৩৩টি গন্তব্যের জন্য ২,৫৭২ clearance-এর কথা আছে; এর মধ্যে নারী ২৪৭। সবচেয়ে বেশি Saudi Arabia ১,১৯১, Maldives ২৮৪ ও Singapore ২৭৫। এটি clearance count, physical departure নয়; late official entry-তে সংশোধিত হতে পারে। একই live dashboard-এ অক্টোবর aggregate আগের প্রকাশিত মাসিক রিপোর্টের চেয়ে ৩০ বেশি, তাই ওই মাসিক অমিলটি নতুন final total হিসেবে যোগ করা হয়নি।",
+        "en": "A completed-day report reproducing government OEP country-clearance data records 2,572 clearances for 33 destinations on 10 November, including 247 women. Saudi Arabia had 1,191, the Maldives 284 and Singapore 275. This is a clearance count, not physical departures, and may be revised for late official entries. The same live dashboard shows an October aggregate 30 above an earlier published monthly report, so that monthly discrepancy is not treated here as a new final total."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-11T04:05:11.676Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
