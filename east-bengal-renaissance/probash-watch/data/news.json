@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T04:05:11.676Z",
-  "last_successful_scan_at": "2026-11-11T04:05:11.676Z",
+  "updated_at": "2026-11-11T16:04:55.706Z",
+  "last_successful_scan_at": "2026-11-11T16:04:55.706Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-10",
+  "coverage_end": "2026-11-11",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -3224,6 +3224,78 @@
       "status": "source_reported",
       "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
       "added_at": "2026-11-11T04:05:11.676Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-WAGE-JOB-INSECURITY-BT-20261013",
+      "country": "SA",
+      "published_date": "2026-10-13",
+      "event_date": null,
+      "publisher": "Bangla Tribune",
+      "url": "https://www.banglatribune.com/amp/others/probash/974097/%E0%A6%AC%E0%A7%87%E0%A6%A4%E0%A6%A8-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%A4%E0%A6%99%E0%A7%8D%E0%A6%95",
+      "language": "bn",
+      "title": {
+        "bn": "সৌদিতে বাংলাদেশি শ্রমিকদের মজুরি, কাজ ও ইকামা-অনিশ্চয়তা নিয়ে প্রতিবেদন",
+        "en": "Report examines wage, job and iqama insecurity facing Bangladeshi workers in Saudi Arabia"
+      },
+      "summary": {
+        "bn": "শ্রমিকদের সাক্ষাৎকারভিত্তিক প্রতিবেদনে বেতন কমানো বা আটকে রাখা, কাজের স্বল্পতা, চাকরি হারানো এবং ইকামা/ভিসা অনিশ্চয়তার অভিযোগ এসেছে। অভিযোগগুলো স্বাধীনভাবে যাচাই করা হয়নি; শ্রমিকদের নাম, নির্দিষ্ট ঋণ ও অন্যান্য ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Interview-based reporting describes allegations of reduced or delayed wages, scarce work, job loss and iqama or visa insecurity. The allegations are not independently verified; workers’ names, specific debts and other private details are not republished."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "source_reports_Bangladeshi_migrant_workers_in_Saudi_Arabia",
+      "added_at": "2026-11-11T16:04:55.706Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-WOMEN-WORKERS-JUSTICE-EDITORIAL-DS-20261109",
+      "country": "SA",
+      "published_date": "2026-11-09",
+      "event_date": null,
+      "publisher": "The Daily Star (Editorial)",
+      "url": "https://www.thedailystar.net/opinion/editorial/news/our-migrant-workers-deserve-justice-4319246",
+      "language": "en",
+      "title": {
+        "bn": "সৌদিতে নারী শ্রমিকদের সুরক্ষা ও মৃত্যুর জবাবদিহি নিয়ে সম্পাদকীয়",
+        "en": "Editorial calls for protection and accountability for women workers in Saudi Arabia"
+      },
+      "summary": {
+        "bn": "সম্পাদকীয়টি নিয়োগকর্তা ও চুক্তি যাচাই, দূতাবাসের সুরক্ষা-ব্যবস্থা এবং প্রমাণসাপেক্ষ ক্ষেত্রে স্বাধীন ময়নাতদন্ত ও আরও তদন্তের আহ্বান জানিয়েছে। মূল প্রতিবেদনের নির্যাতন ও মৃত্যুর কারণসংক্রান্ত দাবিগুলো অভিযোগ হিসেবেই রাখা হয়েছে; পরিচয় বা পরস্পর-অসামঞ্জস্যপূর্ণ সমষ্টিগত সংখ্যা পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The editorial calls for employer and contract verification, stronger embassy protection, and independent post-mortems and further investigation where evidence warrants. Claims about abuse and causes of death remain allegations; identities and conflicting aggregate figures are not republished."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "editorial_explicitly_concerns_Bangladeshi_women_migrant_workers_in_Saudi_Arabia",
+      "added_at": "2026-11-11T16:04:55.706Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-WOMEN-MIGRANT-DEATHS-VERIFICATION-VIEW-DS-20261111",
+      "country": "MULTI",
+      "published_date": "2026-11-11",
+      "event_date": null,
+      "publisher": "The Daily Star (Views)",
+      "url": "https://www.thedailystar.net/opinion/views/news/bangladesh-must-seek-the-truth-behind-women-migrant-workers-deaths-4320631",
+      "language": "en",
+      "title": {
+        "bn": "নারী অভিবাসী শ্রমিকদের মৃত্যুর কারণ যাচাইয়ে মেডিকো-লিগ্যাল ব্যবস্থার প্রস্তাব",
+        "en": "View proposes medico-legal verification of women migrant workers’ deaths"
+      },
+      "summary": {
+        "bn": "মতামত নিবন্ধটি দেশে ফেরত আসা মরদেহের নথি যাচাই, অসামঞ্জস্য বা আঘাতের চিহ্ন থাকলে স্বাধীন ফরেনসিক মূল্যায়ন, দূতাবাসে নথিভুক্ত কেস ফাইল, প্রমাণ বিনিময় এবং গোপন অভিযোগ-ব্যবস্থার প্রস্তাব দিয়েছে। লেখাটি নিজেই পারিবারিক বর্ণনাকে অভিযোগ—ফরেনসিক সিদ্ধান্ত নয়—বলেছে; পরিচয় ও পুনরাবৃত্ত সমষ্টিগত সংখ্যা রাখা হয়নি।",
+        "en": "The view proposes document checks for repatriated bodies, independent forensic assessment where records conflict or injuries are apparent, documented consular case files, evidence sharing and confidential complaint channels. It explicitly treats family accounts as allegations rather than forensic conclusions; identities and repeated aggregate figures are omitted."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "view_explicitly_concerns_Bangladeshi_women_migrant_workers_across_destinations",
+      "added_at": "2026-11-11T16:04:55.706Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
