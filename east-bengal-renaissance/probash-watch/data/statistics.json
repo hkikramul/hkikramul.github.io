@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T04:03:26.935Z",
+  "updated_at": "2026-11-12T16:08:26.723Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1696,6 +1696,20 @@
       "note": "UNHCR-based origin-country share reported by the Mixed Migration Centre for registered maritime arrivals in Italy. It is not a count of all Bangladeshis, departures, asylum grants or deaths.",
       "denominator": null,
       "status": "published_NGO_research_report"
+    },
+    {
+      "id": "my-migration-cost-cap-2026-11-12",
+      "metric": "government_fixed_maximum_migration_cost_per_worker",
+      "value": 154000,
+      "period": "Announced 12 Nov 2026",
+      "country": "MY",
+      "gender": "all",
+      "unit": "BDT_per_worker",
+      "period_basis": "policy_rate_snapshot",
+      "source_url": "https://www.newsbangladesh.com/english/national/news/127802",
+      "note": "Government-announced maximum migration cost for general Malaysia recruitment. It is distinct from BOESL’s separate zero-cost programme and is not a count of workers, jobs, clearances or departures.",
+      "denominator": null,
+      "status": "source_reported"
     }
   ]
 }
