@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T16:04:04.260Z",
+  "updated_at": "2026-11-12T04:03:26.935Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -67,8 +67,8 @@
           "country": "BD",
           "date": null,
           "text": {
-            "bn": "পরিবারের বক্তব্য অনুযায়ী সরকারি তহবিল থেকে ৩ লাখ টাকা পেয়েছেন; নিয়োগকর্তার বকেয়া ও ক্ষতিপূরণ পাননি।",
-            "en": "The widow reported receiving BDT 300,000 from the government welfare fund, but no employer wage arrears or additional compensation."
+            "bn": "পরিবারের বক্তব্য অনুযায়ী সরকারি কল্যাণ সহায়তা পেয়েছেন; নিয়োগকর্তার বকেয়া ও ক্ষতিপূরণ পাওয়ার ফল নিশ্চিত নয়।",
+            "en": "The family reported receiving government welfare assistance; payment of employer arrears and compensation is not established."
           },
           "source_index": 0
         }
@@ -2510,6 +2510,62 @@
       "follow_up": {
         "bn": "আইনি অবস্থা, কনস্যুলার সহায়তা, IOM সমন্বয় ও নিরাপদ প্রত্যাবাসন অনুসরণ",
         "en": "Track legal status, consular support, IOM coordination and safe repatriation"
+      }
+    },
+    {
+      "id": "GR-DEPORTATION-20261111",
+      "country": "GR",
+      "event_date": "2026-11-11",
+      "published_date": "2026-11-11",
+      "title": {
+        "bn": "গ্রিসে এক বাংলাদেশির legal status বাতিল ও প্রত্যাবাসনের সরকারি ঘোষণা",
+        "en": "Greek government announces revocation of one Bangladeshi’s legal status and deportation"
+      },
+      "summary": {
+        "bn": "গ্রিসের অভিবাসনমন্ত্রীর বক্তব্য অনুযায়ী, অনিয়মিত প্রবেশে সহায়তার অভিযোগে এক বাংলাদেশির বৈধ status বাতিল করে charter flight-এ প্রত্যাবাসন করা হয়েছে। এটি প্রশাসনিক কর্তৃপক্ষের বক্তব্য; কোনো আদালতের দোষসিদ্ধি প্রকাশিত হয়নি। ব্যক্তির পরিচয় ও ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "According to Greece’s migration minister, one Bangladeshi’s legal status was revoked and the person deported on a charter flight after an allegation of facilitating irregular entry. This is an administrative authority’s statement; no court conviction is reported. The person’s identity and private details are not republished."
+      },
+      "category": "immigration_enforcement",
+      "gender": "unknown",
+      "people_count": 1,
+      "status": "official_deportation_statement_reported_not_judicial_finding",
+      "nationality": "BD",
+      "nationality_basis": "Greek_migration_minister_statement_identifies_the_person_as_Bangladeshi",
+      "location_precision": "country",
+      "sources": [
+        {
+          "name": "eKathimerini",
+          "url": "https://www.ekathimerini.com/politics/foreign-policy/1320923/charter-flight-deports-migrants/",
+          "date": "2026-11-11",
+          "language": "en",
+          "type": "destination_local_media_citing_minister"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "গ্রিসের অভিবাসন ও আশ্রয় মন্ত্রণালয়",
+            "en": "Greek Ministry of Migration and Asylum"
+          },
+          "response": {
+            "bn": "মন্ত্রীর বক্তব্যে legal status বাতিল ও charter flight-এ প্রত্যাবাসনের কথা বলা হয়েছে।",
+            "en": "The minister’s statement announced revocation of legal status and removal on a charter flight."
+          },
+          "source_url": "https://www.ekathimerini.com/politics/foreign-policy/1320923/charter-flight-deports-migrants/"
+        }
+      ],
+      "protests": [],
+      "victim": {
+        "bn": "প্রশাসনিক ব্যবস্থার আওতায় আসা এক প্রাপ্তবয়স্ক বাংলাদেশি; পরিচয় প্রকাশ করা হয়নি",
+        "en": "One adult Bangladeshi subject to the administrative action; identity withheld"
+      },
+      "unknowns": {
+        "bn": "ব্যক্তির বক্তব্য, প্রমাণের বিস্তারিত, আপিল বা বিচারিক পর্যালোচনা এবং পরবর্তী আইনি ফল প্রকাশিত উৎসে নিশ্চিত নয়।",
+        "en": "The person’s account, evidentiary details, any appeal or judicial review, and later legal outcome are not established in the published source."
+      },
+      "follow_up": {
+        "bn": "আপিল/বিচারিক পর্যালোচনা ও সরকারি নথির পরবর্তী অবস্থা অনুসরণ",
+        "en": "Track any appeal or judicial review and subsequent official record"
       }
     }
   ]
