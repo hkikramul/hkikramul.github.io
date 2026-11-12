@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T16:04:55.706Z",
-  "last_successful_scan_at": "2026-11-11T16:04:55.706Z",
+  "updated_at": "2026-11-12T04:03:26.935Z",
+  "last_successful_scan_at": "2026-11-12T04:03:26.935Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-11",
@@ -3296,6 +3296,150 @@
       "status": "source_reported",
       "nationality_basis": "view_explicitly_concerns_Bangladeshi_women_migrant_workers_across_destinations",
       "added_at": "2026-11-11T16:04:55.706Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "GR-CY-RETURN-44-BDNEWS-20261111",
+      "country": "MULTI",
+      "published_date": "2026-11-11",
+      "event_date": "2026-11-11",
+      "publisher": "bdnews24.com",
+      "url": "https://bdnews24.com/bangladesh/otbwf0ters",
+      "language": "en",
+      "title": {
+        "bn": "গ্রিস ও সাইপ্রাস থেকে ৪৪ বাংলাদেশির প্রত্যাবর্তন",
+        "en": "Forty-four Bangladeshis return from Greece and Cyprus"
+      },
+      "summary": {
+        "bn": "BRAC-এর তথ্য উদ্ধৃত করে প্রতিবেদনে বলা হয়েছে, অনিয়মিত পথে ইউরোপে যাওয়া ৪৪ বাংলাদেশি—গ্রিস থেকে ৪০ ও সাইপ্রাস থেকে চারজন—বিশেষ ফ্লাইটে দেশে ফিরেছেন; তাঁদের মধ্যে একজন নারী। বিমানবন্দরে জরুরি সহায়তা, কাউন্সেলিং ও বাড়ি ফেরার সহায়তা দেওয়া হয়েছে। পরিচয়, ব্যক্তিগত যাত্রাপথ ও আর্থিক তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Citing BRAC, the report says 44 Bangladeshis who had travelled to Europe through irregular routes—40 from Greece and four from Cyprus—returned on a special flight; one was a woman. Emergency assistance, counselling and help reaching home were provided at the airport. Identities, private travel histories and financial details are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BRAC_and_Bangladesh_airport_sources_identify_44_returnees_as_Bangladeshi",
+      "added_at": "2026-11-12T04:03:26.935Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "GR-CHARTER-DEPORTATION-EKATHIMERINI-20261111",
+      "country": "GR",
+      "published_date": "2026-11-11",
+      "event_date": "2026-11-11",
+      "publisher": "eKathimerini",
+      "url": "https://www.ekathimerini.com/politics/foreign-policy/1320923/charter-flight-deports-migrants/",
+      "language": "en",
+      "title": {
+        "bn": "গ্রিসে এক বাংলাদেশির legal status বাতিল ও charter flight-এ প্রত্যাবাসনের সরকারি বক্তব্য",
+        "en": "Greek minister reports revocation of one Bangladeshi’s legal status and removal on charter flight"
+      },
+      "summary": {
+        "bn": "গ্রিসের অভিবাসনমন্ত্রীর বক্তব্য উদ্ধৃত করে স্থানীয় সংবাদমাধ্যম জানিয়েছে, অনিয়মিত প্রবেশে সহায়তার অভিযোগে এক বাংলাদেশির বৈধ status বাতিল করে তাঁকে প্রত্যাবাসন করা হয়েছে। charter flight-টিতে বাংলাদেশ ও পাকিস্তানের মোট ৫০ জন ছিলেন; বাংলাদেশির পৃথক সংখ্যা প্রকাশিত হয়নি। এটি সরকারি প্রশাসনিক বক্তব্য, আদালতের দোষসিদ্ধি নয়; পরিচয় পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Local reporting cites Greece’s migration minister as saying one Bangladeshi’s legal status was revoked and the person removed after an allegation of facilitating irregular entry. The charter flight carried 50 people from Bangladesh and Pakistan, without a Bangladesh-only count. This is an official administrative statement, not a court finding; the person is not identified here."
+      },
+      "record_type": "incident",
+      "incident_key": "GR-DEPORTATION-20261111",
+      "status": "source_reported_government_statement",
+      "nationality_basis": "Greek_migration_minister_statement_identifies_the_person_as_Bangladeshi",
+      "added_at": "2026-11-12T04:03:26.935Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OVERSEAS-MARKETS-PLAN-BSS-20261111",
+      "country": "MULTI",
+      "published_date": "2026-11-11",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/js-session/444754",
+      "language": "en",
+      "title": {
+        "bn": "দক্ষতা ও শ্রমবাজার সম্প্রসারণে ২০২৬–৩০ পরিকল্পনার সংসদীয় ঘোষণা",
+        "en": "Minister outlines 2026–30 skills and overseas-market expansion plan in parliament"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণমন্ত্রী সংসদে ২০২৬–৩০ মেয়াদে দক্ষতা উন্নয়ন, নতুন শ্রমবাজার, ইতালি–জাপান–দক্ষিণ কোরিয়ার প্রশিক্ষণ/নিয়োগ উদ্যোগ এবং নিরাপদ অভিবাসনের পরিকল্পনা তুলে ধরেছেন। মরিশাস ও মালয়েশিয়া নিয়ে কিছু সংখ্যা আগের উৎসের vacancy ও applicant সংখ্যার সঙ্গে মেলে না; তাই সেগুলোকে নিশ্চিত চাকরি বা যাত্রা হিসেবে গণনা করা হয়নি।",
+        "en": "The expatriates’ welfare minister outlined a 2026–30 plan covering skills development, new labour markets, Italy, Japan and South Korea training or recruitment initiatives, and safer migration. Some Mauritius and Malaysia figures do not align with vacancy and applicant counts in earlier sources, so they are not treated as confirmed jobs or departures."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "official_statement_reported_with_number_discrepancies",
+      "nationality_basis": "Bangladesh_ministerial_statement_explicitly_concerns_Bangladeshi_overseas_workers",
+      "added_at": "2026-11-12T04:03:26.935Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261111",
+      "country": "MULTI",
+      "published_date": "2026-11-12",
+      "event_date": "2026-11-11",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-11/",
+      "language": "bn",
+      "title": {
+        "bn": "১১ নভেম্বর ৩,১৮৩ কর্মীর overseas-employment clearance",
+        "en": "3,183 workers received overseas-employment clearance on 11 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী পূর্ণ দিনের প্রতিবেদনে ১১ নভেম্বর ২৮টি গন্তব্যের জন্য ৩,১৮৩ clearance-এর কথা আছে; এর মধ্যে নারী ৪৯৫। শীর্ষ গন্তব্য সৌদি আরব ১,৬১৯, কুয়েত ৩৭৬ ও মালদ্বীপ ৩৭৪। এগুলো clearance, ওই দিনের physical departure নয়; late official entry-তে সংশোধিত হতে পারে।",
+        "en": "A completed-day report reproducing government OEP country-clearance data records 3,183 clearances for 28 destinations on 11 November, including 495 women. Saudi Arabia had 1,619, Kuwait 376 and the Maldives 374. These are clearances, not physical departures that day, and may be revised by late official entries."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-12T04:03:26.935Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-REMITTANCE-NOV1-10-BSS-20261111",
+      "country": "MULTI",
+      "published_date": "2026-11-11",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/business/444589",
+      "language": "en",
+      "title": {
+        "bn": "১–১০ নভেম্বর workers’ remittance ১.৪০৯ বিলিয়ন ডলার",
+        "en": "Workers’ remittances reach $1.409 billion during 1–10 November"
+      },
+      "summary": {
+        "bn": "বাসস জানিয়েছে, ১–১০ নভেম্বর ২০২৬ সময়ে workers’ remittance ছিল ১.৪০৯ বিলিয়ন ডলার; ২০২৫ সালের একই সময়ে ছিল ১.১০৯ বিলিয়ন। এই calendar-period snapshot আগের ১–৮ নভেম্বর হিসাবকে অন্তর্ভুক্ত করে; দুটিকে যোগ করা যাবে না।",
+        "en": "BSS reports $1.409 billion in workers’ remittances during 1–10 November 2026, compared with $1.109 billion in the same period of 2025. This calendar-period snapshot includes the earlier 1–8 November figure and must not be added to it."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_original_fetch_blocked",
+      "nationality_basis": "source_reported_workers_remittances_from_Bangladeshi_expatriates",
+      "added_at": "2026-11-12T04:03:26.935Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "EU-MIXED-MIGRATION-MMC-20261110",
+      "country": "MULTI",
+      "published_date": "2026-11-10",
+      "event_date": null,
+      "publisher": "Mixed Migration Centre",
+      "url": "https://mixedmigration.org/publications/mmr/2026/keeping-track-migration-europe-2026/",
+      "language": "en",
+      "title": {
+        "bn": "ইউরোপের mixed-migration routes-এ বাংলাদেশি অংশ ও সুরক্ষা-ঝুঁকি নিয়ে প্রতিবেদন",
+        "en": "Report examines Bangladeshi shares and protection risks on European mixed-migration routes"
+      },
+      "summary": {
+        "bn": "Mixed Migration Centre-এর প্রতিবেদনে UNHCR-ভিত্তিক হিসাবে ২০২৬ সালের প্রথমার্ধে গ্রিসে নিবন্ধিত আগমনের ২৯.১% এবং ইতালিতে ২৯.৫% বাংলাদেশি উৎসদেশের ছিল। প্রতিবেদনটি অনিয়মিত প্রবেশ কমলেও মৃত্যু/নিখোঁজ, দীর্ঘ সমুদ্রপথ ও সীমান্ত-অধিকার ঝুঁকি বাড়ার কথা বলেছে। শতাংশগুলো route-arrival share—বাংলাদেশি জনসংখ্যা, যাত্রা বা মৃত্যুহার নয়।",
+        "en": "Using UNHCR-based data, the Mixed Migration Centre reports that Bangladesh was the origin country for 29.1% of registered arrivals in Greece and 29.5% in Italy during the first half of 2026. It says irregular entries fell while deaths, disappearances, longer sea routes and border-rights risks increased. These percentages are route-arrival shares, not Bangladeshi population, departure or mortality rates."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "published_NGO_research_report",
+      "nationality_basis": "UNHCR_origin_country_data_as_reported_by_Mixed_Migration_Centre",
+      "added_at": "2026-11-12T04:03:26.935Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
