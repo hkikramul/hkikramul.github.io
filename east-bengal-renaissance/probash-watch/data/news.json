@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T04:03:26.935Z",
-  "last_successful_scan_at": "2026-11-12T04:03:26.935Z",
+  "updated_at": "2026-11-12T16:08:26.723Z",
+  "last_successful_scan_at": "2026-11-12T16:08:26.723Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-11",
+  "coverage_end": "2026-11-12",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -3440,6 +3440,102 @@
       "status": "published_NGO_research_report",
       "nationality_basis": "UNHCR_origin_country_data_as_reported_by_Mixed_Migration_Centre",
       "added_at": "2026-11-12T04:03:26.935Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-ZERO-COST-FINAL-SELECTION-BDNEWS-20261112",
+      "country": "MY",
+      "published_date": "2026-11-12",
+      "event_date": "2026-11-12",
+      "publisher": "bdnews24.com",
+      "url": "https://bdnews24.com/bangladesh/71djrs23md",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ার zero-cost কর্মসূচিতে প্রথম ১১২ জনের final selection শুরু",
+        "en": "Final selection begins for first 112 workers in Malaysia zero-cost programme"
+      },
+      "summary": {
+        "bn": "BOESL-এর ব্যবস্থাপনা পরিচালক বলেছেন, ৩০০ জনের shortlist থেকে Malaysian employer delegation ১২–১৫ নভেম্বর practical test ও interview নিয়ে ১১২ জনকে চূড়ান্তভাবে বাছাই করবে; ৫৬৮টি demand letter পাওয়া গেছে। প্রতিবেদনে ৪,০২৯ আবেদন বলা হয়েছে, যেখানে আগের উৎসে ৪,০৩৯ ছিল—অমিলটি সংরক্ষিত। Selection শুরু হয়েছে, কিন্তু final recruitment, visa, clearance বা departure এখনো নিশ্চিত নয়।",
+        "en": "BOESL’s managing director said a Malaysian employer delegation would conduct practical tests and interviews from 12–15 November to finally select 112 people from a 300-person shortlist; 568 demand letters had been received. This report gives 4,029 applications, while an earlier source gave 4,039, so the discrepancy is retained. Selection has begun, but final recruitment, visas, clearances and departures are not yet confirmed."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "BOESL_program_for_Bangladeshi_workers_as_reported_by_bdnews24",
+      "added_at": "2026-11-12T16:08:26.723Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-MIGRATION-COST-CAP-NEWSBD-20261112",
+      "country": "MY",
+      "published_date": "2026-11-12",
+      "event_date": "2026-11-12",
+      "publisher": "NewsBangladesh",
+      "url": "https://www.newsbangladesh.com/english/national/news/127802",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়াগামী কর্মীদের migration cost সর্বোচ্চ ১,৫৪,০০০ টাকা নির্ধারণ",
+        "en": "Government caps migration cost for Malaysia-bound workers at Tk154,000"
+      },
+      "summary": {
+        "bn": "প্রবাসী কল্যাণমন্ত্রী বলেছেন, সাধারণ মালয়েশিয়া নিয়োগে সরকার-নির্ধারিত সর্বোচ্চ migration cost ১,৫৪,০০০ টাকা এবং অনুমোদিত medical centre-এর final list পরের সপ্তাহে প্রকাশের কথা। এই cap-টি BOESL-এর আলাদা ১০,০০০-কর্মীর zero-cost উদ্যোগ নয়; অতিরিক্ত অর্থ নেওয়ার দাবি বা ভবিষ্যৎ যাত্রাকে নিশ্চিত ফল হিসেবে ধরা হয়নি।",
+        "en": "The expatriates’ welfare minister said the government-set maximum migration cost for general Malaysia recruitment is Tk154,000 and that a final list of approved medical centres is expected the following week. This cap is distinct from BOESL’s separate zero-cost programme for 10,000 workers; reports of higher charges and future departures are not treated as confirmed outcomes."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "policy_for_Bangladeshi_workers_announced_by_expatriates_welfare_minister",
+      "added_at": "2026-11-12T16:08:26.723Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-PROBASHI-CARD-FRAUD-WARNING-20261112",
+      "country": "MULTI",
+      "published_date": "2026-11-12",
+      "event_date": null,
+      "publisher": "Shomoyer Alo",
+      "url": "https://www.shomoyeralo.com/news/395113",
+      "language": "bn",
+      "title": {
+        "bn": "প্রবাসী কার্ড চালুর আগেই অর্থ আদায়ের চেষ্টা নিয়ে মন্ত্রণালয়ের সতর্কতা",
+        "en": "Ministry warns of payment scams before Probashi Card launch"
+      },
+      "summary": {
+        "bn": "মন্ত্রণালয়ের সংবাদ বিজ্ঞপ্তির বরাতে প্রতিবেদনে বলা হয়েছে, ‘প্রবাসী কার্ড’ এখনো আনুষ্ঠানিকভাবে চালু হয়নি এবং আবেদন গ্রহণও শুরু হয়নি। দেশে-বিদেশে প্রবাসীদের পেনশন বা দ্রুত কার্ড দেওয়ার প্রলোভনে অর্থ চাওয়ার অভিযোগে কাউকে টাকা না দিতে বলা হয়েছে; আনুষ্ঠানিক পদ্ধতি পরে সরকারি মাধ্যমে জানানো হবে। কোনো অভিযোগকারী বা ব্যক্তিগত পরিচয় প্রকাশ করা হয়নি।",
+        "en": "Citing a ministry release, the report says the ‘Probashi Card’ has not yet been officially launched and applications have not opened. Migrants at home and abroad were warned not to pay anyone offering pension benefits or expedited cards; the official process is to be announced later through government channels. No complainant or private identity is published."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "ministry_warning_addressed_to_Bangladeshi_diaspora_as_reported_by_media",
+      "added_at": "2026-11-12T16:08:26.723Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "JO-SKILLED-WOMEN-INTERVIEW-NOTICE-OFFICIAL-20261111",
+      "country": "JO",
+      "published_date": "2026-11-11",
+      "event_date": null,
+      "publisher": "Ministry of Expatriates’ Welfare and Overseas Employment",
+      "url": "https://probashi.gov.bd/pages/notices/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%9C%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%B8-%E0%A6%8F-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%AE%E0%A6%B9%E0%A6%BF%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%B0%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%8E%E0%A6%95%E0%A6%BE%E0%A6%B0-59ejou-6af53f5796fdaee72fa469c4",
+      "language": "bn",
+      "title": {
+        "bn": "জর্ডানে দক্ষ নারী garment worker নিয়োগে সরাসরি সাক্ষাৎকারের সরকারি নোটিশ",
+        "en": "Official notice announces direct interviews for skilled women garment workers in Jordan"
+      },
+      "summary": {
+        "bn": "Metadata-only: প্রবাসী কল্যাণ মন্ত্রণালয় ১১ নভেম্বর জর্ডানের garment sector-এ দক্ষ নারী কর্মী নিয়োগের সরাসরি সাক্ষাৎকার-সংক্রান্ত নোটিশ প্রকাশ করেছে। মূল পাতায় attachment preview করা যায়নি; তাই vacancy, যোগ্যতা বা সময়সূচি অনুমান করা হয়নি এবং কোনো প্রার্থীর ব্যক্তিগত তথ্য সংগ্রহ বা পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Metadata only: Bangladesh’s Expatriates’ Welfare Ministry published an 11 November notice for direct interviews to recruit skilled women garment workers for Jordan. The attachment was not previewable on the original page, so vacancy, eligibility and schedule details are not inferred, and no candidate’s personal information was collected or republished."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_Bangladesh_recruitment_notice_for_women_workers_bound_for_Jordan",
+      "added_at": "2026-11-12T16:08:26.723Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
