@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T16:08:26.723Z",
+  "updated_at": "2026-11-13T03:59:42.510Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1708,6 +1708,62 @@
       "period_basis": "policy_rate_snapshot",
       "source_url": "https://www.newsbangladesh.com/english/national/news/127802",
       "note": "Government-announced maximum migration cost for general Malaysia recruitment. It is distinct from BOESL’s separate zero-cost programme and is not a count of workers, jobs, clearances or departures.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-total-2026-11-12",
+      "metric": "overseas_employment_clearances",
+      "value": 3499,
+      "period": "12 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "calendar_day_clearance_count",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-12/",
+      "note": "Completed-day government OEP country-clearance data reproduced by Probashi Info; clearances are not physical departures and may be revised by late official entries.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "oep-clearance-female-2026-11-12",
+      "metric": "overseas_employment_clearances",
+      "value": 353,
+      "period": "12 Nov 2026",
+      "country": "MULTI",
+      "gender": "female",
+      "unit": "people",
+      "period_basis": "calendar_day_clearance_gender_component",
+      "source_url": "https://probashiinfo.com/bmet-report-2026-11-12/",
+      "note": "Female component of 3,499 completed-day clearances; not a separate total and not physical departures.",
+      "denominator": 3499,
+      "status": "source_reported"
+    },
+    {
+      "id": "ru-recruitment-permission-workers-2026-11-12",
+      "metric": "workers_covered_by_recruitment_permission",
+      "value": 40,
+      "period": "Notice published 12 Nov 2026",
+      "country": "RU",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "official_recruitment_permission_snapshot",
+      "source_url": "https://probashi.gov.bd/pages/miscellaneous-infos/%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A7%AA%E0%A7%A6-%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-rl-2304-hkyu49-6af56bdc16fb3d6bd1ecb2ba",
+      "note": "Workers covered by official recruitment permission RL-2304. This is not final selection, visas, employment clearances or departures; attachment details were not previewable.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "ua-recruitment-permission-workers-2026-11-11",
+      "metric": "workers_covered_by_recruitment_permission",
+      "value": 19,
+      "period": "Notice published 11 Nov 2026",
+      "country": "UA",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "official_recruitment_permission_snapshot",
+      "source_url": "https://probashi.gov.bd/pages/miscellaneous-infos/%E0%A6%87%E0%A6%89%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-retails-group-llc-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A7%A7%E0%A7%AF-%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-rl-1553-f3vnyu-6af5301516fb3d6bd1ec6f1f",
+      "note": "Workers covered by official recruitment permission RL-1553 for a company in Ukraine. This is not actual placement, visas, employment clearances or departures; attachment details were not previewable.",
       "denominator": null,
       "status": "source_reported"
     }
