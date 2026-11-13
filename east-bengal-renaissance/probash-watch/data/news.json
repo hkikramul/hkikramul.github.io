@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T16:08:26.723Z",
-  "last_successful_scan_at": "2026-11-12T16:08:26.723Z",
+  "updated_at": "2026-11-13T03:59:42.510Z",
+  "last_successful_scan_at": "2026-11-13T03:59:42.510Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-12",
+  "coverage_end": "2026-11-13",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -3536,6 +3536,126 @@
       "status": "source_reported",
       "nationality_basis": "official_Bangladesh_recruitment_notice_for_women_workers_bound_for_Jordan",
       "added_at": "2026-11-12T16:08:26.723Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OEP-DAILY-CLEARANCE-20261112",
+      "country": "MULTI",
+      "published_date": "2026-11-12",
+      "event_date": "2026-11-12",
+      "publisher": "Probashi Info / OEP data",
+      "url": "https://probashiinfo.com/bmet-report-2026-11-12/",
+      "language": "bn",
+      "title": {
+        "bn": "১২ নভেম্বর ৩,৪৯৯ কর্মীর overseas-employment clearance",
+        "en": "3,499 workers received overseas-employment clearance on 12 November"
+      },
+      "summary": {
+        "bn": "সরকারি OEP country-clearance data পুনঃপ্রকাশকারী পূর্ণ দিনের প্রতিবেদনে ১২ নভেম্বর ৩৫টি গন্তব্যের জন্য ৩,৪৯৯ clearance-এর কথা আছে; নারী ৩৫৩। শীর্ষ গন্তব্য সৌদি আরব ১,৭৪৯, সিঙ্গাপুর ৩৬৮ ও মালদ্বীপ ৩৫৪। এগুলো clearance, ওই দিনের physical departure নয়; late official entry-তে সংশোধিত হতে পারে।",
+        "en": "A completed-day report reproducing government OEP country-clearance data records 3,499 clearances for 35 destinations on 12 November, including 353 women. Saudi Arabia had 1,749, Singapore 368 and the Maldives 354. These are clearances, not physical departures that day, and may be revised by late official entries."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladeshi_workers_in_government_overseas_employment_clearance_data",
+      "added_at": "2026-11-13T03:59:42.510Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "RU-RECRUITMENT-PERMISSION-40-OFFICIAL-20261112",
+      "country": "RU",
+      "published_date": "2026-11-12",
+      "event_date": null,
+      "publisher": "Ministry of Expatriates’ Welfare and Overseas Employment",
+      "url": "https://probashi.gov.bd/pages/miscellaneous-infos/%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A7%AA%E0%A7%A6-%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-rl-2304-hkyu49-6af56bdc16fb3d6bd1ecb2ba",
+      "language": "bn",
+      "title": {
+        "bn": "রাশিয়ায় ৪০ কর্মীর recruitment permission—সরকারি নোটিশ",
+        "en": "Official notice grants recruitment permission for 40 workers to Russia"
+      },
+      "summary": {
+        "bn": "Metadata-only: প্রবাসী কল্যাণ মন্ত্রণালয়ের ১২ নভেম্বরের নোটিশে RL-2304-এর মাধ্যমে রাশিয়ায় ৪০ কর্মীর recruitment permission-এর কথা আছে। Attachment preview করা যায়নি; তাই employer, occupation, contract বা ব্যক্তিগত তথ্য অনুমান/প্রকাশ করা হয়নি। Permission-টি final selection, visa, clearance বা departure নয়।",
+        "en": "Metadata only: A 12 November notice from Bangladesh’s Expatriates’ Welfare Ministry records recruitment permission under RL-2304 for 40 workers to Russia. The attachment was not previewable, so employer, occupation, contract and personal details are not inferred or published. Permission is not final selection, a visa, clearance or departure."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_Bangladesh_recruitment_permission_for_workers_bound_for_Russia",
+      "added_at": "2026-11-13T03:59:42.510Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "UA-RECRUITMENT-PERMISSION-19-OFFICIAL-20261111",
+      "country": "UA",
+      "published_date": "2026-11-11",
+      "event_date": null,
+      "publisher": "Ministry of Expatriates’ Welfare and Overseas Employment",
+      "url": "https://probashi.gov.bd/pages/miscellaneous-infos/%E0%A6%87%E0%A6%89%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-retails-group-llc-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A7%A7%E0%A7%AF-%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-rl-1553-f3vnyu-6af5301516fb3d6bd1ec6f1f",
+      "language": "bn",
+      "title": {
+        "bn": "ইউক্রেনের একটি কোম্পানিতে ১৯ কর্মীর recruitment permission—সরকারি নোটিশ",
+        "en": "Official notice grants recruitment permission for 19 workers to a company in Ukraine"
+      },
+      "summary": {
+        "bn": "Metadata-only: মন্ত্রণালয়ের ১১ নভেম্বরের নোটিশে RL-1553-এর মাধ্যমে ইউক্রেনের Retails Group LLC-তে ১৯ কর্মীর recruitment permission-এর কথা আছে। Attachment preview করা যায়নি; তাই occupation, contract, নিরাপত্তা-ব্যবস্থা বা ব্যক্তিগত তথ্য অনুমান/প্রকাশ করা হয়নি। Permission-টি actual placement, visa, clearance বা departure নিশ্চিত করে না।",
+        "en": "Metadata only: An 11 November ministry notice records recruitment permission under RL-1553 for 19 workers to Retails Group LLC in Ukraine. The attachment was not previewable, so occupation, contract, safety arrangements and personal details are not inferred or published. Permission does not confirm actual placement, visas, clearances or departures."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_Bangladesh_recruitment_permission_for_workers_bound_for_Ukraine",
+      "added_at": "2026-11-13T03:59:42.510Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SA-FLIGHT-DISRUPTION-SARABANGLA-20261112",
+      "country": "SA",
+      "published_date": "2026-11-12",
+      "event_date": null,
+      "publisher": "Sarabangla English / CAAB sources",
+      "url": "https://en.sarabangla.net/bangladesh/post-51097/189-dhaka-saudi-flights-cancelled-23274-passengers-affected/",
+      "language": "en",
+      "title": {
+        "bn": "সৌদি নিরাপত্তা পরিস্থিতিতে ১৮৯ ঢাকা-সৌদি flight বাতিলের হালনাগাদ",
+        "en": "Update records 189 Dhaka–Saudi flight cancellations amid security situation"
+      },
+      "summary": {
+        "bn": "CAAB-সংশ্লিষ্ট সূত্রের বরাতে প্রতিবেদনে বলা হয়েছে, ১০ অক্টোবর–১১ নভেম্বর ১১২টি direct ও ৭৭টি transit flight—মোট ১৮৯টি—বাতিল হয়ে ২৩,২৭৪ যাত্রী প্রভাবিত হয়েছেন। এটি আগের ১৭৪-flight হিসাবের follow-up। যাত্রীদের জাতীয়তা আলাদা করা হয়নি; তাই ২৩,২৭৪-কে বাংলাদেশি নাগরিক বা migrant worker-এর সংখ্যা হিসেবে ধরা হয়নি।",
+        "en": "Citing sources at CAAB, the report says 112 direct and 77 transit flights—189 in total—were cancelled between 10 October and 11 November, affecting 23,274 passengers. This follows an earlier 174-flight count. Passenger nationalities were not broken down, so 23,274 is not treated as a count of Bangladeshi citizens or migrant workers."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SA-FLIGHT-DISRUPTION-2026",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_related_routes; passenger_nationalities_not_specified",
+      "added_at": "2026-11-13T03:59:42.510Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-NRCT-ACCOUNTS-DAILYSTAR-20261113",
+      "country": "MULTI",
+      "published_date": "2026-11-13",
+      "event_date": "2026-11-11",
+      "publisher": "The Daily Star (Organisation News)",
+      "url": "https://www.thedailystar.net/business/organisation-news/news/nrbc-bank-launches-six-nrct-accounts-expatriates-4322371",
+      "language": "en",
+      "title": {
+        "bn": "প্রবাসী বাংলাদেশিদের জন্য ছয় ধরনের NRCT account চালুর খবর",
+        "en": "Six NRCT account products launched for expatriate Bangladeshis"
+      },
+      "summary": {
+        "bn": "ব্যাংকের press release-এর বরাতে দ্য ডেইলি স্টার জানিয়েছে, প্রবাসী বাংলাদেশিদের জন্য conventional ও Islamic banking মিলিয়ে ছয় ধরনের Non-Resident Convertible Taka Account চালু হয়েছে। Accountগুলো current, savings ও term-deposit option এবং principal/return বিদেশে repatriation-এর সুবিধার কথা বলেছে। এটি বাণিজ্যিক product announcement; স্বাধীন consumer-safety evaluation বা সরকারি partnership নয়।",
+        "en": "The Daily Star, citing a bank press release, reports the launch of six Non-Resident Convertible Taka Account products for expatriate Bangladeshis across conventional and Islamic banking. The products cover current, savings and term-deposit options and describe repatriation of principal and returns abroad. This is a commercial product announcement, not an independent consumer-safety assessment or a government partnership."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "products_explicitly_target_non_resident_Bangladeshis",
+      "added_at": "2026-11-13T03:59:42.510Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
