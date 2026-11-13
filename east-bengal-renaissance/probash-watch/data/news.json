@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T03:59:42.510Z",
-  "last_successful_scan_at": "2026-11-13T03:59:42.510Z",
+  "updated_at": "2026-11-13T16:00:17.882Z",
+  "last_successful_scan_at": "2026-11-13T16:00:17.882Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-13",
@@ -3656,6 +3656,78 @@
       "status": "source_reported",
       "nationality_basis": "products_explicitly_target_non_resident_Bangladeshis",
       "added_at": "2026-11-13T03:59:42.510Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MU-WORKPLACE-DEATHS-LEMAURICIEN-20261104",
+      "country": "MU",
+      "published_date": "2026-11-04",
+      "event_date": "2026-11-04",
+      "publisher": "Le Mauricien",
+      "url": "https://www.lemauricien.com/actualites/faits-divers/plaine-des-papayes-trois-travailleurs-bangladais-tues-dans-un-accident-du-travail/722424/",
+      "language": "fr",
+      "title": {
+        "bn": "মরিশাসে কর্মক্ষেত্র দুর্ঘটনায় তিন বাংলাদেশি শ্রমিক নিহত",
+        "en": "Three Bangladeshi workers killed in Mauritius workplace accident"
+      },
+      "summary": {
+        "bn": "মরিশাসের স্থানীয় সংবাদমাধ্যম ও পরে প্রকাশিত সরকারি নথি অনুযায়ী, ৪ নভেম্বর Plaine-des-Papayes-এ একটি container থেকে glass panel-এর crate নামানোর সময় সেটি পড়ে তিন প্রাপ্তবয়স্ক বাংলাদেশি শ্রমিক নিহত হন। পুলিশ ও শ্রম মন্ত্রণালয়ের তদন্ত চলছে; নিরাপত্তা আইন ভঙ্গ হয়েছিল কি না এবং ঘটনার সুনির্দিষ্ট কারণ এখনো চূড়ান্ত নয়। নিহতদের নাম ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Mauritian local reporting, later corroborated by an official government record, says three adult Bangladeshi workers were killed on 4 November when a crate of glass panels fell while being unloaded from a container at Plaine-des-Papayes. Police and labour-ministry investigations are ongoing; the precise cause and any breach of safety law are not yet established. The workers’ names and private family details are not republished."
+      },
+      "record_type": "incident_report",
+      "incident_key": "MU-WORKPLACE-DEATHS-20261104",
+      "status": "source_reported_official_investigations_open",
+      "nationality_basis": "Mauritian_local_media_and_official_cabinet_record_identify_three_Bangladeshi_workers",
+      "added_at": "2026-11-13T16:00:17.882Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-UNPAID-WAGES-JOB-MATCHING-ST-20261107",
+      "country": "SG",
+      "published_date": "2026-11-07",
+      "event_date": "2026-11-06",
+      "publisher": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/migrant-workers-with-owed-wages-linked-up-with-new-job-opportunities-some-received-pay?ai-allowed=1",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরে বকেয়া মজুরির দাবিদার শ্রমিকদের নতুন কাজের সুযোগ",
+        "en": "Workers with unpaid-wage claims in Singapore linked to new job opportunities"
+      },
+      "summary": {
+        "bn": "The Straits Times জানিয়েছে, বকেয়া মজুরির দাবি করা ২৩০-এর বেশি migrant worker—যাঁদের বেশির ভাগ বাংলাদেশি—সম্ভাব্য নতুন employer-এর সঙ্গে যুক্ত হয়েছেন এবং অস্থায়ী আবাসন পেয়েছেন; কেউ কেউ বকেয়া মজুরিও পেয়েছেন। দুই employer-এর বিরুদ্ধে Singapore Ministry of Manpower-এর তদন্ত চলায় অভিযোগগুলো এখনো চূড়ান্তভাবে প্রমাণিত নয়। নির্দিষ্ট বাংলাদেশি সংখ্যা প্রকাশিত হয়নি; শ্রমিকদের নাম ও ব্যক্তিগত ঋণ/পরিবারের তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "The Straits Times reports that more than 230 migrant workers with unpaid-wage claims—most of them Bangladeshis—were linked with potential new employers and given temporary housing; some had also received owed pay. Singapore’s Ministry of Manpower continues to investigate two employers, so the allegations are not treated as established findings. No exact Bangladeshi count was published, and workers’ names and private debt or family details are not republished."
+      },
+      "record_type": "follow_up",
+      "incident_key": "SG-UNPAID-WAGES-202610",
+      "status": "source_reported_investigation_ongoing",
+      "nationality_basis": "destination_local_source_says_most_of_the_more_than_230_workers_are_Bangladeshi_exact_breakdown_unpublished",
+      "added_at": "2026-11-13T16:00:17.882Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-WORK-PERMIT-RIGHTS-CAMPAIGN-TOC-20261110",
+      "country": "SG",
+      "published_date": "2026-11-10",
+      "event_date": "2026-10-01",
+      "publisher": "The Online Citizen",
+      "url": "https://theonlinecitizen.com/2026/11/10/2-300-back-petition-for-ripon-chowdhury-as-mws-urges-workers-and-public-to-stand-in-solidarity-and-speak-up",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরে শ্রম-অধিকার প্রচারের পর work permit renewal না হওয়ার অভিযোগ",
+        "en": "Worker alleges Singapore work-permit renewal was rejected after rights advocacy"
+      },
+      "summary": {
+        "bn": "সিঙ্গাপুরের স্থানীয় সংবাদমাধ্যম জানিয়েছে, ১৬ বছর ধরে কর্মরত এক বাংলাদেশি শ্রম-অধিকার সংগঠকের work permit renewal আবেদন ১ অক্টোবর অযোগ্য বলে জানানো হয়; তাঁর সমর্থকেরা ঘটনাটিকে শ্রম-অধিকার প্রচারের সঙ্গে যুক্ত করে পুনর্বিবেচনার আবেদন করেছেন। প্রতিবেদনের সময় পর্যন্ত Ministry of Manpower কোনো কারণ বা জবাব প্রকাশ করেনি। causal link প্রমাণিত নয়; ব্যক্তির নাম ও ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "A Singapore local outlet reports that a Bangladeshi worker and labour-rights organiser of 16 years was told on 1 October that his work-permit renewal was ineligible; supporters linked the decision to his advocacy and sought reconsideration. Singapore’s Ministry of Manpower had not published a reason or response by the report’s deadline. The alleged causal link is not established, and the individual’s name and private details are not republished."
+      },
+      "record_type": "rights_report",
+      "incident_key": null,
+      "status": "allegation_source_reported_authority_response_not_published",
+      "nationality_basis": "destination_local_source_identifies_the_worker_as_Bangladeshi",
+      "added_at": "2026-11-13T16:00:17.882Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
