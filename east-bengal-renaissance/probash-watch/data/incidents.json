@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T04:03:26.935Z",
+  "updated_at": "2026-11-13T16:00:17.882Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2567,6 +2567,86 @@
         "bn": "আপিল/বিচারিক পর্যালোচনা ও সরকারি নথির পরবর্তী অবস্থা অনুসরণ",
         "en": "Track any appeal or judicial review and subsequent official record"
       }
+    },
+    {
+      "id": "MU-WORKPLACE-DEATHS-20261104",
+      "country": "MU",
+      "location": "Plaine-des-Papayes, Mauritius",
+      "coordinates": null,
+      "location_precision": "city",
+      "event_date": "2026-11-04",
+      "date_precision": "day",
+      "published_date": "2026-11-04",
+      "category": "workplace_death",
+      "status": "official_investigations_open",
+      "gender": "male",
+      "people_count": 3,
+      "title": {
+        "bn": "মরিশাসে glass panel-এর crate পড়ে তিন বাংলাদেশি শ্রমিক নিহত",
+        "en": "Three Bangladeshi workers killed by falling glass-panel crate in Mauritius"
+      },
+      "summary": {
+        "bn": "মরিশাসের স্থানীয় সংবাদ ও ৬ নভেম্বরের সরকারি Cabinet নথি অনুযায়ী, ৪ নভেম্বর Plaine-des-Papayes-এ একটি aluminium company-র premises-এ container থেকে glass panel নামানোর সময় ভারী crate পড়ে তিন বাংলাদেশি শ্রমিক নিহত হন। পুলিশ ও National Occupational Safety and Health Department আলাদা তদন্ত শুরু করেছে; safety law ভঙ্গ হয়েছিল কি না এখনো নির্ধারিত হয়নি। পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Mauritian local reporting and a 6 November Cabinet record say three Bangladeshi workers were killed on 4 November when a heavy crate of glass panels fell during unloading from a container at an aluminium company’s premises in Plaine-des-Papayes. Police and the National Occupational Safety and Health Department opened separate investigations; whether safety law was breached remains undetermined. Identities and private family details are not republished."
+      },
+      "unknowns": {
+        "bn": "দুর্ঘটনার চূড়ান্ত কারণ, সম্ভাব্য safety breach, তদন্তের ফল, ক্ষতিপূরণ, সরকারি সহায়তা ও মরদেহ প্রত্যাবাসনের চূড়ান্ত অবস্থা নিশ্চিত নয়।",
+        "en": "The final cause, any safety breach, investigation outcomes, compensation, government support and final repatriation status are not established."
+      },
+      "victim": {
+        "bn": "তিন প্রাপ্তবয়স্ক পুরুষ বাংলাদেশি শ্রমিক; পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "Three adult male Bangladeshi workers; identities and private family details are not republished"
+      },
+      "sources": [
+        {
+          "name": "Le Mauricien",
+          "url": "https://www.lemauricien.com/actualites/faits-divers/plaine-des-papayes-trois-travailleurs-bangladais-tues-dans-un-accident-du-travail/722424/",
+          "date": "2026-11-04",
+          "language": "fr",
+          "type": "destination_local_media"
+        },
+        {
+          "name": "Government of Mauritius — Cabinet decision highlights",
+          "url": "https://pmo.govmu.org/CabinetDecision/2026/Highlights%20of%20Cabinet%20Meeting%20Friday%2006%20November%202026.pdf",
+          "date": "2026-11-06",
+          "language": "en",
+          "type": "official_government_record"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "মরিশাস পুলিশ ও শ্রম মন্ত্রণালয়ের National Occupational Safety and Health Department",
+            "en": "Mauritius Police and the labour ministry’s National Occupational Safety and Health Department"
+          },
+          "response": {
+            "bn": "ঘটনার পরিস্থিতি ও safety law ভঙ্গ হয়েছিল কি না নির্ধারণে আলাদা তদন্ত শুরু করেছে।",
+            "en": "Opened separate investigations into the circumstances and any breach of occupational safety law."
+          },
+          "source_url": "https://pmo.govmu.org/CabinetDecision/2026/Highlights%20of%20Cabinet%20Meeting%20Friday%2006%20November%202026.pdf"
+        },
+        {
+          "actor": {
+            "bn": "মরিশাস Cabinet",
+            "en": "Mauritius Cabinet"
+          },
+          "response": {
+            "bn": "নিহত শ্রমিকদের পরিবারকে National Solidarity Fund ও Prime Minister’s Relief Fund থেকে সহায়তায় সম্মতি জানিয়েছে।",
+            "en": "Agreed to support the workers’ families through the National Solidarity Fund and Prime Minister’s Relief Fund."
+          },
+          "source_url": "https://pmo.govmu.org/CabinetDecision/2026/Highlights%20of%20Cabinet%20Meeting%20Friday%2006%20November%202026.pdf"
+        }
+      ],
+      "protests": [],
+      "follow_up": {
+        "bn": "তদন্তের ফল, ক্ষতিপূরণ, সরকারি সহায়তা ও মরদেহ প্রত্যাবাসনের ফল অনুসরণ",
+        "en": "Track investigation findings, compensation, government support and repatriation outcomes"
+      },
+      "reviewed_at": "2026-11-13T16:00:17.882Z",
+      "review_note": "Published destination-local and official records; identities withheld.",
+      "translation_status": "summary_draft",
+      "nationality": "BD",
+      "nationality_basis": "Mauritian_local_media_and_official_cabinet_record_identify_three_Bangladeshi_workers"
     }
   ]
 }
