@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T16:01:15.508Z",
-  "last_successful_scan_at": "2026-11-14T16:01:15.508Z",
+  "updated_at": "2026-11-14T16:02:56.128Z",
+  "last_successful_scan_at": "2026-11-14T16:02:56.128Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-14",
@@ -3756,8 +3756,8 @@
       "independently_verified": false
     },
     {
-      "id": "UNKNOWN-GSO-MARIAID-CREW-SELECTION-20261112",
-      "country": "UNKNOWN",
+      "id": "MULTI-GSO-MARIAID-CREW-SELECTION-20261112",
+      "country": "MULTI",
       "published_date": "2026-11-12",
       "event_date": "2026-11-15",
       "publisher": "Government Shipping Office, Bangladesh",
