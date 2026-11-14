@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T16:00:17.882Z",
-  "last_successful_scan_at": "2026-11-13T16:00:17.882Z",
+  "updated_at": "2026-11-14T04:00:49.944Z",
+  "last_successful_scan_at": "2026-11-14T04:00:49.944Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-13",
+  "coverage_end": "2026-11-14",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -3728,6 +3728,30 @@
       "status": "allegation_source_reported_authority_response_not_published",
       "nationality_basis": "destination_local_source_identifies_the_worker_as_Bangladeshi",
       "added_at": "2026-11-13T16:00:17.882Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "SG-BOESL-100-SKILLED-WORKERS-FE-20261114",
+      "country": "SG",
+      "published_date": "2026-11-14",
+      "event_date": null,
+      "publisher": "The Financial Express",
+      "url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "language": "en",
+      "title": {
+        "bn": "সিঙ্গাপুরে ১০০ অভিজ্ঞ দক্ষ কর্মী পাঠানোর প্রস্তুতি: BOESL",
+        "en": "BOESL prepares to send 100 experienced skilled workers to Singapore"
+      },
+      "summary": {
+        "bn": "দ্য ফিন্যান্সিয়াল এক্সপ্রেসকে BOESL-এর ব্যবস্থাপনা পরিচালক বলেছেন, সিঙ্গাপুরে আগে কাজের অভিজ্ঞতা থাকা ১০০ দক্ষ বাংলাদেশি কর্মীর সাক্ষাৎকার শেষ হয়েছে এবং তাঁদের শিগগির পাঠানোর পরিকল্পনা আছে। প্রতিবেদনটি পরিকল্পনা ও নির্বাচন-অগ্রগতির কথা জানায়; ভিসা, চূড়ান্ত ছাড়পত্র বা প্রকৃত যাত্রা সম্পন্ন হওয়ার তথ্য দেয় না।",
+        "en": "BOESL's managing director told The Financial Express that interviews had been completed for 100 skilled Bangladeshi workers with prior Singapore experience and that the agency planned to send them soon. The report describes a plan and selection progress; it does not establish that visas, final clearances or departures have been completed."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported_planned_deployment",
+      "nationality_basis": "source_reported_Bangladeshi_workers",
+      "added_at": "2026-11-14T04:00:49.944Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
