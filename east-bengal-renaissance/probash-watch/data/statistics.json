@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T04:00:49.944Z",
+  "updated_at": "2026-11-14T16:01:15.508Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1776,7 +1776,7 @@
       "gender": "all",
       "unit": "people",
       "period_basis": "calendar_year_destination_component",
-      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "source_url": "https://thefinancialexpress.com.bd/others/100-bd-skilled-workers-to-fly-to-singapore-soon",
       "note": "Singapore destination component of BMET's all-destination 2022 overseas-employment series; do not add to the all-destination total.",
       "denominator": 1135000,
       "status": "source_reported_BMET_data_cited_by_media"
@@ -1790,7 +1790,7 @@
       "gender": "all",
       "unit": "people",
       "period_basis": "calendar_year_destination_component",
-      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "source_url": "https://thefinancialexpress.com.bd/others/100-bd-skilled-workers-to-fly-to-singapore-soon",
       "note": "Singapore destination component of BMET's all-destination 2023 overseas-employment series; do not add to the all-destination total.",
       "denominator": 1307000,
       "status": "source_reported_BMET_data_cited_by_media"
@@ -1804,7 +1804,7 @@
       "gender": "all",
       "unit": "people",
       "period_basis": "calendar_year_destination_component",
-      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "source_url": "https://thefinancialexpress.com.bd/others/100-bd-skilled-workers-to-fly-to-singapore-soon",
       "note": "Singapore destination component of BMET's all-destination 2024 overseas-employment series; do not add to the all-destination total.",
       "denominator": 1010909,
       "status": "source_reported_BMET_data_cited_by_media"
@@ -1818,7 +1818,7 @@
       "gender": "all",
       "unit": "people",
       "period_basis": "calendar_year_destination_component",
-      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "source_url": "https://thefinancialexpress.com.bd/others/100-bd-skilled-workers-to-fly-to-singapore-soon",
       "note": "Singapore destination component of BMET's all-destination 2025 overseas-employment series; do not add to the all-destination total.",
       "denominator": 1132368,
       "status": "source_reported_BMET_data_cited_by_media"
@@ -1832,7 +1832,7 @@
       "gender": "all",
       "unit": "people",
       "period_basis": "partial_calendar_year_destination_component",
-      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "source_url": "https://thefinancialexpress.com.bd/others/100-bd-skilled-workers-to-fly-to-singapore-soon",
       "note": "Singapore destination component of BMET's 1 Jan–16 Sep 2026 overseas-employment snapshot. It overlaps later daily and monthly clearance series, is not a full-year total and must not be added to overlapping periods.",
       "denominator": 537637,
       "status": "source_reported_BMET_data_cited_by_media"
