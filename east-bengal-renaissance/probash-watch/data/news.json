@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T04:00:49.944Z",
-  "last_successful_scan_at": "2026-11-14T04:00:49.944Z",
+  "updated_at": "2026-11-14T16:01:15.508Z",
+  "last_successful_scan_at": "2026-11-14T16:01:15.508Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-14",
@@ -3737,7 +3737,7 @@
       "published_date": "2026-11-14",
       "event_date": null,
       "publisher": "The Financial Express",
-      "url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "url": "https://thefinancialexpress.com.bd/others/100-bd-skilled-workers-to-fly-to-singapore-soon",
       "language": "en",
       "title": {
         "bn": "সিঙ্গাপুরে ১০০ অভিজ্ঞ দক্ষ কর্মী পাঠানোর প্রস্তুতি: BOESL",
@@ -3752,6 +3752,30 @@
       "status": "source_reported_planned_deployment",
       "nationality_basis": "source_reported_Bangladeshi_workers",
       "added_at": "2026-11-14T04:00:49.944Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "UNKNOWN-GSO-MARIAID-CREW-SELECTION-20261112",
+      "country": "UNKNOWN",
+      "published_date": "2026-11-12",
+      "event_date": "2026-11-15",
+      "publisher": "Government Shipping Office, Bangladesh",
+      "url": "https://erp.gso.gov.bd/frontend/web/selection-notice?id=18679",
+      "language": "en",
+      "title": {
+        "bn": "সমুদ্রগামী জাহাজে fitter-cum-welder পদের সরকারি crew-selection notice",
+        "en": "Government crew-selection notice for a fitter-cum-welder position at sea"
+      },
+      "summary": {
+        "bn": "বাংলাদেশ Government Shipping Office-এর নোটিশে ১৫ নভেম্বর Mariaid Limited-এর মাধ্যমে General Roster থেকে এক fitter-cum-welder বাছাইয়ের কথা বলা হয়েছে। পদটি Liberia-তে নিবন্ধিত MV YANGZE 7 জাহাজের জন্য এবং প্রকাশিত মাসিক বেতন US$1,000। এটি কেবল selection notice; প্রার্থী নির্বাচিত হওয়া, চুক্তি, ছাড়পত্র বা যাত্রা সম্পন্ন হওয়ার প্রমাণ নয়। কোনো প্রার্থীর পরিচয় প্রকাশ করা হয়নি।",
+        "en": "A Bangladesh Government Shipping Office notice schedules selection on 15 November through Mariaid Limited for one fitter-cum-welder from the General Roster. The position is for the Liberia-registered MV YANGZE 7 and lists a monthly salary of US$1,000. This is only a selection notice; it does not establish completed selection, contract, clearance or departure. No candidate identity is published."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_Bangladesh_Government_Shipping_Office_general_roster_notice",
+      "added_at": "2026-11-14T16:01:15.508Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
