@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T03:59:42.510Z",
+  "updated_at": "2026-11-14T04:00:49.944Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1766,6 +1766,76 @@
       "note": "Workers covered by official recruitment permission RL-1553 for a company in Ukraine. This is not actual placement, visas, employment clearances or departures; attachment details were not previewable.",
       "denominator": null,
       "status": "source_reported"
+    },
+    {
+      "id": "sg-overseas-employment-2022-bmet",
+      "metric": "workers_securing_overseas_employment_destination",
+      "value": 64383,
+      "period": "2022",
+      "country": "SG",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "calendar_year_destination_component",
+      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "note": "Singapore destination component of BMET's all-destination 2022 overseas-employment series; do not add to the all-destination total.",
+      "denominator": 1135000,
+      "status": "source_reported_BMET_data_cited_by_media"
+    },
+    {
+      "id": "sg-overseas-employment-2023-bmet",
+      "metric": "workers_securing_overseas_employment_destination",
+      "value": 53265,
+      "period": "2023",
+      "country": "SG",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "calendar_year_destination_component",
+      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "note": "Singapore destination component of BMET's all-destination 2023 overseas-employment series; do not add to the all-destination total.",
+      "denominator": 1307000,
+      "status": "source_reported_BMET_data_cited_by_media"
+    },
+    {
+      "id": "sg-overseas-employment-2024-bmet",
+      "metric": "workers_securing_overseas_employment_destination",
+      "value": 56847,
+      "period": "2024",
+      "country": "SG",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "calendar_year_destination_component",
+      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "note": "Singapore destination component of BMET's all-destination 2024 overseas-employment series; do not add to the all-destination total.",
+      "denominator": 1010909,
+      "status": "source_reported_BMET_data_cited_by_media"
+    },
+    {
+      "id": "sg-overseas-employment-2025-bmet",
+      "metric": "workers_securing_overseas_employment_destination",
+      "value": 70832,
+      "period": "2025",
+      "country": "SG",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "calendar_year_destination_component",
+      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "note": "Singapore destination component of BMET's all-destination 2025 overseas-employment series; do not add to the all-destination total.",
+      "denominator": 1132368,
+      "status": "source_reported_BMET_data_cited_by_media"
+    },
+    {
+      "id": "sg-overseas-employment-2026-jan-sep16-bmet",
+      "metric": "workers_securing_overseas_employment_destination",
+      "value": 55614,
+      "period": "1 Jan–16 Sep 2026",
+      "country": "SG",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "partial_calendar_year_destination_component",
+      "source_url": "https://today.thefinancialexpress.com.bd/public/last-page/100-bd-skilled-workers-to-fly-to-singapore-soon-1794594569",
+      "note": "Singapore destination component of BMET's 1 Jan–16 Sep 2026 overseas-employment snapshot. It overlaps later daily and monthly clearance series, is not a full-year total and must not be added to overlapping periods.",
+      "denominator": 537637,
+      "status": "source_reported_BMET_data_cited_by_media"
     }
   ]
 }
