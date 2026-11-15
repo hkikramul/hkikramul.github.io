@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T16:01:15.508Z",
+  "updated_at": "2026-11-15T03:58:52.450Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1364,14 +1364,14 @@
     {
       "id": "boesl-zero-cost-applicants-2026-11-08",
       "metric": "zero_cost_recruitment_applicants",
-      "value": 4039,
+      "value": 4029,
       "period": "Applications closed 8 Nov 2026",
       "country": "MY",
       "gender": "all",
       "unit": "people",
       "period_basis": "program_application_snapshot",
-      "source_url": "https://www.thedailystar.net/news/work-and-migration/news/zero-means-zero-boesl-says-malaysia-bound-workers-will-pay-nothing-4318461",
-      "note": "Applicants for the DHL Supply Chain Malaysia recruitment; not selected workers or departures.",
+      "source_url": "https://today.thefinancialexpress.com.bd/last-page/dhl-to-recruit-150-bangladeshis-for-malaysia-with-zero-migration-cost-1794680745",
+      "note": "Latest BOESL briefing reported 4,029 applicants. An earlier Daily Star report recorded 4,039; the 10-person source discrepancy is retained here and the newer official-briefing figure is used. Applicants are not selected workers or departures.",
       "denominator": null,
       "status": "source_reported"
     },
@@ -1385,8 +1385,8 @@
       "unit": "people",
       "period_basis": "program_selection_stage",
       "source_url": "https://www.thedailystar.net/news/work-and-migration/news/zero-means-zero-boesl-says-malaysia-bound-workers-will-pay-nothing-4318461",
-      "note": "Digital-lottery shortlist from 4,039 applicants; practical and oral tests still required.",
-      "denominator": 4039,
+      "note": "Digital-lottery shortlist from the applicant pool; practical and oral tests still required. Latest BOESL briefing reports 4,029 applicants, while an earlier source reported 4,039.",
+      "denominator": 4029,
       "status": "source_reported"
     },
     {
@@ -1836,6 +1836,48 @@
       "note": "Singapore destination component of BMET's 1 Jan–16 Sep 2026 overseas-employment snapshot. It overlaps later daily and monthly clearance series, is not a full-year total and must not be added to overlapping periods.",
       "denominator": 537637,
       "status": "source_reported_BMET_data_cited_by_media"
+    },
+    {
+      "id": "boesl-zero-cost-revised-target-2026-11-15",
+      "metric": "zero_cost_recruitment_final_positions",
+      "value": 150,
+      "period": "Target reported 15 Nov 2026",
+      "country": "MY",
+      "gender": "all",
+      "unit": "positions",
+      "period_basis": "revised_program_target",
+      "source_url": "https://today.thefinancialexpress.com.bd/last-page/dhl-to-recruit-150-bangladeshis-for-malaysia-with-zero-migration-cost-1794680745",
+      "note": "Revised DHL/BOESL target, up from 112. This is a planned recruitment target, not completed selection, clearance or departure.",
+      "denominator": null,
+      "status": "source_reported"
+    },
+    {
+      "id": "boesl-zero-cost-selected-2026-11-13",
+      "metric": "zero_cost_recruitment_selected_workers",
+      "value": 83,
+      "period": "Selected in interviews 12–13 Nov 2026",
+      "country": "MY",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "interim_selection_result",
+      "source_url": "https://today.thefinancialexpress.com.bd/last-page/dhl-to-recruit-150-bangladeshis-for-malaysia-with-zero-migration-cost-1794680745",
+      "note": "Selected from the initial 300-person shortlist; further interviews continued on 14–15 November. Selection is not a visa, clearance or departure.",
+      "denominator": 300,
+      "status": "source_reported"
+    },
+    {
+      "id": "boesl-stranded-workers-sent-without-service-fee-by-2026-10",
+      "metric": "previously_stranded_workers_sent_without_service_fee",
+      "value": 1530,
+      "period": "Programme completed by Oct 2026",
+      "country": "MY",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "completed_program_count",
+      "source_url": "https://www.thedailystar.net/news/work-and-migration/news/malaysia-bound-workers-may-have-pay-tk-6-7-lakh-under-private-recruitment-4323766",
+      "note": "Previously stranded Malaysia-bound workers reported by BOESL as sent without service fees; separate from the new 10,000-worker zero-cost initiative and its 150-position DHL target.",
+      "denominator": null,
+      "status": "source_reported"
     }
   ]
 }
