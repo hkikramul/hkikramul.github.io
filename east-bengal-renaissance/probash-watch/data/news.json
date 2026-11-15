@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T03:58:52.450Z",
-  "last_successful_scan_at": "2026-11-15T03:58:52.450Z",
+  "updated_at": "2026-11-15T16:04:05.800Z",
+  "last_successful_scan_at": "2026-11-15T16:04:05.800Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
   "coverage_end": "2026-11-15",
@@ -3848,6 +3848,102 @@
       "status": "source_reported",
       "nationality_basis": "official_Bangladesh_Government_Shipping_Office_general_roster_notices",
       "added_at": "2026-11-15T03:58:52.450Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "PT-ROAD-DEATH-DAILYSUN-20261114",
+      "country": "PT",
+      "published_date": "2026-11-14",
+      "event_date": "2026-11-14",
+      "publisher": "Daily Sun",
+      "url": "https://www.daily-sun.com/bangladesh/909188/bangladeshi-youth-dies-in-portugal-after-10-days-in-coma",
+      "language": "en",
+      "title": {
+        "bn": "পর্তুগালে সড়ক দুর্ঘটনার দশ দিন পর এক বাংলাদেশির মৃত্যু",
+        "en": "Bangladeshi dies in Portugal ten days after road accident"
+      },
+      "summary": {
+        "bn": "Daily Sun বাংলাদেশ দূতাবাসের নিশ্চিতকরণের বরাতে জানিয়েছে, ৪ নভেম্বর লিসবনে সড়ক দুর্ঘটনায় গুরুতর আহত এক প্রাপ্তবয়স্ক বাংলাদেশি দশ দিন কোমায় থাকার পর ১৪ নভেম্বর হাসপাতালে মারা যান। দূতাবাস চিকিৎসার খোঁজ রেখেছিল ও হাসপাতালের সঙ্গে যোগাযোগ করেছে। পরিচয়, পরিবারের তথ্য ও বাংলাদেশের নির্দিষ্ট ঠিকানা পুনঃপ্রকাশ করা হয়নি।",
+        "en": "Daily Sun, citing confirmation from Bangladesh’s embassy, reports that an adult Bangladeshi seriously injured in a Lisbon road accident on 4 November died in hospital on 14 November after ten days in a coma. The embassy monitored the treatment and maintained contact with the hospital. The person’s identity, family details and specific address in Bangladesh are withheld."
+      },
+      "record_type": "incident",
+      "incident_key": "PT-ROAD-DEATH-20261104",
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_Embassy_in_Lisbon_confirmed_the_death_of_a_Bangladeshi",
+      "added_at": "2026-11-15T16:04:05.800Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-OVERSEAS-EMPLOYMENT-PARLIAMENT-DT-20261115",
+      "country": "MULTI",
+      "published_date": "2026-11-15",
+      "event_date": null,
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/424701/minister-nearly-500-000-workers-go-abroad-since",
+      "language": "en",
+      "title": {
+        "bn": "১৭ ফেব্রুয়ারি–৯ নভেম্বর বিদেশে কর্মসংস্থানের সংসদীয় হিসাব",
+        "en": "Parliamentary figures for overseas employment from 17 February to 9 November"
+      },
+      "summary": {
+        "bn": "Dhaka Tribune সংসদে প্রবাসীকল্যাণমন্ত্রীর লিখিত জবাবের বরাতে জানিয়েছে, ১৭ ফেব্রুয়ারি–৯ নভেম্বর ২০২৬ সময়ে ৪,৯৬,১৫০ বাংলাদেশি কর্মী বিদেশে কর্মসংস্থান পেয়েছেন; তাঁদের মধ্যে ৩,৪০,৫৩৩ জন skilled ও semi-skilled। মন্ত্রী আরও বলেছেন, আগে আটকে পড়া ১,৫৪৫ মালয়েশিয়াগামী কর্মী পাঠানো হয়েছে—আগের BOESL-উদ্ধৃত ১,৫৩০ সংখ্যার সঙ্গে ১৫ জনের অমিল আলাদাভাবে রাখা হয়েছে। এগুলো সময়সীমাবদ্ধ সরকারি বক্তব্য, বর্তমান diaspora population নয়।",
+        "en": "Dhaka Tribune, citing the expatriates’ welfare minister’s written reply in Parliament, reports that 496,150 Bangladeshi workers obtained overseas employment from 17 February to 9 November 2026, including 340,533 skilled and semi-skilled workers. The minister also said 1,545 previously stranded Malaysia-bound workers had been sent; this 15-person difference from an earlier BOESL-cited figure of 1,530 is retained separately. These are period-specific official statements, not the current diaspora population."
+      },
+      "record_type": "statistics",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_ministerial_statement_in_Parliament_concerns_Bangladeshi_workers",
+      "added_at": "2026-11-15T16:04:05.800Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-RECRUITMENT-TIMELINE-BSS-20261115",
+      "country": "MY",
+      "published_date": "2026-11-15",
+      "event_date": null,
+      "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://www.bssnews.net/bangla/national-parliament-session/360119",
+      "language": "bn",
+      "title": {
+        "bn": "নভেম্বরের শেষ দিকে মালয়েশিয়ায় কর্মী পাঠানো শুরুর পরিকল্পনা: মন্ত্রী",
+        "en": "Minister says Malaysia-bound deployment is planned to begin in late November"
+      },
+      "summary": {
+        "bn": "বাসস সংসদে প্রবাসীকল্যাণমন্ত্রীর বক্তব্য উদ্ধৃত করে জানিয়েছে, নভেম্বরের শেষ দিকে মালয়েশিয়ায় কর্মী পাঠানো শুরু করার পরিকল্পনা আছে এবং অনুমোদিত medical centre-এর তালিকা ১৬ নভেম্বর প্রকাশের কথা। তিনি ১,৫৪,০০০ টাকার সরকারি migration-cost cap পুনর্ব্যক্ত করেছেন। এগুলো ঘোষিত timeline ও policy; actual visa, clearance বা departure নয়।",
+        "en": "BSS, quoting the expatriates’ welfare minister in Parliament, reports a plan to begin sending workers to Malaysia in late November and to publish the approved medical-centre list on 16 November. He reiterated the government migration-cost cap of Tk154,000. These are an announced timeline and policy, not completed visas, clearances or departures."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "Bangladesh_ministerial_statement_about_Bangladeshi_workers_bound_for_Malaysia",
+      "added_at": "2026-11-15T16:04:05.800Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "BY-RECRUITMENT-PERMISSION-OFFICIAL-20261115",
+      "country": "BY",
+      "published_date": "2026-11-15",
+      "event_date": null,
+      "publisher": "Ministry of Expatriates’ Welfare and Overseas Employment",
+      "url": "https://probashi.gov.bd/pages/miscellaneous-infos/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%B6%E0%A7%87-%E0%A7%A7%E0%A7%A6%E0%A7%A6-%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-rl-474-9ub7c8-6af976ca94968eb2e9dfec37",
+      "language": "bn",
+      "title": {
+        "bn": "বেলারুশে ১০০ কর্মীর recruitment permission—সরকারি নোটিশ",
+        "en": "Official notice grants recruitment permission for 100 workers to Belarus"
+      },
+      "summary": {
+        "bn": "Metadata-only: প্রবাসী কল্যাণ মন্ত্রণালয়ের ১৫ নভেম্বরের নোটিশে RL-474-এর মাধ্যমে বেলারুশে ১০০ কর্মীর recruitment permission-এর কথা আছে। সংযুক্তি browser preview-তে খোলা যায়নি; তাই employer, occupation, contract বা ব্যক্তিগত তথ্য অনুমান/প্রকাশ করা হয়নি। Permission-টি final selection, visa, clearance বা departure নয়।",
+        "en": "Metadata only: A 15 November notice from Bangladesh’s Expatriates’ Welfare Ministry records recruitment permission under RL-474 for 100 workers to Belarus. The attachment was not available in browser preview, so employer, occupation, contract and personal details are not inferred or published. Permission is not final selection, a visa, clearance or departure."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported_metadata_only_attachment_not_previewable",
+      "nationality_basis": "official_Bangladesh_recruitment_permission_for_workers_bound_for_Belarus",
+      "added_at": "2026-11-15T16:04:05.800Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
