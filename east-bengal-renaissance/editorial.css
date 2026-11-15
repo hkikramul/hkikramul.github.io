@@ -15,3 +15,57 @@ html[data-theme="dark"] .number,html[data-theme="dark"] .story .eyebrow,html[dat
 html[data-theme="dark"] .topic-shortcuts a:hover{background:#5941b7;color:#fff}
 html[data-theme="dark"] .cover,html[data-theme="dark"] .cover h1{color:#faf9f0}
 html[data-theme="dark"] .follow{background:#252230}
+
+/* Shared editorial interface: aligned with Making Sense with Ikramul */
+:root{--paper:#faf9f3;--ink:#203e35;--green:#255c4b;--orange:#bf482c;--purple:#255c4b;--line:#d9ded3}
+body{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.72}
+a:hover{color:var(--orange)}
+.cover{color:var(--ink);background:var(--paper)}
+.cover:before{display:none}
+.nav{padding-block:19px;border-bottom:1px solid var(--line)}
+.monogram{font:700 32px/1.1 Georgia,'Noto Sans Bengali',serif;letter-spacing:-.04em;color:var(--ink)}
+.navlinks{gap:clamp(13px,2vw,27px)}
+.navlinks a{font-size:14px;font-weight:600;color:var(--ink)}
+.cover a:hover{color:var(--orange)}
+.menu-toggle{font:600 14px Arial,'Noto Sans Bengali',sans-serif;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:3px;padding:7px 11px}
+.masthead{padding:clamp(34px,6vw,68px) 0 42px}
+.masthead h1{font-family:Georgia,'Noto Sans Bengali',serif;font-size:clamp(46px,7vw,88px);font-weight:700;line-height:1.18;letter-spacing:-.04em;color:var(--ink);margin:16px 0 7px}
+.masthead .en{font:600 clamp(17px,2vw,23px)/1.5 Arial,'Noto Sans Bengali',sans-serif;letter-spacing:0;text-transform:none;color:var(--green)}
+.masthead .en em{font:inherit}
+.hero-bottom{margin-top:29px;border-color:var(--line);padding-top:18px}
+.hero-bottom p{color:#52645d;font-size:16px;line-height:1.65}
+.hero-bottom a{color:var(--green);font-weight:700}
+.topic-shortcuts{gap:10px;padding-block:16px}
+.topic-shortcuts a{border:1px solid var(--line);border-radius:3px;background:#fff;color:var(--ink);padding:8px 13px;font-size:13px;font-weight:600}
+.topic-shortcuts a:hover{background:#edf3ed;color:var(--green)}
+.section{padding-block:clamp(38px,6vw,72px)}
+.heading h2,.about h2{font-family:Georgia,'Noto Sans Bengali',serif;color:var(--ink);letter-spacing:-.025em}
+.heading span{color:#69766f}
+.section>p{max-width:78ch}
+.story h3,.topic h3{font-family:Georgia,'Noto Sans Bengali',serif;letter-spacing:-.015em}
+.feature,.topic{border-color:var(--line)}
+.number,.story .eyebrow,.article-body .tag{color:var(--green)}
+.read,.footer a{color:var(--green)}
+.cta{background:var(--green);border-radius:3px}
+.cta:hover{background:#1b493c;color:#fff}
+.follow{background:#edf1e9}
+.footer{border-top:1px solid var(--line)}
+#site-menu{background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:4px}
+#site-menu a{color:var(--ink)}
+#site-menu a:hover{color:var(--orange)}
+html[data-theme="dark"]{--paper:#181b20;--ink:#eeeef0;--green:#8bbba1;--orange:#e48a64;--purple:#8bbba1;--line:#424751}
+html[data-theme="dark"] .cover{background:var(--paper)}
+html[data-theme="dark"] .navlinks a,html[data-theme="dark"] .monogram,html[data-theme="dark"] .masthead h1{color:var(--ink)}
+html[data-theme="dark"] .hero-bottom p,html[data-theme="dark"] .heading span{color:#c2c6cd}
+html[data-theme="dark"] .topic-shortcuts a{background:#20242a;color:var(--ink);border-color:var(--line)}
+html[data-theme="dark"] .follow{background:#22272b}
+html[data-theme="dark"] #site-menu{background:#181b20;color:var(--ink)}
+@media(max-width:760px){
+ .nav{align-items:center;gap:12px}
+ .navlinks{gap:8px 13px;justify-content:flex-start}
+ .navlinks a{font-size:12px}
+ .masthead{padding:33px 0 25px}
+ .masthead h1{font-size:clamp(40px,10vw,62px)}
+ .hero-bottom{align-items:flex-start;flex-direction:column}
+ .hero-bottom p{font-size:15px}
+}
