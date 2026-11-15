@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T03:58:52.450Z",
+  "updated_at": "2026-11-15T16:04:05.800Z",
   "coverage_complete": false,
   "records": [
     {
@@ -1878,6 +1878,62 @@
       "note": "Previously stranded Malaysia-bound workers reported by BOESL as sent without service fees; separate from the new 10,000-worker zero-cost initiative and its 150-position DHL target.",
       "denominator": null,
       "status": "source_reported"
+    },
+    {
+      "id": "overseas-employment-2026-feb17-nov9-minister",
+      "metric": "Bangladeshi_workers_reported_employed_abroad",
+      "value": 496150,
+      "period": "17 Feb–9 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "partial_calendar_year_government_period_statement",
+      "source_url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/424701/minister-nearly-500-000-workers-go-abroad-since",
+      "note": "Ministerial figure stated in Parliament for this exact date range. It is not the current diaspora population and overlaps monthly, daily and destination-specific employment or clearance series; do not sum them.",
+      "denominator": null,
+      "status": "official_statement_reported"
+    },
+    {
+      "id": "overseas-employment-skilled-semi-2026-feb17-nov9-minister",
+      "metric": "skilled_and_semi_skilled_workers_among_reported_overseas_employment",
+      "value": 340533,
+      "period": "17 Feb–9 Nov 2026",
+      "country": "MULTI",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "component_of_partial_calendar_year_government_period_statement",
+      "source_url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/424701/minister-nearly-500-000-workers-go-abroad-since",
+      "note": "Skilled and semi-skilled component of the 496,150 ministerial total; must not be added to that total. Skill subcategories were not separately published.",
+      "denominator": 496150,
+      "status": "official_statement_reported"
+    },
+    {
+      "id": "my-previously-stranded-workers-sent-minister-2026-11-15",
+      "metric": "previously_stranded_Malaysia_bound_workers_reported_sent",
+      "value": 1545,
+      "period": "As reported 15 Nov 2026",
+      "country": "MY",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "cumulative_program_snapshot_official_statement",
+      "source_url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/424701/minister-nearly-500-000-workers-go-abroad-since",
+      "note": "Ministerial parliamentary statement. This is 15 higher than an earlier BOESL-cited media figure of 1,530; both source-specific snapshots are retained and must not be added. It is separate from the new 10,000-worker zero-cost initiative.",
+      "denominator": null,
+      "status": "official_statement_reported"
+    },
+    {
+      "id": "by-recruitment-permission-workers-2026-11-15",
+      "metric": "workers_covered_by_recruitment_permission",
+      "value": 100,
+      "period": "Notice published 15 Nov 2026",
+      "country": "BY",
+      "gender": "all",
+      "unit": "people",
+      "period_basis": "official_recruitment_permission_snapshot",
+      "source_url": "https://probashi.gov.bd/pages/miscellaneous-infos/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%B6%E0%A7%87-%E0%A7%A7%E0%A7%A6%E0%A7%A6-%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9f%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-rl-474-9ub7c8-6af976ca94968eb2e9dfec37",
+      "note": "Official recruitment permission under RL-474. This is not completed selection, visas, employment clearances or departures; attachment details were not previewable.",
+      "denominator": null,
+      "status": "source_reported_metadata_only_attachment_not_previewable"
     }
   ]
 }
