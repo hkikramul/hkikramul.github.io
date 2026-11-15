@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T16:02:56.128Z",
-  "last_successful_scan_at": "2026-11-14T16:02:56.128Z",
+  "updated_at": "2026-11-15T03:58:52.450Z",
+  "last_successful_scan_at": "2026-11-15T03:58:52.450Z",
   "update_mode": "automatic_media_publication; individual_submissions_moderated",
   "coverage_start": "2020-05-28",
-  "coverage_end": "2026-11-14",
+  "coverage_end": "2026-11-15",
   "coverage_complete": false,
   "coverage_note": {
     "bn": "নির্বাচিত অনুসন্ধানে পাওয়া উৎসসংযুক্ত খবর; সব আর্কাইভের পূর্ণ তালিকা নয়।",
@@ -3776,6 +3776,78 @@
       "status": "source_reported",
       "nationality_basis": "official_Bangladesh_Government_Shipping_Office_general_roster_notice",
       "added_at": "2026-11-14T16:01:15.508Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-PRIVATE-COST-ALLEGATIONS-DS-20261114",
+      "country": "MY",
+      "published_date": "2026-11-14",
+      "event_date": null,
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/news/work-and-migration/news/malaysia-bound-workers-may-have-pay-tk-6-7-lakh-under-private-recruitment-4323766",
+      "language": "en",
+      "title": {
+        "bn": "মালয়েশিয়ায় private recruitment-এ ৬–৭ লাখ টাকা লাগতে পারে—সংশ্লিষ্টদের আশঙ্কা",
+        "en": "Industry sources fear private Malaysia recruitment could cost Tk600,000–700,000"
+      },
+      "summary": {
+        "bn": "দ্য ডেইলি স্টারকে একটি private recruiting agency-এর মালিক বলেছেন, demand letter, সম্ভাব্য syndicate fee, clearance, visa, airfare, agency profit ও sub-agent commission মিলিয়ে একজন কর্মীর খরচ ৬–৭ লাখ টাকা হতে পারে; আরেক prospective migrant একজন intermediary-কে ৬ লাখ টাকা দিতে সম্মত হয়েছেন বলে জানিয়েছেন। এগুলো অভিযোগ ও অনুমান—চূড়ান্ত fee বা প্রমাণিত আদায় নয়। সরকারি নির্ধারিত সর্বোচ্চ খরচ ১.৫৪ লাখ টাকা; অতিরিক্ত অর্থ নিলে ব্যবস্থা নেওয়ার কথা মন্ত্রী বলেছেন। একই প্রতিবেদনে BOESL-এর zero-cost recruitment এবং ১,৫৩০ পূর্বে আটকে থাকা কর্মীকে service fee ছাড়া পাঠানোর তথ্য আলাদা রাখা হয়েছে।",
+        "en": "An owner of a private recruiting agency told The Daily Star that a demand letter, a possible syndicate fee, clearance, visa, airfare, agency profit and sub-agent commission could push per-worker costs to Tk600,000–700,000; a prospective migrant said he had agreed to pay an intermediary Tk600,000. These are allegations and estimates, not a final fee or proven collection. The government-set maximum is Tk154,000, and the minister warned of action for overcharging. The report separately describes BOESL's zero-cost programme and says 1,530 previously stranded workers were sent without service fees."
+      },
+      "record_type": "investigation",
+      "incident_key": null,
+      "status": "allegations_source_reported_not_independently_verified",
+      "nationality_basis": "report_concerns_Bangladeshi_workers_bound_for_Malaysia",
+      "added_at": "2026-11-15T03:58:52.450Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MY-DHL-ZERO-COST-150-FE-20261115",
+      "country": "MY",
+      "published_date": "2026-11-15",
+      "event_date": null,
+      "publisher": "The Financial Express",
+      "url": "https://today.thefinancialexpress.com.bd/last-page/dhl-to-recruit-150-bangladeshis-for-malaysia-with-zero-migration-cost-1794680745",
+      "language": "en",
+      "title": {
+        "bn": "DHL-এর zero-cost recruitment target ১৫০; প্রথম ৩০০ জনের মধ্য থেকে ৮৩ জন নির্বাচিত",
+        "en": "DHL raises zero-cost recruitment target to 150; 83 selected from initial shortlist"
+      },
+      "summary": {
+        "bn": "ফিন্যান্সিয়াল এক্সপ্রেস জানিয়েছে, DHL Supply Chain (Malaysia) zero-cost ব্যবস্থায় বাংলাদেশি কর্মীর target ১১২ থেকে ১৫০ করেছে। ৪,০২৯ আবেদনকারীর মধ্য থেকে আগে shortlist হওয়া ৩০০ জনের ১২–১৩ নভেম্বরের interview-এ ৮৩ জন নির্বাচিত হয়েছেন; অনুপস্থিতি ও requirements পূরণ না হওয়ায় অবশিষ্ট applicant pool থেকে আরও interview ১৪–১৫ নভেম্বর চলেছে। এটি selection progress—visa, clearance বা departure নয়।",
+        "en": "The Financial Express reports that DHL Supply Chain (Malaysia) increased its zero-cost recruitment target from 112 to 150 Bangladeshi workers. Interviews on 12–13 November selected 83 people from the initial shortlist of 300 drawn from 4,029 applicants; because of absences and unmet requirements, further interviews from the remaining applicant pool continued on 14–15 November. This is selection progress, not visas, clearances or departures."
+      },
+      "record_type": "follow_up",
+      "incident_key": null,
+      "status": "source_reported_selection_progress",
+      "nationality_basis": "BOESL_program_for_Bangladeshi_workers",
+      "added_at": "2026-11-15T03:58:52.450Z",
+      "translation_status": "summary_draft",
+      "independently_verified": false
+    },
+    {
+      "id": "MULTI-GSO-CREW-SELECTIONS-20261115-18",
+      "country": "MULTI",
+      "published_date": null,
+      "event_date": null,
+      "publisher": "Government Shipping Office, Bangladesh",
+      "url": "https://erp.gso.gov.bd/frontend/web/selection-notice?sort=selection_date",
+      "language": "en",
+      "title": {
+        "bn": "১৫–১৮ নভেম্বর আরও সাতটি one-person crew-selection notice",
+        "en": "Seven additional one-person crew-selection notices for 15–18 November"
+      },
+      "summary": {
+        "bn": "Government Shipping Office-এর selection list-এ আগের MV YANGZE 7 notice-এর বাইরে General Roster-এর আরও সাতটি এক-পদের বাছাই দেখা গেছে: ১৫ নভেম্বর AB/Seacunny, Pumpman, Fitter-cum-Welder ও TR. OS/SM-3; ১৬ নভেম্বর AB/Seacunny; ১৭ নভেম্বর Oiler/Greaser; ১৮ নভেম্বর AB/Seacunny। জাহাজগুলো OCEAN WEALTH, MT MACALLAN, MV V BRAVO, MT FUJAIRAH ENERGY, MSC CALEDONIA II ও MSC SOPHIE VII। এগুলো selection notice—নিয়োগ, contract, clearance বা departure সম্পন্ন হওয়ার প্রমাণ নয়; candidate identity প্রকাশ করা হয়নি।",
+        "en": "The Government Shipping Office selection list shows seven additional one-position General Roster selections beyond the earlier MV YANGZE 7 notice: AB/Seacunny, Pumpman, Fitter-cum-Welder and TR. OS/SM-3 on 15 November; AB/Seacunny on 16 November; Oiler/Greaser on 17 November; and AB/Seacunny on 18 November. The vessels listed are OCEAN WEALTH, MT MACALLAN, MV V BRAVO, MT FUJAIRAH ENERGY, MSC CALEDONIA II and MSC SOPHIE VII. These are selection notices, not evidence of completed hiring, contracts, clearances or departures; no candidate identity is published."
+      },
+      "record_type": "policy",
+      "incident_key": null,
+      "status": "source_reported",
+      "nationality_basis": "official_Bangladesh_Government_Shipping_Office_general_roster_notices",
+      "added_at": "2026-11-15T03:58:52.450Z",
       "translation_status": "summary_draft",
       "independently_verified": false
     }
