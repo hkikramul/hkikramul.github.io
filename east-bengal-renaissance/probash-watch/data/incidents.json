@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T16:00:17.882Z",
+  "updated_at": "2026-11-15T16:04:05.800Z",
   "coverage_start": "2020-05-28",
   "coverage_note": "Source-reported case records; not a complete register or a population rate.",
   "records": [
@@ -2647,6 +2647,68 @@
       "translation_status": "summary_draft",
       "nationality": "BD",
       "nationality_basis": "Mauritian_local_media_and_official_cabinet_record_identify_three_Bangladeshi_workers"
+    },
+    {
+      "id": "PT-ROAD-DEATH-20261104",
+      "country": "PT",
+      "location": "Lisbon, Portugal",
+      "coordinates": null,
+      "location_precision": "city",
+      "event_date": "2026-11-04",
+      "date_precision": "day",
+      "published_date": "2026-11-14",
+      "category": "road_accident_death",
+      "status": "source_reported_embassy_confirmed",
+      "gender": "male",
+      "people_count": 1,
+      "title": {
+        "bn": "লিসবনে সড়ক দুর্ঘটনার পর এক বাংলাদেশির মৃত্যু",
+        "en": "Bangladeshi dies after road accident in Lisbon"
+      },
+      "summary": {
+        "bn": "Daily Sun-এর ১৪ নভেম্বরের প্রতিবেদন অনুযায়ী, ৪ নভেম্বর রাতের সড়ক দুর্ঘটনায় গুরুতর আহত এক প্রাপ্তবয়স্ক বাংলাদেশি লিসবনের একটি হাসপাতালে দশ দিন কোমায় থাকার পর মারা যান। বাংলাদেশ দূতাবাস মৃত্যু নিশ্চিত করেছে, চিকিৎসার খোঁজ রেখেছে এবং হাসপাতালের সঙ্গে যোগাযোগ করেছে। পরিচয়, পরিবারের তথ্য ও বাংলাদেশের নির্দিষ্ট ঠিকানা পুনঃপ্রকাশ করা হয়নি।",
+        "en": "According to Daily Sun’s 14 November report, an adult Bangladeshi seriously injured in a road accident on the night of 4 November died in a Lisbon hospital after ten days in a coma. Bangladesh’s embassy confirmed the death, monitored treatment and maintained contact with the hospital. The person’s identity, family details and specific address in Bangladesh are withheld."
+      },
+      "unknowns": {
+        "bn": "দুর্ঘটনার কারণ, অন্য পক্ষ বা যানবাহনের তথ্য, পুলিশি তদন্ত, ক্ষতিপূরণ এবং মরদেহ প্রত্যাবাসনের চূড়ান্ত অবস্থা প্রকাশিত প্রতিবেদনে নিশ্চিত নয়।",
+        "en": "The cause of the crash, other parties or vehicles involved, any police investigation, compensation and final repatriation status are not established in the published report."
+      },
+      "victim": {
+        "bn": "এক প্রাপ্তবয়স্ক বাংলাদেশি পুরুষ; পরিচয় ও পরিবারের ব্যক্তিগত তথ্য পুনঃপ্রকাশ করা হয়নি",
+        "en": "One adult Bangladeshi man; identity and private family details are not republished"
+      },
+      "sources": [
+        {
+          "name": "Daily Sun",
+          "url": "https://www.daily-sun.com/bangladesh/909188/bangladeshi-youth-dies-in-portugal-after-10-days-in-coma",
+          "date": "2026-11-14",
+          "language": "en",
+          "type": "domestic_media_citing_Bangladesh_Embassy"
+        }
+      ],
+      "responses": [
+        {
+          "actor": {
+            "bn": "লিসবনে বাংলাদেশ দূতাবাস",
+            "en": "Bangladesh Embassy in Lisbon"
+          },
+          "response": {
+            "bn": "মৃত্যু নিশ্চিত করেছে, চিকিৎসার সময় হাসপাতালের সঙ্গে যোগাযোগ ও খোঁজ রেখেছে এবং প্রবাসীদের সড়কে সতর্ক থাকার আহ্বান জানিয়েছে।",
+            "en": "Confirmed the death, monitored treatment and maintained hospital contact, and urged expatriates to exercise road safety."
+          },
+          "source_url": "https://www.daily-sun.com/bangladesh/909188/bangladeshi-youth-dies-in-portugal-after-10-days-in-coma"
+        }
+      ],
+      "protests": [],
+      "follow_up": {
+        "bn": "পুলিশি তদন্ত, ক্ষতিপূরণ ও মরদেহ প্রত্যাবাসনের ফল অনুসরণ",
+        "en": "Track any police findings, compensation and repatriation outcome"
+      },
+      "reviewed_at": "2026-11-15T16:04:05.800Z",
+      "review_note": "Published media report citing Bangladesh Embassy; identity and private location details withheld.",
+      "translation_status": "summary_draft",
+      "nationality": "BD",
+      "nationality_basis": "Bangladesh_Embassy_in_Lisbon_confirmed_the_death_of_a_Bangladeshi"
     }
   ]
 }
