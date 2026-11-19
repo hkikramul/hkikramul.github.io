@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A mathematical and statistical guide to AI, machine learning, and search engines, with intuitive examples and a practical learning path.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>AI, Machine Learning, and Search Engines Through a Statistical Lens | Making Sense with Ikramul</title>
+<link rel="canonical" href="https://hkikramul.github.io/making-sense/ai-machine-learning-search-statistics.html">
+<link rel="stylesheet" href="/making-sense/style.css">
+<link rel="stylesheet" href="/making-sense/refresh.css">
+<link rel="stylesheet" href="/making-sense/article.css">
+<link rel="stylesheet" href="/assets/reading-shade.css">
+<link rel="stylesheet" href="/assets/site-tools.css">
+<link rel="stylesheet" href="/assets/legacy-layout.css">
+<script defer src="/assets/reading-shade.js"></script>
+<script defer src="/assets/site-tools.js"></script>
+<script defer src="/assets/privacy-media.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="newspaper-header">
+<div class="edition-line"><span>Statistics, mathematics, and research in plain language</span><a href="/">Academic profile ↗</a></div>
+<a class="newspaper-title" href="/making-sense/" aria-label="Making Sense with Ikramul — home">Making Sense<span>with Ikramul</span></a>
+<p class="masthead-deck">Understand the question. Follow the evidence.</p>
+<nav aria-label="Main navigation"><a href="/making-sense/">Home</a><a href="/making-sense/statistics.html">Learn / শিখুন</a><a href="/making-sense/research-explained.html">Research Explained</a><a href="/making-sense/reading.html">Reading</a><a href="/making-sense/?lang=en" lang="en" hreflang="en">English</a><a href="/making-sense/" lang="bn" hreflang="bn">বাংলা</a></nav>
+</header>
+<main id="main" class="article-page">
+<p class="eyebrow">STATISTICS · MATHEMATICS · COMPUTING</p>
+<h1>AI, Machine Learning, and Search Engines Through a Statistical Lens</h1>
+<p class="intro">Should we understand artificial intelligence mathematically, statistically, computationally, or intuitively? The strongest understanding combines these views. Each answers a different question about the same system.</p>
+<p class="micro">By Md. Ikramul Haq Khan · November 19, 2026 · Making Sense with Ikramul</p>
+
+<div class="takeaway"><p><strong>The short map:</strong> AI is the broad goal of building systems that perform tasks associated with intelligence. Machine learning is one way to build such systems by learning patterns from data. Statistics helps us reason about the data, estimates, uncertainty, and performance. A search engine is an information-retrieval system that may use statistics and machine learning to find and rank documents.</p></div>
+
+<nav class="contents" aria-label="Contents"><strong>In this essay</strong><ol><li><a href="#one-system">One system, several ways to understand it</a></li><li><a href="#ai">What AI means</a></li><li><a href="#ml">Machine learning as statistical learning</a></li><li><a href="#search">A search engine, step by step</a></li><li><a href="#lenses">What each learning lens contributes</a></li><li><a href="#example">A small worked example</a></li><li><a href="#path">A practical learning path</a></li></ol></nav>
+
+<section id="one-system">
+<h2>1. One system, several ways to understand it</h2>
+<p>Imagine typing <em>“good introduction to causal inference”</em> into a search engine. The system must interpret the words, search a very large collection of pages, estimate which pages might help, and decide what to show first. That single experience involves several different problems:</p>
+<ul><li><strong>Mathematics:</strong> How do we represent words, documents, and relevance? How do we calculate a score?</li><li><strong>Statistics:</strong> What can examples and user behavior tell us about usefulness? How uncertain are those conclusions?</li><li><strong>Computer science:</strong> How can we store and search billions of pages quickly?</li><li><strong>Numerical and computational work:</strong> Does the proposed method work on actual examples, and how does it behave when we change the data?</li><li><strong>Intuition:</strong> Does the result make sense to a person asking the question?</li></ul>
+<p>These are not rival explanations. A formula can describe a ranking rule, statistics can explain how it was learned and evaluated, computer science can make it fast enough to use, and intuition can help us judge whether the task and results are meaningful.</p>
+</section>
+
+<section id="ai">
+<h2>2. What “AI” means</h2>
+<p><strong>Artificial intelligence (AI)</strong> is a broad field concerned with building systems that carry out tasks such as recognizing patterns, understanding language, planning actions, answering questions, or generating text. “AI” describes a family of goals and approaches, rather than one particular mathematical model.</p>
+<p>Some AI systems use explicit rules: if a user asks for a weather forecast, retrieve the forecast from a weather service. Other systems learn from examples. Many combine both: a learned language model may interpret a request, while ordinary software rules determine what data can be accessed and how the answer is displayed.</p>
+<p>So AI is not simply another name for statistics. Statistics and probability are important foundations for many AI methods, especially those that learn from data. But AI also includes search algorithms, planning, logic, software engineering, and other ideas that are not statistical models.</p>
+</section>
+
+<section id="ml">
+<h2>3. Machine learning as statistical learning</h2>
+<p>In machine learning, a system uses examples to construct a rule. For a supervised learning problem, we observe pairs ((X_i,Y_i)): (X_i) represents information about an example, and (Y_i) is the outcome or label. The system estimates a function (hat f) that maps new inputs to predictions.</p>
+<p>For example, (X_i) might contain the words in a document, its language, and how often other pages link to it. (Y_i) might record whether a person judged that document relevant to a particular query. A model could use those examples to predict relevance for documents it has not seen before.</p>
+<p>A common training strategy chooses a model that minimizes the average loss on observed examples:</p>
+<p class="takeaway"><strong>Training loss:</strong> &nbsp; ( displaystyle rac{1}{n}sum_{i=1}^{n} Lig(Y_i,hat f(X_i)ig) )</p>
+<p>Here, (L) measures the cost of a prediction error. Yet fitting the observed sample is only part of the goal. We care about performance on future cases, drawn from some underlying population or process (P):</p>
+<p class="takeaway"><strong>Expected prediction risk:</strong> &nbsp; ( displaystyle mathbb{E}_{(X,Y)sim P}left[Lig(Y,hat f(X)ig)ight] )</p>
+<p>We usually do not know (P), so we estimate future performance using held-out data, cross-validation, or a prospective evaluation. This is where statistical thinking becomes essential. A model can fit its training data very well and still fail on new data. That gap is called a <strong>generalization problem</strong>.</p>
+<p>Mathematical statistics helps ask: How variable is the estimate? Which assumptions support it? Could the sample be biased? Does the model identify the quantity we care about? How does uncertainty change with sample size? Machine learning often emphasizes predictive performance and scalable algorithms; mathematical statistics also gives careful attention to estimation, uncertainty, assumptions, and the data-generating process. There is substantial overlap between the fields.</p>
+</section>
+
+<section id="search">
+<h2>4. A search engine, step by step</h2>
+<p>A search engine is first an <strong>information-retrieval system</strong>. Its job is to find useful items in a collection in response to a query. Machine learning can improve parts of that process, but the entire search engine is not one ML model.</p>
+<ol>
+<li><strong>Build an index.</strong> The system processes pages and stores searchable information about their words, links, language, and other features. Efficient data structures make it possible to search a huge collection without scanning every page one by one.</li>
+<li><strong>Retrieve candidates.</strong> Given a query, it quickly finds a smaller set of pages that might match. Keyword matching can do much of this work.</li>
+<li><strong>Score and rank.</strong> The system estimates which candidates are most useful and orders them. It may combine word match, freshness, location, page quality, and learned relevance signals.</li>
+<li><strong>Evaluate and improve.</strong> Engineers and researchers assess whether results help people. They may use relevance judgments, aggregate user behavior, experiments, and other measurements.</li>
+</ol>
+<p>One simple statistical description is to represent each query-document pair by a feature vector (x(q,d)), then estimate a score (s(q,d)). A score may be intended to order results; it is not automatically a calibrated probability. A separate model might estimate (P(R=1mid q,d)), where (R=1) means the document is relevant under a defined judgment process.</p>
+<p>Some ranking methods are mostly hand-designed. BM25, for example, scores documents using how query terms appear, while accounting for document length and how common each term is. Other systems use <strong>learning to rank</strong>, where examples help train a model to order documents. Neural language models and vector embeddings can represent meaning in ways that go beyond exact word matching, but they still need retrieval infrastructure, evaluation, and judgment about what “relevant” means.</p>
+<p>Search is also a decision problem. A system has limited screen space, so it must choose which results to show and in what order. A ranking objective can reward useful results near the top more than useful results far below. That objective encodes a choice about user value; it is not a neutral definition of truth.</p>
+</section>
+
+<section id="lenses">
+<h2>5. What each learning lens contributes</h2>
+<ul>
+<li><strong>Intuitive lens — What is the system trying to do?</strong> Translate the task into a human question. “Does this page answer the query?” is clearer than beginning with a neural-network architecture.</li>
+<li><strong>Mathematical lens — How is the task represented?</strong> Define inputs, outputs, scores, loss functions, constraints, and optimization. Linear algebra describes vectors and matrices; calculus helps explain how model parameters are adjusted.</li>
+<li><strong>Statistical lens — What do the data support?</strong> Examine sampling, measurement, uncertainty, selection bias, generalization, and the meaning of the target label. A relevance score is only as meaningful as the process used to define and measure relevance.</li>
+<li><strong>Numerical lens — What happens in a concrete case?</strong> Calculate scores for a few documents. See how changing a feature or a parameter changes the ranking. Small examples expose mistakes that are easy to hide in abstract notation.</li>
+<li><strong>Computational lens — Can the method run and be tested?</strong> Implement it, measure its speed and memory use, inspect errors, and test it on examples not used to fit it. Search systems must work at scale, so algorithmic efficiency matters.</li>
+<li><strong>Theoretical lens — Why should it work, and where might it fail?</strong> Study properties such as consistency, generalization bounds, identifiability, convergence, and sensitivity to assumptions. Theory gives conditional guarantees: it explains what follows if specified conditions hold.</li>
+</ul>
+<p>For most learners, a productive order is: intuition, formal definition, a small numerical example, a computational experiment, then theory. After that, revisit the intuition. The cycle often reveals that the first description of the problem was incomplete.</p>
+</section>
+
+<section id="example">
+<h2>6. A small worked example</h2>
+<p>Suppose a query asks for an introduction to causal inference. There are two candidate pages:</p>
+<ul><li><strong>Page A</strong> contains the exact phrase “causal inference,” is a beginner tutorial, and has a clear publication date.</li><li><strong>Page B</strong> is a technical paper with the phrase in its references, but little introductory explanation.</li></ul>
+<p>An intuitive judgment says A is likely more useful for this user. Mathematically, we could encode features such as phrase match, document type, and reading level. A simple model might calculate:</p>
+<p class="takeaway"><strong>Score</strong> (= eta_0 + eta_1(	ext{phrase match}) + eta_2(	ext{introductory}) + eta_3(	ext{technical paper}))</p>
+<p>The coefficients (eta) determine how much each feature affects the score. In a learning-to-rank system, data about queries and relevance judgments might be used to estimate those weights. If examples consistently show that introductory pages help users who ask for “introduction,” the model may learn a positive weight for the introductory feature.</p>
+<p>But the statistical question is: who supplied the relevance judgments, and how representative are those examples? The computational question is: can the system find the candidates quickly? The numerical question is: what scores do A and B receive? The theoretical question is: under what assumptions would the learned ranking perform well on future queries? The intuitive question remains: does the ranked list actually help this person?</p>
+<p>There may be no single objectively correct ranking. A researcher, a beginner, and a clinician may need different results from the same words. That means relevance can be contextual, and evaluation should make the intended user and task explicit.</p>
+</section>
+
+<section id="limits">
+<h2>7. Statistical caution: prediction is not explanation</h2>
+<p>A model that predicts which page a user will click does not necessarily explain why the page is useful. A model that predicts clicks from position may even learn the platform’s existing habits rather than independent relevance. In statistical language, observed clicks are affected by both document quality and the system’s decision to expose a document prominently.</p>
+<p>This is a form of <strong>selection and feedback bias</strong>: the system displays some results more often, receives more clicks on them, and may then treat those clicks as evidence that the same results should be displayed more often. Randomized experiments, careful logging, human relevance judgments, and methods that account for exposure can help, but each relies on its own assumptions.</p>
+<p>Likewise, a model that predicts an outcome well does not automatically identify a causal effect. Prediction asks what is likely to happen; causal inference asks what would change under an intervention. Those are different statistical questions.</p>
+</section>
+
+<section id="path">
+<h2>8. A practical learning path</h2>
+<p>If you want a strong mathematical-statistical understanding of AI and search, build the ideas in layers:</p>
+<ol>
+<li><strong>Probability and data:</strong> random variables, distributions, conditional probability, sampling, and dependence.</li>
+<li><strong>Statistical modeling:</strong> regression, classification, likelihood, estimation, regularization, uncertainty, and validation.</li>
+<li><strong>Mathematics for models:</strong> vectors and matrices, derivatives, optimization, and basic numerical methods.</li>
+<li><strong>Machine learning:</strong> supervised and unsupervised learning, tree-based models, neural networks, embeddings, and generalization.</li>
+<li><strong>Information retrieval:</strong> indexing, term weighting, BM25, vector search, ranking objectives, and relevance evaluation.</li>
+<li><strong>Computational practice:</strong> use a small dataset to build a baseline, inspect errors, compare methods, and document limitations.</li>
+<li><strong>Theory and responsibility:</strong> examine assumptions, fairness, privacy, feedback loops, distribution shift, and who benefits from the system’s objective.</li>
+</ol>
+<p>You do not need to master every layer before beginning. Choose a small question—such as whether a search method places introductory resources above technical papers—and explore it repeatedly through these lenses. A toy example can clarify the mathematics; a real dataset can expose the measurement problems; theory can explain why a result may or may not generalize.</p>
+</section>
+
+<section class="article-end">
+<h2>Conclusion</h2>
+<p>The best understanding is hybrid, but not unstructured. Begin with the task and its human meaning. Use mathematics to state it precisely, statistics to reason about evidence and uncertainty, numerical examples to build intuition, computation to test behavior, and theory to understand guarantees and limits.</p>
+<p>From this perspective, AI is not a mysterious single object. It is a collection of systems and choices. Machine learning supplies ways to learn from examples; statistics helps us assess what those examples can support; and search engines combine ranking ideas with large-scale information systems to decide what people see.</p>
+<p><a href="/making-sense/statistics.html">Explore the statistics lessons ↗</a> · <a href="/making-sense/research-explained.html">Read Research Explained ↗</a> · <a href="/making-sense/">Return to Making Sense ↗</a></p>
+</section>
+</main>
+<footer><p>Making Sense with Ikramul · Md. Ikramul Haq Khan</p><a href="/">Academic profile ↗</a><p class="micro">An independent educational project; not an official UNLV website. © 2026 Md. Ikramul Haq Khan.</p></footer>
+</body>
+</html>
