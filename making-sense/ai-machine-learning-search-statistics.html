@@ -54,9 +54,9 @@
 <p>In machine learning, a system uses examples to construct a rule. For a supervised learning problem, we observe pairs ((X_i,Y_i)): (X_i) represents information about an example, and (Y_i) is the outcome or label. The system estimates a function (hat f) that maps new inputs to predictions.</p>
 <p>For example, (X_i) might contain the words in a document, its language, and how often other pages link to it. (Y_i) might record whether a person judged that document relevant to a particular query. A model could use those examples to predict relevance for documents it has not seen before.</p>
 <p>A common training strategy chooses a model that minimizes the average loss on observed examples:</p>
-<p class="takeaway"><strong>Training loss:</strong> &nbsp; ( displaystyle rac{1}{n}sum_{i=1}^{n} Lig(Y_i,hat f(X_i)ig) )</p>
+<p class="takeaway"><strong>Training loss:</strong> &nbsp; <code>(1/n) Σᵢ₌₁ⁿ L(Yᵢ, f̂(Xᵢ))</code></p>
 <p>Here, (L) measures the cost of a prediction error. Yet fitting the observed sample is only part of the goal. We care about performance on future cases, drawn from some underlying population or process (P):</p>
-<p class="takeaway"><strong>Expected prediction risk:</strong> &nbsp; ( displaystyle mathbb{E}_{(X,Y)sim P}left[Lig(Y,hat f(X)ig)ight] )</p>
+<p class="takeaway"><strong>Expected prediction risk:</strong> &nbsp; <code>E<sub>(X,Y)∼P</sub>[L(Y, f̂(X))]</code></p>
 <p>We usually do not know (P), so we estimate future performance using held-out data, cross-validation, or a prospective evaluation. This is where statistical thinking becomes essential. A model can fit its training data very well and still fail on new data. That gap is called a <strong>generalization problem</strong>.</p>
 <p>Mathematical statistics helps ask: How variable is the estimate? Which assumptions support it? Could the sample be biased? Does the model identify the quantity we care about? How does uncertainty change with sample size? Machine learning often emphasizes predictive performance and scalable algorithms; mathematical statistics also gives careful attention to estimation, uncertainty, assumptions, and the data-generating process. There is substantial overlap between the fields.</p>
 </section>
