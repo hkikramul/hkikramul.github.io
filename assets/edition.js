@@ -26,7 +26,7 @@ Promise.all([(shared?fetch(shared).then(r=>r.ok?r.json():{}):Promise.resolve({})
  if(lang==='en'){for(const el of document.body.querySelectorAll('[lang=bn]')){if(!el.hreflang&&!el.closest('.site-tools'))el.lang='en';}}
  if(location.hash){requestAnimationFrame(()=>{try{document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({block:'start',behavior:'auto'})}catch{}})}
  if(lang==='en'&&location.pathname.startsWith('/east-bengal-renaissance/')){for(const a of document.querySelectorAll('header nav a[hreflang=en]')){a.textContent='বাংলা';a.href=document.documentElement.dataset.bilingualBase||location.pathname;a.hreflang='bn';a.lang='bn';}}
- if(lang==='en'){const h=document.querySelector('main h1');if(h)document.title=h.textContent.trim()+' | '+(location.pathname.startsWith('/making-sense/')?'Making Sense':'East Bengal Renaissance');const canonical=document.querySelector('link[rel=canonical]');if(canonical)canonical.href=location.origin+location.pathname+'?lang=en';}
+ if(lang==='en'){const h=document.querySelector('main h1');if(h)document.title=h.textContent.trim()+' | '+(location.pathname.startsWith('/making-sense/')?'Biggan Jiggasha':'East Bengal Renaissance');const canonical=document.querySelector('link[rel=canonical]');if(canonical)canonical.href=location.origin+location.pathname+'?lang=en';}
  const observer=new MutationObserver(records=>{observer.disconnect();for(const r of records){if(r.type==='characterData')translate(r.target);for(const n of r.addedNodes)translate(n)}observe()});
  function observe(){observer.observe(document.body,{subtree:true,childList:true,characterData:true})}observe();
  // Keep the edition while navigating within this publication, except explicit language choices.
