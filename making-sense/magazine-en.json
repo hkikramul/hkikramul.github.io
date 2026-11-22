@@ -40,5 +40,22 @@
   "ভাবুন, একটি দানা ওপর থেকে পড়ছে। প্রতিটি সারিতে একটি পেরেকের ধাক্কায় সেটি বাঁয়ে বা ডানে যায়। আদর্শ মডেলে ধরে নিই, দুই দিকের সম্ভাবনা সমান এবং আগের ধাক্কা পরেরটির দিক নির্ধারণ করে না।": "Imagine a bead falling through rows of pins. At each row it moves left or right. In the ideal model both directions are equally likely, and earlier turns do not determine the next one.",
   "মাত্র দুই সারি দিয়ে শুরু করা যাক। সম্ভাব্য পথ চারটি—বাঁ-বাঁ, বাঁ-ডান, ডান-বাঁ আর ডান-ডান। মাঝের ঘরে পৌঁছানোর পথ দুটি। দুই প্রান্তে পৌঁছানোর পথ একটি করে। ফলে মাঝের ঘরের সম্ভাবনা অর্ধেক, আর দুই প্রান্তের প্রতিটির এক-চতুর্থাংশ।": "Start with two rows. The four possible paths are left-left, left-right, right-left and right-right. Two lead to the middle and one leads to each edge. The middle therefore has probability one half, and each edge one quarter.",
   "চার সারিতে পথ হয় ১৬টি। একেবারে বাঁ দিক থেকে ঘরগুলোর জন্য পথের সংখ্যা যথাক্রমে ১, ৪, ৬, ৪, ১। মাঝের ঘরের জন্য দরকার দুবার ডান আর দুবার বাঁ। কোন দুবার ডান হবে, তা বেছে নেওয়ার উপায় ছয়টি।": "With four rows there are sixteen paths. From left to right the bins receive one, four, six, four and one possible paths. The middle requires two right turns and two left turns. There are six ways to choose the two right turns.",
-  "অনেক দানা ফেললে এই অনুপাতের কাছাকাছি ফল পাওয়ার কথা। একটি নির্দিষ্ট দানার গন্তব্য অনিশ্চিত হলেও দল হিসেবে তাদের বণ্টন নিয়ে তাই পূর্বাভাস দেওয়া যায়। বাস্তব বোর্ডে ঘর্ষণ বা সামান্য হেলান ফল বদলে দিতে পারে। মডেলটি যাচাইয়ের সহজ উপায় হলো ঘর ধরে দানা গুনে প্রত্যাশিত অনুপাতের সঙ্গে মিলিয়ে দেখা।": "After many drops, the proportions should approach these probabilities. An individual destination is uncertain, yet the group distribution is predictable. Friction or a tilted board can alter the result. Count the beads in each bin and compare the observed proportions with the model."
+  "অনেক দানা ফেললে এই অনুপাতের কাছাকাছি ফল পাওয়ার কথা। একটি নির্দিষ্ট দানার গন্তব্য অনিশ্চিত হলেও দল হিসেবে তাদের বণ্টন নিয়ে তাই পূর্বাভাস দেওয়া যায়। বাস্তব বোর্ডে ঘর্ষণ বা সামান্য হেলান ফল বদলে দিতে পারে। মডেলটি যাচাইয়ের সহজ উপায় হলো ঘর ধরে দানা গুনে প্রত্যাশিত অনুপাতের সঙ্গে মিলিয়ে দেখা।": "After many drops, the proportions should approach these probabilities. An individual destination is uncertain, yet the group distribution is predictable. Friction or a tilted board can alter the result. Count the beads in each bin and compare the observed proportions with the model.",
+  "প্রকৃতি ও জীবন": "Nature and life",
+  "বাংলাদেশের খাবারে মাইক্রোপ্লাস্টিক": "Microplastics in food in Bangladesh",
+  "মানুষের ইন্দ্রিয় ও চেতনা": "Human senses and consciousness",
+  "নাচ ও মানসিক স্বাস্থ্য নিয়ে গবেষণা": "What research says about dance and mental health",
+  "গণিত ও তথ্য": "Mathematics and data",
+  "গ্যালটন বোর্ডে সম্ভাবনা": "Probability on a Galton board",
+  "উচ্চতর পরিসংখ্যান": "Advanced statistics",
+  "প্রধান উপাদান বিশ্লেষণ": "Principal component analysis",
+  "রিগ্রেশন বিশ্লেষণের নির্দেশিকা": "A regression analysis protocol",
+  "প্রযুক্তি ও গবেষণা": "Technology and research",
+  "কৃত্রিম সংবেদন ও এআই": "Artificial sensing and AI",
+  "গবেষণার ফল বুঝুন": "Reading research findings",
+  "গবেষণার উপকরণ খুঁজুন": "Search the study resources",
+  "পাঠতালিকা": "Reading lists",
+  "শিক্ষকদের জন্য": "For educators",
+  "ক্লিনিক্যাল গবেষণা ও পেশাগত উপকরণ": "Clinical research and career resources",
+  "বিষয় ধরে পড়ুন": "Browse by subject"
 }

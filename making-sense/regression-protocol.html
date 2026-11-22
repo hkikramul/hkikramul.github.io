@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Comprehensive Regression Protocol: Theory, Computation, and Reporting | Md. Ikramul Haq Khan, GStat</title>
+<meta name="description" content="A theoretical and computational regression protocol for researchers: estimands, assumptions, validation, inference, causal identification, fairness, reproducibility, and deployment, with references.">
+<link rel="canonical" href="https://hkikramul.github.io/making-sense/regression-protocol.html">
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+<style>
+  :root {
+    --ink: #1d2330;
+    --muted: #5b6475;
+    --paper: #fbfaf7;
+    --panel: #ffffff;
+    --line: #e4e0d6;
+    --accent: #7a1f2b;
+    --accent-2: #1f4e79;
+    --code-bg: #f3f1ec;
+    --note-bg: #f6f1e6;
+    --max: 880px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    margin: 0;
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--ink);
+    background: var(--paper);
+  }
+  a { color: var(--accent-2); }
+  header.site {
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+    padding: 14px 20px;
+    position: sticky; top: 0; z-index: 10;
+  }
+  header.site .wrap { max-width: 1100px; margin: 0 auto; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; }
+  header.site .brand { font-weight: 700; color: var(--ink); text-decoration: none; margin-right: auto; }
+  header.site nav a { color: var(--muted); text-decoration: none; margin-left: 12px; }
+  header.site nav a:hover { color: var(--accent); }
+  main { max-width: var(--max); margin: 0 auto; padding: 40px 22px 80px; }
+  .eyebrow { font-family: system-ui, sans-serif; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 8px; }
+  h1 { font-size: 2.2rem; line-height: 1.2; margin: 0 0 12px; font-weight: 700; }
+  h2 { font-size: 1.55rem; margin: 56px 0 14px; padding-top: 12px; border-top: 2px solid var(--ink); }
+  h3 { font-size: 1.2rem; margin: 30px 0 8px; }
+  h4 { font-size: 1rem; margin: 20px 0 6px; font-family: system-ui, sans-serif; color: var(--accent-2); }
+  p.lead { font-size: 1.12rem; color: var(--muted); }
+  .meta { font-family: system-ui, sans-serif; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 10px 0; margin: 22px 0 30px; }
+  .toc { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px 22px; font-family: system-ui, sans-serif; font-size: 14.5px; }
+  .toc h2 { font-size: 1rem; margin: 0 0 8px; border: 0; padding: 0; font-family: system-ui, sans-serif; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  .toc ol { margin: 0; padding-left: 20px; columns: 2; }
+  .toc li { margin: 3px 0; break-inside: avoid; }
+  .toc a { text-decoration: none; }
+  .part { font-family: system-ui, sans-serif; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-top: 60px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px 22px; margin: 18px 0; }
+  .note { background: var(--note-bg); border-left: 4px solid var(--accent); padding: 12px 16px; margin: 18px 0; border-radius: 0 6px 6px 0; font-size: 16px; }
+  .gate { background: #eef4ec; border-left: 4px solid #3d7a3a; padding: 10px 16px; margin: 14px 0; border-radius: 0 6px 6px 0; font-family: system-ui, sans-serif; font-size: 14.5px; }
+  .gate strong { color: #2d5c2b; }
+  .why { font-family: system-ui, sans-serif; font-size: 14.5px; color: var(--muted); margin: 4px 0 10px; }
+  .formula { overflow-x: auto; padding: 6px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 18px 0; font-size: 15px; font-family: system-ui, sans-serif; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f1eee6; }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9em; background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
+  pre { background: #1e2330; color: #e8ecf5; padding: 16px 18px; border-radius: 8px; overflow-x: auto; font-size: 13.5px; line-height: 1.5; }
+  pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 5px 0; }
+  .refs { font-size: 15px; }
+  .refs li { margin: 9px 0; padding-left: 4px; }
+  .refs h3 { margin-top: 28px; }
+  footer { max-width: var(--max); margin: 0 auto; padding: 24px 22px 60px; font-family: system-ui, sans-serif; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); }
+  @media (max-width: 640px) {
+    h1 { font-size: 1.8rem; }
+    .toc ol { columns: 1; }
+    body { font-size: 16px; }
+  }
+</style>
+<link rel="stylesheet" href="/assets/three-sites.css"></head>
+<body>
+
+<header class="transfer-nav"><a href="/making-sense/">বিজ্ঞানজিজ্ঞাসা · Biggan Jiggasha</a><nav><a href="/making-sense/#topics">পাঠাগার / Library</a> <a href="/making-sense/#about">পরিচয় / About</a></nav></header><main id="main">
+
+<p class="eyebrow">Methods note · Protocol v1.0</p>
+<h1>A Comprehensive Regression Protocol</h1>
+<p class="lead">Theory, computation, and reporting standards for researchers, from prediction and inference to causal estimation, validation, and deployment.</p>
+
+<div class="meta">
+  Md. Ikramul Haq Khan, GStat · Department of Mathematical Sciences, UNLV · Version 1.0 · November 2026 ·
+  Intended for research, teaching, and applied practice. Not legal or regulatory advice.
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#t0">Principles and the estimand</a></li>
+    <li><a href="#t1">Linear model theory</a></li>
+    <li><a href="#t2">Bias, variance, and regularization</a></li>
+    <li><a href="#t3">Likelihood and generalized models</a></li>
+    <li><a href="#t4">Uncertainty and conformal prediction</a></li>
+    <li><a href="#t5">Causal identification</a></li>
+    <li><a href="#t6">Validity and evaluation theory</a></li>
+    <li><a href="#p0">Stage 0: Pre-registration</a></li>
+    <li><a href="#p1">Stage 1: Data governance</a></li>
+    <li><a href="#p2">Stage 2: Audit and exploration</a></li>
+    <li><a href="#p3">Stage 3: Splitting</a></li>
+    <li><a href="#p4">Stage 4: Preprocessing</a></li>
+    <li><a href="#p5">Stage 5: Model ladder</a></li>
+    <li><a href="#p6">Stage 6: Tuning and nested validation</a></li>
+    <li><a href="#p7">Stage 7: Metrics</a></li>
+    <li><a href="#p8">Stage 8: Diagnostics</a></li>
+    <li><a href="#p9">Stage 9: Inference and uncertainty</a></li>
+    <li><a href="#p10">Stage 10: Causal analysis</a></li>
+    <li><a href="#p11">Stage 11: Robustness</a></li>
+    <li><a href="#p12">Stage 12: Fairness and ethics</a></li>
+    <li><a href="#p13">Stage 13: Final test evaluation</a></li>
+    <li><a href="#p14">Stage 14: Reproducibility</a></li>
+    <li><a href="#p15">Stage 15: Reporting</a></li>
+    <li><a href="#p16">Stage 16: Deployment and monitoring</a></li>
+    <li><a href="#c0">Computational environment</a></li>
+    <li><a href="#c1">Reference pipeline (R)</a></li>
+    <li><a href="#c2">Diagnostics and inference code</a></li>
+    <li><a href="#c3">Conformal and bootstrap code</a></li>
+    <li><a href="#c4">Checklist and templates</a></li>
+    <li><a href="#refs">References</a></li>
+  </ol>
+</div>
+
+<!-- ===================================================== -->
+<p class="part" id="partA">Part A · Theoretical foundations</p>
+
+<h2 id="t0">0. Principles and the estimand</h2>
+
+<p>Every regression answers a question, and the question determines the method. Three goals are commonly confused:</p>
+<ul>
+  <li><strong>Prediction:</strong> estimate \(\mathbb{E}[Y \mid X = x]\) or a conditional quantile for new units, and judge the result by out-of-sample loss (Shmueli, 2010; Breiman, 2001).</li>
+  <li><strong>Description or association:</strong> summarize how \(\mathbb{E}[Y \mid X]\) varies with \(X\). Coefficients are conditional associations, not effects.</li>
+  <li><strong>Causal effect:</strong> estimate what would happen to \(Y\) under an intervention on \(X\), for example \(\mathbb{E}[Y(1) - Y(0)]\) (Hernán and Robins, 2020; Pearl, 2009).</li>
+</ul>
+
+<p>A model can predict well and still give a biased causal estimate, because adjusting for the wrong variables can make bias worse. The protocol therefore requires that the <em>estimand</em> (the population quantity being estimated) be written down before the data are touched.</p>
+
+<div class="card">
+  <h4>Formal target</h4>
+  <div class="formula">\[
+  \theta^\star = \arg\min_{\theta} \; \mathbb{E}_{P}\big[ \ell(Y, f_\theta(X)) \big]
+  \]</div>
+  <p>Here \(\ell\) is the loss, \(P\) is the population the model is meant to serve, and \(\theta^\star\) is the best-approximating parameter under that loss. Choosing \(\ell\) (squared error, absolute error, pinball, log score) defines what "best" means. Choosing \(P\) defines where the result is supposed to hold, which is the source of most external-validity failures.</p>
+</div>
+
+<div class="note"><strong>Expert point.</strong> Many failures come from a mismatch between the estimand and the metric. Optimizing RMSE estimates the conditional mean, but a clinical threshold decision may need the conditional probability of exceeding a value, and a capacity planner may need an upper quantile. Choose the functional first, then the loss that is consistent with it (Gneiting and Raftery, 2007).</div>
+
+<h2 id="t1">1. Linear model theory</h2>
+
+<h3>1.1 Model and estimator</h3>
+<p>For \(n\) observations, the linear model is \(y = X\beta + \varepsilon\), where \(X\) is \(n \times p\). The ordinary least squares (OLS) estimator is</p>
+<div class="formula">\[
+\hat\beta = (X^\top X)^{-1} X^\top y, \qquad \hat\sigma^2 = \frac{\lVert y - X\hat\beta \rVert^2}{n - p}.
+\]</div>
+<p>Under the Gauss-Markov conditions (linearity in parameters, strict exogeneity \(\mathbb{E}[\varepsilon \mid X] = 0\), no perfect multicollinearity, and \(\operatorname{Var}(\varepsilon \mid X) = \sigma^2 I\)), \(\hat\beta\) is the best linear unbiased estimator (BLUE). Under normal errors it is also the maximum likelihood estimator and has exact \(t\) and \(F\) distributions.</p>
+
+<h3>1.2 What each assumption buys</h3>
+<table>
+  <tr><th>Assumption</th><th>Needed for</th><th>Consequence if violated</th></tr>
+  <tr><td>Linearity in parameters</td><td>Unbiasedness of the linear form</td><td>Biased coefficients as approximations; use splines or GAMs</td></tr>
+  <tr><td>Strict exogeneity</td><td>Unbiased and consistent \(\hat\beta\)</td><td>Omitted-variable, measurement-error, or simultaneity bias; needs causal design</td></tr>
+  <tr><td>Full rank \(X\)</td><td>Identification of \(\beta\)</td><td>Non-unique estimates; use penalization or drop redundant terms</td></tr>
+  <tr><td>Homoscedasticity</td><td>Efficiency and classical SEs</td><td>\(\hat\beta\) still unbiased, but SEs wrong; use HC3</td></tr>
+  <tr><td>Independence</td><td>Valid SEs and tests</td><td>Understated uncertainty; use cluster, HAC, or mixed models</td></tr>
+  <tr><td>Normal errors</td><td>Exact small-sample inference</td><td>Asymptotic inference still valid under mild conditions</td></tr>
+</table>
+
+<h3>1.3 Asymptotics and robust covariance</h3>
+<p>Under regularity conditions, \(\sqrt{n}(\hat\beta - \beta) \xrightarrow{d} \mathcal{N}(0, \Sigma)\). The heteroskedasticity-robust (sandwich) covariance is</p>
+<div class="formula">\[
+\widehat{\operatorname{Var}}(\hat\beta) = (X^\top X)^{-1} \Big( \sum_i w_i\, x_i x_i^\top e_i^2 \Big) (X^\top X)^{-1},
+\]</div>
+<p>with \(w_i = 1\) for HC0 (White, 1980), and \(w_i = 1/(1-h_{ii})^2\) for HC3 (MacKinnon and White, 1985), where \(h_{ii}\) is the leverage. HC3 is the recommended default in small samples because it corrects for the tendency of residuals to understate their variance at high-leverage points.</p>
+
+<h3>1.4 Predictive intervals and the difference from confidence intervals</h3>
+<p>A confidence interval for the conditional mean \(x_0^\top\beta\) has width driven by \(\operatorname{Var}(x_0^\top \hat\beta)\). A prediction interval for a new observation \(y_0\) adds the irreducible noise \(\sigma^2\):</p>
+<div class="formula">\[
+\operatorname{Var}(y_0 - \hat y_0) = \sigma^2 \big(1 + x_0^\top (X^\top X)^{-1} x_0\big).
+\]</div>
+<p>Reporting a confidence band as if it were a prediction band is one of the most common errors in applied work.</p>
+
+<h2 id="t2">2. Bias, variance, and regularization</h2>
+
+<h3>2.1 Decomposition</h3>
+<p>For a fixed test point \(x_0\) and a training-set-dependent estimator \(\hat f\),</p>
+<div class="formula">\[
+\mathbb{E}\big[(y_0 - \hat f(x_0))^2\big] = \underbrace{\big(\mathbb{E}[\hat f(x_0)] - f(x_0)\big)^2}_{\text{bias}^2} + \underbrace{\operatorname{Var}[\hat f(x_0)]}_{\text{variance}} + \underbrace{\sigma^2}_{\text{irreducible}}.
+\]</div>
+<p>Flexible models lower bias and raise variance. Regularization deliberately accepts some bias to reduce variance, which lowers total error when the signal-to-noise ratio is modest or the number of predictors is large relative to \(n\) (Hastie, Tibshirani, and Friedman, 2009).</p>
+
+<h3>2.2 Penalized estimators</h3>
+<p>Each penalty solves \(\min_\beta \lVert y - X\beta \rVert^2 + \text{penalty}\), with penalty choices:</p>
+<ul>
+  <li><strong>Ridge</strong> (\(\lambda \lVert\beta\rVert_2^2\)): closed form \(\hat\beta_\lambda = (X^\top X + \lambda I)^{-1} X^\top y\). Stable under collinearity; shrinks but does not select (Hoerl and Kennard, 1970).</li>
+  <li><strong>Lasso</strong> (\(\lambda \lVert\beta\rVert_1\)): sparse solutions and selection; unstable when predictors are highly correlated (Tibshirani, 1996).</li>
+  <li><strong>Elastic net</strong> (\(\lambda[\alpha\lVert\beta\rVert_1 + \tfrac{1-\alpha}{2}\lVert\beta\rVert_2^2]\)): groups correlated predictors and selects; a good default when \(p\) is large (Zou and Hastie, 2005).</li>
+</ul>
+<p>Penalized coefficients are biased toward zero. Post-selection inference based on the same data is not valid without specialized methods (Lee et al., 2016), so selection and inference should be separated: select in one sample or fold and estimate in another, or use debiased or double-selection procedures.</p>
+
+<h3>2.3 Bayesian view</h3>
+<p>Ridge is the posterior mode under a Gaussian prior \(\beta \sim \mathcal{N}(0, \sigma^2/\lambda\, I)\), and the lasso corresponds to a Laplace prior. Full Bayesian regression yields a posterior \(p(\beta \mid y)\) that propagates uncertainty without relying on asymptotics, which is valuable with small \(n\) or hierarchical structure (Gelman et al., 2013).</p>
+
+<h2 id="t3">3. Likelihood and generalized models</h2>
+
+<p>Choose the distribution to match the outcome, then the link function to match the scale of effects. Fit by maximum likelihood with iteratively reweighted least squares (IRLS).</p>
+<table>
+  <tr><th>Outcome</th><th>Family and link</th><th>Check</th></tr>
+  <tr><td>Continuous, symmetric</td><td>Gaussian, identity</td><td>Residual normality, heteroskedasticity</td></tr>
+  <tr><td>Positive, right-skewed</td><td>Gamma, log; or log-normal on \(\log y\)</td><td>Variance proportional to mean squared</td></tr>
+  <tr><td>Counts</td><td>Poisson, log; negative binomial if overdispersed</td><td>Dispersion \(\hat\phi = \chi^2 / (n-p)\) near 1</td></tr>
+  <tr><td>Binary or proportions</td><td>Binomial, logit</td><td>Calibration, separation</td></tr>
+  <tr><td>Zero-inflated counts</td><td>Hurdle or zero-inflated models</td><td>Excess zeros relative to fitted family</td></tr>
+  <tr><td>Time to event</td><td>Cox or parametric survival</td><td>Proportional hazards, censoring mechanism</td></tr>
+</table>
+
+<h3>3.1 Quasi-likelihood</h3>
+<p>When the mean is correctly specified but the variance is not, quasi-likelihood estimates \(\beta\) consistently with \(\operatorname{Var}(y) = \phi\, V(\mu)\), and the dispersion \(\phi\) is estimated from the data. Use sandwich SEs for robustness (Wedderburn, 1974).</p>
+
+<h3>3.2 Quantile regression</h3>
+<p>For a conditional quantile \(\tau \in (0,1)\), minimize the check (pinball) loss \(\rho_\tau(u) = u(\tau - \mathbf{1}\{u &lt; 0\})\) (Koenker and Bassett, 1978). This describes the whole conditional distribution rather than only its mean, and it is the basis for interval prediction and heteroskedasticity-aware modeling.</p>
+
+<h3>3.3 Hierarchical and mixed models</h3>
+<p>For grouped data \(y_{ij} = x_{ij}^\top\beta + b_j + \varepsilon_{ij}\) with \(b_j \sim \mathcal{N}(0, \tau^2)\), the random effects produce partial pooling: group estimates shrink toward the overall mean in proportion to their noise. Ignoring the grouping gives overly narrow standard errors. Observations within a group are not independent, and the independence assumption must be addressed explicitly.</p>
+
+<h2 id="t4">4. Uncertainty and conformal prediction</h2>
+
+<h3>4.1 Frequentist, Bayesian, and resampling intervals</h3>
+<p>Three legitimate routes to uncertainty exist: asymptotic SEs (fast but dependent on the model being right), the bootstrap (Efron and Tibshirani, 1993), and posterior intervals (dependent on the prior and likelihood). Each makes different assumptions; the report should say which was used and why.</p>
+
+<h3>4.2 Conformal prediction</h3>
+<p>Conformal prediction gives distribution-free finite-sample coverage. Given a calibration set and a nonconformity score \(s(x,y) = |y - \hat f(x)|\), let \(q\) be the \(\lceil (n_{\text{cal}}+1)(1-\alpha)\rceil / n_{\text{cal}}\) empirical quantile of the calibration scores. Then the interval \(\hat f(x_0) \pm q\) satisfies</p>
+<div class="formula">\[
+\mathbb{P}\big(Y_{n+1} \in C(X_{n+1})\big) \geq 1 - \alpha
+\]</div>
+<p>whenever the data are exchangeable (Vovk, Gammerman, and Shafer, 2005; Angelopoulos and Bates, 2023). The guarantee is <em>marginal</em>: it averages over \(x\). Coverage can still fail for particular subgroups, so conditional coverage must be checked empirically. Conformalized quantile regression (Romano, Patterson, and Candès, 2019) produces adaptive-width intervals. Under distribution shift or temporal dependence, use weighted or adaptive variants and state the assumption that is in use.</p>
+
+<h2 id="t5">5. Causal identification</h2>
+
+<p>A regression coefficient is a causal effect only under explicit assumptions. Write them before estimating:</p>
+<ul>
+  <li><strong>Consistency:</strong> the observed outcome under treatment \(a\) equals \(Y(a)\) for units with \(A = a\).</li>
+  <li><strong>Conditional exchangeability (no unmeasured confounding):</strong> \(Y(a) \perp A \mid X\).</li>
+  <li><strong>Positivity (overlap):</strong> \(0 &lt; \mathbb{P}(A = 1 \mid X) &lt; 1\) for all covariate strata in the population of interest.</li>
+  <li><strong>No interference (SUTVA):</strong> one unit's treatment does not change another unit's outcome, or the model accounts for it.</li>
+</ul>
+
+<h3>5.1 Graphical criteria</h3>
+<p>A directed acyclic graph (DAG) encodes these assumptions. The back-door criterion identifies a set \(Z\) that blocks all back-door paths from \(A\) to \(Y\) and contains no descendants of \(A\). Adjusting for mediators blocks the effect of interest; adjusting for colliders opens spurious paths. Covariate selection by p-value or by \(R^2\) is not a substitute for this reasoning.</p>
+
+<h3>5.2 Estimators</h3>
+<ul>
+  <li><strong>Outcome regression and g-computation:</strong> model \(\mathbb{E}[Y \mid A, X]\) and average predictions under each treatment.</li>
+  <li><strong>Propensity methods:</strong> weighting, matching, or stratification on \(e(X) = \mathbb{P}(A=1 \mid X)\) (Rosenbaum and Rubin, 1983).</li>
+  <li><strong>Doubly robust estimators:</strong> consistent if either the outcome or the propensity model is correct (Robins, Rotnitzky, and Zhao, 1994; Bang and Robins, 2005).</li>
+  <li><strong>Double/debiased machine learning:</strong> cross-fitted nuisance estimates with Neyman-orthogonal scores allow flexible adjustment while keeping \(\sqrt{n}\)-consistent inference for a low-dimensional parameter (Chernozhukov et al., 2018).</li>
+  <li><strong>Quasi-experimental designs:</strong> difference-in-differences (with parallel-trends evidence), regression discontinuity, instrumental variables (with a first-stage F above about 10 as a rough guide, and an exclusion restriction argued from theory), and synthetic control (Angrist and Pischke, 2009; Cunningham, 2021).</li>
+</ul>
+
+<h3>5.3 Sensitivity to unmeasured confounding</h3>
+<p>For a risk ratio \(RR \geq 1\), the E-value is \(E = RR + \sqrt{RR(RR - 1)}\), the minimum strength of association that an unmeasured confounder would need with both treatment and outcome to explain away the estimate (VanderWeele and Ding, 2017). Report it alongside the estimate, and interpret it cautiously.</p>
+
+<h2 id="t6">6. Validity and evaluation theory</h2>
+
+<h3>6.1 Types of validity</h3>
+<ul>
+  <li><strong>Internal validity:</strong> is the estimate correct for the sample studied (no leakage, correct specification, adequate adjustment)?</li>
+  <li><strong>Statistical conclusion validity:</strong> are the uncertainty statements correct (SEs, tests, interval coverage)?</li>
+  <li><strong>External validity:</strong> does the result transport to other populations, sites, or times? This is often the weakest link (Steyerberg, 2019).</li>
+  <li><strong>Construct validity:</strong> do the measured variables represent the intended concepts?</li>
+</ul>
+
+<h3>6.2 Proper scoring rules</h3>
+<p>A scoring rule \(S(F, y)\) for a predictive distribution \(F\) is <em>proper</em> if its expected value is uniquely minimized (or maximized) by the true distribution. Examples include the log score \(-\log f(y)\) and the continuous ranked probability score (CRPS). Improper rules can reward miscalibrated forecasts, so they should not be used alone. Calibration (agreement between predicted and observed frequencies) and sharpness (concentration of the predictions) should be reported together.</p>
+
+<h3>6.3 Comparing two models</h3>
+<p>For paired forecast losses \(d_t = L(e_{1t}) - L(e_{2t})\), the Diebold-Mariano statistic is \(\text{DM} = \bar d / \sqrt{\widehat{\operatorname{LRV}}/T}\), where \(\widehat{\operatorname{LRV}}\) is a long-run variance estimate (Diebold and Mariano, 1995). Cross-validation folds are not independent, so paired fold comparisons should be interpreted with corrected tests or with nested designs.</p>
+
+<div class="note"><strong>On p-values.</strong> A p-value is the probability of data at least as extreme as observed, under a stated model and null. It is not the probability that the hypothesis is true, and it does not measure effect size. The ASA statement (Wasserstein and Lazar, 2016) and its follow-up (Wasserstein, Schirm, and Lazar, 2019) remain the standard references. Report effect sizes with intervals and treat thresholds as one input among several.</div>
+
+<!-- ===================================================== -->
+<p class="part" id="partB">Part B · The protocol, stage by stage</p>
+
+<h2 id="p0">Stage 0. Pre-registration and scope</h2>
+<p class="why">Purpose: fix the question, the estimand, the metric, and the baseline before outcome data are examined, to limit the garden of forking paths (Gelman and Loken, 2013; Nosek et al., 2018).</p>
+<ol>
+  <li>State the goal: prediction, association, or causal effect (Section 0).</li>
+  <li>Define the target variable, its scale, support, and any censoring or truncation.</li>
+  <li>Define the unit of analysis and the target population \(P\).</li>
+  <li>Set the primary metric, the secondary metrics, and the naive baseline (mean predictor, last value, or a simple OLS on the key covariates).</li>
+  <li>Record decision impact: what action follows, and the asymmetry of errors.</li>
+  <li>For prediction models, do a sample-size justification (Riley et al., 2020) rather than a rule of thumb.</li>
+  <li>Lock the analysis plan in a dated, versioned file. Record any later deviation with a reason.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Question, estimand, target, metric, baseline, and sample-size rationale are written and dated.</div>
+
+<h2 id="p1">Stage 1. Data governance and provenance</h2>
+<p class="why">Purpose: ensure the data may be used, are traceable, and can be defended.</p>
+<ol>
+  <li><strong>Lineage:</strong> source, extraction date, query text, and every transformation, in code.</li>
+  <li><strong>Privacy:</strong> identify personal data and apply the relevant regime (GDPR, HIPAA, FERPA, CCPA). Use the minimum necessary fields, de-identification (Safe Harbor or Expert Determination under HIPAA), and access controls.</li>
+  <li><strong>Licensing and consent:</strong> confirm the terms of use, particularly for scraped data, survey microdata, and third-party platforms.</li>
+  <li><strong>Data contracts:</strong> define schema, types, units, ranges, and freshness; enforce them with the R packages pointblank or validate (or dbt tests for SQL pipelines).</li>
+  <li><strong>Complex survey data:</strong> retain the sampling weights, strata, and clusters, and analyze with design-based methods (Lumley, 2010), not as simple random samples.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Provenance documented; privacy, licensing, and survey design recorded.</div>
+
+<h2 id="p2">Stage 2. Data audit and exploratory analysis</h2>
+<p class="why">Purpose: find errors, missingness, and leakage before they shape the model.</p>
+<ol>
+  <li><strong>Structure:</strong> row and column counts, dtypes, duplicate keys, and unit consistency.</li>
+  <li><strong>Missingness mechanisms:</strong> MCAR, MAR, or MNAR (Little and Rubin, 2019). Use Little's MCAR test (Little, 1988; <code>naniar::mcar_test()</code> in R) as one input and reason about the mechanism substantively. Missingness indicators regressed on observed variables indicate MAR-compatible structure. MNAR cannot be tested from the data and requires sensitivity analysis.</li>
+  <li><strong>Errors and sentinels:</strong> impossible values, unit-entry errors, codes such as -999 or 9999. Separate errors (correct or drop) from genuine extremes (keep and model).</li>
+  <li><strong>Target distribution:</strong> skewness, bounds, zero mass, and heaping.</li>
+  <li><strong>Nonlinearity:</strong> LOESS or binned means against each predictor; partial residual plots.</li>
+  <li><strong>Collinearity:</strong> correlation matrix and variance inflation factors \(\text{VIF}_j = 1/(1-R_j^2)\). VIF above about 5 to 10 warrants action, but the appropriate threshold depends on the inferential target.</li>
+  <li><strong>Leakage scan:</strong> flag any feature computed from, or recorded after, the outcome. Leakage is the most frequent cause of implausibly strong results (Kapoor and Narayanan, 2023).</li>
+  <li><strong>Structure:</strong> time ordering, repeated measures, clusters, and drift across periods.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Data issues logged with decisions; leakage candidates resolved.</div>
+
+<h2 id="p3">Stage 3. Splitting strategy</h2>
+<p class="why">Purpose: produce an honest estimate of generalization to the intended target population.</p>
+<table>
+  <tr><th>Data structure</th><th>Method</th><th>Note</th></tr>
+  <tr><td>I.i.d. cross-section</td><td>Random K-fold or holdout; stratify on the target when skewed</td><td>Stratify on target bins for regression</td></tr>
+  <tr><td>Time series</td><td>Rolling or expanding origin; gap (embargo) between train and test</td><td>Random splits leak the future</td></tr>
+  <tr><td>Grouped or clustered</td><td>GroupKFold or StratifiedGroupKFold</td><td>No group may appear in train and test</td></tr>
+  <tr><td>Spatial</td><td>Spatial block cross-validation</td><td>Nearby points are correlated</td></tr>
+  <tr><td>Small \(n\)</td><td>Repeated K-fold or nested CV</td><td>Report variability across repeats</td></tr>
+  <tr><td>Distribution shift expected</td><td>Out-of-domain holdout (site, period, population)</td><td>Tests the external-validity claim directly</td></tr>
+</table>
+<p>Typical allocation is 70/15/15 or 80/20. The test set is sealed until Stage 13.</p>
+<div class="gate"><strong>Gate.</strong> Splitting rule matches the data structure; test set locked and documented.</div>
+
+<h2 id="p4">Stage 4. Preprocessing as a pipeline</h2>
+<p class="why">Purpose: every data-dependent step (imputation, scaling, encoding, selection) is estimated inside training folds only.</p>
+<ol>
+  <li><strong>Imputation:</strong> median or mode for simple cases; iterative imputation (MICE; van Buuren, 2018) under MAR. For inference, multiply impute with \(m \geq 20\) imputations and pool with Rubin's rules: total variance \(T = \bar U + (1 + 1/m) B\), where \(\bar U\) is the mean within-imputation variance and \(B\) the between-imputation variance (Rubin, 1987).</li>
+  <li><strong>Categorical encoding:</strong> one-hot for low cardinality; out-of-fold target encoding with smoothing for high cardinality; explicit handling of unseen categories.</li>
+  <li><strong>Scaling:</strong> standardize for penalized and gradient-based models; not required for trees.</li>
+  <li><strong>Nonlinear terms:</strong> natural splines or GAM smooths with penalties, rather than ad hoc high-order polynomials.</li>
+  <li><strong>Transformations:</strong> log or Box-Cox (Box and Cox, 1964) for positive predictors; Yeo-Johnson for data with zeros or negatives. Interpret coefficients on the transformed scale and report back-transformed effects where needed.</li>
+  <li><strong>Feature engineering:</strong> interactions justified by theory; ratios with explicit units. Avoid searching large interaction spaces without correction (Kuhn and Johnson, 2019).</li>
+  <li><strong>Outliers:</strong> winsorize only with a written rationale; prefer robust scaling or robust estimators.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Pipeline runs end to end on each training fold, with no information from validation folds.</div>
+
+<h2 id="p5">Stage 5. Model ladder</h2>
+<p class="why">Purpose: compare models from simple to flexible, under the same splits, and always beside the baseline.</p>
+<ol>
+  <li><strong>Baseline:</strong> mean or median predictor; OLS on the key covariates.</li>
+  <li><strong>GLMs:</strong> family chosen per Section 3.</li>
+  <li><strong>Penalized linear models:</strong> ridge, lasso, elastic net, tuned by CV.</li>
+  <li><strong>Robust regression:</strong> Huber M-estimation (Huber, 1964) or RANSAC when outliers are real; report sensitivity against OLS.</li>
+  <li><strong>Quantile regression:</strong> for conditional quantiles and interval prediction.</li>
+  <li><strong>GAMs:</strong> penalized smooths with interpretable nonlinear effects (Wood, 2017).</li>
+  <li><strong>Gradient-boosted trees:</strong> XGBoost (Chen and Guestrin, 2016) via the <code>xgboost</code> R package, or LightGBM and CatBoost, which also have R interfaces, for complex tabular structure; monotone constraints where theory requires them. Gradient boosting itself is due to Friedman (2001).</li>
+  <li><strong>Random forests:</strong> Breiman (2001); useful as a benchmark with little tuning.</li>
+  <li><strong>Hierarchical and Bayesian models:</strong> mixed models for nesting; Stan (Carpenter et al., 2017) through <code>cmdstanr</code>, or <code>brms</code> (Bürkner, 2017) for full posterior inference.</li>
+  <li><strong>Time-series regression:</strong> ARIMAX, state-space, or regression with ARIMA errors when temporal dependence is central (Hyndman and Athanasopoulos, 2021).</li>
+</ol>
+<div class="note"><strong>Selection rule.</strong> Prefer the simplest model whose CV error lies within one standard error of the best (Hastie et al., 2009, one-SE rule), unless the decision requires the extra accuracy and the gain is material relative to the decision costs.</div>
+<div class="gate"><strong>Gate.</strong> Baseline and at least three model families evaluated on identical folds.</div>
+
+<h2 id="p6">Stage 6. Tuning and nested validation</h2>
+<p class="why">Purpose: avoid optimistic bias from choosing hyperparameters and reporting performance on the same data.</p>
+<ol>
+  <li>Use Bayesian optimization (<code>tune_bayes()</code> in tidymodels; Snoek et al., 2012) or random search (<code>tune_grid()</code> with <code>grid = 25</code>, or <code>grid_random()</code>; Bergstra and Bengio, 2012). Grid search is rarely efficient.</li>
+  <li>Use nested CV when an unbiased performance estimate is required: an outer loop for evaluation, an inner loop for tuning.</li>
+  <li>Log every trial with seed, parameters, fold scores, and runtime.</li>
+  <li>Limit the number of configurations compared, and report the spread across folds, not only the mean.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Final hyperparameters chosen from training data only; test set untouched.</div>
+
+<h2 id="p7">Stage 7. Evaluation metrics</h2>
+<p class="why">Purpose: report the properties that matter for the decision, with uncertainty.</p>
+<table>
+  <tr><th>Goal</th><th>Metrics</th><th>Caution</th></tr>
+  <tr><td>Mean accuracy</td><td>RMSE, MAE, \(R^2_{\text{oos}}\), skill score vs baseline</td><td>\(R^2\) is not predictive accuracy by itself; report on held-out data</td></tr>
+  <tr><td>Relative error</td><td>MAPE, sMAPE, MASE</td><td>MAPE is undefined near zero and biased toward low forecasts</td></tr>
+  <tr><td>Quantiles</td><td>Pinball loss, interval coverage, interval width</td><td>Report coverage by subgroup</td></tr>
+  <tr><td>Probabilistic</td><td>Log score, CRPS, calibration curves</td><td>Use proper scoring rules</td></tr>
+  <tr><td>Decision-level</td><td>Cost-weighted loss, decision curve net benefit (Vickers and Elkin, 2006)</td><td>Costs must be elicited with stakeholders</td></tr>
+</table>
+<p>Report every metric with a bootstrap or fold-based interval, by subgroup, and by time period. Compare with the baseline using an appropriate paired test (Section 6.3).</p>
+<div class="gate"><strong>Gate.</strong> Metrics pre-registered; intervals and subgroup results reported.</div>
+
+<h2 id="p8">Stage 8. Assumption diagnostics</h2>
+<p class="why">Purpose: detect misspecification. Matters most for inference; residual patterns also matter for prediction.</p>
+<table>
+  <tr><th>Assumption</th><th>Diagnostic</th><th>Remedy</th></tr>
+  <tr><td>Linearity and functional form</td><td>Residuals vs fitted; component-plus-residual plots; RESET test (Ramsey, 1969)</td><td>Splines, GAMs, transformations, interactions</td></tr>
+  <tr><td>Homoscedasticity</td><td>Breusch-Pagan (Breusch and Pagan, 1979); White test; scale-location plot</td><td>HC3 SEs; WLS; transform the outcome</td></tr>
+  <tr><td>Independence</td><td>Durbin-Watson; ACF of residuals; Moran's I for spatial data</td><td>Cluster or HAC SEs; mixed or time-series models</td></tr>
+  <tr><td>Normality (small-sample inference)</td><td>Q-Q plot; Shapiro-Wilk for small \(n\)</td><td>Bootstrap intervals; robust SEs; transformation</td></tr>
+  <tr><td>Collinearity</td><td>VIF; condition number</td><td>Combine or drop predictors; ridge</td></tr>
+  <tr><td>Influence</td><td>Cook's distance (Cook, 1977); leverage; DFBETAS</td><td>Investigate records; do not delete reflexively</td></tr>
+  <tr><td>Exogeneity</td><td>Subject-matter review; DAG; falsification tests</td><td>Design-based methods (Section 5)</td></tr>
+</table>
+<div class="gate"><strong>Gate.</strong> Diagnostics documented; each violation has a remedy and a stated effect on conclusions.</div>
+
+<h2 id="p9">Stage 9. Inference and uncertainty</h2>
+<p class="why">Purpose: quantify uncertainty correctly for the quantity being reported.</p>
+<ol>
+  <li><strong>Standard errors:</strong> HC3 under heteroskedasticity; cluster-robust with an adequate number of clusters (Cameron, Gelbach, and Miller, 2008 discuss small-cluster corrections); Newey-West (Newey and West, 1987) for autocorrelation.</li>
+  <li><strong>Intervals:</strong> distinguish confidence intervals for means from prediction intervals for new observations.</li>
+  <li><strong>Bootstrap:</strong> pairs bootstrap for regression; wild cluster bootstrap for few clusters; block bootstrap for dependence.</li>
+  <li><strong>Conformal intervals:</strong> split or CV+ conformal for distribution-free marginal coverage; check conditional coverage across subgroups (Section 4.2).</li>
+  <li><strong>Multiple testing:</strong> control the false discovery rate with Benjamini-Hochberg (Benjamini and Hochberg, 1995) for screening; apply familywise correction for a small confirmatory set.</li>
+  <li><strong>Effect sizes:</strong> report standardized or unstandardized effects with units and intervals. A statistically significant trivial effect is not a finding.</li>
+  <li><strong>Bayesian reporting:</strong> posterior summaries and intervals, prior sensitivity, and convergence diagnostics (rank-normalized \(\hat R &lt; 1.01\), effective sample size, and divergence counts; Vehtari et al., 2021).</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Inference method matches the data structure; intervals labeled correctly.</div>
+
+<h2 id="p10">Stage 10. Causal analysis</h2>
+<p class="why">Purpose: support claims about effects only where identification is credible.</p>
+<ol>
+  <li>Draw the DAG and state the adjustment set. Justify each covariate by its causal role.</li>
+  <li>State and assess consistency, exchangeability, positivity, and no interference (Section 5). Show overlap diagnostics: propensity distributions, standardized mean differences after weighting.</li>
+  <li>Choose a design: randomized experiment, DiD with pre-trend tests, RDD with bandwidth sensitivity, IV with exclusion argued, synthetic control, or DML with cross-fitting.</li>
+  <li>Report the estimand explicitly (ATE, ATT, ATE in a subgroup, or a conditional effect) and the target population.</li>
+  <li>Sensitivity analysis: E-values (VanderWeele and Ding, 2017), Rosenbaum bounds (Rosenbaum, 2002), or omitted-variable bounds (Cinelli and Hazlett, 2020).</li>
+  <li>Heterogeneous effects: pre-specify subgroups; use honest estimators such as causal forests (Wager and Athey, 2018); correct for multiplicity.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Identification assumptions stated, assessed, and tested as far as the data allow.</div>
+
+<h2 id="p11">Stage 11. Robustness and stress testing</h2>
+<p class="why">Purpose: show whether the conclusion depends on arbitrary analytic choices.</p>
+<ol>
+  <li><strong>Specification curve or multiverse analysis</strong> (Simonsohn, Simmons, and Nelson, 2020): vary reasonable choices (covariates, transformations, exclusions, estimators) and show the distribution of estimates.</li>
+  <li><strong>Influence:</strong> drop top-influence observations and re-estimate; check the stability of signs and magnitudes.</li>
+  <li><strong>Alternative estimators:</strong> OLS, robust, penalized, and tree-based estimates should be compared; disagreement needs explanation.</li>
+  <li><strong>Distribution shift:</strong> evaluate on held-out sites, periods, or simulated shifts (for example, covariate shift reweighting).</li>
+  <li><strong>Perturbation sensitivity:</strong> how predictions move under small input perturbations or measurement error.</li>
+  <li><strong>Simulation checks:</strong> generate data from the fitted model and verify that the procedure recovers known parameters and nominal coverage (Morris, White, and Crowther, 2019).</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Key conclusions are stable across the pre-specified specification set, or instability is reported.</div>
+
+<h2 id="p12">Stage 12. Fairness, bias, and ethics</h2>
+<p class="why">Purpose: identify and document who bears the errors and whether they are systematically distributed.</p>
+<ol>
+  <li><strong>Subgroup performance:</strong> errors, calibration, and coverage by relevant groups, where lawful and appropriate.</li>
+  <li><strong>Disparity criteria:</strong> calibration within groups, equalized error rates, and demographic parity. These criteria generally cannot all hold simultaneously unless base rates are equal or the predictor is perfect (Kleinberg, Mullainathan, and Raghavan, 2017; Chouldechova, 2017). Choose the criterion that matches the decision and justify it.</li>
+  <li><strong>Proxy check:</strong> test whether permitted features reconstruct protected attributes.</li>
+  <li><strong>Impact review:</strong> document who is affected by errors, whether a human review step is needed, and whether there is recourse.</li>
+  <li><strong>Frameworks:</strong> NIST AI Risk Management Framework 1.0 (2023); EU Artificial Intelligence Act, Regulation (EU) 2024/1689; sector rules such as ECOA and fair lending in finance; FDA, Health Canada, and MHRA guiding principles for machine learning in medical devices (2021); Federal Reserve SR 11-7 on model risk management (2011). Verify current status before relying on any of these.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Group-level results and the chosen fairness criterion documented, with review sign-off.</div>
+
+<h2 id="p13">Stage 13. Final test evaluation</h2>
+<p class="why">Purpose: give one honest estimate of performance on the sealed test set.</p>
+<ol>
+  <li>Retrain the selected model on the full development data with frozen hyperparameters.</li>
+  <li>Evaluate once on the sealed test set.</li>
+  <li>Report all pre-registered metrics; label any exploratory metrics as exploratory.</li>
+  <li>Do not revise the model after seeing test results. If you must, treat the outcome as a new study with fresh data.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Test results reported as pre-registered, with no iteration on the test set.</div>
+
+<h2 id="p14">Stage 14. Reproducibility and versioning</h2>
+<p class="why">Purpose: make every result rerunnable by someone else.</p>
+<ol>
+  <li><strong>Environment:</strong> pinned dependencies (lockfile, Docker, or Nix). Record hardware where floating-point determinism matters.</li>
+  <li><strong>Randomness:</strong> set and log seeds for splits, initialization, bootstrap, and sampling.</li>
+  <li><strong>Code and data:</strong> version control with Git; data snapshots and hashes with DVC, LakeFS, or Delta Lake.</li>
+  <li><strong>Experiment tracking:</strong> MLflow (which has an R client), Weights and Biases, or Neptune.</li>
+  <li><strong>Model registry:</strong> staging, production, and archived states, with approval records.</li>
+  <li><strong>Independent rerun:</strong> a second person reproduces the headline results from the repository. Record the result.</li>
+  <li><strong>Technical debt:</strong> review pipelines for hidden dependencies and configuration coupling (Sculley et al., 2015).</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Headline results reproduced from a clean environment by an independent run.</div>
+
+<h2 id="p15">Stage 15. Reporting</h2>
+<p class="why">Purpose: give readers what they need to judge validity and to reuse the work.</p>
+<p>Use the relevant guideline:</p>
+<ul>
+  <li><strong>TRIPOD+AI</strong> (Collins et al., 2024) for prediction models in health; TRIPOD (Collins et al., 2015) for the earlier version.</li>
+  <li><strong>STROBE</strong> (von Elm et al., 2007) for observational studies.</li>
+  <li><strong>CONSORT</strong> (Schulz et al., 2010) for randomized trials.</li>
+  <li><strong>Model cards</strong> (Mitchell et al., 2019) and <strong>datasheets for datasets</strong> (Gebru et al., 2021) for models and data in production.</li>
+</ul>
+<p>A complete report contains: the pre-registered question and any deviations; data description, provenance, and flow; missingness; preprocessing and modeling choices with justification; the baseline and all candidate models with CV results; final test results with intervals; diagnostics, robustness, and subgroup results; limitations and threats to validity; intended and out-of-scope use; code, data access statement, and reproduction instructions.</p>
+<div class="gate"><strong>Gate.</strong> Reporting checklist completed; limitations stated plainly.</div>
+
+<h2 id="p16">Stage 16. Deployment and monitoring</h2>
+<p class="why">Purpose: keep a model valid after it leaves the development environment.</p>
+<ol>
+  <li><strong>Serving:</strong> batch or real-time, with the same validation logic as training.</li>
+  <li><strong>Data drift:</strong> population stability index \(\text{PSI} = \sum_k (a_k - e_k)\ln(a_k/e_k)\), where \(a_k\) and \(e_k\) are the actual and expected bin proportions; values above about 0.2 are a common alert threshold (Siddiqi, 2006). Add KS tests for continuous features.</li>
+  <li><strong>Concept drift:</strong> track the relationship between inputs and outcomes as labels arrive (Gama et al., 2014). Use rolling-window metrics and a predefined retraining trigger.</li>
+  <li><strong>Coverage and calibration monitoring:</strong> interval coverage and calibration slope by subgroup over time.</li>
+  <li><strong>Shadow and canary deployment:</strong> run the candidate beside the incumbent before switching.</li>
+  <li><strong>Rollback:</strong> keep the previous version deployable and tested.</li>
+  <li><strong>Revalidation:</strong> scheduled review (for example, quarterly), with a logged decision to retrain, recalibrate, or retire.</li>
+</ol>
+<div class="gate"><strong>Gate.</strong> Monitoring, alert thresholds, retraining triggers, and rollback tested before go-live.</div>
+
+<!-- ===================================================== -->
+<p class="part" id="partC">Part C · Computational implementation</p>
+
+<h2 id="c0">Computational environment</h2>
+<p>The reference implementation uses R (version 4.3 or later). Resampling and tuning use the tidymodels framework (Kuhn and Silge, 2022). The models use glmnet (elastic net), xgboost (gradient boosting), and base <code>lm</code>. Inference and diagnostics use car, lmtest, and sandwich, and multiple imputation uses mice. Pin package versions with renv so that the environment is reproducible.</p>
+<pre><code># R &gt;= 4.3 recommended
+install.packages(c("tidymodels", "glmnet", "xgboost", "car", "lmtest",
+                   "sandwich", "forecast", "mice", "naniar", "brms",
+                   "cmdstanr", "pointblank", "bestNormalize", "grf", "renv"))
+
+# Pin exact package versions for the project
+renv::init()        # creates renv.lock
+renv::snapshot()    # records current versions</code></pre>
+
+<h2 id="c1">Reference pipeline (R)</h2>
+<p>This pipeline enforces the rule that splitting comes before preprocessing, compares a baseline with two candidates on identical folds, applies the one-SE rule, and evaluates the test set once. Replace <code>dat</code> and the splitting strategy to match Stage 3.</p>
+<pre><code>library(tidymodels)   # rsample, recipes, parsnip, tune, yardstick, workflows
+library(glmnet)       # elastic net engine
+library(xgboost)      # gradient boosting engine
+
+SEED &lt;- 42
+set.seed(SEED)
+
+# dat: data frame with outcome column `y` and predictors.
+# Split BEFORE any fitting. For grouped or time-ordered data, see Stage 3
+# (group_vfold_cv() or rolling_origin() from rsample).
+split &lt;- initial_split(dat, prop = 0.85, strata = y)
+dev   &lt;- training(split)
+test  &lt;- testing(split)     # sealed until the final step
+
+folds   &lt;- vfold_cv(dev, v = 5, strata = y)
+metrics &lt;- metric_set(rmse, mae, rsq)
+
+# Preprocessing is a recipe: it is estimated inside each training fold only.
+rec &lt;- recipe(y ~ ., data = dev) |&gt;
+  step_impute_median(all_numeric_predictors()) |&gt;
+  step_impute_mode(all_nominal_predictors()) |&gt;
+  step_novel(all_nominal_predictors()) |&gt;     # handles unseen factor levels
+  step_dummy(all_nominal_predictors()) |&gt;
+  step_zv(all_predictors()) |&gt;
+  step_normalize(all_numeric_predictors())
+
+# Candidate 0: baseline (predicts the training mean)
+baseline_wf &lt;- workflow() |&gt;
+  add_recipe(rec) |&gt;
+  add_model(null_model() |&gt; set_engine("parsnip") |&gt; set_mode("regression"))
+
+# Candidate 1: elastic net, tuned over penalty and mixture (alpha)
+enet_spec &lt;- linear_reg(penalty = tune(), mixture = tune()) |&gt;
+  set_engine("glmnet") |&gt;
+  set_mode("regression")
+enet_wf &lt;- workflow() |&gt; add_recipe(rec) |&gt; add_model(enet_spec)
+
+# Candidate 2: gradient-boosted trees
+gbm_spec &lt;- boost_tree(trees = tune(), learn_rate = tune(),
+                       tree_depth = tune(), min_n = tune()) |&gt;
+  set_engine("xgboost") |&gt;
+  set_mode("regression")
+gbm_wf &lt;- workflow() |&gt; add_recipe(rec) |&gt; add_model(gbm_spec)
+
+# Cross-validated comparison on the development data only
+base_res &lt;- fit_resamples(baseline_wf, resamples = folds, metrics = metrics)
+enet_res &lt;- tune_grid(enet_wf, resamples = folds, grid = 25, metrics = metrics)
+gbm_res  &lt;- tune_grid(gbm_wf,  resamples = folds, grid = 25, metrics = metrics)
+
+# Best RMSE per candidate, with its standard error across folds
+best_rmse &lt;- function(res, name) {
+  collect_metrics(res) |&gt;
+    filter(.metric == "rmse") |&gt;
+    slice_min(mean, n = 1) |&gt;
+    transmute(model = name, RMSE = mean, SE = std_err)
+}
+
+cv_table &lt;- bind_rows(
+  best_rmse(base_res, "baseline_mean"),
+  best_rmse(enet_res, "elastic_net"),
+  best_rmse(gbm_res,  "xgboost")
+) |&gt; arrange(RMSE)
+print(cv_table)
+
+# One-SE rule for the elastic net: the simplest (most penalized) setting
+# whose RMSE lies within one standard error of the best.
+best_enet_1se &lt;- select_by_one_std_err(enet_res, desc(penalty), metric = "rmse")
+print(best_enet_1se)
+
+# Final step, run ONCE after the model has been chosen by CV:
+# last_fit() refits on the development data and scores the sealed test set.
+final_wf  &lt;- finalize_workflow(enet_wf, best_enet_1se)
+final_fit &lt;- last_fit(final_wf, split, metrics = metrics)
+collect_metrics(final_fit)</code></pre>
+
+<div class="note"><strong>Note on the one-SE rule.</strong> <code>select_by_one_std_err()</code> applies the rule to the elastic net grid. Fold scores are not independent, so treat the rule as guidance for judgment rather than an automatic decision. The <code>last_fit()</code> call at the end should run only once.</div>
+
+<h2 id="c2">Diagnostics and inference code</h2>
+<p>The block below fits a linear model, reports HC3 inference, and runs the diagnostic battery from Stage 8.</p>
+<pre><code>library(car)       # vif()
+library(lmtest)    # bptest(), resettest(), dwtest(), coeftest()
+library(sandwich)  # vcovHC()
+
+# Numeric-only development data for the classical linear model
+# (dplyr verbs come from tidymodels, loaded in the reference pipeline)
+dev_num &lt;- dev |&gt; select(where(is.numeric)) |&gt; drop_na()
+ols &lt;- lm(y ~ ., data = dev_num)
+summary(ols)
+
+# Robust inference: HC3 sandwich SEs (MacKinnon and White, 1985)
+coeftest(ols, vcov = vcovHC(ols, type = "HC3"))
+
+# Collinearity
+vif(ols)
+
+# Heteroskedasticity (Breusch-Pagan)
+bptest(ols)
+
+# Functional form (RESET, using powers of the fitted values)
+resettest(ols, power = 2:3, type = "fitted")
+
+# Autocorrelation (meaningful only if rows are in time order)
+dwtest(ols)
+
+# Influence: Cook's distance, with the 4/n flag as a screening convention
+cd &lt;- cooks.distance(ols)
+which(cd &gt; 4 / nrow(dev_num))
+
+# Standard diagnostic plots: residuals vs fitted, Q-Q, scale-location, leverage
+par(mfrow = c(2, 2))
+plot(ols)
+par(mfrow = c(1, 1))</code></pre>
+
+<div class="note"><strong>Why these diagnostics matter.</strong> HC3 SEs address heteroskedasticity in the reported inference. A significant RESET test means the linear form is wrong, and HC3 does not fix that: the remedy is a different functional form (Stage 5). The 4/n Cook's distance threshold is a convention for flagging records, not a rule for deletion.</div>
+
+<h2 id="c3">Conformal and bootstrap code</h2>
+
+<h3>Split conformal prediction</h3>
+<pre><code># Split conformal prediction (Vovk et al., 2005; Angelopoulos and Bates, 2023)
+set.seed(SEED)
+n_dev   &lt;- nrow(dev_num)
+cal_idx &lt;- sample.int(n_dev, size = floor(0.25 * n_dev))
+tr_set  &lt;- dev_num[-cal_idx, ]
+cal_set &lt;- dev_num[cal_idx, ]
+
+fit_tr &lt;- lm(y ~ ., data = tr_set)
+
+alpha  &lt;- 0.10                                  # target 90% marginal coverage
+scores &lt;- abs(cal_set$y - predict(fit_tr, cal_set))
+n_cal  &lt;- length(scores)
+
+# Finite-sample corrected quantile level, capped at 1
+level &lt;- min(ceiling((n_cal + 1) * (1 - alpha)) / n_cal, 1)
+q_hat &lt;- quantile(scores, probs = level, type = 1, names = FALSE)
+
+# Evaluate on the sealed test set
+test_num &lt;- test |&gt; select(where(is.numeric)) |&gt; drop_na()
+pred  &lt;- predict(fit_tr, test_num)
+lower &lt;- pred - q_hat
+upper &lt;- pred + q_hat
+covered  &lt;- test_num$y &gt;= lower &amp; test_num$y &lt;= upper
+coverage &lt;- mean(covered)
+width    &lt;- mean(upper - lower)
+cat(sprintf("Empirical coverage: %.3f (target %.2f); mean width: %.2f\n",
+            coverage, 1 - alpha, width))
+
+# Conditional coverage by a PRE-SPECIFIED subgroup (for example, site or sex),
+# kept as a non-numeric column in the original test data:
+# tibble(g = test$site[-missing], covered) |&gt; group_by(g) |&gt; summarise(cov = mean(covered))</code></pre>
+
+<h3>Paired bootstrap and Diebold-Mariano comparison</h3>
+<p>Comparing two models on the same test set is a paired problem. Resampling test units jointly preserves the pairing.</p>
+<pre><code># Paired bootstrap for RMSE(A) - RMSE(B) on the same test units
+rmse &lt;- function(e) sqrt(mean(e^2))
+
+paired_boot_rmse_diff &lt;- function(y, pred_a, pred_b, B = 5000, seed = SEED) {
+  set.seed(seed)
+  n     &lt;- length(y)
+  point &lt;- rmse(y - pred_a) - rmse(y - pred_b)
+  boots &lt;- replicate(B, {
+    i &lt;- sample.int(n, n, replace = TRUE)   # resample units jointly: pairing kept
+    rmse(y[i] - pred_a[i]) - rmse(y[i] - pred_b[i])
+  })
+  list(estimate = point,
+       ci95 = quantile(boots, c(0.025, 0.975), names = FALSE))
+}
+
+# Example, using predictions on the sealed test set:
+# res &lt;- paired_boot_rmse_diff(test_num$y, pred_model, pred_baseline)
+# res$estimate; res$ci95
+
+# Diebold-Mariano test on the loss differential of two forecasts (Section 6.3).
+# Use h equal to the forecast horizon; h = 1 for one-step or i.i.d. settings.
+library(forecast)
+e1 &lt;- test_num$y - pred_model
+e2 &lt;- test_num$y - pred_baseline
+dm.test(e1, e2, alternative = "two.sided", h = 1, power = 2)</code></pre>
+
+<div class="note"><strong>Caveat.</strong> A paired bootstrap on test units treats them as independent. For clustered or time-ordered data, resample clusters or blocks instead (Stage 9). For time-ordered forecasts, the Diebold-Mariano test (Section 6.3) is the more appropriate comparison.</div>
+
+<h2 id="c4">Checklist and templates</h2>
+
+<h3>Pre-registration template</h3>
+<pre><code>Project:            ______________________
+Version / date:     ______________________
+Question:           ______________________
+Goal (pred/assoc/causal): ________________
+Estimand:           ______________________
+Target population:  ______________________
+Outcome &amp; scale:    ______________________
+Primary metric:     ______________________
+Secondary metrics:  ______________________
+Baseline:           ______________________
+Split strategy:     ______________________
+Candidate models:   ______________________
+Sample-size basis:  ______________________
+Decision &amp; error costs: __________________
+Deviations (dated, with reason): _________
+Signed (analyst / reviewer): _____________
+</code></pre>
+
+<h3>Model card skeleton</h3>
+<pre><code>Model name / version:
+Intended use and users:
+Out-of-scope use:
+Training data (source, dates, N, exclusions):
+Evaluation data and splits:
+Metrics with intervals (overall and by subgroup):
+Calibration and coverage:
+Known failure modes and limitations:
+Fairness analysis and criterion chosen:
+Monitoring plan and retraining trigger:
+Contact / owner / review date:
+</code></pre>
+
+<h3>Master checklist</h3>
+<ul style="list-style: none; padding-left: 0;">
+  <li>☐ Estimand, target population, metric, and baseline pre-registered</li>
+  <li>☐ Provenance, privacy, licensing, and survey design recorded</li>
+  <li>☐ Data audited; missingness mechanism assessed; leakage removed</li>
+  <li>☐ Split matches data structure; test set sealed</li>
+  <li>☐ All preprocessing estimated inside training folds</li>
+  <li>☐ Model ladder fit against the baseline on identical folds</li>
+  <li>☐ Hyperparameters tuned with nested or training-only CV</li>
+  <li>☐ Metrics reported with intervals, by subgroup and period</li>
+  <li>☐ Assumption diagnostics run; remedies documented</li>
+  <li>☐ Inference uses HC3, cluster, HAC, bootstrap, or posterior as appropriate</li>
+  <li>☐ Causal claims backed by identification argument and sensitivity analysis</li>
+  <li>☐ Specification curve or robustness analysis complete</li>
+  <li>☐ Group-level fairness analysis complete with criterion stated</li>
+  <li>☐ Test evaluated once; results reported as pre-registered</li>
+  <li>☐ Environment, seeds, code, and data versioned; independent rerun done</li>
+  <li>☐ Reporting guideline followed; model card written</li>
+  <li>☐ Monitoring, alert thresholds, and rollback in place</li>
+</ul>
+
+<!-- ===================================================== -->
+<h2 id="refs">References</h2>
+<p class="why">Entries are given as author, year, title, and venue. Verify page numbers and DOIs against the publisher before citing in formal work.</p>
+
+<div class="refs">
+
+<h3>Foundations of regression and statistical learning</h3>
+<ol>
+  <li>Gauss, C. F. (1809). <em>Theoria motus corporum coelestium</em>. Perthes and Besser. [Origin of least squares.]</li>
+  <li>Box, G. E. P. (1976). Science and statistics. <em>Journal of the American Statistical Association</em>, 71(356), 791–799.</li>
+  <li>Breiman, L. (2001). Statistical modeling: The two cultures. <em>Statistical Science</em>, 16(3), 199–231.</li>
+  <li>Shmueli, G. (2010). To explain or to predict? <em>Statistical Science</em>, 25(3), 289–310.</li>
+  <li>Hastie, T., Tibshirani, R., and Friedman, J. (2009). <em>The Elements of Statistical Learning</em> (2nd ed.). Springer.</li>
+  <li>James, G., Witten, D., Hastie, T., and Tibshirani, R. (2021). <em>An Introduction to Statistical Learning</em> (2nd ed.). Springer.</li>
+  <li>Harrell, F. E. (2015). <em>Regression Modeling Strategies</em> (2nd ed.). Springer.</li>
+  <li>Kuhn, M., and Johnson, K. (2013). <em>Applied Predictive Modeling</em>. Springer.</li>
+  <li>Kuhn, M., and Johnson, K. (2019). <em>Feature Engineering and Selection</em>. CRC Press.</li>
+  <li>Efron, B., and Tibshirani, R. J. (1993). <em>An Introduction to the Bootstrap</em>. Chapman and Hall.</li>
+  <li>Hoerl, A. E., and Kennard, R. W. (1970). Ridge regression: Biased estimation for nonorthogonal problems. <em>Technometrics</em>, 12(1), 55–67.</li>
+  <li>Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. <em>Journal of the Royal Statistical Society, Series B</em>, 58(1), 267–288.</li>
+  <li>Zou, H., and Hastie, T. (2005). Regularization and variable selection via the elastic net. <em>Journal of the Royal Statistical Society, Series B</em>, 67(2), 301–320.</li>
+  <li>Lee, J. D., Sun, D. L., Sun, Y., and Taylor, J. E. (2016). Exact post-selection inference, with application to the lasso. <em>Annals of Statistics</em>, 44(3), 907–927.</li>
+  <li>Friedman, J. H. (2001). Greedy function approximation: A gradient boosting machine. <em>Annals of Statistics</em>, 29(5), 1189–1232.</li>
+  <li>Chen, T., and Guestrin, C. (2016). XGBoost: A scalable tree boosting system. <em>Proceedings of KDD 2016</em>, 785–794.</li>
+  <li>Huber, P. J. (1964). Robust estimation of a location parameter. <em>Annals of Mathematical Statistics</em>, 35(1), 73–101.</li>
+  <li>Wood, S. N. (2017). <em>Generalized Additive Models: An Introduction with R</em> (2nd ed.). CRC Press.</li>
+  <li>Koenker, R., and Bassett, G. (1978). Regression quantiles. <em>Econometrica</em>, 46(1), 33–50.</li>
+  <li>Koenker, R. (2005). <em>Quantile Regression</em>. Cambridge University Press.</li>
+  <li>Wedderburn, R. W. M. (1974). Quasi-likelihood functions, generalized linear models, and the Gauss-Newton method. <em>Biometrika</em>, 61(3), 439–447.</li>
+  <li>Box, G. E. P., and Cox, D. R. (1964). An analysis of transformations. <em>Journal of the Royal Statistical Society, Series B</em>, 26(2), 211–252.</li>
+  <li>Bergstra, J., and Bengio, Y. (2012). Random search for hyper-parameter optimization. <em>Journal of Machine Learning Research</em>, 13, 281–305.</li>
+  <li>Snoek, J., Larochelle, H., and Adams, R. P. (2012). Practical Bayesian optimization of machine learning algorithms. <em>Advances in Neural Information Processing Systems</em> 25.</li>
+  <li>Wickham, H., Averick, M., Bryan, J., et al. (2019). Welcome to the tidyverse. <em>Journal of Open Source Software</em>, 4(43), 1686.</li>
+  <li>Sculley, D., Holt, G., Golovin, D., et al. (2015). Hidden technical debt in machine learning systems. <em>Advances in Neural Information Processing Systems</em> 28.</li>
+  <li>Kuhn, M. (2008). Building predictive models in R using the caret package. <em>Journal of Statistical Software</em>, 28(5), 1–26.</li>
+  <li>Kuhn, M., and Silge, J. (2022). <em>Tidy Modeling with R</em>. O'Reilly Media. (Open access at tmwr.org.)</li>
+</ol>
+
+<h3>Robust inference, diagnostics, and time series</h3>
+<ol start="29">
+  <li>White, H. (1980). A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity. <em>Econometrica</em>, 48(4), 817–838.</li>
+  <li>MacKinnon, J. G., and White, H. (1985). Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties. <em>Journal of Econometrics</em>, 29(3), 305–325.</li>
+  <li>Newey, W. K., and West, K. D. (1987). A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix. <em>Econometrica</em>, 55(3), 703–708.</li>
+  <li>Breusch, T. S., and Pagan, A. R. (1979). A simple test for heteroscedasticity and random coefficient variation. <em>Econometrica</em>, 47(5), 1287–1294.</li>
+  <li>Ramsey, J. B. (1969). Tests for specification errors in classical linear least-squares regression analysis. <em>Journal of the Royal Statistical Society, Series B</em>, 31(2), 350–371.</li>
+  <li>Cook, R. D. (1977). Detection of influential observations in linear regression. <em>Technometrics</em>, 19(1), 15–18.</li>
+  <li>Durbin, J., and Watson, G. S. (1950). Testing for serial correlation in least squares regression I. <em>Biometrika</em>, 37(3–4), 409–428.</li>
+  <li>Cameron, A. C., Gelbach, J. B., and Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. <em>Review of Economics and Statistics</em>, 90(3), 414–427.</li>
+  <li>Diebold, F. X., and Mariano, R. S. (1995). Comparing predictive accuracy. <em>Journal of Business and Economic Statistics</em>, 13(3), 253–263.</li>
+  <li>Hyndman, R. J., and Athanasopoulos, G. (2021). <em>Forecasting: Principles and Practice</em> (3rd ed.). OTexts.</li>
+  <li>Morris, T. P., White, I. R., and Crowther, M. J. (2019). Using simulation studies to evaluate statistical methods. <em>Statistics in Medicine</em>, 38(11), 2074–2102.</li>
+  <li>Lumley, T. (2010). <em>Complex Surveys: A Guide to Analysis Using R</em>. Wiley.</li>
+</ol>
+
+<h3>Missing data</h3>
+<ol start="41">
+  <li>Rubin, D. B. (1976). Inference and missing data. <em>Biometrika</em>, 63(3), 581–592.</li>
+  <li>Little, R. J. A. (1988). A test of missing completely at random for multivariate data with missing values. <em>Journal of the American Statistical Association</em>, 83(404), 1198–1202.</li>
+  <li>Rubin, D. B. (1987). <em>Multiple Imputation for Nonresponse in Surveys</em>. Wiley.</li>
+  <li>Little, R. J. A., and Rubin, D. B. (2019). <em>Statistical Analysis with Missing Data</em> (3rd ed.). Wiley.</li>
+  <li>van Buuren, S. (2018). <em>Flexible Imputation of Missing Data</em> (2nd ed.). CRC Press.</li>
+</ol>
+
+<h3>Bayesian methods and computation</h3>
+<ol start="46">
+  <li>Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A., and Rubin, D. B. (2013). <em>Bayesian Data Analysis</em> (3rd ed.). CRC Press.</li>
+  <li>Gelman, A., and Hill, J. (2007). <em>Data Analysis Using Regression and Multilevel/Hierarchical Models</em>. Cambridge University Press.</li>
+  <li>Vehtari, A., Gelman, A., and Gabry, J. (2017). Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC. <em>Statistics and Computing</em>, 27(5), 1413–1432.</li>
+  <li>Vehtari, A., Gelman, A., Simpson, D., Carpenter, B., and Bürkner, P.-C. (2021). Rank-normalization, folding, and localization: An improved R-hat for assessing convergence of MCMC. <em>Bayesian Analysis</em>, 16(2), 667–718.</li>
+  <li>Carpenter, B., Gelman, A., Hoffman, M. D., et al. (2017). Stan: A probabilistic programming language. <em>Journal of Statistical Software</em>, 76(1).</li>
+  <li>Bürkner, P.-C. (2017). brms: An R package for Bayesian multilevel models using Stan. <em>Journal of Statistical Software</em>, 80(1), 1–28.</li>
+</ol>
+
+<h3>Conformal prediction and uncertainty</h3>
+<ol start="52">
+  <li>Vovk, V., Gammerman, A., and Shafer, G. (2005). <em>Algorithmic Learning in a Random World</em>. Springer.</li>
+  <li>Angelopoulos, A. N., and Bates, S. (2023). Conformal prediction: A gentle introduction. <em>Foundations and Trends in Machine Learning</em>, 16(4), 494–591.</li>
+  <li>Romano, Y., Patterson, E., and Candès, E. (2019). Conformalized quantile regression. <em>Advances in Neural Information Processing Systems</em> 32.</li>
+</ol>
+
+<h3>Causal inference</h3>
+<ol start="55">
+  <li>Pearl, J. (2009). <em>Causality: Models, Reasoning, and Inference</em> (2nd ed.). Cambridge University Press.</li>
+  <li>Rosenbaum, P. R., and Rubin, D. B. (1983). The central role of the propensity score in observational studies for causal effects. <em>Biometrika</em>, 70(1), 41–55.</li>
+  <li>Robins, J. M., Rotnitzky, A., and Zhao, L. P. (1994). Estimation of regression coefficients when some regressors are not always observed. <em>Journal of the American Statistical Association</em>, 89(427), 846–866.</li>
+  <li>Bang, H., and Robins, J. M. (2005). Doubly robust estimation in missing data and causal inference models. <em>Biometrics</em>, 61(4), 962–973.</li>
+  <li>Imbens, G. W., and Rubin, D. B. (2015). <em>Causal Inference for Statistics, Social, and Biomedical Sciences</em>. Cambridge University Press.</li>
+  <li>Hernán, M. A., and Robins, J. M. (2020). <em>Causal Inference: What If</em>. Chapman and Hall/CRC.</li>
+  <li>Angrist, J. D., and Pischke, J.-S. (2009). <em>Mostly Harmless Econometrics</em>. Princeton University Press.</li>
+  <li>Cunningham, S. (2021). <em>Causal Inference: The Mixtape</em>. Yale University Press.</li>
+  <li>Rosenbaum, P. R. (2002). <em>Observational Studies</em> (2nd ed.). Springer.</li>
+  <li>Chernozhukov, V., Chetverikov, D., Demirer, M., Duflo, E., Hansen, C., Newey, W., and Robins, J. (2018). Double/debiased machine learning for treatment and structural parameters. <em>Econometrics Journal</em>, 21(1), C1–C68.</li>
+  <li>Wager, S., and Athey, S. (2018). Estimation and inference of heterogeneous treatment effects using random forests. <em>Journal of the American Statistical Association</em>, 113(523), 1228–1242.</li>
+  <li>Wager, S. (2024). <em>Causal Inference: A Statistical Learning Approach</em>. Online book.</li>
+  <li>VanderWeele, T. J., and Ding, P. (2017). Sensitivity analysis in observational research: Introducing the E-value. <em>Annals of Internal Medicine</em>, 167(4), 268–274.</li>
+  <li>Cinelli, C., and Hazlett, C. (2020). Making sense of sensitivity: Extending omitted variable bias. <em>Journal of the Royal Statistical Society, Series B</em>, 82(1), 39–67.</li>
+  <li>Simonsohn, U., Simmons, J. P., and Nelson, L. D. (2020). Specification curve analysis. <em>Nature Human Behaviour</em>, 4, 1208–1214.</li>
+</ol>
+
+<h3>Evaluation, forecasting, and clinical prediction</h3>
+<ol start="70">
+  <li>Gneiting, T., and Raftery, A. E. (2007). Strictly proper scoring rules, prediction, and estimation. <em>Journal of the American Statistical Association</em>, 102(477), 359–378.</li>
+  <li>Vickers, A. J., and Elkin, E. B. (2006). Decision curve analysis: A novel method for evaluating prediction models. <em>Medical Decision Making</em>, 26(6), 565–574.</li>
+  <li>Steyerberg, E. W. (2019). <em>Clinical Prediction Models</em> (2nd ed.). Springer.</li>
+  <li>Riley, R. D., Snell, K. I. E., Ensor, J., et al. (2020). Calculating the sample size required for developing a clinical prediction model. <em>BMJ</em>, 368, m441.</li>
+  <li>Collins, G. S., Reitsma, J. B., Altman, D. G., and Moons, K. G. M. (2015). Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD). <em>Annals of Internal Medicine</em>, 162(1), 55–63.</li>
+  <li>Collins, G. S., Moons, K. G. M., Dhiman, P., et al. (2024). TRIPOD+AI statement: Updated guidance for reporting clinical prediction models that use regression or machine learning methods. <em>BMJ</em>, 385, e078378.</li>
+  <li>von Elm, E., Altman, D. G., Egger, M., et al. (2007). The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement. <em>PLoS Medicine</em>, 4(10), e296.</li>
+  <li>Schulz, K. F., Altman, D. G., Moher, D., and the CONSORT Group (2010). CONSORT 2010 statement. <em>BMJ</em>, 340, c332.</li>
+  <li>Diebold, F. X. (2015). Comparing predictive accuracy, twenty years later. <em>Journal of Business and Economic Statistics</em>, 33(1), 1–9.</li>
+  <li>Siddiqi, N. (2006). <em>Credit Risk Scorecards</em>. Wiley.</li>
+  <li>Gama, J., Žliobaitė, I., Bifet, A., Pechenizkiy, M., and Bouchachia, A. (2014). A survey on concept drift adaptation. <em>ACM Computing Surveys</em>, 46(4), 1–37.</li>
+</ol>
+
+<h3>Research integrity, reproducibility, and documentation</h3>
+<ol start="81">
+  <li>Wasserstein, R. L., and Lazar, N. A. (2016). The ASA statement on p-values: Context, process, and purpose. <em>The American Statistician</em>, 70(2), 129–133.</li>
+  <li>Wasserstein, R. L., Schirm, A. L., and Lazar, N. A. (2019). Moving to a world beyond "p &lt; 0.05". <em>The American Statistician</em>, 73(sup1), 1–19.</li>
+  <li>Simmons, J. P., Nelson, L. D., and Simonsohn, U. (2011). False-positive psychology. <em>Psychological Science</em>, 22(11), 1359–1366.</li>
+  <li>Gelman, A., and Loken, E. (2013). The garden of forking paths. Unpublished manuscript, Columbia University.</li>
+  <li>Nosek, B. A., Ebersole, C. R., DeHaven, A. C., and Mellor, D. T. (2018). The preregistration revolution. <em>Proceedings of the National Academy of Sciences</em>, 115(11), 2600–2606.</li>
+  <li>Kapoor, S., and Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. <em>Patterns</em>, 4(9).</li>
+  <li>Mitchell, M., Wu, S., Zaldivar, A., et al. (2019). Model cards for model reporting. <em>Proceedings of the Conference on Fairness, Accountability, and Transparency</em>, 220–229.</li>
+  <li>Gebru, T., Morgenstern, J., Vecchione, B., et al. (2021). Datasheets for datasets. <em>Communications of the ACM</em>, 64(12), 86–92.</li>
+  <li>Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. <em>Scientific Data</em>, 3, 160018.</li>
+</ol>
+
+<h3>Fairness and governance</h3>
+<ol start="90">
+  <li>Barocas, S., Hardt, M., and Narayanan, A. (2023). <em>Fairness and Machine Learning: Limitations and Opportunities</em>. MIT Press. (Open access at fairmlbook.org.)</li>
+  <li>Kleinberg, J., Mullainathan, S., and Raghavan, M. (2017). Inherent trade-offs in the fair determination of risk scores. <em>Proceedings of ITCS 2017</em>.</li>
+  <li>Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. <em>Big Data</em>, 5(2), 153–163.</li>
+  <li>Hardt, M., Price, E., and Srebro, N. (2016). Equality of opportunity in supervised learning. <em>Advances in Neural Information Processing Systems</em> 29.</li>
+  <li>National Institute of Standards and Technology (2023). <em>Artificial Intelligence Risk Management Framework (AI RMF 1.0)</em>. NIST AI 100-1.</li>
+  <li>European Union (2024). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). <em>Official Journal of the European Union</em>.</li>
+  <li>Board of Governors of the Federal Reserve System (2011). <em>Supervisory Guidance on Model Risk Management</em> (SR 11-7).</li>
+  <li>U.S. Food and Drug Administration, Health Canada, and UK MHRA (2021). <em>Good Machine Learning Practice for Medical Device Development: Guiding Principles</em>.</li>
+</ol>
+
+</div>
+
+</main>
+
+<footer class="transfer-nav"><a href="/making-sense/">Biggan Jiggasha · বিজ্ঞানজিজ্ঞাসা</a></footer></body>
+</html>
