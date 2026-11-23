@@ -4,7 +4,7 @@
   "দানা পড়ে এলোমেলো, তবু মাঝখানে ভিড় কেন?": "If beads fall at random, why do they gather in the middle?",
   "একটি গ্যালটন বোর্ড, কয়েক সারি পেরেক আর বাঁয়ে বা ডানে যাওয়ার ছোট ছোট সিদ্ধান্ত। সম্ভাবনার একটি পরিচিত ছক কীভাবে তৈরি হয়, দেখা যাক।": "A Galton board, rows of pins, and a succession of left or right turns reveal how a familiar distribution emerges.",
   "বিশেষ লেখা · গণিত": "Featured article · Mathematics",
-  "প্রবন্ধ পড়ুন →": "Read the feature →",
+  "প্রবন্ধ পড়ুন →": "Read the article →",
   "নির্বাচিত পাঠ": "Selected reading",
   "প্রযুক্তি": "Technology",
   "যন্ত্র কীভাবে শেখে?": "How do machines learn?",
@@ -57,5 +57,10 @@
   "পাঠতালিকা": "Reading lists",
   "শিক্ষকদের জন্য": "For educators",
   "ক্লিনিক্যাল গবেষণা ও পেশাগত উপকরণ": "Clinical research and career resources",
-  "বিষয় ধরে পড়ুন": "Browse by subject"
+  "বিষয় ধরে পড়ুন": "Browse by subject",
+  "চার রঙেই মানচিত্র? পুরোনো উপপাদ্যে নতুন গতি": "Four colors for every map? A new algorithmic breakthrough",
+  "চার রঙের উপপাদ্য ১৯৭৬ সালেই প্রমাণিত হয়েছিল। ২০২৬ সালের নতুন গবেষণা দেখায়, বড় মানচিত্রের বৈধ চার-রঙা বিন্যাস আগের চেয়ে অনেক দ্রুত কীভাবে খুঁজে পাওয়া যায়—আর O(n log n) ও O(n) ফলের পার্থক্য কোথায়।": "The Four Color Theorem was proved in 1976. New research in 2026 shows how to find a valid four-coloring for large maps much faster, and clarifies the difference between the O(n log n) and O(n) results.",
+  "Read in English": "Read in English",
+  "চারটি পাশাপাশি অঞ্চলে চারটি আলাদা রং": "Four neighboring regions, each in a different color",
+  "চার রঙের উপপাদ্য ও নতুন অ্যালগরিদম": "The Four Color Theorem and a new algorithm"
 }
