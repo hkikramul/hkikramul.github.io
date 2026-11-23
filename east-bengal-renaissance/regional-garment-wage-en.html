@@ -40,6 +40,55 @@
 </ol>
 <p>In short, the direct Anker figures currently available are Tk 30,459 for Dhaka City and Tk 25,166 for satellite industrial areas. The figures proposed for other divisions are provisional estimates made with a transparent formula, not final benchmarks. The next step toward a fair district-level wage is to replace those estimates with current local price data.</p>
 <p>Our earlier discussion of the cost of living and export competitiveness behind the single Tk 30,000 proposal is <a href="garment-minimum-wage-proposal-en.html">here</a>. This divisional proposal makes that position more specific.</p>
+<h2>Calculate a wage for a decent life in Bangladesh</h2>
+<p>Enter your household’s essential monthly costs to estimate a wage target for your circumstances. The calculator subtracts other reliable household income, then divides the remaining need among full-time-equivalent earners and adjusts for deductions. It is a personal budgeting aid, not an official rate or a substitute for full Anker field research. No data is sent to or stored on a server.</p>
+<section class="wage-calculator" aria-labelledby="wage-calc-title-en">
+<h3 id="wage-calc-title-en">Monthly household budget (Tk)</h3>
+<form id="wage-calc-en">
+<div class="calc-grid">
+<label>Food <input type="number" min="0" step="100" name="food" value="0"></label>
+<label>Rent <input type="number" min="0" step="100" name="housing" value="0"></label>
+<label>Electricity, gas, water and fuel <input type="number" min="0" step="100" name="utilities" value="0"></label>
+<label>Transport <input type="number" min="0" step="100" name="transport" value="0"></label>
+<label>Healthcare and medicine <input type="number" min="0" step="100" name="health" value="0"></label>
+<label>Education and childcare <input type="number" min="0" step="100" name="education" value="0"></label>
+<label>Clothing and personal needs <input type="number" min="0" step="100" name="clothing" value="0"></label>
+<label>Phone, internet and other essentials <input type="number" min="0" step="100" name="othercost" value="0"></label>
+<label>Other reliable household income <input type="number" min="0" step="100" name="otherincome" value="0"></label>
+<label>Full-time-equivalent earners <input type="number" min="0.1" step="0.1" name="earners" value="1.58" required></label>
+<label>Contingency for unexpected costs (%) <input type="number" min="0" max="100" step="1" name="buffer" value="10"></label>
+<label>Deductions from wages (%) <input type="number" min="0" max="99" step="0.5" name="deductions" value="0"></label>
+<label>Normal working hours per week <input type="number" min="1" max="100" step="1" name="hours" value="48"></label>
+<label>Current or proposed monthly gross wage for comparison <input type="number" min="0" step="100" name="offer" value="12500"></label>
+</div>
+<button type="submit">Calculate wage</button>
+</form>
+<div id="wage-result-en" aria-live="polite"><p>Enter your costs and select “Calculate wage.”</p></div>
+<p><small>Formula: (essential household costs × (1 + contingency rate) − other reliable household income) ÷ (1 − deduction rate) ÷ full-time-equivalent earners = required monthly gross wage per earner. Hourly equivalent = monthly gross wage × 12 ÷ (weekly hours × 52). A negative result is treated as zero.</small></p>
+</section>
+<script>
+(()=>{const form=document.getElementById("wage-calc-en"),box=document.getElementById("wage-result-en");if(!form||!box)return;const fmt=n=>new Intl.NumberFormat("en-BD",{maximumFractionDigits:2}).format(n);form.addEventListener("submit",e=>{e.preventDefault();const d=new FormData(form),v=k=>Number(d.get(k)||0);const costs=["food","housing","utilities","transport","health","education","clothing","othercost"].reduce((s,k)=>s+v(k),0),buffer=Math.min(100,Math.max(0,v("buffer")))/100,ded=Math.min(99,Math.max(0,v("deductions")))/100,earners=Math.max(.1,v("earners")),hours=Math.max(1,v("hours")),net=Math.max(0,costs*(1+buffer)-v("otherincome")),gross=net/(1-ded),per=gross/earners,hr=per*12/(hours*52),offer=v("offer"),gap=offer-per,ratio=per?offer/per*100:0;box.innerHTML="<h4>Your estimate</h4><p>Essential monthly household budget: <strong>Tk "+fmt(costs)+"</strong></p><p>Required household net income after contingency and other income: <strong>Tk "+fmt(net)+"</strong></p><p>Required monthly gross wage per full-time-equivalent earner: <strong>Tk "+fmt(per)+"</strong></p><p>Equivalent gross hourly wage: <strong>Tk "+fmt(hr)+"</strong></p><p>The comparison wage of Tk "+fmt(offer)+" covers "+fmt(ratio)+"% of the target; gap: <strong>"+(gap>=0?"Tk "+fmt(gap)+" above target":"Tk "+fmt(-gap)+" more needed")+"</strong></p><p><small>This is an estimate based on your entries. Check deductions, arrears, irregular income, workdays, benefits and local prices.</small></p>";});})();
+</script>
+<h2>The economics: from living costs to a wage target</h2>
+<p>To make “how much is needed?” measurable, wage-setting must account for household essentials, the number of earners, local prices and deductions. Anker’s direct 2025 benchmarks assume a family of four and 1.58 earners. A nationally researched benchmark and the household calculator above are different: the former uses local field research; the latter uses a household’s own budget.</p>
+<p><strong>Household net-income target</strong> = essential monthly costs × (1 + contingency rate) − other reliable household income.<br><strong>Gross wage per earner</strong> = household net-income target ÷ (1 − deduction/tax rate) ÷ number of full-time-equivalent earners.</p>
+<p>Example: Dhaka’s 2025 Anker benchmark is Tk 30,459 and the satellite-industrial-area benchmark is Tk 25,166 per month. Comparing them with the previously established RMG statutory floor of Tk 12,500 gives a Dhaka gap of Tk 17,959: the floor covers 41.0% of the benchmark and would need to rise by about 143.7% to reach it. The satellite-area gap is Tk 12,666: the floor covers 49.7%, implying an increase of about 101.3% to reach the benchmark. These are illustrations anchored to the earlier legal floor; they must be recalculated if the wage board issues a new gazette.</p>
+<h2>Comparing Bangladesh with competing garment exporters</h2>
+<p>Nominal figures in different currencies do not by themselves measure competitiveness. The table separates sector-specific legal minimum wages from Anker living-wage estimates. A legal minimum and a living wage are different concepts; exchange rates, taxes, social protection, price levels and hours also differ.</p>
+<table><thead><tr><th>Country/location</th><th>Measure and rate</th><th>Limit of comparison</th></tr></thead><tbody>
+<tr><td>Bangladesh</td><td>Previously established RMG gross minimum: Tk 12,500/month; a new wage board was reviewing rates in 2026</td><td>Domestic legal baseline; update when a new gazette is issued</td></tr>
+<tr><td>Cambodia</td><td>Garment, textile, footwear and travel-goods sectors, 2026: US$210/month after probation; US$208 during probation</td><td>Sector-specific; the 2027 rate has been set at US$212</td></tr>
+<tr><td>Vietnam</td><td>2026 Region I: VND 5.31 million/month; from 1 January 2027: VND 5.70 million/month and VND 27,400/hour</td><td>Regional statutory floor for employees under contracts across sectors; not RMG-specific</td></tr>
+<tr><td>Tiruppur, India</td><td>Anker 2025 living wage: ₹19,773/month (US$230); family of four, 1.58 earners</td><td>Local Anker benchmark, not a statutory minimum wage</td></tr>
+</tbody></table>
+<p>To assess the effect of wage increases on factory competitiveness, we need a unit labour-cost calculation. A simple formula is: <strong>incremental direct wage cost per garment = (new monthly wage − old monthly wage) ÷ saleable garments produced per worker per month</strong>. At an illustrative output of 500 saleable garments per worker per month, the additional Tk 17,959 to reach the Dhaka benchmark is about Tk 35.92 per garment; the additional Tk 12,666 for the satellite benchmark is Tk 25.33. At 400/600 garments, the figures are Dhaka Tk 44.90/Tk 29.93 and satellite Tk 31.67/Tk 21.11.</p>
+<p>This is a sensitivity illustration, not an actual factory cost sheet. We would need garment type, SAM (standard allowed minutes), line efficiency, product complexity, rejects, indirect labour, employer social contributions, FOB price and buyer negotiations to estimate export competitiveness. A fuller formula is: <strong>wage-cost share of FOB (%) = wage cost per garment ÷ garment FOB price × 100</strong>. Buyer price adjustments, productivity and responsible purchasing practices therefore belong in the analysis.</p>
+<h2>How wage-setting works in advanced social-democratic systems</h2>
+<p>Denmark has no single statutory national minimum wage. Most pay is negotiated in collective agreements between trade unions and employer organizations, by occupation or sector and with provisions for skills, seniority, working hours and supplements. There is therefore no single Danish legal wage number comparable to an RMG statutory minimum; the relevant garment-sector collective agreement must be examined. The system depends on strong collective bargaining and agreement coverage, so the rate cannot simply be copied.</p>
+<p>For a numerical example from a high-income European economy, Germany’s general statutory floor is €13.90/hour in 2026. At a 40-hour week, the monthly equivalent is €13.90 × 40 × 52 ÷ 12 = about €2,409 gross. From 1 January 2027, the €14.60 rate gives about €2,531/month using the same formula. The government implements the Minimum Wage Commission’s recommendation by regulation. This is not an RMG-specific rate, and nominal conversion alone is inadequate: productivity, prices, taxes, social contributions and exchange rates differ.</p>
+<h2>ILO principles: no single global wage figure</h2>
+<p>The ILO does not set one universal minimum-wage number for every country. Under Article 3 of the Minimum Wage Fixing Convention, 1970 (No. 131), national authorities consider workers’ and families’ needs—including the cost of living, general wage levels, social security benefits and relative living standards—alongside economic factors such as development requirements, productivity and maintaining high employment. Article 4 calls for an effective wage-fixing system, full consultation with representative worker and employer organizations, and their participation where appropriate. Regular adjustment and enforcement also matter.</p>
+<p>Economically, this is a two-stage decision: (1) estimate a needs-based target from reliable local costs and household labour participation; (2) assess and negotiate that target using wage distribution, inflation, productivity, employment and industry-capacity evidence, together with social dialogue. The ILO does not mandate one formula. The household calculator makes the needs side visible; it does not replace the national institutions and social partners that must set the actual minimum wage.</p>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.globallivingwage.org/living-wage-benchmarks/urban-bangladesh/">Global Living Wage Coalition, Living Wage for Dhaka City, 2025</a></li>
