@@ -8,4 +8,6 @@ Keep drafts outside this public repository until they are suitable for public vi
 | Bangladesh’s 11 Sector Reform Commission Reports | East Bengal Renaissance | Bangla + English | Published | Verify official report and PDF links periodically |
 | Bangladesh’s Labour Policy, Labour Law and Reform Commission | East Bengal Renaissance | Bangla + English | Published | Review legal updates and implementation status |
 
+| District and divisional minimum wages for garment workers | East Bengal Renaissance | Bangla + English | Published | Update when newer local price data become available |
+
 Stages: Idea → Draft → Review → Published. Pick one current priority; review weekly. No publishing quota per site.
