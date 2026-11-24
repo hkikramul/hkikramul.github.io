@@ -13,4 +13,6 @@ Keep drafts outside this public repository until they are suitable for public vi
 | Four Color Theorem: Faster Algorithms for Map Coloring | Making Sense / Biggan Jiggasha | Bangla + English | Published | Keep paired article and complexity distinctions accurate |
 | Anker-based divisional garment wage proposal | East Bengal Renaissance | Bangla + English | Published | Replace provisional rates when local Anker benchmark data are verified |
 
+| Dependent Data: Why Models and Uncertainty Change | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review examples and references as the topic develops |
+
 Stages: Idea → Draft → Review → Published. Pick one current priority; review weekly. No publishing quota per site.

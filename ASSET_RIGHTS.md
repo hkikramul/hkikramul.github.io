@@ -8,3 +8,5 @@
 - Existing books, papers and third-party assets retain their separate rights. Presence on this server does not establish redistribution permission. Treat unverified reuse notices as unconfirmed, request rights-holder permission for uses requiring it, and review removal requests.
 
 Public notices and source links: /reuse-privacy.html and /east-bengal-renaissance/civic-library.html .
+
+- `making-sense/images/dependent-data-map.webp`: image supplied with the Biggan Jiggasha article on dependent data and used there at the owner’s request. No third-party open license is implied; the image retains its separate rights.
