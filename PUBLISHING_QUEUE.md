@@ -9,6 +9,7 @@ Keep drafts outside this public repository until they are suitable for public vi
 | Bangladesh’s Labour Policy, Labour Law and Reform Commission | East Bengal Renaissance | Bangla + English | Published | Review legal updates and implementation status |
 | Early-life sugar restriction and adult cancer | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review the evidence and limitations as follow-up research appears |
 
+| AI and the future of mathematics | Making Sense / Biggan Jiggasha | Bangla + English | Published | Revisit AI-claimed proofs as independent verification develops |
 | Four Color Theorem: Faster Algorithms for Map Coloring | Making Sense / Biggan Jiggasha | Bangla + English | Published | Keep paired article and complexity distinctions accurate |
 | Anker-based divisional garment wage proposal | East Bengal Renaissance | Bangla + English | Published | Replace provisional rates when local Anker benchmark data are verified |
 
