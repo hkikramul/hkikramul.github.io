@@ -62,5 +62,9 @@
   "চার রঙের উপপাদ্য ১৯৭৬ সালেই প্রমাণিত হয়েছিল। ২০২৬ সালের নতুন গবেষণা দেখায়, বড় মানচিত্রের বৈধ চার-রঙা বিন্যাস আগের চেয়ে অনেক দ্রুত কীভাবে খুঁজে পাওয়া যায়—আর O(n log n) ও O(n) ফলের পার্থক্য কোথায়।": "The Four Color Theorem was proved in 1976. New research in 2026 shows how to find a valid four-coloring for large maps much faster, and clarifies the difference between the O(n log n) and O(n) results.",
   "Read in English": "Read in English",
   "চারটি পাশাপাশি অঞ্চলে চারটি আলাদা রং": "Four neighboring regions, each in a different color",
-  "চার রঙের উপপাদ্য ও নতুন অ্যালগরিদম": "The Four Color Theorem and a new algorithm"
+  "চার রঙের উপপাদ্য ও নতুন অ্যালগরিদম": "The Four Color Theorem and a new algorithm",
+  "শূকরের কিডনি নিয়ে এক বছর": "One year with a pig kidney",
+  "শূকরের কিডনি নিয়ে এক বছর: চিকিৎসাবিজ্ঞানের নতুন মাইলফলক": "One Year With a Pig Kidney: A Medical Milestone",
+  "চিকিৎসাবিজ্ঞান · অঙ্গ প্রতিস্থাপন · জেনোট্রান্সপ্লান্টেশন": "Medicine · Organ transplantation · Xenotransplantation",
+  "শূকরের কিডনি প্রতিস্থাপন": "Pig kidney transplantation"
 }
