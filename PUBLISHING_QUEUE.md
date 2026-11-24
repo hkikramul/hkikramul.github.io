@@ -4,6 +4,7 @@ Keep drafts outside this public repository until they are suitable for public vi
 
 | Title | Destination | Language | Stage | Next action |
 | --- | --- | --- | --- | --- |
+| “Islam made us Bengali”: a historical fact-check of a quote attributed to Farhad Mazhar | East Bengal Renaissance | Bangla + English | Published | Verify the quotation if its original source becomes available |
 | Bangladesh’s International Crimes Tribunal: History and Controversy | East Bengal Renaissance | Bangla + English | Published | Verify paired article links and homepage feature |
 | Bangladesh’s 11 Sector Reform Commission Reports | East Bengal Renaissance | Bangla + English | Published | Verify official report and PDF links periodically |
 | Bangladesh’s Labour Policy, Labour Law and Reform Commission | East Bengal Renaissance | Bangla + English | Published | Review legal updates and implementation status |
