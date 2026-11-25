@@ -1,0 +1,22 @@
+.number-theory-figure {
+  margin: 1.75rem auto;
+}
+.number-theory-figure img {
+  height: auto;
+  aspect-ratio: auto;
+}
+.number-theory-figure figcaption {
+  font-size: .9rem;
+  line-height: 1.55;
+  margin-top: .55rem;
+}
+.number-theory-figure.portrait {
+  max-width: 20rem;
+}
+.paper details {
+  padding: .75rem 1rem;
+  border: 1px solid currentColor;
+}
+.paper summary {
+  cursor: pointer;
+}

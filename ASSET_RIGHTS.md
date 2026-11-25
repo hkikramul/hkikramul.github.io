@@ -10,3 +10,7 @@
 Public notices and source links: /reuse-privacy.html and /east-bengal-renaissance/civic-library.html .
 
 - `making-sense/images/dependent-data-map.webp`: image supplied with the Biggan Jiggasha article on dependent data and used there at the owner’s request. No third-party open license is implied; the image retains its separate rights.
+
+- `making-sense/images/number-theory-euclid.webp` — Euclid, author, Erhard Ratdolt, printer, Folger Shakespeare Library, INC E86. Source https://commons.wikimedia.org/wiki/File:Euclid%27s_Elements,_1482.jpg · CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/. Resized and converted to WebP under the same license.
+- `making-sense/images/number-theory-ramanujan.webp` — Unknown photographer, 1913, Trinity College, Cambridge, Add. MS a.94.7. Source https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan-_Add._MS_a947.jpg · public domain per source. Resized and converted to WebP.
+- `making-sense/images/number-theory-primes.webp` — Original Biggan Jiggasha illustration of the primes from 1 to 50. Default original-content terms.

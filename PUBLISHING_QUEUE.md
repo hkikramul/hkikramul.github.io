@@ -17,4 +17,6 @@ Keep drafts outside this public repository until they are suitable for public vi
 
 | Dependent Data: Why Models and Uncertainty Change | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review examples and references as the topic develops |
 
+| A History of Number Theory: From Prime Numbers to Digital Signatures | Making Sense / Biggan Jiggasha | Bangla + English | Published | Check references and image credits during editorial review |
+
 Stages: Idea → Draft → Review → Published. Pick one current priority; review weekly. No publishing quota per site.
