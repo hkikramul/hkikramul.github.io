@@ -1,0 +1,14 @@
+.mathematics-history figure {
+  margin: 1.75rem auto;
+}
+.mathematics-history figure img {
+  height: auto;
+  aspect-ratio: auto;
+}
+.mathematics-history .portrait {
+  max-width: 25rem;
+}
+.mathematics-history figcaption {
+  font-size: .9rem;
+  line-height: 1.55;
+}

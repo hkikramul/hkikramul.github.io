@@ -14,3 +14,10 @@ Public notices and source links: /reuse-privacy.html and /east-bengal-renaissanc
 - `making-sense/images/number-theory-euclid.webp` — Euclid, author, Erhard Ratdolt, printer, Folger Shakespeare Library, INC E86. Source https://commons.wikimedia.org/wiki/File:Euclid%27s_Elements,_1482.jpg · CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/. Resized and converted to WebP under the same license.
 - `making-sense/images/number-theory-ramanujan.webp` — Unknown photographer, 1913, Trinity College, Cambridge, Add. MS a.94.7. Source https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan-_Add._MS_a947.jpg · public domain per source. Resized and converted to WebP.
 - `making-sense/images/number-theory-primes.webp` — Original Biggan Jiggasha illustration of the primes from 1 to 50. Default original-content terms.
+
+- `making-sense/images/history-mathematics-western.webp` — Isaac Newton, 1687 · Internet Archive / Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Newton%27s_Principia.jpg · Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Resized where needed and converted to WebP under the source terms.
+
+- `making-sense/images/history-mathematics-east-asian.webp` — Momotarou2012 · Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Sangaku_of_Konnoh_Hachimangu_1850.jpg · CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Resized where needed and converted to WebP under the source terms.
+
+- `making-sense/images/history-mathematics-indian-subcontinent.webp` — National Geographic / Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Bakhshali_manuscript.jpg · Public domain (PD-Art) (https://creativecommons.org/publicdomain/mark/1.0/). Resized where needed and converted to WebP under the source terms.
+- `making-sense/images/history-mathematics-tangent-circles.webp` — Original Biggan Jiggasha mathematical illustration. Default original-content terms.

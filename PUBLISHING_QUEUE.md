@@ -19,4 +19,8 @@ Keep drafts outside this public repository until they are suitable for public vi
 
 | A History of Number Theory: From Prime Numbers to Digital Signatures | Making Sense / Biggan Jiggasha | Bangla + English | Published | Check references and image credits during editorial review |
 
+| The Evolution of Western Mathematics | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review references and image credits during editorial review |
+| The Evolution of East Asian Mathematics | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review references and image credits during editorial review |
+| The Evolution of Mathematics in the Indian Subcontinent | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review references and image credits during editorial review |
+
 Stages: Idea → Draft → Review → Published. Pick one current priority; review weekly. No publishing quota per site.
