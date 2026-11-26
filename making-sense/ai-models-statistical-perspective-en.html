@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A plain-language, statistical explanation of how language models learn from text and generate answers one token at a time.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>How AI Models Work: A Statistical Perspective | Biggan Jiggasha</title>
+<link rel="canonical" href="https://hkikramul.github.io/making-sense/ai-models-statistical-perspective-en.html">
+<link rel="alternate" hreflang="en" href="https://hkikramul.github.io/making-sense/ai-models-statistical-perspective-en.html">
+<link rel="stylesheet" href="/making-sense/style.css">
+<link rel="stylesheet" href="/making-sense/refresh.css">
+<link rel="stylesheet" href="/making-sense/article.css">
+<link rel="stylesheet" href="/assets/reading-shade.css">
+<link rel="stylesheet" href="/assets/site-tools.css">
+<link rel="stylesheet" href="/assets/legacy-layout.css">
+<script defer src="/assets/reading-shade.js"></script>
+<script defer src="/assets/site-tools.js"></script>
+<script defer src="/assets/privacy-media.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="newspaper-header">
+<div class="edition-line"><span>Statistics, mathematics, and research in plain language</span><a href="/">Academic profile ↗</a></div>
+<a class="newspaper-title" href="/making-sense/?lang=en" aria-label="Biggan Jiggasha — home">বিজ্ঞানজিজ্ঞাসা<span>Biggan Jiggasha</span></a>
+<p class="masthead-deck">Understand the question. Follow the evidence.</p>
+<nav aria-label="Main navigation"><a href="/making-sense/?lang=en">Home</a><a href="/making-sense/statistics.html">Learn / শিখুন</a><a href="/making-sense/research-explained.html">Research Explained</a><a href="/making-sense/reading.html">Reading</a><a href="/making-sense/?lang=en" lang="en" hreflang="en">English</a><a href="/making-sense/" lang="bn" hreflang="bn">বাংলা</a></nav>
+</header>
+<main id="main" class="article-page">
+<p class="eyebrow">ARTIFICIAL INTELLIGENCE · STATISTICS · COMPUTING</p>
+<h1>How AI Models Work: A Statistical Perspective</h1>
+<p class="intro">When a language model finishes the sentence “I made a cup of…,” it is not reaching for a cup or recalling a morning routine. It is using patterns learned from text to estimate which piece of language is likely to come next. Statistics gives us a useful way to understand that process.</p>
+<p class="micro">Biggan Jiggasha · Science blog</p>
+
+<div class="takeaway"><p><strong>The central idea:</strong> A language model learns numerical patterns from examples. Given some text, it estimates probabilities for what could come next, then uses those estimates to build a response one piece at a time. This can produce remarkably fluent writing, but fluency alone does not verify that a statement is true.</p></div>
+
+<nav class="contents" aria-label="Contents"><strong>In this article</strong><ol><li><a href="#tokens">From words to numbers</a></li><li><a href="#learning">Learning to predict</a></li><li><a href="#attention">How attention uses context</a></li><li><a href="#generation">How an answer is generated</a></li><li><a href="#limits">Why plausible answers can be wrong</a></li><li><a href="#perspective">What the statistical perspective tells us</a></li></ol></nav>
+
+<section id="tokens">
+<h2>From words to numbers</h2>
+<p>A computer does not handle a sentence the way a person reads it. Before a language model can process text, software divides it into smaller units called <em>tokens</em>. A token may be a whole word, part of a word, punctuation, or another short piece of text. The exact units depend on the model’s vocabulary.</p>
+<p>The sentence “The morning sky is cloudy” might become a sequence of tokens. Each token is then represented using numbers. The model performs calculations on those numerical representations and on the relationships among them. We see words on the screen; inside the model, the input is a structured collection of numbers.</p>
+</section>
+
+<section id="learning">
+<h2>Learning to predict</h2>
+<p>Consider the unfinished sentence: “I made a cup of…” Many completions are possible: <em>tea</em>, <em>coffee</em>, <em>water</em>, perhaps something less likely in that context. A language model assigns probabilities to possible next tokens based on the tokens it has already received.</p>
+<p>In compact notation, that task can be written as:</p>
+<p class="equation"><em>P</em>(next token | previous tokens)</p>
+<p>Read this as: “the probability of the next token, given the tokens so far.” This is a <strong>conditional probability</strong>. A GPT-style model applies this idea repeatedly to predict the next token in a sequence. Other AI models may use different learning goals; for example, BERT was trained in part to predict words deliberately hidden within a sentence rather than simply continue from left to right. [<a href="#ref-3">3</a>]</p>
+<p>During training, the model sees many examples of text. At each position, it makes a prediction and compares that prediction with the token that actually followed in the example. A mathematical score, commonly based on <em>cross-entropy loss</em>, measures how far the model’s predicted probability distribution is from the observed answer. A prediction that gives very little probability to the correct token receives a larger penalty.</p>
+<p>The model then adjusts its internal numerical settings, called <strong>parameters</strong>, to reduce that error. An optimization method uses the calculated error to decide how to change those parameters. This cycle—predict, measure error, adjust—repeats across a very large collection of examples. The model is not given a hand-written rule for every sentence; its parameters are fitted from data.</p>
+<p>This is related to statistical model fitting: choose a flexible mathematical model, compare its predictions with observed data, and estimate parameters that improve its performance. A modern language model has an enormous number of parameters and a complex architecture, but the statistical question remains recognizable: how well does the model predict text it has not yet been shown?</p>
+</section>
+
+<section id="attention">
+<h2>How attention uses context</h2>
+<p>Many widely used language models are built from a neural-network architecture called a <strong>Transformer</strong>. One of its key operations is <em>self-attention</em>. At each point in a sequence, self-attention calculates how information from other points might help update the current representation. [<a href="#ref-1">1</a>]</p>
+<p>For example, consider: “Maya put the book on the table because it was heavy.” To interpret “it,” information about “the book” is likely more useful than information about “the table.” An attention layer can learn to give different weights to different parts of the context while processing the sequence.</p>
+<p>The comparison with human attention is only a metaphor. Self-attention is a specific mathematical operation: it combines learned representations using data-dependent weights. It does not, by itself, prove that the model understands a sentence as a person does. The original Transformer paper introduced this architecture in 2017. [<a href="#ref-1">1</a>]</p>
+</section>
+
+<section id="generation">
+<h2>How an answer is generated</h2>
+<p>When you ask a GPT-style model a question, the model processes the conversation so far and calculates a probability distribution over possible next tokens. A decoding rule then selects one token. That token is added to the text, and the model calculates the next distribution using the enlarged context.</p>
+<p>This happens again and again until the model reaches a stopping point. So a paragraph is not usually retrieved as one complete, prewritten block: it is assembled token by token. The exact selection rule matters. Always taking the most probable token can make output repetitive. Sampling among likely options can make it more varied, which also means the same prompt may produce different responses.</p>
+<p>The model’s prompt is part of the context it uses. Instructions, examples, and the conversation history can all change the next-token probabilities. That is why a model can often follow a new pattern shown in a prompt, even without having its parameters retrained for that particular exchange. Research on large language models has documented this kind of “few-shot” performance, alongside important limitations. [<a href="#ref-2">2</a>]</p>
+</section>
+
+<section id="limits">
+<h2>Why plausible answers can be wrong</h2>
+<p>A language model is trained to produce likely continuations under its learned patterns. That objective is not the same as checking every claim against a reliable source. If the model lacks relevant information, encounters conflicting patterns, or is asked for a detail it cannot reliably infer, it may still produce a smooth-sounding answer.</p>
+<p>In other words, the model’s confidence in the wording of a response is not a guarantee that the response is factually correct. A fluent explanation can contain a mistaken date, a made-up citation, or a faulty calculation. Training data, model design, the prompt, and later adjustments to the system can all affect its behavior.</p>
+<p>For everyday brainstorming or drafting, this can still be useful. For consequential decisions, research claims, or public accusations, check the original evidence. Treat the model as a tool that helps generate and organize possibilities, not as an independent source of proof.</p>
+</section>
+
+<section id="perspective">
+<h2>What the statistical perspective tells us</h2>
+<p>Calling a language model a statistical prediction system is not the whole story. Modern AI combines statistics with linear algebra, optimization, computer science, and carefully engineered neural networks. But the statistical perspective helps us see what the model learns: patterns in data that help it assign probabilities to possible outputs.</p>
+<p>That perspective also points to the questions we should ask. What examples did the model learn from? What was it trained to predict? How was its performance evaluated? Where is it uncertain, and how often does it fail? A model can be astonishingly good at producing language while remaining fallible about the world described by that language.</p>
+<p>The next time an AI gives you a polished paragraph, remember the mechanism beneath the prose: numerical representations, learned parameters, probability distributions, and a sequence of predictions. The result can be useful and impressive. It still deserves to be checked.</p>
+</section>
+
+<section class="sources" aria-labelledby="sources-heading"><h2 id="sources-heading">Sources and further reading</h2><ol><li id="ref-1">Vaswani, A. et al. (2017). <a href="https://arxiv.org/abs/1706.03762"><em>Attention Is All You Need</em></a>. NeurIPS.</li><li id="ref-2">Brown, T. B. et al. (2020). <a href="https://arxiv.org/abs/2005.14165"><em>Language Models are Few-Shot Learners</em></a>. NeurIPS.</li><li id="ref-3">Devlin, J. et al. (2019). <a href="https://aclanthology.org/N19-1423/"><em>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</em></a>. NAACL-HLT.</li></ol></section>
+</main>
+<footer class="newspaper-footer"><p>বিজ্ঞানজিজ্ঞাসা · Biggan Jiggasha &nbsp; / &nbsp; <a href="https://www.facebook.com/bigganjiggasha">Facebook</a> &nbsp; / &nbsp; <a href="https://substack.com/@bigganjiggasha">Substack</a></p></footer>
+</body>
+</html>
