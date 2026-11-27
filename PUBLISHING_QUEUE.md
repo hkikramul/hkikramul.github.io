@@ -23,5 +23,6 @@ Keep drafts outside this public repository until they are suitable for public vi
 | The Evolution of East Asian Mathematics | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review references and image credits during editorial review |
 | The Evolution of Mathematics in the Indian Subcontinent | Making Sense / Biggan Jiggasha | Bangla + English | Published | Review references and image credits during editorial review |
 
+| Marxist Vocabulary: Alienation and Alliance Politics in Bangladesh | East Bengal Renaissance | Bangla + English | Published | Review the Bangladesh examples if new evidence or movement cases are added |
 Stages: Idea → Draft → Review → Published. Pick one current priority; review weekly. No publishing quota per site.
 | How AI Models Work: A Statistical Perspective | Making Sense / Biggan Jiggasha | English | Published | Check source links and update if model-training practices materially change |
