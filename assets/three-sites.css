@@ -5,3 +5,19 @@ main.portfolio{max-width:1140px;width:92%;margin:auto}.portfolio section{padding
 .directory,.departments{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:20px}.directory a,.desk{border-top:1px solid #739687;padding:1rem 0}.directory small{display:block}.desk h3{font-size:1.4rem;margin:.2rem 0}.desk ul{margin:0;padding-inline-start:1.2em}.desk li{padding:.32em 0}
 body:has(.heritage){background:#faf6ec;color:#2d3027}.heritage-head,.heritage{width:min(1140px,92%);margin:auto}.heritage-head{background:none;position:static;padding:0;display:block;color:inherit}.issue{border-bottom:1px solid #a8997e;display:flex;justify-content:space-between;gap:1em;padding:.7rem 0}.heritage-head h1{font-size:clamp(2.5rem,7vw,6.5rem);line-height:1.25;letter-spacing:0;margin:1.4rem 0 .2rem;color:#283d32}.heritage-head p{font:italic 1.35rem Georgia,serif;margin:.2rem 0 1.2rem}.heritage-head nav{border-block:1px solid #958c76;display:flex;gap:1.3rem;flex-wrap:wrap;padding:.7rem 0}.heritage a,.heritage-head a{color:inherit}.heritage-lead{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:4%;margin:2rem 0}.heritage-lead img{width:100%;aspect-ratio:1.9;object-fit:cover}.heritage section{padding:1rem 0}.heritage h2{font-size:clamp(1.6rem,3vw,2.7rem);line-height:1.35;margin:.6rem 0}.archive-list{display:grid;grid-template-columns:repeat(3,1fr);gap:0 2rem;list-style:none;padding:0}.archive-list li{border-top:1px solid #bcb49f;padding:.8rem 0}.heritage a:hover{text-decoration:underline}.heritage-lead h2 a,.archive-list a{text-decoration:none}
 @media(max-width:680px){.profile-intro,.heritage-lead,.archive-list{grid-template-columns:1fr}.profile-intro img{max-height:300px;object-fit:cover;object-position:50% 30%}.issue{flex-wrap:wrap}.heritage-head nav{gap:.5rem 1rem}.portfolio-nav nav,.transfer-nav nav{display:flex}}
+
+/* Readable article defaults for East Bengal Renaissance */
+.heritage article{max-width:780px;margin:2rem auto 5rem;font-size:18px;line-height:1.95;letter-spacing:0;overflow-wrap:break-word}
+.heritage article p{margin:0 0 1.35rem}
+.heritage article>h2:first-of-type{font-size:clamp(1.85rem,3.8vw,2.35rem);line-height:1.55;margin:1rem 0 1.2rem;color:#283d32}
+.heritage article h2{font-size:clamp(1.45rem,2.7vw,1.9rem);line-height:1.55;margin:2.8rem 0 1rem;color:#283d32;letter-spacing:0}
+.heritage article h3{font-size:1.35rem;line-height:1.55;margin:2rem 0 .8rem}
+.heritage article .dek{font-size:1.1rem;line-height:1.9;color:#41443d;border-left:4px solid #4931a8;padding-left:1rem;margin:0 0 1.6rem}
+.heritage article ul,.heritage article ol{padding-inline-start:1.5em}
+.heritage article li{margin:.55rem 0}
+.heritage article figure{margin:2rem 0}
+.heritage article figcaption{font-size:1rem;line-height:1.85;color:#454740;margin-top:.85rem}
+.heritage article table{display:block;width:100%;max-width:100%;overflow-x:auto;border-collapse:collapse;font-size:.97rem;line-height:1.7}
+.heritage article th,.heritage article td{min-width:125px;padding:.7rem .75rem;vertical-align:top;text-align:left}
+.heritage article a{text-underline-offset:.18em;text-decoration-thickness:.08em}
+@media(max-width:680px){.heritage-head,.heritage{width:92%}.heritage article{font-size:17.5px;line-height:2;margin:1.25rem auto 3rem}.heritage article>h2:first-of-type{font-size:1.8rem;line-height:1.55}.heritage article h2{font-size:1.48rem;line-height:1.55;margin:2.2rem 0 .85rem}.heritage article .dek{font-size:1.05rem}.heritage article figcaption{font-size:.98rem}.heritage article table{font-size:.94rem}.heritage article figure{margin:1.6rem 0}}
