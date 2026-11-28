@@ -74,3 +74,29 @@ body:has(.wrap)>footer a{color:#fff}
  .wrap .notes{grid-template-columns:1fr;gap:12px;margin-bottom:38px}
 }
 @media(prefers-reduced-motion:reduce){.wrap *{scroll-behavior:auto;transition:none!important}}
+
+/* Long-form reading surface */
+.wrap .paper{max-width:760px;margin:clamp(42px,7vw,76px) auto 100px;font:400 clamp(1.08rem,1.4vw,1.18rem)/1.92 Bengal,Georgia,serif;color:#26363a}
+.wrap .paper>.rubric{font:700 .76rem/1.6 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--science-accent);margin:0 0 12px}
+.wrap .paper>h2{font:700 clamp(2.1rem,5vw,3.4rem)/1.35 Bengal,Georgia,serif;letter-spacing:-.03em;color:var(--science-ink);margin:0 0 16px}
+.wrap .paper .credit{font:500 .8rem/1.7 system-ui,sans-serif;color:var(--science-muted);border-bottom:1px solid var(--science-line);padding-bottom:18px;margin:0 0 24px}
+.wrap .paper .lead-text{font-size:1.17em;line-height:1.85;color:#344c50;margin:0 0 2.1rem;padding:0 0 0 1.1rem;border-left:3px solid var(--science-accent)}
+.wrap .paper p{margin:0 0 1.45em}
+.wrap .paper h3{font:700 clamp(1.35rem,2.8vw,1.72rem)/1.55 Bengal,Georgia,serif;color:var(--science-ink);margin:2.4em 0 .8em}
+.wrap .paper ul,.wrap .paper ol{padding-inline-start:1.45em;margin:0 0 1.6em}
+.wrap .paper li{padding-inline-start:.2em;margin:.45em 0}
+.wrap .paper figure{margin:2em 0;padding:18px;background:#f0f4f0;border:1px solid var(--science-line)}
+.wrap .paper figure img,.wrap .paper figure svg{display:block;max-width:100%;height:auto;margin-inline:auto}
+.wrap .paper figure figcaption{font-size:.8rem;line-height:1.75}
+.wrap .paper table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;font:400 .9rem/1.7 system-ui,sans-serif;margin:1.5rem 0 2rem}
+.wrap .paper th,.wrap .paper td{padding:.7rem .75rem;border:1px solid var(--science-line);text-align:left;vertical-align:top;min-width:8rem}
+.wrap .paper th{background:#e8efea;font-weight:700}
+.wrap .paper sup{font:600 .72em/1 system-ui,sans-serif}
+.wrap .paper a{text-decoration-thickness:.07em;text-underline-offset:.18em}
+@media(max-width:760px){
+ .wrap .paper{margin:35px auto 65px;font-size:1.06rem;line-height:1.95}
+ .wrap .paper>h2{font-size:clamp(1.85rem,8vw,2.5rem);line-height:1.42}
+ .wrap .paper .lead-text{font-size:1.1em}
+ .wrap .paper h3{margin-top:2em}
+ .wrap .paper figure{margin:1.5em 0;padding:11px}
+}
