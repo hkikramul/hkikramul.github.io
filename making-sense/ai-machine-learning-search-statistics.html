@@ -13,6 +13,17 @@
 <link rel="stylesheet" href="/assets/reading-shade.css">
 <link rel="stylesheet" href="/assets/site-tools.css">
 <link rel="stylesheet" href="/assets/legacy-layout.css">
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script defer src="/assets/reading-shade.js"></script>
 <script defer src="/assets/site-tools.js"></script>
 <script defer src="/assets/privacy-media.js"></script>
@@ -51,13 +62,13 @@
 
 <section id="ml">
 <h2>3. Machine learning as statistical learning</h2>
-<p>In machine learning, a system uses examples to construct a rule. For a supervised learning problem, we observe pairs ((X_i,Y_i)): (X_i) represents information about an example, and (Y_i) is the outcome or label. The system estimates a function (hat f) that maps new inputs to predictions.</p>
-<p>For example, (X_i) might contain the words in a document, its language, and how often other pages link to it. (Y_i) might record whether a person judged that document relevant to a particular query. A model could use those examples to predict relevance for documents it has not seen before.</p>
+<p>In machine learning, a system uses examples to construct a rule. For a supervised learning problem, we observe pairs \((X_i, Y_i)\): \(X_i\) represents information about an example, and \(Y_i\) is the outcome or label. The system estimates a function \(\widehat{f}\) that maps new inputs to predictions.</p>
+<p>For example, \(X_i\) might contain the words in a document, its language, and how often other pages link to it. \(Y_i\) might record whether a person judged that document relevant to a particular query. A model could use those examples to predict relevance for documents it has not seen before.</p>
 <p>A common training strategy chooses a model that minimizes the average loss on observed examples:</p>
-<p class="takeaway"><strong>Training loss:</strong> &nbsp; <code>(1/n) Σᵢ₌₁ⁿ L(Yᵢ, f̂(Xᵢ))</code></p>
-<p>Here, (L) measures the cost of a prediction error. Yet fitting the observed sample is only part of the goal. We care about performance on future cases, drawn from some underlying population or process (P):</p>
-<p class="takeaway"><strong>Expected prediction risk:</strong> &nbsp; <code>E<sub>(X,Y)∼P</sub>[L(Y, f̂(X))]</code></p>
-<p>We usually do not know (P), so we estimate future performance using held-out data, cross-validation, or a prospective evaluation. This is where statistical thinking becomes essential. A model can fit its training data very well and still fail on new data. That gap is called a <strong>generalization problem</strong>.</p>
+<div class="math-display"><strong>Training loss</strong>\[\widehat{R}_n(\widehat{f}) = \frac{1}{n}\sum_{i=1}^{n} L\bigl(Y_i, \widehat{f}(X_i)\bigr)\]</div>
+<p>Here, \(L\) measures the cost of a prediction error. Yet fitting the observed sample is only part of the goal. We care about performance on future cases, drawn from some underlying population or process \(P\):</p>
+<div class="math-display"><strong>Expected prediction risk</strong>\[R_P(\widehat{f}) = \mathbb{E}_{(X,Y) \sim P}\left[L\bigl(Y, \widehat{f}(X)\bigr)\right]\]</div>
+<p>We usually do not know \(P\), so we estimate future performance using held-out data, cross-validation, or a prospective evaluation. This is where statistical thinking becomes essential. A model can fit its training data very well and still fail on new data. That gap is called a <strong>generalization problem</strong>.</p>
 <p>Mathematical statistics helps ask: How variable is the estimate? Which assumptions support it? Could the sample be biased? Does the model identify the quantity we care about? How does uncertainty change with sample size? Machine learning often emphasizes predictive performance and scalable algorithms; mathematical statistics also gives careful attention to estimation, uncertainty, assumptions, and the data-generating process. There is substantial overlap between the fields.</p>
 </section>
 
@@ -70,7 +81,7 @@
 <li><strong>Score and rank.</strong> The system estimates which candidates are most useful and orders them. It may combine word match, freshness, location, page quality, and learned relevance signals.</li>
 <li><strong>Evaluate and improve.</strong> Engineers and researchers assess whether results help people. They may use relevance judgments, aggregate user behavior, experiments, and other measurements.</li>
 </ol>
-<p>One simple statistical description is to represent each query-document pair by a feature vector (x(q,d)), then estimate a score (s(q,d)). A score may be intended to order results; it is not automatically a calibrated probability. A separate model might estimate (P(R=1mid q,d)), where (R=1) means the document is relevant under a defined judgment process.</p>
+<p>One simple statistical description is to represent each query-document pair by a feature vector \(x(q,d)\), then estimate a score \(s(q,d)\). A score may be intended to order results; it is not automatically a calibrated probability. A separate model might estimate \(P(R=1\mid q,d)\), where \(R=1\) means the document is relevant under a defined judgment process.</p>
 <p>Some ranking methods are mostly hand-designed. BM25, for example, scores documents using how query terms appear, while accounting for document length and how common each term is. Other systems use <strong>learning to rank</strong>, where examples help train a model to order documents. Neural language models and vector embeddings can represent meaning in ways that go beyond exact word matching, but they still need retrieval infrastructure, evaluation, and judgment about what “relevant” means.</p>
 <p>Search is also a decision problem. A system has limited screen space, so it must choose which results to show and in what order. A ranking objective can reward useful results near the top more than useful results far below. That objective encodes a choice about user value; it is not a neutral definition of truth.</p>
 </section>
@@ -93,8 +104,8 @@
 <p>Suppose a query asks for an introduction to causal inference. There are two candidate pages:</p>
 <ul><li><strong>Page A</strong> contains the exact phrase “causal inference,” is a beginner tutorial, and has a clear publication date.</li><li><strong>Page B</strong> is a technical paper with the phrase in its references, but little introductory explanation.</li></ul>
 <p>An intuitive judgment says A is likely more useful for this user. Mathematically, we could encode features such as phrase match, document type, and reading level. A simple model might calculate:</p>
-<p class="takeaway"><strong>Score</strong> (= eta_0 + eta_1(	ext{phrase match}) + eta_2(	ext{introductory}) + eta_3(	ext{technical paper}))</p>
-<p>The coefficients (eta) determine how much each feature affects the score. In a learning-to-rank system, data about queries and relevance judgments might be used to estimate those weights. If examples consistently show that introductory pages help users who ask for “introduction,” the model may learn a positive weight for the introductory feature.</p>
+<div class="math-display"><strong>A simple ranking score</strong>\[s(q,d) = \beta_0 + \beta_1 x_{\text{phrase}}(q,d) + \beta_2 x_{\text{intro}}(d) + \beta_3 x_{\text{technical}}(d)\]</div>
+<p>The coefficients \(\beta_0, \beta_1, \beta_2, \beta_3\) determine how much each feature affects the score. In a learning-to-rank system, data about queries and relevance judgments might be used to estimate those weights. If examples consistently show that introductory pages help users who ask for “introduction,” the model may learn a positive weight for the introductory feature.</p>
 <p>But the statistical question is: who supplied the relevance judgments, and how representative are those examples? The computational question is: can the system find the candidates quickly? The numerical question is: what scores do A and B receive? The theoretical question is: under what assumptions would the learned ranking perform well on future queries? The intuitive question remains: does the ranked list actually help this person?</p>
 <p>There may be no single objectively correct ranking. A researcher, a beginner, and a clinician may need different results from the same words. That means relevance can be contextual, and evaluation should make the intended user and task explicit.</p>
 </section>
