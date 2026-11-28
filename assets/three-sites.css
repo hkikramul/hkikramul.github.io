@@ -61,3 +61,22 @@ body:has(.heritage) .heritage-head a:focus-visible,body:has(.heritage) .heritage
  body:has(.heritage) .heritage>section:not(.heritage-lead){padding-bottom:30px;margin-bottom:16px}
 }
 @media(prefers-reduced-motion:reduce){body:has(.heritage) *{transition:none!important}}
+
+/* Keep data charts legible at phone widths and preserve the article reading measure. */
+body:has(.heritage) .heritage article{max-width:760px;font-size:18.5px;line-height:1.95;color:#2b302a}
+body:has(.heritage) .heritage article>h2:first-of-type{font-size:clamp(2rem,4.2vw,2.7rem);line-height:1.45;color:var(--ebr-green);margin:.7rem 0 1.1rem}
+body:has(.heritage) .heritage article h2{color:var(--ebr-green)}
+body:has(.heritage) .heritage article h3{font-size:1.38rem;line-height:1.58;color:var(--ebr-green)}
+body:has(.heritage) .heritage article .dek{font-size:1.12rem;line-height:1.9;border-color:var(--ebr-rust);color:#50574f}
+body:has(.heritage) .heritage article .data-intro{color:#303b33;background:#edf1e9;border-left-color:var(--ebr-green);font-size:1rem;line-height:1.85}
+body:has(.heritage) .heritage article .data-figure{overflow-x:auto!important;overflow-y:hidden!important;border-color:var(--ebr-line);border-radius:4px;scrollbar-color:#87988d #edf0ea}
+body:has(.heritage) .heritage article .data-figure svg{min-width:700px}
+body:has(.heritage) .heritage article .data-figure figcaption,body:has(.heritage) .heritage article .chart-note{font-size:.95rem;line-height:1.8;color:#555e56}
+body:has(.heritage) .heritage article .data-table{font-size:.94rem;line-height:1.75}
+body:has(.heritage) .heritage article .data-table th{background:#e9eee7}
+body:has(.heritage) .heritage article .pull-stat{background:#f0f1e9;border-radius:4px;font-size:1.12rem}
+@media(max-width:680px){
+ body:has(.heritage) .heritage article{font-size:17.5px;line-height:2}
+ body:has(.heritage) .heritage article .data-figure{padding:.8rem}
+ body:has(.heritage) .heritage article .data-figure svg{min-width:680px}
+}
